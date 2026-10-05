@@ -23,7 +23,9 @@ try:
 except ImportError as e:
     raise SystemExit('Missing build dependency. Run: python -m pip install -r requirements.txt\n'+str(e))
 
-VERSION='0.301'
+VERSION=(ROOT/'VERSION').read_text(encoding='utf-8').strip()
+PROJECT_URL='https://github.com/SheathedSharp/oh-my-font'
+OFL_TEXT=(ROOT/'OFL.txt').read_text(encoding='utf-8').strip()
 EPOCH=3874089600 # Fixed OpenType timestamp: reproducible builds, not wall-clock time.
 
 def compile_font(d:Designer, cff:bool=False):
@@ -54,15 +56,15 @@ def compile_font(d:Designer, cff:bool=False):
     legacy_family=d.family if d.weight in [400,700] else d.family+' '+weightname
     legacy_sub=('Bold' if d.weight==700 else '')+(' Italic' if d.oblique else '')
     legacy_sub=legacy_sub.strip() or 'Regular'
-    copyright_note='Copyright 2026 zayju. LihuiT + zayJu. Attribution specified by the project owner; see RIGHTS.zh-CN.md.'
+    copyright_note=OFL_TEXT.splitlines()[0]
     namesdict={
       'familyName':legacy_family,'styleName':legacy_sub,'uniqueFontIdentifier':f'{VERSION};zayj;{post}',
       'fullName':d.family+' '+sub,'psName':post,'version':'Version '+VERSION,
       'typographicFamily':d.family,'typographicSubfamily':sub,
       'manufacturer':'zayju','designer':'zayju','designerURL':'https://github.com/SheathedSharp',
-      'description':'Reference-led reconstruction 0.301. Paired geometric sans-serif: '+('text cut' if d.text else 'display cut')+'. Static development build. No CJK coverage. '+('10-degree oblique, not a separately drawn italic.' if d.oblique else 'Upright.'),
-      'vendorURL':'https://github.com/SheathedSharp','copyright':copyright_note,
-      'licenseDescription':'Project source deliverable; no third-party font outlines included. See RIGHTS.zh-CN.md. No legal clearance or exclusive-rights warranty is asserted.'}
+      'description':'Original source: '+PROJECT_URL+'. Paired geometric sans-serif: '+('text cut' if d.text else 'display cut')+'. Static font. No CJK coverage. '+('10-degree oblique, not a separately drawn italic.' if d.oblique else 'Upright.'),
+      'vendorURL':PROJECT_URL,'copyright':copyright_note,
+      'licenseDescription':OFL_TEXT,'licenseInfoURL':'https://openfontlicense.org'}
     fb.setupNameTable(namesdict)
     fb.font['name'].setName('Ideas into real software. Build a brighter tomorrow.',19,3,1,0x409)
     # Chinese names are metadata, not a claim to include Chinese glyphs.
@@ -107,7 +109,7 @@ def check_font(path:Path):
     """Deterministic structural checks, not a replacement for real-device testing."""
     with TTFont(path,checkChecksums=2) as f:
         cmap=f.getBestCmap()
-        for name_id, expected in [(8,'zayju'),(9,'zayju'),(11,'https://github.com/SheathedSharp'),(12,'https://github.com/SheathedSharp')]:
+        for name_id, expected in [(8,'zayju'),(9,'zayju'),(11,PROJECT_URL),(12,'https://github.com/SheathedSharp'),(0,OFL_TEXT.splitlines()[0]),(13,OFL_TEXT),(14,'https://openfontlicense.org')]:
             if f['name'].getDebugName(name_id)!=expected:raise ValueError(f'Incorrect metadata name ID {name_id}')
         required=['head','hhea','hmtx','maxp','name','OS/2','cmap','post','GSUB','GPOS','GDEF','STAT']
         missing=[t for t in required if t not in f]
@@ -175,7 +177,9 @@ def main()->int:
                 if weight==400 and style=='upright':
                     inventory=[{'unicode':f'U+{cp:04X}','character':chr(cp),'glyph':n} for cp,n in sorted(d.cmap.items()) if cp not in (0,13)]
                     (meta/'characters.json').write_text(json.dumps(inventory,ensure_ascii=False,indent=2),encoding='utf-8')
-    report={'project':'LihuiT + zayJu','version':VERSION,'files':len(records),'build_seconds':round(time.time()-started,2),
+    inputs=[ROOT/'build.py',ROOT/'VERSION',ROOT/'OFL.txt',ROOT/'requirements.txt',*sorted((ROOT/'src').glob('*.py')),ROOT/'src/reference_masters.json']
+    input_hashes={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in inputs}
+    report={'source_inputs_sha256':input_hashes,'project':'LihuiT + zayJu','version':VERSION,'files':len(records),'build_seconds':round(time.time()-started,2),
             'platform_installation_tested':False,'real_device_hinting_tested':False,'records':records}
     (args.output/'build-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     print(f'\nDone. {len(records)} files in {args.output.resolve()}\nFonts have NOT been installed automatically.')

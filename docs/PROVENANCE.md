@@ -16,13 +16,13 @@ The imported project constructs its outlines from local geometry code and `src/r
 
 The present changes concern naming, build metadata, checks and the specimen website. They do not claim a new visual redesign of all glyphs. There is no complete Greek, Cyrillic or Han design, variable axis, monospaced branch or separately drawn Italic.
 
-## License status
+## Effective license and attribution
 
-**No distribution license has been applied to this candidate.** The proposed font license is SIL OFL 1.1, but approval of free commercial use, modification/redistribution, absence of Reserved Font Names and the scope across font sources, tools and design materials remains pending. This document does not grant those permissions.
+The owner explicitly approved **SIL OFL 1.1**, no Reserved Font Names, and source acknowledgement. The copyright notice now contains the original repository URL. OFL.txt, ATTRIBUTION.txt, font name-table fields, distribution packages and the specimen retain the source and author. No extra compulsory visible artwork credit is added to OFL. See LICENSE.md and RIGHTS.zh-CN.md for scope.
 
-The original rights note is preserved in `history/0.300-rights.zh-CN.md`; the current root `RIGHTS.zh-CN.md` continues to state the pending status. No new OFL/MIT label is placed over third-party materials or dependencies. No assertion of worldwide exclusivity, independent commercial clearance or zero infringement risk is made.
+The old 0.300 rights note is historical and does not override the newly granted license. Owner authorization is not an independent guarantee of exclusive rights or non-infringement. The design provenance described above remains unchanged.
 
-Build/QA dependencies are installed separately into a local environment and are not included in source imports or a distribution archive. They remain subject to their respective licenses. The standard unhinted scan-control instruction sequence is informed by the primary technical implementation below; it is not glyph-level hinting.
+Build/QA dependencies are separately installed and not bundled; they retain their own licenses. The standard unhinted scan-control instruction sequence is informed by the primary technical implementation below; it is not glyph-level hinting.
 
 ## Primary technical references
 
