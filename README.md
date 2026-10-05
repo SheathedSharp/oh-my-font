@@ -1,67 +1,58 @@
 # LihuiT & zayJu
 
-**Two voices. One bright idea.** A paired geometric sans-serif project by **zayju**.
+**Two voices. One bright idea.** Paired geometric sans-serif fonts by **zayju**.
 
-[简体中文](README.zh-CN.md) · [Release preparation](https://github.com/SheathedSharp/oh-my-font/issues/1) · [Candidate verification](docs/QA-0.301.md)
+[简体中文](README.zh-CN.md) · [Try the fonts](https://sheathedsharp.github.io/oh-my-font/) · [Download v0.301](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.301) · [Source & attribution](ATTRIBUTION.txt)
 
-![Actual local specimen website, rendered with candidate WOFF2 files](docs/images/specimen-preview.png)
+![Actual website rendered with the released WOFF2 files](docs/images/specimen-preview.png)
 
-**Status: 0.301 local release candidate. No commercially licensed font release is published yet.** Distribution-license approval and final design/application acceptance are pending. The screenshot is from the real local website; it is not an online deployment or a downloadable font package.
+## Download and use
+
+**Free for commercial use under SIL Open Font License 1.1.** No Reserved Font Names. The original author and source are included in the font metadata and every release package. Preserve the copyright notice and OFL license when redistributing the Font Software; no compulsory visible credit is added to ordinary artwork. See [license scope](LICENSE.md), [OFL.txt](OFL.txt) and [ATTRIBUTION.txt](ATTRIBUTION.txt).
+
+Choose **TTF or OTF**, not both: they have the same desktop font identities. Choose **WOFF2** for a website. The `Website` archive contains the complete interactive specimen. Every package has license/source notices and internal hashes; Release-level `SHA256SUMS.txt`, `BUILD-MANIFEST.json` and `QA.json` bind the downloadable artifacts to their source. GitHub's automatic source archive is not the installable-font package.
 
 ## The pair
 
-| Family | Role | Previous project name |
+| Family | Role | Previous engineering name |
 | --- | --- | --- |
-| **LihuiT** | Text and interface; more generous spacing and distinguishable default I/l | Lihui |
-| **zayJu** | Display; wide proportions, open a/g and separated y strokes | Zixian |
+| **LihuiT** | Text/interface; more generous spacing and distinguishable default I/l | Lihui |
+| **zayJu** | Display; wide proportions and open a/g with separated y strokes | Zixian |
 
-The family spelling is case-sensitive in project files: **LihuiT / zayJu**. Author attribution remains **zayju**.
+Each family has eight static weights (100, 300, 400, 500, 600, 700, 800, 900), upright and 10° Oblique: **32 styles**, each in TTF, CFF OTF and WOFF2. Each face contains **945 glyphs / 810 Unicode code points**. Author attribution remains lowercase **zayju**.
 
-Each family has eight static weights (100, 300, 400, 500, 600, 700, 800, 900), upright and 10° Oblique: 32 styles in total. Each style builds as TTF, CFF OTF and WOFF2, producing 96 local files. Each face has 945 glyphs and 810 Unicode code points. These are not variable or monospaced fonts and contain no Han glyphs. Oblique is not a separately drawn Italic. See [scope and known issues](docs/QA-0.301.md).
+This is the first public **0.301** release, not a claim of universal typographic completion. No Han, full Greek/Cyrillic, variable axis or monospaced coding family is included. Oblique is not a separately drawn Italic. Enable `ss05` for stronger I/l differentiation in zayJu. [Verification and known limitations](docs/QA-0.301.md) explicitly preserve the remaining FontBakery findings; [issue #3](https://github.com/SheathedSharp/oh-my-font/issues/3) tracks future polish.
 
-## Build locally
+## Build from source
 
-Python 3.10+ is required. Build dependencies are pinned in `requirements.txt`.
+Python 3.10+; dependencies are pinned. This never installs fonts automatically.
 
 ```sh
 python3 build-local.py
 ```
 
-The launcher creates a project-local `.venv` and invokes `build.py`. The platform convenience launchers are also retained. With an existing environment:
+Or with your own virtual environment:
 
 ```sh
 python -m pip install -r requirements.txt
 python build.py
-# A smaller preview build:
-python build.py --families zayJu --weights 700 --styles upright
-```
-
-Outputs are under `dist/{ttf,otf,woff2}/{LihuiT,zayJu}/`. Nothing is installed into the operating system. TTF and OTF represent the same identities; choose one format when eventually installing, not both.
-
-## Interactive local specimen
-
-After a complete build:
-
-```sh
 python tools/prepare_site.py
 python -m http.server 8136 --bind 127.0.0.1 --directory site
 ```
 
-Open `http://127.0.0.1:8136/` on that computer. The site uses the exact local WOFF2 files, not system-font substitutes. It includes editable text, all weights and Oblique, size/tracking controls, OpenType feature switches, dark mode, a character grid, explicit loading failures and unsupported-character warnings. The page is responsive and honors reduced motion. `site/` is ready for a later static deployment after licensing and publication are approved; no public site is claimed at this stage.
+Open `http://127.0.0.1:8136/`. The specimen uses actual WOFF2 files with explicit loading failures, missing-character warnings, all weights/Oblique, OpenType features, editable text, dark mode and responsive layouts. Outputs are under `dist/{ttf,otf,woff2}/{LihuiT,zayJu}/`.
 
-## Verification
+## Verify and release
 
 ```sh
 python -m pip install -r requirements-qa.txt
 python tools/check_candidates.py
-# macOS only; process-scoped registration, not a persistent installation:
-swift tools/check_coretext.swift
-# Requires Google Chrome and the local specimen server:
-python tools/check_site.py
+python tools/check_fontbakery.py
+python tools/check_site.py  # local server + Google Chrome required
 ```
 
-Reports stay in ignored `.release-work/`. FontBakery must be run separately for each family and desktop format. The full universal profile is **not all-green**: the project retains a capital Greek sigma in its limited symbol inventory but lacks its lowercase counterpart. This one coverage issue is reported for all 64 desktop files; see the exact counts and remaining warnings in [QA-0.301](docs/QA-0.301.md). No test failure is silently excluded.
+The scoped FontBakery gate runs the full profiles and accepts only the precisely matched existing Sigma coverage finding; it does not pretend the raw profiles return zero. Native macOS checks, exact QA hashes, packaging and the release/deployment procedure are documented in [docs/RELEASING.md](docs/RELEASING.md). GitHub Actions verifies Linux builds and deploys the checksum-verified Website archive from Releases rather than silently rebuilding different fonts.
 
-## Rights and provenance
+## Provenance
 
-Commercial use is the intended release goal, **not a permission granted by this candidate**. No OFL, MIT or other distribution license has been applied yet. See [RIGHTS.zh-CN.md](RIGHTS.zh-CN.md) and [provenance](docs/PROVENANCE.md). The original project and supplied design boards remain intact on the owner's computer. Build dependencies retain their own licenses and are not bundled. No installed or third-party font files are imported or repackaged by the build.
+The source comes from the owner's Lihui/Zixian engineering project. The original project and raster design boards remain untouched; see [provenance](docs/PROVENANCE.md). The build does not import or rename installed fonts. Dependencies are separately installed and retain their own licenses. OFL permission is not a guarantee of exclusive rights, perfect optical finishing or compatibility with every application.

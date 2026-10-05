@@ -2,26 +2,32 @@
 
 **一套为文字，一套为表达。** zayju 的配套几何无衬线字体。
 
-[English](README.md) · [首发进度](https://github.com/SheathedSharp/oh-my-font/issues/1) · [本轮实际检查](docs/QA-0.301.md)
+[English](README.md) · [在线试用](https://sheathedsharp.github.io/oh-my-font/) · [下载 v0.301](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.301) · [来源与署名](ATTRIBUTION.txt)
 
-![使用实际 WOFF2 字体渲染的本地展示页](docs/images/specimen-preview.png)
+![真实 WOFF2 字体渲染的展示网页](docs/images/specimen-preview.png)
 
-**当前是 0.301 本地发行候选，不是已经获得商用许可的正式下载包。** 最终对外许可与设计／应用验收尚未完成。图中网页已在作者 Mac 上运行，不代表已经部署了公开网站。
+## 免费商用，保留来源
 
-## 两套字族
+**采用 SIL Open Font License 1.1，不设置保留字体名称。** 作者为 **zayju**，原始来源为 [SheathedSharp/oh-my-font](https://github.com/SheathedSharp/oh-my-font)。字体元数据、每个发行包和展示页都保留作者与来源。
 
-| 新名称 | 用途与特点 | 原工程名称 |
+再分发字体原版或修改版时，须按 OFL 保留版权声明与许可证；版权声明已包含原始仓库地址。建议同时保留 `ATTRIBUTION.txt`。普通海报、网页内容或其他商用作品仅使用字体排版，不额外强制在作品上署名。没有修改 OFL 原条款，也没有额外增加“作品必须鸣谢”的限制。详见 [OFL.txt](OFL.txt)、[许可范围](LICENSE.md) 与 [署名说明](ATTRIBUTION.txt)。
+
+## 下载哪个包
+
+**桌面安装选 TTF 或 OTF 之一，不要同时安装两种**，因为它们使用同一套字体身份。WOFF2 用于网页；Website 包是可直接部署的完整交互展示页。各包都带许可证、来源说明和包内校验值；Release 的 `SHA256SUMS.txt`、`BUILD-MANIFEST.json` 与 `QA.json` 对应最终下载文件和源码。不要把 GitHub 自动提供的 Source code 当成字体安装包。
+
+| 字族 | 定位 | 原工程名称 |
 | --- | --- | --- |
-| **LihuiT** | 正文／界面，较宽松的字距，默认 I / l 更易辨认 | Lihui |
+| **LihuiT** | 正文／界面，较宽松字距，默认 I / l 更易辨认 | Lihui |
 | **zayJu** | 标题，宽阔比例、开放 a / g、分离收笔的 y | Zixian |
 
-字体菜单、PostScript 名称、文件名及构建选择器均使用新名称；作者署名仍为小写 **zayju**。两套字族各有 8 个静态字重和正体／10° Oblique，共 32 款样式。每款输出 TTF、CFF OTF、WOFF2，共 96 个本地文件。每款包含 945 个 glyph、810 个 Unicode 编码字符。
+每套字族有 8 个静态字重和正体／10° Oblique，总计 **32 款样式、96 个格式文件**。字重为 100、300、400、500、600、700、800、900；每款包含 **945 个字形、810 个 Unicode 编码字符**。作者署名仍为小写 **zayju**。
 
-**没有汉字，不是等宽编程字体，也不是可变字体。** 字重是 100、300、400、500、600、700、800、900，没有 200 档。Oblique 是倾斜款，不冒充独立设计的 Italic。zayJu 的 I / l 强区分可启用 `ss05`。
+这是首个公开 **0.301** 发行，**不代表全语言、全平台或逐字光学校正已经完成**。不含汉字、完整希腊文／西里尔文、可变轴或等宽编程字族；Oblique 不是独立设计的 Italic。zayJu 的 I / l 强区分可启用 `ss05`。剩余 FontBakery 问题及验证范围在 [QA 报告](docs/QA-0.301.md) 中公开记录，后续完善由 [Issue #3](https://github.com/SheathedSharp/oh-my-font/issues/3) 跟踪。
 
-## 本地构建与试用
+## 本地构建与网页
 
-需要 Python 3.10 或更新版本。依赖安装到工程自己的 `.venv`；不修改系统字体目录。
+需要 Python 3.10+。构建使用工程自己的 `.venv`，不会自动安装字体。
 
 ```sh
 python3 build-local.py
@@ -29,18 +35,12 @@ python3 build-local.py
 .venv/bin/python -m http.server 8136 --bind 127.0.0.1 --directory site
 ```
 
-Windows 使用 `.venv\Scripts\python.exe` 替代 `.venv/bin/python`。也可以使用保留的 `build-macos.command`、`build-linux.sh`、`build-windows.cmd` 构建入口。三平台入口的保留不等于本轮在三平台都运行过。
+Windows 将 `.venv/bin/python` 换成 `.venv\Scripts\python.exe`。构建入口保留不等于本轮已完成 Windows 真机验收。
 
-在运行服务器的电脑打开 `http://127.0.0.1:8136/`。展示页有可编辑文字、两字族与全部字重／Oblique、字号、字距、OpenType 开关、浅／深色模式、完整字符表。网页加载真实 WOFF2；字体失败会明确报错，不用系统字体冒充。输入不受支持的字符时会提示回退。
+本机打开 `http://127.0.0.1:8136/`；网页加载真实 WOFF2，支持文字编辑、字族、全部字重与 Oblique、字号字距、OpenType 特性、字符表和深色模式；缺字／加载失败会提示，页面适配不同宽度并尊重减少动画偏好。
 
-生成目录为 `dist/{ttf,otf,woff2}/{LihuiT,zayJu}/`。TTF 和 OTF 是相同设计的两种桌面格式，将来安装时二选一，避免重复身份。WOFF2 用于网页，不是桌面安装格式。
+## 验证、发布与来源
 
-## 这轮确实检查了什么
+最终字体完成 OTS、固定 HarfBuzz 排版、真实浏览器加载检查。macOS 还完成进程内 CoreText 检查，以及 32 款 TTF 的用户目录安装、独立 AppKit 字体查找、粗体／Oblique 样式关联及 RTF 导入导出。**完整 FontBakery universal profile 仍保留有明确范围解释的 Σ/σ 覆盖失败与告警；没有把它们隐藏成全绿。**
 
-96 个文件通过构建程序的结构检查和 OTS 检查；HarfBuzz 对每个格式的每款字体运行了 15 项排版断言。macOS CoreText 对 64 个桌面文件完成进程内注册，并核对实际加载路径与固定样文不存在字体回退。Chrome 对真实 WOFF2、交互和三种页面宽度完成检查。
-
-FontBakery 按字族与格式分成四组运行，**完整 universal profile 尚非全绿**：现有符号范围含大写希腊 Σ，但不含小写 σ；同一覆盖问题在 64 个桌面文件上重复报告。其余告警、准确次数、工具版本和未验证边界见 [QA-0.301](docs/QA-0.301.md)。没有将进程内注册包装成字体册安装验收，也没有声称 Windows／手机系统字体替换已验证。
-
-## 许可与来源
-
-商用是发行目标，**当前候选尚未授予商用、改版或再分发许可**。本轮没有应用 OFL、MIT 或其他对外许可证。请阅读 [RIGHTS.zh-CN.md](RIGHTS.zh-CN.md) 与 [来源记录](docs/PROVENANCE.md)。原工程、旧成品、原设计稿保留在作者本机，没有被覆盖或删除。构建程序不读取、不改名、不打包系统字体；第三方构建依赖单独安装，保留各自许可。
+复现步骤、发行与部署见 [RELEASING](docs/RELEASING.md)。原工程、原成品与原设计稿没有覆盖或删除；来源范围见 [PROVENANCE](docs/PROVENANCE.md)。第三方依赖不随字体包分发，保留各自许可。OFL 授权不等同于全球独占权或零侵权风险保证。
