@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Check local candidates with OTS, exact identity/hash checks, and HarfBuzz.
-No source font is overwritten or installed. Does not grant a distribution license.
+"""Check release candidates with OTS, exact identity/hash checks, and HarfBuzz.
+No source font is overwritten or installed. Checks approved OFL metadata without changing source files.
 """
 from __future__ import annotations
 import hashlib
@@ -19,17 +19,24 @@ from shape_check import check as shaping_check
 ROOT = Path(__file__).resolve().parents[1]
 
 class Shaper:
+    def __init__(self):
+        self.cache = {}
+
     def shape(self, path: Path, text: str, features: list[str] | None = None) -> list[dict]:
-        with TTFont(path) as font:
-            names = font.getGlyphOrder()
-            upm = font['head'].unitsPerEm
-            font.flavor = None
-            data = io.BytesIO()
-            font.save(data)
-        face = hb.Face(data.getvalue())
-        font = hb.Font(face)
-        font.scale = (upm, upm)
-        hb.ot_font_set_funcs(font)
+        # Decode a font once per face, not once per shaping assertion.
+        if path not in self.cache:
+            with TTFont(path) as source:
+                names = source.getGlyphOrder()
+                upm = source['head'].unitsPerEm
+                source.flavor = None
+                data = io.BytesIO()
+                source.save(data)
+            face = hb.Face(data.getvalue())
+            font = hb.Font(face)
+            font.scale = (upm, upm)
+            hb.ot_font_set_funcs(font)
+            self.cache[path] = (names, face, font)
+        names, face, font = self.cache[path]
         buffer = hb.Buffer()
         buffer.add_str(text)
         buffer.guess_segment_properties()
@@ -48,7 +55,7 @@ def main() -> int:
         raise SystemExit('OpenType Sanitizer executable missing.')
     output = ROOT / '.release-work'
     output.mkdir(exist_ok=True)
-    report = {'versions': {name: importlib.metadata.version(name) for name in ('fonttools', 'uharfbuzz', 'opentype-sanitizer')}, 'records': [], 'scope': 'local candidate; no installation or license approval'}
+    report = {'versions': {name: importlib.metadata.version(name) for name in ('fonttools', 'uharfbuzz', 'opentype-sanitizer')}, 'records': [], 'scope': 'exact release candidate; integrity, OFL attribution and fixed shaping checks; not a full platform guarantee'}
     with tempfile.TemporaryDirectory(prefix='ots-', dir=output) as temp:
         for index, path in enumerate(paths):
             original = hashlib.sha256(path.read_bytes()).hexdigest()
@@ -60,6 +67,11 @@ def main() -> int:
                 record.update(family=font['name'].getDebugName(16), style=font['name'].getDebugName(17), codepoints=len(font.getBestCmap()))
                 assert record['family'] in ('LihuiT', 'zayJu')
                 assert font['name'].getDebugName(9) == 'zayju'
+                ofl=(ROOT/'OFL.txt').read_text().strip()
+                assert font['name'].getDebugName(0)==ofl.splitlines()[0]
+                assert font['name'].getDebugName(11)=='https://github.com/SheathedSharp/oh-my-font'
+                assert font['name'].getDebugName(13)==ofl
+                assert font['name'].getDebugName(14)=='https://openfontlicense.org'
                 assert all(not any(old in n.toUnicode() for old in ('Zixian', 'Lihui ')) for n in font['name'].names)
                 assert font['head'].fontRevision > 0.300
                 assert font['OS/2'].ulCodePageRange1 > 0

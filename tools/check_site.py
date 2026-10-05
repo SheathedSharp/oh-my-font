@@ -13,13 +13,14 @@ ROOT = Path(__file__).resolve().parents[1]
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--url', default='http://127.0.0.1:8136/')
+    parser.add_argument('--browser', choices=['chrome','chromium'], default='chrome')
     args = parser.parse_args()
     out = ROOT / '.release-work'
     out.mkdir(exist_ok=True)
     errors, responses, failed = [], {}, []
-    report = {'url_scope': 'local HTTP, fresh profile', 'viewports': [], 'checks': []}
+    report = {'url_scope': ('local HTTP' if args.url.startswith('http://127.0.0.1:') else 'published HTTP(S)') + ', fresh profile', 'viewports': [], 'checks': []}
     with sync_playwright() as p:
-        browser = p.chromium.launch(channel='chrome', headless=True)
+        browser = p.chromium.launch(channel='chrome' if args.browser=='chrome' else None, headless=True)
         report['browser'] = browser.version
         page = browser.new_page(viewport={'width': 1440, 'height': 1000}, device_scale_factor=1)
         page.on('pageerror', lambda error: errors.append(str(error)))
