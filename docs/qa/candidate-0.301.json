@@ -1,0 +1,1201 @@
+{
+  "version": "0.301",
+  "state": "local-candidate-license-pending",
+  "build_inputs_sha256": {
+    "build.py": "97d970206acf7effab5959c4ca61a29886fa557306040499a59ca1c553c2f210",
+    "requirements.txt": "f03328e0d5c19082e87742ec5d39e63f7b9952319b88d572e80fd2b9ab6333dc",
+    "src/features.py": "a1b27a62dc2b401087e7091f9ddce74bd20b386c917e686ec9dc14b4c23eb514",
+    "src/outline_engine.py": "02ef10d350a6b947799a956d498c2291ddab0f8128dd658fccae19f161491ad3",
+    "src/outlines.py": "312d3684fba46b612c098eecf46b5195ce18c25cd63e8b1f9dc443e14c9daad3",
+    "src/reference_masters.json": "217ffb51224c60eaf2cd451a99aed8cd167ec32949737efcc8a0f1564d425af4"
+  },
+  "build": {
+    "project": "LihuiT + zayJu",
+    "version": "0.301",
+    "files": 96,
+    "build_seconds": 54.72,
+    "platform_installation_tested": false,
+    "real_device_hinting_tested": false,
+    "records": null
+  },
+  "tool_versions": {
+    "fonttools": "4.63.0",
+    "uharfbuzz": "0.56.2",
+    "opentype-sanitizer": "9.2.0"
+  },
+  "candidates": [
+    {
+      "file": "otf/LihuiT/LihuiT-Black.otf",
+      "sha256": "328c8f0fd14fd88b54cfa1e10792c76e38addb0ea870dbc228160a5a80b18d6a",
+      "family": "LihuiT",
+      "style": "Black",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-BlackOblique.otf",
+      "sha256": "52fae9c52e1ec9e83e411ce8d3e7a1bb954d0f0e437fe0af00e386e4500a686e",
+      "family": "LihuiT",
+      "style": "Black Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Bold.otf",
+      "sha256": "7bcdd4be4a5ac23a9ff113437b1b49096fadf83d3f020a40e6e139af2431abd9",
+      "family": "LihuiT",
+      "style": "Bold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-BoldOblique.otf",
+      "sha256": "f1b2328b2faf649fc5e9fe267aa8de5b72b52b0e1d85d1ee2ea133a7ec8d6332",
+      "family": "LihuiT",
+      "style": "Bold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Extrabold.otf",
+      "sha256": "c16e4d0b354db79b6baba7a9087f36dd5c83bcd01c8bd2d3b13d4c8ba230dd9c",
+      "family": "LihuiT",
+      "style": "Extrabold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-ExtraboldOblique.otf",
+      "sha256": "b677d66e141f842497046ebcf5fce02edd8c50175285db92ae93045a4880512b",
+      "family": "LihuiT",
+      "style": "Extrabold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Light.otf",
+      "sha256": "405493cb8e79b01dd47a0a6dc71815659cad0dfedbac90216632edc0f39fc4cb",
+      "family": "LihuiT",
+      "style": "Light",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-LightOblique.otf",
+      "sha256": "ba52f78d22c7fe491cd24ad8868304f2f2f1962bf3019ac86da890683dc26d82",
+      "family": "LihuiT",
+      "style": "Light Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Medium.otf",
+      "sha256": "911a2d9844660657754e06be8e49040641b68bcdc21b2151547085484a0d30d9",
+      "family": "LihuiT",
+      "style": "Medium",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-MediumOblique.otf",
+      "sha256": "7b7440666104796730f8ec29d28aae7529676ee4259b7635c8d20ab03b826e7f",
+      "family": "LihuiT",
+      "style": "Medium Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Oblique.otf",
+      "sha256": "d10dbfdac0484d2d31985990ebb81a006859a10bbf98402e96963b0cc268a9ba",
+      "family": "LihuiT",
+      "style": "Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Regular.otf",
+      "sha256": "4fb7ede350d0eeb75383ca69450b25b19088025587e18148b086cfa8a302dc63",
+      "family": "LihuiT",
+      "style": "Regular",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Semibold.otf",
+      "sha256": "987e7b688da8ff9dd6d727f862ac196f7b3ddd883314db1c6b20a2689bfab94f",
+      "family": "LihuiT",
+      "style": "Semibold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-SemiboldOblique.otf",
+      "sha256": "d1c45f1b8b86e8e83cc5e06b0015f03c83664e426bfe07fa35eff019163282a0",
+      "family": "LihuiT",
+      "style": "Semibold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Thin.otf",
+      "sha256": "cfe6e3fdb642570f97bba25ddfbffaaaba32b03d886674d710081111ee789ed2",
+      "family": "LihuiT",
+      "style": "Thin",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-ThinOblique.otf",
+      "sha256": "41b06782d920257f55dea22c6fe1db085e8495282108b8bc8802563449e2a2d2",
+      "family": "LihuiT",
+      "style": "Thin Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Black.otf",
+      "sha256": "d2316f6e81e4f1889ebb61c3b99b8edaa115917b4c8046694763f64144e315ab",
+      "family": "zayJu",
+      "style": "Black",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-BlackOblique.otf",
+      "sha256": "81c6547f6fb3edf59456c4557a3dba610da35e412e09b85e0b56b5853c925972",
+      "family": "zayJu",
+      "style": "Black Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Bold.otf",
+      "sha256": "452975e06f810e026fa6aa6e0cd417e1562530888651f1c08079b5dd2e893ce5",
+      "family": "zayJu",
+      "style": "Bold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-BoldOblique.otf",
+      "sha256": "283f2a8bf52bf27f4835d36e5a3676eb91edf7ed0d2e38ad927073498ff3d64f",
+      "family": "zayJu",
+      "style": "Bold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Extrabold.otf",
+      "sha256": "b83b0a95084255b8fbe305ae7cafa7490fc84cd72d32a784c9cad56e97042b9c",
+      "family": "zayJu",
+      "style": "Extrabold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-ExtraboldOblique.otf",
+      "sha256": "67db4c357f28c575136b432b9226adb5be52466c30d8fd3c64927acca7c8e026",
+      "family": "zayJu",
+      "style": "Extrabold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Light.otf",
+      "sha256": "c89589daf0b5fcbcb5a6f7f4c00e8d34647eb3ef4b4a8dda63d8aab4026b748a",
+      "family": "zayJu",
+      "style": "Light",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-LightOblique.otf",
+      "sha256": "e3d219fa23d02354b770eacdc7d4bb744049b81a69771b9a11dca8329ca6f099",
+      "family": "zayJu",
+      "style": "Light Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Medium.otf",
+      "sha256": "cd4c697aa16903d2ff3f012b955b405f13b086f333e81ba1696f8edd33cf2ced",
+      "family": "zayJu",
+      "style": "Medium",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-MediumOblique.otf",
+      "sha256": "7621ee62a2c93f923077e72ef8067c7c9d43d61a8087f8ce31c74dd2233b8383",
+      "family": "zayJu",
+      "style": "Medium Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Oblique.otf",
+      "sha256": "a4055d2bbf3b05730f5d7975b136ca4ba4795bac8549cbc5b0a40d6996c9c3cf",
+      "family": "zayJu",
+      "style": "Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Regular.otf",
+      "sha256": "a77d4bfb00b0d46bc8f49285af651f199528fe0cc23bf3b237433d94845bb8c3",
+      "family": "zayJu",
+      "style": "Regular",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Semibold.otf",
+      "sha256": "8b387ebd83465e58b94f918983e8e245452cc0a093c75e1830070f8bf4e86a78",
+      "family": "zayJu",
+      "style": "Semibold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-SemiboldOblique.otf",
+      "sha256": "04b51c4f90fed926742a307eebacf8c5c99732e810fd237e2503a611f5d11e9d",
+      "family": "zayJu",
+      "style": "Semibold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Thin.otf",
+      "sha256": "27390b2138f89774fd474d7a28617a02347821bb7840f435e0473a60443bfe9f",
+      "family": "zayJu",
+      "style": "Thin",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-ThinOblique.otf",
+      "sha256": "bdea6723e46688567e76726500d4e2ca7a897cd0f5a1a9d8bb977f28d43b20b2",
+      "family": "zayJu",
+      "style": "Thin Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Black.ttf",
+      "sha256": "4f9c4f884f913bc1fb1b34b1ce4a96550b6ba1b9fc568fe85dae9d380082bf11",
+      "family": "LihuiT",
+      "style": "Black",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-BlackOblique.ttf",
+      "sha256": "e72246c5aa0df355dbf60cdfc9135e83509bec2621f00cb90af36689d1958d1a",
+      "family": "LihuiT",
+      "style": "Black Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Bold.ttf",
+      "sha256": "873de547ff3683a64c22f314b8a64a36e4b53de8e0d2bdaac9337d079d93f394",
+      "family": "LihuiT",
+      "style": "Bold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-BoldOblique.ttf",
+      "sha256": "43da8498e2a5dcbf54891ade969cd7b521ed7d262e08727a7dc883a7e14621e0",
+      "family": "LihuiT",
+      "style": "Bold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Extrabold.ttf",
+      "sha256": "d4f5e08fd3f752d467b19d05de2f19377ed5b8f00e56143ccb021a4959d078ad",
+      "family": "LihuiT",
+      "style": "Extrabold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-ExtraboldOblique.ttf",
+      "sha256": "e8a1ad041db3d6ef679bac91332efa2fcc4f6e2adfb4fba0843a4a3ad6df0a4c",
+      "family": "LihuiT",
+      "style": "Extrabold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Light.ttf",
+      "sha256": "36d2fcea225cad2c30a85649a87e1217f8e0e313ec4db8bb9c4734cba01b670a",
+      "family": "LihuiT",
+      "style": "Light",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-LightOblique.ttf",
+      "sha256": "614fbf16035828578c691c5b91afbd527a5cbf57b3803e751a8774837b95268d",
+      "family": "LihuiT",
+      "style": "Light Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Medium.ttf",
+      "sha256": "7acd88cc580fe1f87f20002bb3df7c31928d8735198d2c4f13c92be56eec6960",
+      "family": "LihuiT",
+      "style": "Medium",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-MediumOblique.ttf",
+      "sha256": "7b2882dffc951c880675c8b0a08cbe0c74cc868a5e4131907f32d41c060f6073",
+      "family": "LihuiT",
+      "style": "Medium Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Oblique.ttf",
+      "sha256": "8adaacb3a44cc24952f269c17130dea80f4f40b020894cb1e094264d0f2b4f8d",
+      "family": "LihuiT",
+      "style": "Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Regular.ttf",
+      "sha256": "683268093026213d0145f6c946597aea293217d1743c2da8fae6e88bacd24617",
+      "family": "LihuiT",
+      "style": "Regular",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Semibold.ttf",
+      "sha256": "fca2b374629d0826489b2082095b130d1a58d213ffcaaf92f99d9da7d02e839d",
+      "family": "LihuiT",
+      "style": "Semibold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-SemiboldOblique.ttf",
+      "sha256": "a805797442c8d1f9feffdcff09aaa123817027772f122673311bee2d88de8815",
+      "family": "LihuiT",
+      "style": "Semibold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Thin.ttf",
+      "sha256": "b2963d47bed1912ea42b624c7c2ad48a3fc43620e22bbd098f0b1ec6877d9f41",
+      "family": "LihuiT",
+      "style": "Thin",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-ThinOblique.ttf",
+      "sha256": "ca8b201b6aed344fbfba4d25b1e77be86b380f77f7918ac4e3fb9f45093e8cc6",
+      "family": "LihuiT",
+      "style": "Thin Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Black.ttf",
+      "sha256": "3f30f33bf580205fa81efe78c254b28d12e1ee67ec9eb38456ee64e51d4b5445",
+      "family": "zayJu",
+      "style": "Black",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-BlackOblique.ttf",
+      "sha256": "6138c1e25f97d6d98b9bba253a3611ca06f58355ff4e7b8d492de8d3c4b4a93e",
+      "family": "zayJu",
+      "style": "Black Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Bold.ttf",
+      "sha256": "4dd09ad0b0ad1bf83ff05b2590eb5b32b9f3fce21ca0689225ed11a690ce68ae",
+      "family": "zayJu",
+      "style": "Bold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-BoldOblique.ttf",
+      "sha256": "1d088fd72fc10c4a21b565082e34c3b082edc2f34be42efec7b65814b835379e",
+      "family": "zayJu",
+      "style": "Bold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Extrabold.ttf",
+      "sha256": "2d5d567b23af78c11e8717a535721e18da1d99f90258403d2a2fc9d65e1eaace",
+      "family": "zayJu",
+      "style": "Extrabold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-ExtraboldOblique.ttf",
+      "sha256": "c09f8d4d5a471fd8168e11eec8a5f9608e0e99ad41fd43e69212c4e1e0105e4a",
+      "family": "zayJu",
+      "style": "Extrabold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Light.ttf",
+      "sha256": "da95a64772fc79b25ea4a7b7381109ac4561efba13536a3ed54ecb6b7913961e",
+      "family": "zayJu",
+      "style": "Light",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-LightOblique.ttf",
+      "sha256": "d991d5d80ac5e8d30237d5b4c412cea605ab8baa34d16138574489b783d2e2f8",
+      "family": "zayJu",
+      "style": "Light Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Medium.ttf",
+      "sha256": "e54f89014032320f665b059d3da19229b49d6ad30194d9596a300f316262c4f8",
+      "family": "zayJu",
+      "style": "Medium",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-MediumOblique.ttf",
+      "sha256": "5d703d9cfef4512f1f71448302d143f0adae80fa96de76bcb94179358c247b35",
+      "family": "zayJu",
+      "style": "Medium Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Oblique.ttf",
+      "sha256": "1ca6f7098c530ed2f384896b2ed63ef44edd15b63759ad4ed6596244a5d0fa7c",
+      "family": "zayJu",
+      "style": "Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Regular.ttf",
+      "sha256": "9be33438798b6dd6c678faeda21e122bbc9dba328070c8acff43441b0cebd4ae",
+      "family": "zayJu",
+      "style": "Regular",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Semibold.ttf",
+      "sha256": "5aaa1b5a30706080bf70284729c3beae166d34efabc8184a6c6858ead8244978",
+      "family": "zayJu",
+      "style": "Semibold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-SemiboldOblique.ttf",
+      "sha256": "d5d687813303bbb00b4499e9fbefdfefb51352f9c5cf90e746bc41e6a91e081b",
+      "family": "zayJu",
+      "style": "Semibold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Thin.ttf",
+      "sha256": "853ed309596f85332d87e0abe1bcf978ebc06d35a73a055a03c3e8fde5941633",
+      "family": "zayJu",
+      "style": "Thin",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-ThinOblique.ttf",
+      "sha256": "5baac738351c0ce22f87762ebd031fa1c4fc5a2964ec531316f5e20fd9621525",
+      "family": "zayJu",
+      "style": "Thin Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Black.woff2",
+      "sha256": "6b08e920b164ba922d8cf785ab7c7aa76fd65af3db832874943862bcfe1c2a4d",
+      "family": "LihuiT",
+      "style": "Black",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-BlackOblique.woff2",
+      "sha256": "f777b6a9a4746e8e5618d9fb13b9491b135744a64881643aec40ef216a2e5dbe",
+      "family": "LihuiT",
+      "style": "Black Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Bold.woff2",
+      "sha256": "7fae6c31b9999e8b3d45f6dee0548575e3c3f97c0aaaa635ec963562735f545c",
+      "family": "LihuiT",
+      "style": "Bold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-BoldOblique.woff2",
+      "sha256": "7b0df82365c923ca0a5b369b3a5239d3a2c3e2fb27ad735a93bbd3f94254ad38",
+      "family": "LihuiT",
+      "style": "Bold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Extrabold.woff2",
+      "sha256": "bcc85b5d289e7d10ffbc0f1b18d98224a53c1698054135c3bfebc39981a253f5",
+      "family": "LihuiT",
+      "style": "Extrabold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-ExtraboldOblique.woff2",
+      "sha256": "a63967abe3f6cdd6751af5c5707382d7ca08a7c0fab0b4ba7b3ea6f1188bbe4b",
+      "family": "LihuiT",
+      "style": "Extrabold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Light.woff2",
+      "sha256": "b32e767247d970ae92dc95b16fd8e85ffba5b5d50fea8623271b175a7e0585aa",
+      "family": "LihuiT",
+      "style": "Light",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-LightOblique.woff2",
+      "sha256": "1afd9bc43c6131501dce36b89d058623e677877f1a2247b886a5eb581270046e",
+      "family": "LihuiT",
+      "style": "Light Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Medium.woff2",
+      "sha256": "f2b79e8722984a499df39d18c0ebfa39846e8d616112f66149657ab5a00474c6",
+      "family": "LihuiT",
+      "style": "Medium",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-MediumOblique.woff2",
+      "sha256": "95a43eca57e13da5a43dcc7c0da120c59a0f622d804fa6f8f0948ca3c1dc613e",
+      "family": "LihuiT",
+      "style": "Medium Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Oblique.woff2",
+      "sha256": "7f3990aeb478cc7a2fe114af3cd969b48cfb37548d6888106a62b67f4d62e24d",
+      "family": "LihuiT",
+      "style": "Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Regular.woff2",
+      "sha256": "72bebed49cf06cae4d5c1bff945fa4e82397fec5d9ebf052657040ee76280c68",
+      "family": "LihuiT",
+      "style": "Regular",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Semibold.woff2",
+      "sha256": "0a0235b2dcb8db42de0516241dc2e0c9cc5c50c300c5f14b478952173f85f98b",
+      "family": "LihuiT",
+      "style": "Semibold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-SemiboldOblique.woff2",
+      "sha256": "99e3798969b35320767716e089e4386afd874c6f78c48f6678f9f6a7e8ed6919",
+      "family": "LihuiT",
+      "style": "Semibold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Thin.woff2",
+      "sha256": "699116801031beb11caabd95eb6ceeab591d8036aede5abb453201a2f95f5a52",
+      "family": "LihuiT",
+      "style": "Thin",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-ThinOblique.woff2",
+      "sha256": "63ed1f7dd583b9a3c3214ad85d139ffebd33555fcdf5a54999c7dd243977536c",
+      "family": "LihuiT",
+      "style": "Thin Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Black.woff2",
+      "sha256": "493efb76878f6b69058aa1ca0c35a98961bd53fa9d5784942cd2a9fa6802750a",
+      "family": "zayJu",
+      "style": "Black",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-BlackOblique.woff2",
+      "sha256": "18afecf58602bf9c6fd3a5de761ddaed34f60fea6dd7167018153d538ff521e8",
+      "family": "zayJu",
+      "style": "Black Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Bold.woff2",
+      "sha256": "6486500523f799e7c4ce46373f7294730fcba6f356fa644199f7b2a1d42de7ba",
+      "family": "zayJu",
+      "style": "Bold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-BoldOblique.woff2",
+      "sha256": "37284c4f5df1d340c6ecfe0146a3bd2632e69d4c1ebd07e2b322d72fa805451e",
+      "family": "zayJu",
+      "style": "Bold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Extrabold.woff2",
+      "sha256": "aef73bc7e46561d73e38c6da5ed868cd19d2c0c50b369a6845e07bd7e3c58de9",
+      "family": "zayJu",
+      "style": "Extrabold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-ExtraboldOblique.woff2",
+      "sha256": "c460e06d876b086fa8f01097d21514fd56a7620093e682efcb2e2844947fc86d",
+      "family": "zayJu",
+      "style": "Extrabold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Light.woff2",
+      "sha256": "6f820833c5ba68492141ab241f1f257ab243b59e7737ddaf1903be13e0ea23a0",
+      "family": "zayJu",
+      "style": "Light",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-LightOblique.woff2",
+      "sha256": "2db6f7ea0824ec6173cd9eccfaf24211f426fa7037a24661fcdf14ab296df1d0",
+      "family": "zayJu",
+      "style": "Light Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Medium.woff2",
+      "sha256": "33dac4c05476e0cba17d35c38501b2c24fd35124aefd327e7d95a10d348caaf3",
+      "family": "zayJu",
+      "style": "Medium",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-MediumOblique.woff2",
+      "sha256": "5ca428a44d33318469380c5c905ef9d2355753a83e0fd7d81b28525783b52aea",
+      "family": "zayJu",
+      "style": "Medium Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Oblique.woff2",
+      "sha256": "64f5e548f6c53dc688741e23af65906f1174d7e750262b23a4b114aad78073ae",
+      "family": "zayJu",
+      "style": "Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Regular.woff2",
+      "sha256": "d9306caeb365957e3d3b13642f7e3bd21a7d370699f40af15debffe50d565d23",
+      "family": "zayJu",
+      "style": "Regular",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Semibold.woff2",
+      "sha256": "2ab6c9ad6d50fad53695e245721a76974ea565afc7de8a23aee78e3b36457cb5",
+      "family": "zayJu",
+      "style": "Semibold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-SemiboldOblique.woff2",
+      "sha256": "055278ccef3871e683afae8f4abc0ecdb024aeb748abdd2e20e91f813354ef5e",
+      "family": "zayJu",
+      "style": "Semibold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Thin.woff2",
+      "sha256": "035aefc51057fe7504464f7ba90db11989bf3845f2e361cd1e41abbb47f3c175",
+      "family": "zayJu",
+      "style": "Thin",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-ThinOblique.woff2",
+      "sha256": "af602e93e9fdb6b5e0d19d41a64d839c5592405fb1ec8d670475ece97700a5fe",
+      "family": "zayJu",
+      "style": "Thin Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    }
+  ],
+  "coretext": {
+    "files": 64,
+    "sample_lines": 448,
+    "scope": "process-only registration; no persistent installation"
+  },
+  "browser": {
+    "url_scope": "local HTTP, fresh profile",
+    "viewports": [
+      {
+        "viewport": 1440,
+        "scroll": 1440
+      },
+      {
+        "viewport": 900,
+        "scroll": 900
+      },
+      {
+        "viewport": 390,
+        "scroll": 390
+      }
+    ],
+    "checks": [
+      "32 exact webfont faces loaded; 32 successful WOFF2 responses",
+      "Family/weight/Oblique/ss05 controls and missing-character warning",
+      "Reset, dark mode, complete glyph grid",
+      "Missing-font network failure is explicitly reported; no fallback specimen",
+      "Reduced-motion preference respected"
+    ],
+    "browser": "154.0.8037.93",
+    "faces": [
+      {
+        "file": "fonts/LihuiT/LihuiT-Black.woff2",
+        "family": "LihuiT",
+        "weight": 900,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-BlackOblique.woff2",
+        "family": "LihuiT",
+        "weight": 900,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Bold.woff2",
+        "family": "LihuiT",
+        "weight": 700,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-BoldOblique.woff2",
+        "family": "LihuiT",
+        "weight": 700,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Extrabold.woff2",
+        "family": "LihuiT",
+        "weight": 800,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-ExtraboldOblique.woff2",
+        "family": "LihuiT",
+        "weight": 800,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Light.woff2",
+        "family": "LihuiT",
+        "weight": 300,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-LightOblique.woff2",
+        "family": "LihuiT",
+        "weight": 300,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Medium.woff2",
+        "family": "LihuiT",
+        "weight": 500,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-MediumOblique.woff2",
+        "family": "LihuiT",
+        "weight": 500,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Oblique.woff2",
+        "family": "LihuiT",
+        "weight": 400,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Regular.woff2",
+        "family": "LihuiT",
+        "weight": 400,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Semibold.woff2",
+        "family": "LihuiT",
+        "weight": 600,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-SemiboldOblique.woff2",
+        "family": "LihuiT",
+        "weight": 600,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Thin.woff2",
+        "family": "LihuiT",
+        "weight": 100,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-ThinOblique.woff2",
+        "family": "LihuiT",
+        "weight": 100,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Black.woff2",
+        "family": "zayJu",
+        "weight": 900,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-BlackOblique.woff2",
+        "family": "zayJu",
+        "weight": 900,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Bold.woff2",
+        "family": "zayJu",
+        "weight": 700,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-BoldOblique.woff2",
+        "family": "zayJu",
+        "weight": 700,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Extrabold.woff2",
+        "family": "zayJu",
+        "weight": 800,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-ExtraboldOblique.woff2",
+        "family": "zayJu",
+        "weight": 800,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Light.woff2",
+        "family": "zayJu",
+        "weight": 300,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-LightOblique.woff2",
+        "family": "zayJu",
+        "weight": 300,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Medium.woff2",
+        "family": "zayJu",
+        "weight": 500,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-MediumOblique.woff2",
+        "family": "zayJu",
+        "weight": 500,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Oblique.woff2",
+        "family": "zayJu",
+        "weight": 400,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Regular.woff2",
+        "family": "zayJu",
+        "weight": 400,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Semibold.woff2",
+        "family": "zayJu",
+        "weight": 600,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-SemiboldOblique.woff2",
+        "family": "zayJu",
+        "weight": 600,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Thin.woff2",
+        "family": "zayJu",
+        "weight": 100,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-ThinOblique.woff2",
+        "family": "zayJu",
+        "weight": 100,
+        "style": "oblique 10deg",
+        "loaded": true
+      }
+    ],
+    "page_errors": [],
+    "failed_requests": []
+  },
+  "fontbakery_groups": [
+    {
+      "group": "ttf-LihuiT",
+      "exit": 1,
+      "result": {
+        "(not finished)": 0,
+        "FAIL": 16,
+        "INFO": 48,
+        "PASS": 1100,
+        "SKIP": 608,
+        "WARN": 80
+      }
+    },
+    {
+      "group": "ttf-zayJu",
+      "exit": 1,
+      "result": {
+        "(not finished)": 0,
+        "FAIL": 16,
+        "INFO": 48,
+        "PASS": 1100,
+        "SKIP": 608,
+        "WARN": 80
+      }
+    },
+    {
+      "group": "otf-LihuiT",
+      "exit": 1,
+      "result": {
+        "(not finished)": 0,
+        "FAIL": 16,
+        "INFO": 48,
+        "PASS": 1004,
+        "SKIP": 736,
+        "WARN": 48
+      }
+    },
+    {
+      "group": "otf-zayJu",
+      "exit": 1,
+      "result": {
+        "(not finished)": 0,
+        "FAIL": 16,
+        "INFO": 48,
+        "PASS": 1004,
+        "SKIP": 736,
+        "WARN": 48
+      }
+    }
+  ],
+  "original_source_hashes_unchanged": true
+}
