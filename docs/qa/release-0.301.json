@@ -1,0 +1,2990 @@
+{
+  "version": "0.301",
+  "license": "OFL-1.1",
+  "source": "https://github.com/SheathedSharp/oh-my-font",
+  "author": "zayju",
+  "reserved_font_names": [],
+  "scope": "First public Latin text/display release. OTS/metadata/shaping/web checks passed; complete FontBakery universal profile retains the precisely documented Sigma case-mapping FAIL and warnings. Not a full-language/full-platform or manual author sign-off claim.",
+  "build_inputs_sha256": {
+    "build.py": "54e422c3152928e838d8e3c2daa292dced3f3ce4c4478af0048439f8b28ce696",
+    "VERSION": "f8fbbb3b38b4f7d9a7d2cc99e54371284bcc31dbf1600e782167180f2f1aa353",
+    "OFL.txt": "49a602a0b6bcd22f80ecb6f7a559d3db1c1762732f1d0887b486fbcddb3aab1c",
+    "requirements.txt": "f03328e0d5c19082e87742ec5d39e63f7b9952319b88d572e80fd2b9ab6333dc",
+    "src/features.py": "a1b27a62dc2b401087e7091f9ddce74bd20b386c917e686ec9dc14b4c23eb514",
+    "src/outline_engine.py": "02ef10d350a6b947799a956d498c2291ddab0f8128dd658fccae19f161491ad3",
+    "src/outlines.py": "312d3684fba46b612c098eecf46b5195ce18c25cd63e8b1f9dc443e14c9daad3",
+    "src/reference_masters.json": "217ffb51224c60eaf2cd451a99aed8cd167ec32949737efcc8a0f1564d425af4"
+  },
+  "tool_versions": {
+    "fonttools": "4.63.0",
+    "uharfbuzz": "0.56.2",
+    "opentype-sanitizer": "9.2.0"
+  },
+  "files": 96,
+  "shaping_assertions": 1440,
+  "full_ofl_and_original_source_metadata_verified": true,
+  "candidates": [
+    {
+      "file": "otf/LihuiT/LihuiT-Black.otf",
+      "sha256": "77242901359056fc59416de44da53335e2b80c40438a681196b260d77977ee9a",
+      "family": "LihuiT",
+      "style": "Black",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-BlackOblique.otf",
+      "sha256": "323e40f64f650a697de01a7d3c6d10aae844ad8a615eacbd5c24fe3c09c76bd5",
+      "family": "LihuiT",
+      "style": "Black Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Bold.otf",
+      "sha256": "547edd79cfa9e151209195b11855cf96369c8c4437f426c1febe2a419fc790e0",
+      "family": "LihuiT",
+      "style": "Bold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-BoldOblique.otf",
+      "sha256": "06841c230e5b0c513c536f043420a65387cd111887d0cb8d32984d5f93bb102d",
+      "family": "LihuiT",
+      "style": "Bold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Extrabold.otf",
+      "sha256": "b0bf084c9e908f4ace922ddfd03b7d15ba8a6f6e69091925f0c20738ba784e5e",
+      "family": "LihuiT",
+      "style": "Extrabold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-ExtraboldOblique.otf",
+      "sha256": "f862e7fa933effe8c75c111b07bdfb8434897b7ee551ab2fa5570c3c7c1cc15d",
+      "family": "LihuiT",
+      "style": "Extrabold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Light.otf",
+      "sha256": "afcc3344a0763fd9631fd8282afbe45c4fc1e6a68167835aed157874bdcddac7",
+      "family": "LihuiT",
+      "style": "Light",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-LightOblique.otf",
+      "sha256": "7ed8c33b4d4c8a6fbd205843002d9834fe9bf4484b3698b9a4b6cfe8d697ec9f",
+      "family": "LihuiT",
+      "style": "Light Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Medium.otf",
+      "sha256": "22aa4c8351e40b3c7c54b802fc183a7a91319df3f5e0ed201c56481367812bd1",
+      "family": "LihuiT",
+      "style": "Medium",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-MediumOblique.otf",
+      "sha256": "6e4ae7749e5a392af2fa4800c5b8fe3e1f799a03fb6ab6999d3862425178d9a0",
+      "family": "LihuiT",
+      "style": "Medium Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Oblique.otf",
+      "sha256": "925b91b3b46a2ad21d972a796c9894723b328b5457c4a197bc80244e815b43c0",
+      "family": "LihuiT",
+      "style": "Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Regular.otf",
+      "sha256": "5347de6123dad3cf407f9e6cf9b5131d82359ce4d7db808f92e567b9b49ed607",
+      "family": "LihuiT",
+      "style": "Regular",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Semibold.otf",
+      "sha256": "f9c573fb9e9660fd4cb4e53af28d83694d941f16b32171bb6f5da1bf6cef762c",
+      "family": "LihuiT",
+      "style": "Semibold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-SemiboldOblique.otf",
+      "sha256": "8829521473fb1e61f2867edda7de8f4335b631f775db228417ae729037659fed",
+      "family": "LihuiT",
+      "style": "Semibold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-Thin.otf",
+      "sha256": "de50d71071d4ed5e336ad564ebbeeb15acd099bb07caae8a1af5405ab871f21d",
+      "family": "LihuiT",
+      "style": "Thin",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/LihuiT/LihuiT-ThinOblique.otf",
+      "sha256": "6e095337787517e32a80e3d5827c8bad240f130e874054ea971b4b5310024418",
+      "family": "LihuiT",
+      "style": "Thin Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Black.otf",
+      "sha256": "8f1d5b5b187216b83c918bdd20e92757d916e9efd9d30925e8563cc8ea25dd06",
+      "family": "zayJu",
+      "style": "Black",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-BlackOblique.otf",
+      "sha256": "bdeb8ed1a25bd658213e42369827b15c36d9430a0f220bd20878d8dd02de0bd5",
+      "family": "zayJu",
+      "style": "Black Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Bold.otf",
+      "sha256": "06b96fa6b869a7baf7cbe8d3c252dd7a260894b154b64d586c2cebcadcfade4a",
+      "family": "zayJu",
+      "style": "Bold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-BoldOblique.otf",
+      "sha256": "5f420e456fa706056528bfe8db1150b232f73045698d54d69558464d9b849d0d",
+      "family": "zayJu",
+      "style": "Bold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Extrabold.otf",
+      "sha256": "d9667b9ae5bddd72f27501d2df94e0979c0de7702ed94dc616f7ff3e87238486",
+      "family": "zayJu",
+      "style": "Extrabold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-ExtraboldOblique.otf",
+      "sha256": "27986312b92402a73f273104918848217cba3ddb0bfdd4719345c50c64babc23",
+      "family": "zayJu",
+      "style": "Extrabold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Light.otf",
+      "sha256": "601e00e4c0d3b8087ec7645d0d4134e7716389b3321c4528063a14aa5894d770",
+      "family": "zayJu",
+      "style": "Light",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-LightOblique.otf",
+      "sha256": "2d62db755b0edfd201adf6e2f09f57bfdfa58e172442907ea36fde3474c46d73",
+      "family": "zayJu",
+      "style": "Light Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Medium.otf",
+      "sha256": "9963a9a330d4e111d54e66484a288ccda0aef948159e17a8e58d2bd71d7b9a57",
+      "family": "zayJu",
+      "style": "Medium",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-MediumOblique.otf",
+      "sha256": "2a5c9c993099c00737427e7b93e8c02a512e999c29bfc15107f9b0308c84a599",
+      "family": "zayJu",
+      "style": "Medium Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Oblique.otf",
+      "sha256": "cc5905a955e16c9cd4053a5017b17369c7d435f2282f9699b4b06e6b3f40d179",
+      "family": "zayJu",
+      "style": "Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Regular.otf",
+      "sha256": "3422ad6c78b8c4f853bce5913e07a90a9fdb5eb2d0dd6c455f8da48e8a796dc6",
+      "family": "zayJu",
+      "style": "Regular",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Semibold.otf",
+      "sha256": "743615500dfc560dff16e612a1b98fc2b5f2adcbf3043afbaaa638be23fbfd4a",
+      "family": "zayJu",
+      "style": "Semibold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-SemiboldOblique.otf",
+      "sha256": "ac462c0562c45891d7775e32627703658c53389754e8b00bafd3f4de1e8388b5",
+      "family": "zayJu",
+      "style": "Semibold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-Thin.otf",
+      "sha256": "ba0f7b4760ce7b881c80f752e935b1d78586b7885e808fe166431edd6add7459",
+      "family": "zayJu",
+      "style": "Thin",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "otf/zayJu/zayJu-ThinOblique.otf",
+      "sha256": "89e9ef9c9818d1ca7e1f63d5a5d40c1e3dd61335b449ff4e08f2972572a139ce",
+      "family": "zayJu",
+      "style": "Thin Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Black.ttf",
+      "sha256": "97ff72691aabf38ccc6725caba3499760cf3dc732acf360f75b87570382ac9ee",
+      "family": "LihuiT",
+      "style": "Black",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-BlackOblique.ttf",
+      "sha256": "e2d2dc97390b4383679ca4c7ba3e9413cc38c44d3efa6e360e2458a918f67660",
+      "family": "LihuiT",
+      "style": "Black Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Bold.ttf",
+      "sha256": "0e937081c89404e34e0a63605cb2797d8263c7893ec30347199e76e6704f0ef0",
+      "family": "LihuiT",
+      "style": "Bold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-BoldOblique.ttf",
+      "sha256": "8c90e60323b242a8b4557cc8f037f12478c353fa0b34220147d34612ae6058e4",
+      "family": "LihuiT",
+      "style": "Bold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Extrabold.ttf",
+      "sha256": "118810820b248186121e86e4112676e47f4cb2644be18fba6baed41a8bfa93de",
+      "family": "LihuiT",
+      "style": "Extrabold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-ExtraboldOblique.ttf",
+      "sha256": "0d217de701f1be87553ad72581e3757cc97755e7de74c245f7c2100897c54ba6",
+      "family": "LihuiT",
+      "style": "Extrabold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Light.ttf",
+      "sha256": "34c308f4979d79c7cdd6610c0252daf4f91cacbca5c0bcee4f4944eaff656197",
+      "family": "LihuiT",
+      "style": "Light",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-LightOblique.ttf",
+      "sha256": "0f87560032af65664bd70d5d7850ef60160c65ebc71e3568efab32dd63aba72c",
+      "family": "LihuiT",
+      "style": "Light Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Medium.ttf",
+      "sha256": "b6e3cb0dbb27f218cec5e205a999cbe8db4ec0e0cea1a2e29614a04c6c270031",
+      "family": "LihuiT",
+      "style": "Medium",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-MediumOblique.ttf",
+      "sha256": "a95e820dc5d0b0c3748e418292e33d786171e493c0351cb55930abbac4462b46",
+      "family": "LihuiT",
+      "style": "Medium Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Oblique.ttf",
+      "sha256": "f6cf183f1a93a89be4407f2b5b778547cf65d704f360853d515f74dd8e4c22ea",
+      "family": "LihuiT",
+      "style": "Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Regular.ttf",
+      "sha256": "c53242eca4d6354ec36a531f43d677831e258e68c80044010965ab132eab6bd1",
+      "family": "LihuiT",
+      "style": "Regular",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Semibold.ttf",
+      "sha256": "6390e6847d877af0012a31254a564b7dc7190427215da71c17f46c6e80a45f81",
+      "family": "LihuiT",
+      "style": "Semibold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-SemiboldOblique.ttf",
+      "sha256": "8373c3e7e69ea3ead348d31671edde1f256fee7d76b790b1e2df755babff246a",
+      "family": "LihuiT",
+      "style": "Semibold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-Thin.ttf",
+      "sha256": "ae8d19b65233774bd1659cea58a3fba8d97720dac9baa46431bf1818d7de14a6",
+      "family": "LihuiT",
+      "style": "Thin",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/LihuiT/LihuiT-ThinOblique.ttf",
+      "sha256": "4d7e491d01f3ee053190beb5d8981e8519d317f49df9f2c354cb282280d98c65",
+      "family": "LihuiT",
+      "style": "Thin Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Black.ttf",
+      "sha256": "f02ce130f1567d4e537ef34bb427fcadd2b4021071c6292616d4a6fa6a5aced1",
+      "family": "zayJu",
+      "style": "Black",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-BlackOblique.ttf",
+      "sha256": "43b70c7825c924cdbaa62531572debf42a94e8cb19f15fb08c286409fe21da73",
+      "family": "zayJu",
+      "style": "Black Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Bold.ttf",
+      "sha256": "0872cc43db880dc10ee939d80b77652aabc73c0eb71693fc0ab30abd1f359b35",
+      "family": "zayJu",
+      "style": "Bold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-BoldOblique.ttf",
+      "sha256": "998a3abf0ddb3deb9ee4e686437e4ec326be43ab5483e2e3edd0e99d468f3aba",
+      "family": "zayJu",
+      "style": "Bold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Extrabold.ttf",
+      "sha256": "0301c643ddecfb92c1e2b5aa2773d6f146debbd35106d46c7199126e807c577f",
+      "family": "zayJu",
+      "style": "Extrabold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-ExtraboldOblique.ttf",
+      "sha256": "2036893bfbd1777ff9cab5266c8f249a00e6611f21fe7d825b090dfdde518e03",
+      "family": "zayJu",
+      "style": "Extrabold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Light.ttf",
+      "sha256": "f7f74cdb547880ada33323ed9016dad2ddf3a08b0f78878f65b02cb95341947c",
+      "family": "zayJu",
+      "style": "Light",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-LightOblique.ttf",
+      "sha256": "5c3a9c6d48b976a05fe14e272596a0ec94e797c2ba90f21799db5971f62e064c",
+      "family": "zayJu",
+      "style": "Light Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Medium.ttf",
+      "sha256": "e02bd2200476c5544c3e0b0659e4fc24312fee39c71a79c20dfe8682b06b8a07",
+      "family": "zayJu",
+      "style": "Medium",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-MediumOblique.ttf",
+      "sha256": "57808c9368795ecbbb48c1354beb5b84014cd216f27ffea03dc7489b155ebb2a",
+      "family": "zayJu",
+      "style": "Medium Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Oblique.ttf",
+      "sha256": "580e592d5a966ea011b12fdbb47a528751f114565f2eb41af213a21bb89014d8",
+      "family": "zayJu",
+      "style": "Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Regular.ttf",
+      "sha256": "23939c36ee58f211a4c3aafe626384a18c52209a2458bef4ebeba2e60eb71018",
+      "family": "zayJu",
+      "style": "Regular",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Semibold.ttf",
+      "sha256": "f02994bbb1cdb49ad3f179a639033628916f0692a38e59ea3459d2bf6f736162",
+      "family": "zayJu",
+      "style": "Semibold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-SemiboldOblique.ttf",
+      "sha256": "ab78d23f7bbdf4f0a43eafd0fbdbb97985c4b1477457b90fa736c09c787897cd",
+      "family": "zayJu",
+      "style": "Semibold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-Thin.ttf",
+      "sha256": "7954747ea0ca7d680ebb42693016d17b25b87cc1dc67280bcd066e10b719cb44",
+      "family": "zayJu",
+      "style": "Thin",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "ttf/zayJu/zayJu-ThinOblique.ttf",
+      "sha256": "48106c5cc6c77cfb0ed4c47dbc354f64cc4c619381e3460646e28058e6d3fafc",
+      "family": "zayJu",
+      "style": "Thin Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Black.woff2",
+      "sha256": "f22680dce6a2e2e15830dd6355461a285d6b14ec9682a662a904fce2de387ebf",
+      "family": "LihuiT",
+      "style": "Black",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-BlackOblique.woff2",
+      "sha256": "c5a3fa1a34c974055785f92f726e622511fc548b1121e2d52f3379e3374bacef",
+      "family": "LihuiT",
+      "style": "Black Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Bold.woff2",
+      "sha256": "7f5a4621fd94f10080d31e97b9189c14b4e9d3dbdbb920e2352fbcae00623f23",
+      "family": "LihuiT",
+      "style": "Bold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-BoldOblique.woff2",
+      "sha256": "5e5ae2522edaedbce074c93d138e993f44b7d77a6f57a3e5fcfdf6e150029194",
+      "family": "LihuiT",
+      "style": "Bold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Extrabold.woff2",
+      "sha256": "6d57e47f3fa4e9e272a4cf0cf9f9c3ea04191bd437c36ef6694a94d61b6b4fa8",
+      "family": "LihuiT",
+      "style": "Extrabold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-ExtraboldOblique.woff2",
+      "sha256": "5f203c82c16a4570f7f2ae2d847d3868391a7ec771649b1544ea8bcdc6953815",
+      "family": "LihuiT",
+      "style": "Extrabold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Light.woff2",
+      "sha256": "7e70a40c84585c6e9df3df07825d1f0dfff45ce896342ae38c6155e4a3102920",
+      "family": "LihuiT",
+      "style": "Light",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-LightOblique.woff2",
+      "sha256": "88692786bae7ebe7f6729961e5231884ba0068f3d8861a995411f24aa3787e54",
+      "family": "LihuiT",
+      "style": "Light Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Medium.woff2",
+      "sha256": "c83492d46edab82bd7ac36ff791d2e52e95b3aa9f1f75348e22e8ac9e3774e0b",
+      "family": "LihuiT",
+      "style": "Medium",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-MediumOblique.woff2",
+      "sha256": "ed570ed65dccfa2dfbc20e646dea298e5c0ac637f0f2d3c525a1dd24e5d3b7df",
+      "family": "LihuiT",
+      "style": "Medium Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Oblique.woff2",
+      "sha256": "8fbbd7832c2105f4f7ad6826f51aa0d85eb80a84ddea755b5634e7c3799c7c09",
+      "family": "LihuiT",
+      "style": "Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Regular.woff2",
+      "sha256": "8537c49767794a18a330eb0b89ad16d7f6461795034a361da7da1e137e181a76",
+      "family": "LihuiT",
+      "style": "Regular",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Semibold.woff2",
+      "sha256": "ed70f08df7f503976dcd53a1d5625edfe8328a202333e3a3d8237ce620a6381d",
+      "family": "LihuiT",
+      "style": "Semibold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-SemiboldOblique.woff2",
+      "sha256": "b0bf47791ca956ea7d197e0b11e5bc7c95abf5a6abfd6e4d9da45c738058cc79",
+      "family": "LihuiT",
+      "style": "Semibold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-Thin.woff2",
+      "sha256": "0c6cc4d894f4901ee3492af632035ca83501ed039287f8bda2c43cf0fa472c18",
+      "family": "LihuiT",
+      "style": "Thin",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/LihuiT/LihuiT-ThinOblique.woff2",
+      "sha256": "d1fbbdd32b2a4d463a56b936ee228d32605302063f919e012a802fb8e8c7197d",
+      "family": "LihuiT",
+      "style": "Thin Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Black.woff2",
+      "sha256": "da15c77fa403bb6a5315b6aeff6258eaeefdb4b699a8708286a888b12df1d4ab",
+      "family": "zayJu",
+      "style": "Black",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-BlackOblique.woff2",
+      "sha256": "d486d7c62e4186f014ee5799a6677534ef908015b9e61bd3b39a65ddb542035e",
+      "family": "zayJu",
+      "style": "Black Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Bold.woff2",
+      "sha256": "7a99b29ea4944dd698dff1425ecf48368418bff1f1d9f3b520c162c7ba0ce89d",
+      "family": "zayJu",
+      "style": "Bold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-BoldOblique.woff2",
+      "sha256": "4c8f964937bb1c282c9e7b8a2828c3b88da0240ce12cd57dd2c6ae253497c118",
+      "family": "zayJu",
+      "style": "Bold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Extrabold.woff2",
+      "sha256": "b4203a0ffb87e01b20151bd7b9de6689b0ad5b9c359ade82df335ead0b562545",
+      "family": "zayJu",
+      "style": "Extrabold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-ExtraboldOblique.woff2",
+      "sha256": "acc15a3ecb9511d91d6c051a372cb252e60d901d2be84378119959d527c16edc",
+      "family": "zayJu",
+      "style": "Extrabold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Light.woff2",
+      "sha256": "6104e464f0a701e263ae171da5d751f070faf1987a233a10528f0d178d46adbf",
+      "family": "zayJu",
+      "style": "Light",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-LightOblique.woff2",
+      "sha256": "2cfc3f204de6e385e57b9f40800916511aa5a241990d725fc5bd17dad2d5f5f6",
+      "family": "zayJu",
+      "style": "Light Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Medium.woff2",
+      "sha256": "9d178c64e2d35d0b5679b1c2abe653d3ad86f682dd9698ec436cf03cc9f43998",
+      "family": "zayJu",
+      "style": "Medium",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-MediumOblique.woff2",
+      "sha256": "5dfb6deb8dec48fb8c20a1cc3546a6b4ca542bc459dd920d06a4fd6dd1e9eb79",
+      "family": "zayJu",
+      "style": "Medium Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Oblique.woff2",
+      "sha256": "491b7799448d1f37004880175687b641948d8dc33ca1487b87a6de8b6a2fc26f",
+      "family": "zayJu",
+      "style": "Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Regular.woff2",
+      "sha256": "c3be6e4407282643ab22cd6c31b51562cea9bd2a5af2c335a3aeaf2e1d343cde",
+      "family": "zayJu",
+      "style": "Regular",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Semibold.woff2",
+      "sha256": "b812b395c860cfb50003209a0d29dc0c1d5668b222110c432d43b37b4a7164ef",
+      "family": "zayJu",
+      "style": "Semibold",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-SemiboldOblique.woff2",
+      "sha256": "a73a4f0e1f109bc1d1d66a58a6e3344db3ccd345430b62eb9057058761fe815e",
+      "family": "zayJu",
+      "style": "Semibold Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-Thin.woff2",
+      "sha256": "1fd6162743c691f209a4b0a98336638b40c2a8ae13583e94e82d4fda80baf976",
+      "family": "zayJu",
+      "style": "Thin",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    },
+    {
+      "file": "woff2/zayJu/zayJu-ThinOblique.woff2",
+      "sha256": "7e7ab2f9607f186fd34f4a72e6bdc3c58365e43d9ddf0850289375e8eb6ddfec",
+      "family": "zayJu",
+      "style": "Thin Oblique",
+      "codepoints": 810,
+      "ots_exit": 0,
+      "shaping_passed": 15
+    }
+  ],
+  "fontbakery": [
+    {
+      "group": "ttf-LihuiT",
+      "raw_exit": 1,
+      "result": {
+        "(not finished)": 0,
+        "FAIL": 16,
+        "INFO": 48,
+        "PASS": 1100,
+        "SKIP": 608,
+        "WARN": 80
+      },
+      "accepted_failures": [
+        {
+          "file": "LihuiT-BlackOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Light.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-BoldOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Oblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Semibold.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-SemiboldOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-ThinOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Extrabold.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-LightOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Bold.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Thin.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Regular.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-ExtraboldOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Black.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Medium.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-MediumOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        }
+      ],
+      "warning_modules": {
+        "alt_caron": 16,
+        "contour_count": 16,
+        "ligature_carets": 16,
+        "math_signs_width": 16,
+        "soft_hyphen": 16
+      },
+      "unexpected": [],
+      "scoped_release_gate": "passed"
+    },
+    {
+      "group": "ttf-zayJu",
+      "raw_exit": 1,
+      "result": {
+        "(not finished)": 0,
+        "FAIL": 16,
+        "INFO": 48,
+        "PASS": 1100,
+        "SKIP": 608,
+        "WARN": 80
+      },
+      "accepted_failures": [
+        {
+          "file": "zayJu-ExtraboldOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-BlackOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-ThinOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Regular.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Medium.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Black.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-BoldOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Oblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Bold.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-LightOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Thin.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-MediumOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Extrabold.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Light.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-SemiboldOblique.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Semibold.ttf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        }
+      ],
+      "warning_modules": {
+        "alt_caron": 16,
+        "contour_count": 16,
+        "ligature_carets": 16,
+        "math_signs_width": 16,
+        "soft_hyphen": 16
+      },
+      "unexpected": [],
+      "scoped_release_gate": "passed"
+    },
+    {
+      "group": "otf-LihuiT",
+      "raw_exit": 1,
+      "result": {
+        "(not finished)": 0,
+        "FAIL": 16,
+        "INFO": 48,
+        "PASS": 1004,
+        "SKIP": 736,
+        "WARN": 48
+      },
+      "accepted_failures": [
+        {
+          "file": "LihuiT-ThinOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Light.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-SemiboldOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Oblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Semibold.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-BlackOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-BoldOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-MediumOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Black.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Medium.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Thin.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-ExtraboldOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Regular.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Extrabold.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-Bold.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "LihuiT-LightOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        }
+      ],
+      "warning_modules": {
+        "ligature_carets": 16,
+        "math_signs_width": 16,
+        "soft_hyphen": 16
+      },
+      "unexpected": [],
+      "scoped_release_gate": "passed"
+    },
+    {
+      "group": "otf-zayJu",
+      "raw_exit": 1,
+      "result": {
+        "(not finished)": 0,
+        "FAIL": 16,
+        "INFO": 48,
+        "PASS": 1004,
+        "SKIP": 736,
+        "WARN": 48
+      },
+      "accepted_failures": [
+        {
+          "file": "zayJu-BoldOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Black.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Medium.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-BlackOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-ThinOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-ExtraboldOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Regular.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-SemiboldOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Semibold.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Light.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Thin.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-MediumOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Extrabold.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Oblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-Bold.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        },
+        {
+          "file": "zayJu-LightOblique.otf",
+          "module": "case_mapping",
+          "result": "FAIL",
+          "messages": [
+            "{'code': 'missing-case-counterparts', 'message': 'The following glyphs lack their case-swapping counterparts:\\n\\n| Glyph present in the font | Missing case-swapping counterpart |\\n| :--- | :--- |\\n| U+03A3: GREEK CAPITAL LETTER SIGMA | U+03C3: GREEK SMALL LETTER SIGMA |\\n\\n'}"
+          ]
+        }
+      ],
+      "warning_modules": {
+        "ligature_carets": 16,
+        "math_signs_width": 16,
+        "soft_hyphen": 16
+      },
+      "unexpected": [],
+      "scoped_release_gate": "passed"
+    }
+  ],
+  "browser": {
+    "url_scope": "local HTTP, fresh profile",
+    "viewports": [
+      {
+        "viewport": 1440,
+        "scroll": 1440
+      },
+      {
+        "viewport": 900,
+        "scroll": 900
+      },
+      {
+        "viewport": 390,
+        "scroll": 390
+      }
+    ],
+    "checks": [
+      "32 exact webfont faces loaded; 32 successful WOFF2 responses",
+      "Family/weight/Oblique/ss05 controls and missing-character warning",
+      "Reset, dark mode, complete glyph grid",
+      "Missing-font network failure is explicitly reported; no fallback specimen",
+      "Reduced-motion preference respected"
+    ],
+    "browser": "154.0.8037.93",
+    "faces": [
+      {
+        "file": "fonts/LihuiT/LihuiT-Black.woff2",
+        "family": "LihuiT",
+        "weight": 900,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-BlackOblique.woff2",
+        "family": "LihuiT",
+        "weight": 900,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Bold.woff2",
+        "family": "LihuiT",
+        "weight": 700,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-BoldOblique.woff2",
+        "family": "LihuiT",
+        "weight": 700,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Extrabold.woff2",
+        "family": "LihuiT",
+        "weight": 800,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-ExtraboldOblique.woff2",
+        "family": "LihuiT",
+        "weight": 800,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Light.woff2",
+        "family": "LihuiT",
+        "weight": 300,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-LightOblique.woff2",
+        "family": "LihuiT",
+        "weight": 300,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Medium.woff2",
+        "family": "LihuiT",
+        "weight": 500,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-MediumOblique.woff2",
+        "family": "LihuiT",
+        "weight": 500,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Oblique.woff2",
+        "family": "LihuiT",
+        "weight": 400,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Regular.woff2",
+        "family": "LihuiT",
+        "weight": 400,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Semibold.woff2",
+        "family": "LihuiT",
+        "weight": 600,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-SemiboldOblique.woff2",
+        "family": "LihuiT",
+        "weight": 600,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-Thin.woff2",
+        "family": "LihuiT",
+        "weight": 100,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/LihuiT/LihuiT-ThinOblique.woff2",
+        "family": "LihuiT",
+        "weight": 100,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Black.woff2",
+        "family": "zayJu",
+        "weight": 900,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-BlackOblique.woff2",
+        "family": "zayJu",
+        "weight": 900,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Bold.woff2",
+        "family": "zayJu",
+        "weight": 700,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-BoldOblique.woff2",
+        "family": "zayJu",
+        "weight": 700,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Extrabold.woff2",
+        "family": "zayJu",
+        "weight": 800,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-ExtraboldOblique.woff2",
+        "family": "zayJu",
+        "weight": 800,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Light.woff2",
+        "family": "zayJu",
+        "weight": 300,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-LightOblique.woff2",
+        "family": "zayJu",
+        "weight": 300,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Medium.woff2",
+        "family": "zayJu",
+        "weight": 500,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-MediumOblique.woff2",
+        "family": "zayJu",
+        "weight": 500,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Oblique.woff2",
+        "family": "zayJu",
+        "weight": 400,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Regular.woff2",
+        "family": "zayJu",
+        "weight": 400,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Semibold.woff2",
+        "family": "zayJu",
+        "weight": 600,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-SemiboldOblique.woff2",
+        "family": "zayJu",
+        "weight": 600,
+        "style": "oblique 10deg",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-Thin.woff2",
+        "family": "zayJu",
+        "weight": 100,
+        "style": "normal",
+        "loaded": true
+      },
+      {
+        "file": "fonts/zayJu/zayJu-ThinOblique.woff2",
+        "family": "zayJu",
+        "weight": 100,
+        "style": "oblique 10deg",
+        "loaded": true
+      }
+    ],
+    "page_errors": [],
+    "failed_requests": []
+  },
+  "native": {
+    "coretext-checks.json": {
+      "platform": "Version 26.6.2 (Build 25G83)",
+      "records": [
+        {
+          "file": "ttf/LihuiT/LihuiT-Black.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Black",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            507.7440000000001,
+            357.55199999999996,
+            292.53599999999994,
+            211.356,
+            348.0479999999999,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-BlackOblique.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-BlackOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            507.7440000000001,
+            357.55199999999996,
+            292.53599999999994,
+            211.356,
+            348.0479999999999,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-Bold.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Bold",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            502.27200000000005,
+            354.81600000000003,
+            291.1679999999999,
+            211.356,
+            346.67999999999995,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-BoldOblique.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-BoldOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            502.27200000000005,
+            354.81600000000003,
+            291.1679999999999,
+            211.356,
+            346.67999999999995,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-Extrabold.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Extrabold",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            504.86400000000003,
+            356.11199999999997,
+            291.8159999999999,
+            211.356,
+            347.328,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-ExtraboldOblique.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-ExtraboldOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            504.86400000000003,
+            356.11199999999997,
+            291.8159999999999,
+            211.356,
+            347.328,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-Light.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Light",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            490.932,
+            349.452,
+            288.7919999999999,
+            211.356,
+            343.6919999999999,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-LightOblique.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-LightOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            490.932,
+            349.452,
+            288.7919999999999,
+            211.356,
+            343.6919999999999,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-Medium.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Medium",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            496.65600000000006,
+            352.00800000000004,
+            289.7639999999999,
+            211.356,
+            345.27599999999995,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-MediumOblique.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-MediumOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            496.65600000000006,
+            352.00800000000004,
+            289.7639999999999,
+            211.356,
+            345.27599999999995,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-Oblique.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Oblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            493.9200000000001,
+            350.64,
+            289.0799999999999,
+            211.356,
+            344.592,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-Regular.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Regular",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            493.9200000000001,
+            350.64,
+            289.0799999999999,
+            211.356,
+            344.592,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-Semibold.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Semibold",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            499.3920000000001,
+            353.37600000000003,
+            290.4479999999999,
+            211.356,
+            345.9599999999999,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-SemiboldOblique.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-SemiboldOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            499.3920000000001,
+            353.37600000000003,
+            290.4479999999999,
+            211.356,
+            345.9599999999999,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-Thin.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Thin",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            488.55600000000004,
+            348.65999999999997,
+            288.7919999999999,
+            211.356,
+            342.9,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/LihuiT/LihuiT-ThinOblique.ttf",
+          "no_fallback": true,
+          "postscript": "LihuiT-ThinOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            488.55600000000004,
+            348.65999999999997,
+            288.7919999999999,
+            211.356,
+            342.9,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-Black.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-Black",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            549.2880000000001,
+            378.57599999999996,
+            316.65599999999995,
+            222.37199999999999,
+            349.488,
+            444.78000000000003,
+            240.55199999999996
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-BlackOblique.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-BlackOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            549.2880000000001,
+            378.57599999999996,
+            316.65599999999995,
+            222.37199999999999,
+            349.488,
+            444.78000000000003,
+            240.55199999999996
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-Bold.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-Bold",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            516.4200000000001,
+            359.964,
+            302.292,
+            212.32799999999995,
+            339.47999999999996,
+            444.78000000000003,
+            237.67199999999994
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-BoldOblique.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-BoldOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            516.4200000000001,
+            359.964,
+            302.292,
+            212.32799999999995,
+            339.47999999999996,
+            444.78000000000003,
+            237.67199999999994
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-Extrabold.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-Extrabold",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            532.7280000000001,
+            369.21599999999995,
+            309.4559999999999,
+            217.332,
+            344.4479999999999,
+            444.78000000000003,
+            239.11199999999997
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-ExtraboldOblique.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-ExtraboldOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            532.7280000000001,
+            369.21599999999995,
+            309.4559999999999,
+            217.332,
+            344.4479999999999,
+            444.78000000000003,
+            239.11199999999997
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-Light.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-Light",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            485.892,
+            341.748,
+            294.26399999999995,
+            206.424,
+            326.73600000000005,
+            444.78000000000003,
+            233.60399999999996
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-LightOblique.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-LightOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            485.892,
+            341.748,
+            294.26399999999995,
+            206.424,
+            326.73600000000005,
+            444.78000000000003,
+            233.60399999999996
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-Medium.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-Medium",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            476.89199999999994,
+            337.85999999999996,
+            285.0479999999999,
+            200.30400000000003,
+            327.56399999999996,
+            444.78000000000003,
+            234.28799999999995
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-MediumOblique.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-MediumOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            476.89199999999994,
+            337.85999999999996,
+            285.0479999999999,
+            200.30400000000003,
+            327.56399999999996,
+            444.78000000000003,
+            234.28799999999995
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-Oblique.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-Oblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            489.42,
+            344.26800000000003,
+            294.7679999999999,
+            206.424,
+            328.752,
+            444.78000000000003,
+            233.60399999999996
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-Regular.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-Regular",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            489.42,
+            344.26800000000003,
+            294.7679999999999,
+            206.424,
+            328.752,
+            444.78000000000003,
+            233.60399999999996
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-Semibold.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-Semibold",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            496.26,
+            348.62399999999997,
+            293.3279999999999,
+            206.1,
+            333.35999999999996,
+            444.78000000000003,
+            235.94399999999996
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-SemiboldOblique.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-SemiboldOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            496.26,
+            348.62399999999997,
+            293.3279999999999,
+            206.1,
+            333.35999999999996,
+            444.78000000000003,
+            235.94399999999996
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-Thin.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-Thin",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            483.3,
+            340.02,
+            294.26399999999995,
+            206.424,
+            325.00800000000004,
+            444.78000000000003,
+            233.60399999999996
+          ]
+        },
+        {
+          "file": "ttf/zayJu/zayJu-ThinOblique.ttf",
+          "no_fallback": true,
+          "postscript": "zayJu-ThinOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            483.3,
+            340.02,
+            294.26399999999995,
+            206.424,
+            325.00800000000004,
+            444.78000000000003,
+            233.60399999999996
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-Black.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Black",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            507.7440000000001,
+            357.55199999999996,
+            292.53599999999994,
+            211.356,
+            348.0479999999999,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-BlackOblique.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-BlackOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            507.7440000000001,
+            357.55199999999996,
+            292.53599999999994,
+            211.356,
+            348.0479999999999,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-Bold.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Bold",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            502.27200000000005,
+            354.81600000000003,
+            291.1679999999999,
+            211.356,
+            346.67999999999995,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-BoldOblique.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-BoldOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            502.27200000000005,
+            354.81600000000003,
+            291.1679999999999,
+            211.356,
+            346.67999999999995,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-Extrabold.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Extrabold",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            504.86400000000003,
+            356.11199999999997,
+            291.8159999999999,
+            211.356,
+            347.328,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-ExtraboldOblique.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-ExtraboldOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            504.86400000000003,
+            356.11199999999997,
+            291.8159999999999,
+            211.356,
+            347.328,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-Light.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Light",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            490.932,
+            349.452,
+            288.7919999999999,
+            211.356,
+            343.6919999999999,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-LightOblique.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-LightOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            490.932,
+            349.452,
+            288.7919999999999,
+            211.356,
+            343.6919999999999,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-Medium.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Medium",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            496.65600000000006,
+            352.00800000000004,
+            289.7639999999999,
+            211.356,
+            345.27599999999995,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-MediumOblique.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-MediumOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            496.65600000000006,
+            352.00800000000004,
+            289.7639999999999,
+            211.356,
+            345.27599999999995,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-Oblique.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Oblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            493.9200000000001,
+            350.64,
+            289.0799999999999,
+            211.356,
+            344.592,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-Regular.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Regular",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            493.9200000000001,
+            350.64,
+            289.0799999999999,
+            211.356,
+            344.592,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-Semibold.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Semibold",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            499.3920000000001,
+            353.37600000000003,
+            290.4479999999999,
+            211.356,
+            345.9599999999999,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-SemiboldOblique.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-SemiboldOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            499.3920000000001,
+            353.37600000000003,
+            290.4479999999999,
+            211.356,
+            345.9599999999999,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-Thin.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-Thin",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            488.55600000000004,
+            348.65999999999997,
+            288.7919999999999,
+            211.356,
+            342.9,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/LihuiT/LihuiT-ThinOblique.otf",
+          "no_fallback": true,
+          "postscript": "LihuiT-ThinOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            488.55600000000004,
+            348.65999999999997,
+            288.7919999999999,
+            211.356,
+            342.9,
+            445.7519999999999,
+            228.23999999999995
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-Black.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-Black",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            549.2880000000001,
+            378.57599999999996,
+            316.65599999999995,
+            222.37199999999999,
+            349.488,
+            444.78000000000003,
+            240.55199999999996
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-BlackOblique.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-BlackOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            549.2880000000001,
+            378.57599999999996,
+            316.65599999999995,
+            222.37199999999999,
+            349.488,
+            444.78000000000003,
+            240.55199999999996
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-Bold.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-Bold",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            516.4200000000001,
+            359.964,
+            302.292,
+            212.32799999999995,
+            339.47999999999996,
+            444.78000000000003,
+            237.67199999999994
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-BoldOblique.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-BoldOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            516.4200000000001,
+            359.964,
+            302.292,
+            212.32799999999995,
+            339.47999999999996,
+            444.78000000000003,
+            237.67199999999994
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-Extrabold.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-Extrabold",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            532.7280000000001,
+            369.21599999999995,
+            309.4559999999999,
+            217.332,
+            344.4479999999999,
+            444.78000000000003,
+            239.11199999999997
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-ExtraboldOblique.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-ExtraboldOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            532.7280000000001,
+            369.21599999999995,
+            309.4559999999999,
+            217.332,
+            344.4479999999999,
+            444.78000000000003,
+            239.11199999999997
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-Light.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-Light",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            485.892,
+            341.748,
+            294.26399999999995,
+            206.424,
+            326.73600000000005,
+            444.78000000000003,
+            233.60399999999996
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-LightOblique.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-LightOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            485.892,
+            341.748,
+            294.26399999999995,
+            206.424,
+            326.73600000000005,
+            444.78000000000003,
+            233.60399999999996
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-Medium.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-Medium",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            476.89199999999994,
+            337.85999999999996,
+            285.0479999999999,
+            200.30400000000003,
+            327.56399999999996,
+            444.78000000000003,
+            234.28799999999995
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-MediumOblique.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-MediumOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            476.89199999999994,
+            337.85999999999996,
+            285.0479999999999,
+            200.30400000000003,
+            327.56399999999996,
+            444.78000000000003,
+            234.28799999999995
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-Oblique.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-Oblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            489.42,
+            344.26800000000003,
+            294.7679999999999,
+            206.424,
+            328.752,
+            444.78000000000003,
+            233.60399999999996
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-Regular.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-Regular",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            489.42,
+            344.26800000000003,
+            294.7679999999999,
+            206.424,
+            328.752,
+            444.78000000000003,
+            233.60399999999996
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-Semibold.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-Semibold",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            496.26,
+            348.62399999999997,
+            293.3279999999999,
+            206.1,
+            333.35999999999996,
+            444.78000000000003,
+            235.94399999999996
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-SemiboldOblique.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-SemiboldOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            496.26,
+            348.62399999999997,
+            293.3279999999999,
+            206.1,
+            333.35999999999996,
+            444.78000000000003,
+            235.94399999999996
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-Thin.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-Thin",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            483.3,
+            340.02,
+            294.26399999999995,
+            206.424,
+            325.00800000000004,
+            444.78000000000003,
+            233.60399999999996
+          ]
+        },
+        {
+          "file": "otf/zayJu/zayJu-ThinOblique.otf",
+          "no_fallback": true,
+          "postscript": "zayJu-ThinOblique",
+          "process_registration": true,
+          "sample_lines": 7,
+          "widths": [
+            483.3,
+            340.02,
+            294.26399999999995,
+            206.424,
+            325.00800000000004,
+            444.78000000000003,
+            233.60399999999996
+          ]
+        }
+      ],
+      "scope": "CoreText process registration only; no persistent installation or manual app acceptance"
+    },
+    "installed-macos-checks.json": {
+      "os": "Version 26.6.2 (Build 25G83)",
+      "records": [
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-Black.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-Black"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-BlackOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-BlackOblique"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-Bold.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-Bold"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-BoldOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-BoldOblique"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-Extrabold.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-Extrabold"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-ExtraboldOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-ExtraboldOblique"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-Light.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-Light"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-LightOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-LightOblique"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-Medium.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-Medium"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-MediumOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-MediumOblique"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-Oblique.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-Oblique"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-Regular.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-Regular"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-Semibold.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-Semibold"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-SemiboldOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-SemiboldOblique"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-Thin.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-Thin"
+        },
+        {
+          "family": "LihuiT",
+          "file": "LihuiT-ThinOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "LihuiT-ThinOblique"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-Black.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-Black"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-BlackOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-BlackOblique"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-Bold.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-Bold"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-BoldOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-BoldOblique"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-Extrabold.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-Extrabold"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-ExtraboldOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-ExtraboldOblique"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-Light.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-Light"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-LightOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-LightOblique"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-Medium.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-Medium"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-MediumOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-MediumOblique"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-Oblique.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-Oblique"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-Regular.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-Regular"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-Semibold.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-Semibold"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-SemiboldOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-SemiboldOblique"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-Thin.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-Thin"
+        },
+        {
+          "family": "zayJu",
+          "file": "zayJu-ThinOblique.ttf",
+          "installed_file_match": true,
+          "postscript": "zayJu-ThinOblique"
+        }
+      ],
+      "rtf_preserved_faces": 32,
+      "scope": "32 TTFs in release-specific user font folder; independent AppKit lookup and RTF round-trip; not manual design approval",
+      "style_links": [
+        {
+          "bold": "LihuiT-Bold",
+          "family": "LihuiT",
+          "italic": "LihuiT-Oblique"
+        },
+        {
+          "bold": "zayJu-Bold",
+          "family": "zayJu",
+          "italic": "zayJu-Oblique"
+        }
+      ]
+    }
+  }
+}

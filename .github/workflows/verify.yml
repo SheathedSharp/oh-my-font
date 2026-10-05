@@ -1,0 +1,53 @@
+name: Verify fonts and specimen
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+          cache: pip
+      - name: Install pinned build and QA dependencies
+        run: python -m pip install -r requirements.txt -r requirements-qa.txt
+      - name: Build the complete licensed families
+        run: python build.py
+      - name: Exact metadata, OTS and HarfBuzz checks
+        run: python tools/check_candidates.py
+      - name: Full FontBakery results with explicit scoped release policy
+        run: python tools/check_fontbakery.py
+      - name: Prepare real-font specimen
+        run: python tools/prepare_site.py
+      - name: Install browser
+        run: python -m playwright install --with-deps chromium
+      - name: Verify actual font loading and responsive interactions
+        run: |
+          set -euo pipefail
+          python -m http.server 8136 --bind 127.0.0.1 --directory site > .release-work/http.log 2>&1 &
+          server=$!
+          trap 'kill "$server"' EXIT
+          python tools/check_site.py --browser chromium
+      - name: Retain truthful verification reports
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: verification-${{ github.sha }}
+          retention-days: 14
+          include-hidden-files: true
+          path: |
+            .release-work/candidate-checks.json
+            .release-work/fontbakery-*.json
+            .release-work/site-checks.json

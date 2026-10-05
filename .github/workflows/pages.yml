@@ -1,0 +1,65 @@
+name: Publish specimen
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Published release tag to deploy
+        required: true
+        default: v0.301
+permissions:
+  contents: read
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download and verify the exact published website package
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          TAG: ${{ github.event.release.tag_name || inputs.tag }}
+        run: |
+          set -euo pipefail
+          [[ "$TAG" =~ ^v[0-9]+\.[0-9]{3}$ ]] || exit 1
+          mkdir -p downloads public
+          gh release download "$TAG" --repo "$REPO" --pattern '*-Website.zip' --pattern SHA256SUMS.txt --dir downloads
+          python3 - <<'PY'
+          import hashlib, os, pathlib, stat, zipfile
+          folder=pathlib.Path('downloads'); tag=os.environ['TAG']
+          name=f'LihuiT-zayJu-{tag}-Website.zip'; archive=folder/name
+          hashes={line.split('  ',1)[1]:line.split('  ',1)[0] for line in (folder/'SHA256SUMS.txt').read_text().splitlines()}
+          assert hashlib.sha256(archive.read_bytes()).hexdigest()==hashes[name]
+          base=pathlib.Path('public').resolve(); prefix=name[:-4]+'/'
+          with zipfile.ZipFile(archive) as z:
+              assert z.testzip() is None
+              for entry in z.infolist():
+                  assert entry.filename.startswith(prefix) and not stat.S_ISLNK(entry.external_attr>>16)
+                  relative=pathlib.PurePosixPath(entry.filename[len(prefix):])
+                  assert not relative.is_absolute() and '..' not in relative.parts
+                  target=base.joinpath(*relative.parts)
+                  if entry.is_dir(): target.mkdir(parents=True,exist_ok=True); continue
+                  target.parent.mkdir(parents=True,exist_ok=True); target.write_bytes(z.read(entry))
+          assert all((base/f).is_file() for f in ['index.html','OFL.txt','ATTRIBUTION.txt','SOURCE.json'])
+          print('Verified and extracted',name)
+          PY
+      - name: Upload verified website
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
+        with:
+          path: public
+  deploy:
+    needs: prepare
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy verified artifact
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
