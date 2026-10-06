@@ -10,11 +10,11 @@ The owner requested the names **LihuiT** and **zayJu**, mapped respectively from
 
 ## Outline construction
 
-The imported project constructs its outlines from local geometry code and `src/reference_masters.json`. It does not load an installed font as a drawing source. The display cut uses 19 reference-derived glyphs at selected weights plus reconstructed/derived outlines; the complete character set is not eight independently hand-finished masters.
+The imported 0.300/0.301 project constructed its outlines from local geometry code and reference geometry. That historical drafting code now resides under `tools/drawing/legacy/`, including `reference_masters.json`. It does not load an installed font as a drawing source. The display cut uses 19 reference-derived glyphs at selected weights plus reconstructed/derived outlines; the complete character set is not eight independently hand-finished masters.
 
 `history/0.300-design.zh-CN.md` explains the original reference scope and inconsistencies across conceptual raster panels. It is preserved as history, not evidence that every panel is already implemented. `history/0.300-reference-measurements.json` contains reconstruction measurements. The owner-supplied full raster boards remain on the owner's computer. The repository screenshot is instead a new capture of the actual local webfont specimen.
 
-The present changes concern naming, build metadata, checks and the specimen website. They do not claim a new visual redesign of all glyphs. There is no complete Greek, Cyrillic or Han design, variable axis, monospaced branch or separately drawn Italic.
+Release 0.301 concerned naming, build metadata, checks and the specimen website. The 0.302 development revision repairs junctions and migrates each family/weight into its own authoritative cubic-outline file under `sources/masters/`. Production builds load exactly that stored weight; they do not buffer, interpolate or fit another weight. These masters were migrated from the existing original designs and optically corrected, not hand-drawn from scratch for every glyph. See `design/weight-masters.md` for the edit and verification boundary. There is no complete Greek, Cyrillic or Han design, variable axis, monospaced branch or separately drawn Italic.
 
 ## Effective license and attribution
 

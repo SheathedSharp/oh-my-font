@@ -13,12 +13,17 @@ sys.path.insert(0,str(ROOT/'src'))
 try:
     from fontTools.fontBuilder import FontBuilder
     from fontTools.pens.ttGlyphPen import TTGlyphPen
+    from fontTools.pens.cu2quPen import Cu2QuPen
+    from fontTools.pens.roundingPen import RoundingPen
+    from fontTools.pens.boundsPen import BoundsPen
+    from fontTools.ttLib.removeOverlaps import removeOverlaps
+    from fontTools.misc.roundTools import otRound
     from fontTools.pens.t2CharStringPen import T2CharStringPen
     from fontTools.ttLib import TTFont,newTable
     from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
     from fontTools.otlLib.builder import buildStatTable
     from fontTools.ttLib.tables.O_S_2f_2 import Panose
-    from outlines import Designer, WEIGHTS, UPM, draw_geometry
+    from masters import Designer, WEIGHTS, UPM, draw_geometry
     from features import build_features
 except ImportError as e:
     raise SystemExit('Missing build dependency. Run: python -m pip install -r requirements.txt\n'+str(e))
@@ -36,11 +41,20 @@ def compile_font(d:Designer, cff:bool=False):
     metrics={}
     glyphs={}
     for n,g in d.glyphs.items():
-        pen=T2CharStringPen(g.advance,None) if cff else TTGlyphPen(None)
-        draw_geometry(g.geometry,pen)
+        pen=T2CharStringPen(g.advance,None,roundTolerance=0) if cff else TTGlyphPen(None)
+        # A binary fractional CFF grid prevents cumulative 16.16 relative-coordinate
+        # drift at closed contours without reducing curves to integer polylines.
+        target=RoundingPen(pen,roundFunc=lambda value:otRound(value*64)/64) if cff else Cu2QuPen(pen,max_err=.25)
+        draw_geometry(g.geometry,target)
         glyphs[n]=pen.getCharString(private=None,globalSubrs=None) if cff else pen.glyph()
         # Glyph drawing is rounded; hmtx bearing uses the same rounding convention.
-        xmin=round(g.geometry.bounds[0]) if not g.geometry.is_empty else 0
+        if cff:
+            bounds=BoundsPen(None)
+            draw_geometry(g.geometry,RoundingPen(bounds,roundFunc=lambda value:otRound(value*64)/64))
+            xmin=otRound(bounds.bounds[0]) if bounds.bounds else 0
+        else:
+            glyphs[n].recalcBounds(None)
+            xmin=getattr(glyphs[n],"xMin",0)
         metrics[n]=(g.advance,xmin)
     weightname=WEIGHTS[d.weight]
     sub=('Oblique' if d.weight==400 else weightname+' Oblique') if d.oblique else weightname
@@ -103,6 +117,11 @@ def compile_font(d:Designer, cff:bool=False):
                          {'tag':'ital','name':'Italic','ordering':1,'values':[{'value':1 if d.oblique else 0,'name':'Oblique' if d.oblique else 'Roman','flags':0 if d.oblique else 2, **({} if d.oblique else {'linkedValue':1})}]}])
     # Modern macOS reads Unicode/Windows name records; omit legacy Mac Roman duplicates.
     font['name'].names=[record for record in font['name'].names if record.platformID!=1]
+    if not cff:
+        # Integer TrueType quantization can turn a sub-unit join into a tiny
+        # self-touch. Use the standard curve-preserving Skia/fontTools pass;
+        # errors stay blocking, and QA re-reads the serialized result.
+        removeOverlaps(font,removeHinting=False,ignoreErrors=False)
     return font,post,features
 
 def check_font(path:Path):
@@ -177,9 +196,10 @@ def main()->int:
                 if weight==400 and style=='upright':
                     inventory=[{'unicode':f'U+{cp:04X}','character':chr(cp),'glyph':n} for cp,n in sorted(d.cmap.items()) if cp not in (0,13)]
                     (meta/'characters.json').write_text(json.dumps(inventory,ensure_ascii=False,indent=2),encoding='utf-8')
-    inputs=[ROOT/'build.py',ROOT/'VERSION',ROOT/'OFL.txt',ROOT/'requirements.txt',*sorted((ROOT/'src').glob('*.py')),ROOT/'src/reference_masters.json']
+    inputs=[ROOT/'build.py',ROOT/'VERSION',ROOT/'OFL.txt',ROOT/'requirements.txt',*sorted((ROOT/'src').glob('*.py')),*sorted((ROOT/'sources/masters').glob('*/*.json'))]
     input_hashes={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in inputs}
     report={'source_inputs_sha256':input_hashes,'project':'LihuiT + zayJu','version':VERSION,'files':len(records),'build_seconds':round(time.time()-started,2),
+            'outline_source':'independent cubic masters','quadratic_conversion_max_error_upm':.25,'cff_coordinate_grid_upm':1/64,
             'platform_installation_tested':False,'real_device_hinting_tested':False,'records':records}
     (args.output/'build-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     print(f'\nDone. {len(records)} files in {args.output.resolve()}\nFonts have NOT been installed automatically.')

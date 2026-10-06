@@ -1,0 +1,20 @@
+test_complete_independent_weight_inventory (test_masters.MasterTests.test_complete_independent_weight_inventory) ... ok
+test_invalid_master_identity_rejected (test_masters.MasterTests.test_invalid_master_identity_rejected) ... ok
+test_missing_weight_fails_closed (test_masters.MasterTests.test_missing_weight_fails_closed) ... ok
+test_oblique_transforms_its_own_master_control_points (test_masters.MasterTests.test_oblique_transforms_its_own_master_control_points) ... ok
+test_open_contour_is_not_accepted_by_geometry_gate (test_masters.MasterTests.test_open_contour_is_not_accepted_by_geometry_gate) ... ok
+test_production_loader_never_imports_drawing_scaffolds (test_masters.MasterTests.test_production_loader_never_imports_drawing_scaffolds) ... ok
+test_real_cubic_and_quadratic_export (test_masters.MasterTests.test_real_cubic_and_quadratic_export) ... ok
+test_single_weight_edit_is_isolated (test_masters.MasterTests.test_single_weight_edit_is_isolated) ... ok
+test_svg_roundtrip_preserves_selected_master_and_other_weight (test_masters.MasterTests.test_svg_roundtrip_preserves_selected_master_and_other_weight) ... ok
+test_black_doubleacute_stays_separate_after_integer_export (test_masters.NumericRegressionTests.test_black_doubleacute_stays_separate_after_integer_export) ... ok
+test_indexed_distance_matches_dense_reference (test_masters.NumericRegressionTests.test_indexed_distance_matches_dense_reference) ... ok
+test_legacy_light_foot_and_e_defects_are_reproducible (test_masters.NumericRegressionTests.test_legacy_light_foot_and_e_defects_are_reproducible) ... ok
+test_serialized_cff_has_no_fractional_closure_drift (test_masters.NumericRegressionTests.test_serialized_cff_has_no_fractional_closure_drift) ... ok
+test_serialized_ttf_fraction_has_no_quantized_spike (test_masters.NumericRegressionTests.test_serialized_ttf_fraction_has_no_quantized_spike) ... ok
+test_zero_width_backtrack_cleanup_does_not_hide_real_crossings (test_masters.NumericRegressionTests.test_zero_width_backtrack_cleanup_does_not_hide_real_crossings) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 6.318s
+
+OK
