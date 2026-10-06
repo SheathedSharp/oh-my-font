@@ -36,10 +36,10 @@ After publishing, download every asset into a fresh directory, verify the extern
 
 ## Website
 
-GitHub Pages uses the `workflow` build type. `Publish specimen` runs on published Releases and can be manually dispatched with a published `tag`. It downloads and verifies the **released Website ZIP**, extracts it safely and deploys that exact artifact. It does not rebuild fonts on an uncontrolled newer source revision.
+GitHub Pages uses the `workflow` build type and serves the custom domain `https://fonts.zayju.de/` (Cloudflare DNS-only `CNAME fonts` to `sheathedsharp.github.io`; the custom domain is configured in repository settings, so no `CNAME` file is used). `Publish specimen` runs on published Releases and can be manually dispatched with a published `tag`. It downloads and verifies the **released Website ZIP**, extracts it safely and deploys that exact artifact. It does not rebuild fonts on an uncontrolled newer source revision.
 
 ```sh
 gh workflow run pages.yml --ref main -f tag=v0.301
 ```
 
-Verify the public root, OFL.txt, ATTRIBUTION.txt, SOURCE.json and all WOFF2 responses, and run `tools/check_site.py --url <public-site-url>` against the deployed site. The repository uses only minimal per-job permissions and pinned action commits; no credentials are embedded in packages or the website.
+Verify the public root, OFL.txt, ATTRIBUTION.txt, SOURCE.json and all WOFF2 responses, and run `tools/check_site.py --url https://fonts.zayju.de/` against the deployed site. The repository uses only minimal per-job permissions and pinned action commits; no credentials are embedded in packages or the website.
