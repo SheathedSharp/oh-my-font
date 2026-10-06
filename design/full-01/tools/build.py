@@ -37,7 +37,7 @@ def compile_font(u,cff=False):
     # Same-family standard OpenType compilation, not a font design generator.
     common=dict(useProductionNames=False,removeOverlaps=True,overlapsBackend='pathops',inplace=False)
     if cff:f=ufo2ft.compileOTF(u,optimizeCFF=0,**common)
-    else:f=ufo2ft.compileTTF(u,cubicConversionError=.2,**common)
+    else:f=ufo2ft.compileTTF(u,cubicConversionError=.0002,**common)
     f['head'].created=EPOCH;f['head'].modified=EPOCH;f.recalcTimestamp=False
     return f
 
