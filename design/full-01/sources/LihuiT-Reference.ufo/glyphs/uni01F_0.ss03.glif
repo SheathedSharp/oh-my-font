@@ -2,15 +2,15 @@
 <glyph name="uni01F0.ss03" format="2">
   <advance width="281"/>
   <note>
-Canonical new-base + diacritic composition, with explicit top/bottom/horn/side anchors.
+When an above-mark replaces the tittle, ss03 intentionally uses the same dotless stem as the default accented form; it must not introduce an extra dot.
 </note>
-  <anchor x="140" y="1003" name="top"/>
+  <anchor x="140" y="774" name="top"/>
   <anchor x="140" y="-265" name="bottom"/>
-  <anchor x="199" y="710" name="horn"/>
+  <anchor x="193" y="481" name="horn"/>
   <anchor x="140" y="195" name="overlay"/>
   <outline>
-    <component base="j.cut"/>
-    <component base="uni030C" xOffset="140" yOffset="808"/>
+    <component base="uni0237"/>
+    <component base="uni030C" xOffset="140" yOffset="579"/>
   </outline>
   <lib>
     <dict>

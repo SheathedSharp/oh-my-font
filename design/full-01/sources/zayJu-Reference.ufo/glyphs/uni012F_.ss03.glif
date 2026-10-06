@@ -2,15 +2,15 @@
 <glyph name="uni012F.ss03" format="2">
   <advance width="272"/>
   <note>
-Canonical new-base + diacritic composition, with explicit top/bottom/horn/side anchors.
+Canonical new-base + diacritic composition, with explicit top/bottom/horn/side anchors. Ogonek is attached through its dedicated optical join, not floated under the center.
 </note>
   <anchor x="136" y="808" name="top"/>
-  <anchor x="136" y="-261" name="bottom"/>
+  <anchor x="136" y="-207" name="bottom"/>
   <anchor x="186" y="710" name="horn"/>
   <anchor x="136" y="200" name="overlay"/>
   <outline>
     <component base="i.cut"/>
-    <component base="uni0328" xOffset="136" yOffset="-40"/>
+    <component base="uni0328" xOffset="87" yOffset="12"/>
   </outline>
   <lib>
     <dict>

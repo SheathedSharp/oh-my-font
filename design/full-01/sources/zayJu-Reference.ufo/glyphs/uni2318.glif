@@ -3,12 +3,13 @@
   <advance width="760"/>
   <unicode hex="2318"/>
   <note>
-Four loops and central square only; removed redundant connectors found in the complete symbol proof.
+Four-loop Command symbol with tangent-to-stem joins; internal triangular voids removed without changing loop counters.
 </note>
   <anchor x="380" y="698" name="top"/>
   <anchor x="380" y="56" name="bottom"/>
   <anchor x="650" y="600" name="horn"/>
   <anchor x="380" y="200" name="overlay"/>
+  <anchor x="380" y="108" name="ogonek"/>
   <outline>
     <contour>
       <point x="317.0" y="540.0" type="curve"/>
@@ -145,34 +146,6 @@ Four loops and central square only; removed redundant connectors found in the co
       <point x="341.4200134277344" y="332.4200134277344" type="line"/>
       <point x="341.4200134277344" y="409.5799865722656" type="line"/>
       <point x="418.5799865722656" y="409.5799865722656" type="line"/>
-    </contour>
-    <contour>
-      <point x="467.4200134277344" y="283.5799865722656" type="line"/>
-      <point x="481.31475830078125" y="283.5799865722656" type="line"/>
-      <point x="476.2662658691406" y="279.38671875"/>
-      <point x="471.61328125" y="274.7337341308594"/>
-      <point x="467.4200134277344" y="269.68524169921875" type="curve"/>
-    </contour>
-    <contour>
-      <point x="292.5799865722656" y="283.5799865722656" type="line"/>
-      <point x="292.5799865722656" y="269.68524169921875" type="line"/>
-      <point x="288.38671875" y="274.7337341308594"/>
-      <point x="283.7337341308594" y="279.38671875"/>
-      <point x="278.68524169921875" y="283.5799865722656" type="curve"/>
-    </contour>
-    <contour>
-      <point x="467.4200134277344" y="458.4200134277344" type="line"/>
-      <point x="467.4200134277344" y="472.31475830078125" type="line"/>
-      <point x="471.61328125" y="467.2662658691406"/>
-      <point x="476.2662658691406" y="462.61328125"/>
-      <point x="481.31475830078125" y="458.4200134277344" type="curve"/>
-    </contour>
-    <contour>
-      <point x="292.5799865722656" y="458.4200134277344" type="line"/>
-      <point x="278.68524169921875" y="458.4200134277344" type="line"/>
-      <point x="283.7337341308594" y="462.61328125"/>
-      <point x="288.38671875" y="467.2662658691406"/>
-      <point x="292.5799865722656" y="472.31475830078125" type="curve"/>
     </contour>
   </outline>
   <lib>

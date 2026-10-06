@@ -3,15 +3,15 @@
   <advance width="632"/>
   <unicode hex="01EB"/>
   <note>
-Canonical new-base + diacritic composition, with explicit top/bottom/horn/side anchors.
+Canonical new-base + diacritic composition, with explicit top/bottom/horn/side anchors. Ogonek is attached through its dedicated optical join, not floated under the center.
 </note>
   <anchor x="316" y="608" name="top"/>
-  <anchor x="316" y="-281" name="bottom"/>
+  <anchor x="316" y="-227" name="bottom"/>
   <anchor x="573" y="510" name="horn"/>
   <anchor x="316" y="200" name="overlay"/>
   <outline>
     <component base="o"/>
-    <component base="uni0328" xOffset="316" yOffset="-60"/>
+    <component base="uni0328" xOffset="271" yOffset="-8"/>
   </outline>
   <lib>
     <dict>

@@ -2,10 +2,10 @@
 <glyph name="uni0328" format="2">
   <unicode hex="0328"/>
   <note>
-New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Joining ogonek tail. Uses a dedicated _ogonek anchor; selected base join positions are optically placed, never the detached bottom-dot anchor.
 </note>
-  <anchor x="0" y="0" name="_bottom"/>
   <anchor x="0" y="-221" name="bottom"/>
+  <anchor x="45" y="0" name="_ogonek"/>
   <outline>
     <contour>
       <point x="29.0" y="8.0" type="line"/>
@@ -29,7 +29,7 @@ New family-specific combining mark; zero advance; explicit anchor placement, inc
       <key>de.zayju.designStatus</key>
       <string>new-reference-drawing-awaiting-full-review</string>
       <key>de.zayju.markClass</key>
-      <string>bottom</string>
+      <string>ogonek</string>
     </dict>
   </lib>
 </glyph>
