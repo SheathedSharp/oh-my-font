@@ -38,3 +38,52 @@ Primary references for the interchange/layout machinery (not letter shapes):
 Build code loads these UFO drawings. Draft helpers never overwrite edited sources
 silently. Real-font proofs, source and serialized topology checks, mark positioning,
 feature regressions and native/browser acceptance precede the final PR review.
+
+## Completed reference delivery
+
+The remaining existing repertoire is complete in both reference cuts: **810
+encoded codepoints / 986 glyphs per family**. All original 945 glyph names are
+present; `helper-glyphs.json` explains the 41 additional unencoded companions.
+The accepted core remains locked, including its advances and encodings.
+
+Start with [the Chinese visual review and full results](REVIEW.zh-CN.md),
+[actual-font overview](proofs/overview.png), [every-glyph atlas](proofs/atlas.md),
+and `proofs/review.html` for the separate offline source-vector browser. PNGs
+are actual CFF/RAQM renders; HTML vectors are not presented as browser-shaped
+text. `qa.json` binds validation to exact source, font and image hashes.
+
+### Isolated build and checks
+
+```sh
+python3 -m venv .release-work/full-env
+.release-work/full-env/bin/python -m pip install -r design/full-01/requirements.txt
+.release-work/full-env/bin/python -m unittest discover -s design/full-01/tests -v
+.release-work/full-env/bin/python design/full-01/tools/export_glyphs.py --check-only
+.release-work/full-env/bin/python design/full-01/tools/build.py
+.release-work/full-env/bin/python design/full-01/tools/check.py
+.release-work/full-env/bin/python design/full-01/tools/check_fontbakery.py
+.release-work/full-env/bin/python design/full-01/tools/check_reproducibility.py
+.release-work/full-env/bin/python design/full-01/tools/proof.py
+.release-work/full-env/bin/python -m playwright install chromium
+.release-work/full-env/bin/python design/full-01/tools/check_browser.py
+# Optional actual macOS verification, process registration only:
+swift design/full-01/tools/check_coretext.swift
+.release-work/full-env/bin/python design/full-01/tools/record_qa.py
+```
+
+After intentional edits to UFO glyphs, run `export_glyphs.py` without
+`--check-only` to refresh the derived Glyphs companions, then rebuild and repeat
+the gates. It never overwrites the authoritative UFO. Normal construction uses
+ufo2ft and the requested family's stored drawings, not the historic skeleton.
+
+Source and compiled contour validity, exact coverage and mapping, mark collision
+checks, forced-decomposed shaping under all five stylistic sets, true ligature
+caret positions, cross-format geometry and lossless WOFF2 are independent gates.
+The pre-existing exact Sigma case-coverage exception is retained explicitly;
+FontBakery universal still has warnings and a nonzero raw exit. Technical passes
+do not approve the visual quality of every new glyph or create more weights.
+
+Additional primary engineering references:
+- https://github.com/googlefonts/ufo2ft (standard compilation and component filters)
+- https://github.com/googlefonts/gftools/blob/main/Lib/gftools/fix.py (unhinted scan-control instruction sequence)
+- https://www.twardoch.com/download/polishhowto/ogonek.html (joining ogonek design guidance, not imported letter outlines)
