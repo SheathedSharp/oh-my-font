@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2077" format="2">
+  <advance width="361"/>
+  <unicode hex="2077"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="180" y="889" name="top"/>
+  <anchor x="180" y="390" name="bottom"/>
+  <anchor x="320" y="791" name="horn"/>
+  <anchor x="180" y="195" name="overlay"/>
+  <outline>
+    <component base="seven.sups"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>seven.sups</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2228" format="2">
+  <advance width="640"/>
+  <unicode hex="2228"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+</note>
+  <anchor x="320" y="617" name="top"/>
+  <anchor x="320" y="75" name="bottom"/>
+  <anchor x="560" y="519" name="horn"/>
+  <anchor x="320" y="200" name="overlay"/>
+  <outline>
+    <contour>
+      <point x="137.4309539794922" y="546.7209930419922" type="line" smooth="yes"/>
+      <point x="129.10472106933594" y="562.9333038330078"/>
+      <point x="109.21231079101562" y="569.3262329101562"/>
+      <point x="93.0" y="561.0" type="curve" smooth="yes"/>
+      <point x="76.78768920898438" y="552.6737670898438"/>
+      <point x="70.39476013183594" y="532.7813568115234"/>
+      <point x="78.72099304199219" y="516.5690460205078" type="curve" smooth="yes"/>
+      <point x="275.56903076171875" y="133.27899169921875" type="line" smooth="yes"/>
+      <point x="283.895263671875" y="117.06671142578125"/>
+      <point x="303.7876892089844" y="110.67376708984375"/>
+      <point x="320.0" y="119.0" type="curve"/>
+      <point x="336.2123107910156" y="110.67376708984375"/>
+      <point x="356.104736328125" y="117.06671142578125"/>
+      <point x="364.43096923828125" y="133.27899169921875" type="curve" smooth="yes"/>
+      <point x="561.2789916992188" y="516.5690460205078" type="line" smooth="yes"/>
+      <point x="569.605224609375" y="532.7813568115234"/>
+      <point x="563.2122802734375" y="552.6737670898438"/>
+      <point x="547.0" y="561.0" type="curve" smooth="yes"/>
+      <point x="530.7877197265625" y="569.3262329101562"/>
+      <point x="510.895263671875" y="562.9333038330078"/>
+      <point x="502.56903076171875" y="546.7209930419922" type="curve" smooth="yes"/>
+      <point x="320.0" y="191.23416137695312" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

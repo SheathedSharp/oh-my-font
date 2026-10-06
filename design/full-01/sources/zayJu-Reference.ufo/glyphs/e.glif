@@ -5,6 +5,10 @@
   <note>
 A diagonal crossbar and a swelling lower bowl create forward motion without an oblique transform.
 </note>
+  <anchor x="305" y="608" name="top"/>
+  <anchor x="305" y="-60" name="bottom"/>
+  <anchor x="548" y="510" name="horn"/>
+  <anchor x="305" y="200" name="overlay"/>
   <outline>
     <contour>
       <point x="483.0" y="117.0" type="curve"/>
@@ -50,7 +54,7 @@ A diagonal crossbar and a swelling lower bowl create forward motion without an o
   <lib>
     <dict>
       <key>de.zayju.reviewStatus</key>
-      <string>draft-not-approved</string>
+      <string>approved-core-93451c3</string>
     </dict>
   </lib>
 </glyph>

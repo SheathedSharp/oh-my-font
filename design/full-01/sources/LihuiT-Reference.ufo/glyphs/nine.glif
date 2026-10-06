@@ -5,6 +5,10 @@
   <note>
 Top oval and an independently drawn descending arc ending in a lifted tail.
 </note>
+  <anchor x="305" y="780" name="top"/>
+  <anchor x="305" y="-54" name="bottom"/>
+  <anchor x="543" y="682" name="horn"/>
+  <anchor x="305" y="195" name="overlay"/>
   <outline>
     <contour>
       <point x="126.0" y="84.0" type="curve" smooth="yes"/>
@@ -58,7 +62,7 @@ Top oval and an independently drawn descending arc ending in a lifted tail.
   <lib>
     <dict>
       <key>de.zayju.reviewStatus</key>
-      <string>draft-not-approved</string>
+      <string>approved-core-93451c3</string>
     </dict>
   </lib>
 </glyph>

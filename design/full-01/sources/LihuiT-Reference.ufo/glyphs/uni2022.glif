@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2022" format="2">
+  <advance width="420"/>
+  <unicode hex="2022"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+</note>
+  <anchor x="210" y="465" name="top"/>
+  <anchor x="210" y="167" name="bottom"/>
+  <anchor x="308" y="367" name="horn"/>
+  <anchor x="210" y="195" name="overlay"/>
+  <outline>
+    <contour>
+      <point x="313.0" y="310.0" type="curve" smooth="yes"/>
+      <point x="313.0" y="366.88532923257173"/>
+      <point x="266.88532923257173" y="413.0"/>
+      <point x="210.0" y="413.0" type="curve" smooth="yes"/>
+      <point x="153.11467076742827" y="413.0"/>
+      <point x="107.0" y="366.88532923257173"/>
+      <point x="107.0" y="310.0" type="curve" smooth="yes"/>
+      <point x="107.0" y="253.11467076742827"/>
+      <point x="153.11467076742827" y="207.0"/>
+      <point x="210.0" y="207.0" type="curve" smooth="yes"/>
+      <point x="266.88532923257173" y="207.0"/>
+      <point x="313.0" y="253.11467076742827"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni00BE" format="2">
+  <advance width="1036"/>
+  <unicode hex="00BE"/>
+  <note>
+Real numerator/slash/denominator construction from new digits; includes 1/10 without substitution.
+</note>
+  <anchor x="518" y="799" name="top"/>
+  <anchor x="518" y="-42" name="bottom"/>
+  <anchor x="992" y="701" name="horn"/>
+  <anchor x="518" y="195" name="overlay"/>
+  <outline>
+    <component base="three.numr"/>
+    <component base="fraction" xOffset="333"/>
+    <component base="four.dnom" xOffset="663"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>three.numr</string>
+        <string>fraction</string>
+        <string>four.dnom</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

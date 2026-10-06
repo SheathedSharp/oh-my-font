@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.tnum" format="2">
+  <advance width="660"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="330" y="787" name="top"/>
+  <anchor x="330" y="-60" name="bottom"/>
+  <anchor x="575" y="689" name="horn"/>
+  <anchor x="330" y="200" name="overlay"/>
+  <outline>
+    <component base="three" xOffset="15.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>three</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

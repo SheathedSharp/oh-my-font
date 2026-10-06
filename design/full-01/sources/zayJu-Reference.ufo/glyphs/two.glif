@@ -5,6 +5,10 @@
   <note>
 A round crown pours into a sweeping diagonal and a gently rippling base, not a slab.
 </note>
+  <anchor x="304" y="787" name="top"/>
+  <anchor x="304" y="-40" name="bottom"/>
+  <anchor x="546" y="689" name="horn"/>
+  <anchor x="304" y="200" name="overlay"/>
   <outline>
     <contour>
       <point x="79.0" y="0.0" type="curve" smooth="yes"/>
@@ -68,7 +72,7 @@ A round crown pours into a sweeping diagonal and a gently rippling base, not a s
   <lib>
     <dict>
       <key>de.zayju.reviewStatus</key>
-      <string>draft-not-approved</string>
+      <string>approved-core-93451c3</string>
     </dict>
   </lib>
 </glyph>

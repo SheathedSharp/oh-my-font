@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i.cut" format="2">
+  <advance width="255"/>
+  <note>
+Alternate sloped tittle paired with the unchanged dotless stem.
+</note>
+  <anchor x="128" y="808" name="top"/>
+  <anchor x="128" y="-40" name="bottom"/>
+  <anchor x="172" y="710" name="horn"/>
+  <anchor x="128" y="195" name="overlay"/>
+  <outline>
+    <contour>
+      <point x="108.0" y="0.0" type="qcurve" smooth="yes"/>
+      <point x="147.0" y="0.0" type="line" smooth="yes"/>
+      <point x="171.0" y="0.0"/>
+      <point x="171.0" y="24.0" type="qcurve" smooth="yes"/>
+      <point x="171.0" y="503.0" type="line" smooth="yes"/>
+      <point x="171.0" y="527.0"/>
+      <point x="147.0" y="527.0" type="qcurve" smooth="yes"/>
+      <point x="108.0" y="527.0" type="line" smooth="yes"/>
+      <point x="84.0" y="527.0"/>
+      <point x="84.0" y="503.0" type="qcurve" smooth="yes"/>
+      <point x="84.0" y="24.0" type="line" smooth="yes"/>
+      <point x="84.0" y="0.0"/>
+    </contour>
+    <contour>
+      <point x="77.0" y="658.0" type="line"/>
+      <point x="142.0" y="642.0" type="line"/>
+      <point x="177.0" y="741.0" type="line"/>
+      <point x="112.0" y="756.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

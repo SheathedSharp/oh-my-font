@@ -5,6 +5,10 @@
   <note>
 A round crown accelerates through a long diagonal; softened base, no boxy steps.
 </note>
+  <anchor x="296" y="780" name="top"/>
+  <anchor x="296" y="-40" name="bottom"/>
+  <anchor x="531" y="682" name="horn"/>
+  <anchor x="296" y="195" name="overlay"/>
   <outline>
     <contour>
       <point x="88.0" y="0.0" type="curve" smooth="yes"/>
@@ -58,7 +62,7 @@ A round crown accelerates through a long diagonal; softened base, no boxy steps.
   <lib>
     <dict>
       <key>de.zayju.reviewStatus</key>
-      <string>draft-not-approved</string>
+      <string>approved-core-93451c3</string>
     </dict>
   </lib>
 </glyph>

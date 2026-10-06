@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0326" format="2">
+  <unicode hex="0326"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+</note>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0" y="-203" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="-27.0" y="-17.0" type="curve"/>
+      <point x="-46.0" y="-32.0"/>
+      <point x="-42.0" y="-60.0"/>
+      <point x="-18.0" y="-71.0" type="curve"/>
+      <point x="-12.0" y="-93.0"/>
+      <point x="-25.0" y="-114.0"/>
+      <point x="-48.0" y="-132.0" type="curve"/>
+      <point x="-21.0" y="-161.0" type="line"/>
+      <point x="25.0" y="-126.0"/>
+      <point x="49.0" y="-86.0"/>
+      <point x="40.0" y="-49.0" type="curve"/>
+      <point x="35.0" y="-14.0"/>
+      <point x="0.0" y="1.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>bottom</string>
+    </dict>
+  </lib>
+</glyph>

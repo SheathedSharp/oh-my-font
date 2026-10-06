@@ -5,6 +5,10 @@
   <note>
 Upright capital with lightly flared shoulders and a cupped, not needle-pointed, valley.
 </note>
+  <anchor x="419" y="768" name="top"/>
+  <anchor x="419" y="-40" name="bottom"/>
+  <anchor x="753" y="670" name="horn"/>
+  <anchor x="419" y="195" name="overlay"/>
   <outline>
     <contour>
       <point x="84.0" y="0.0" type="curve" smooth="yes"/>
@@ -63,7 +67,7 @@ Upright capital with lightly flared shoulders and a cupped, not needle-pointed, 
   <lib>
     <dict>
       <key>de.zayju.reviewStatus</key>
-      <string>draft-not-approved</string>
+      <string>approved-core-93451c3</string>
     </dict>
   </lib>
 </glyph>

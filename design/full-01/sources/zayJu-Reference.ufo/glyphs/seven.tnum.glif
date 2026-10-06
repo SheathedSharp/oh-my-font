@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.tnum" format="2">
+  <advance width="660"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="330" y="775" name="top"/>
+  <anchor x="330" y="-40" name="bottom"/>
+  <anchor x="596" y="677" name="horn"/>
+  <anchor x="330" y="200" name="overlay"/>
+  <outline>
+    <component base="seven" xOffset="25.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>seven</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

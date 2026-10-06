@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni030B" format="2">
+  <unicode hex="030B"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+</note>
+  <anchor x="0" y="0" name="_top"/>
+  <anchor x="0" y="203" name="top"/>
+  <outline>
+    <contour>
+      <point x="-143.0" y="20.0" type="line"/>
+      <point x="-94.0" y="-3.0" type="line"/>
+      <point x="-5.0" y="142.0" type="line"/>
+      <point x="-65.0" y="159.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-5.0" y="20.0" type="line"/>
+      <point x="44.0" y="-3.0" type="line"/>
+      <point x="133.0" y="142.0" type="line"/>
+      <point x="73.0" y="159.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>top</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25CB" format="2">
+  <advance width="760"/>
+  <unicode hex="25CB"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+</note>
+  <anchor x="380" y="702" name="top"/>
+  <anchor x="380" y="28" name="bottom"/>
+  <anchor x="666" y="604" name="horn"/>
+  <anchor x="380" y="195" name="overlay"/>
+  <outline>
+    <contour>
+      <point x="671.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="671.0" y="519.71484375"/>
+      <point x="540.71484375" y="650.0"/>
+      <point x="380.0" y="650.0" type="curve" smooth="yes"/>
+      <point x="219.28514099121094" y="650.0"/>
+      <point x="89.0" y="519.71484375"/>
+      <point x="89.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="89.0" y="198.28514099121094"/>
+      <point x="219.28514099121094" y="68.0"/>
+      <point x="380.0" y="68.0" type="curve" smooth="yes"/>
+      <point x="540.71484375" y="68.0"/>
+      <point x="671.0" y="198.28514099121094"/>
+    </contour>
+    <contour>
+      <point x="617.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="617.0" y="228.1085205078125"/>
+      <point x="510.8914794921875" y="122.0"/>
+      <point x="380.0" y="122.0" type="curve" smooth="yes"/>
+      <point x="249.1085205078125" y="122.0"/>
+      <point x="143.0" y="228.1085205078125"/>
+      <point x="143.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="143.0" y="489.8914794921875"/>
+      <point x="249.1085205078125" y="596.0"/>
+      <point x="380.0" y="596.0" type="curve" smooth="yes"/>
+      <point x="510.8914794921875" y="596.0"/>
+      <point x="617.0" y="489.8914794921875"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

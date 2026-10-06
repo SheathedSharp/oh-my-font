@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni031B" format="2">
+  <unicode hex="031B"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+</note>
+  <anchor x="0" y="0" name="_horn"/>
+  <outline>
+    <contour>
+      <point x="-25.0" y="-18.0" type="line"/>
+      <point x="92.0" y="-26.0"/>
+      <point x="151.0" y="40.0"/>
+      <point x="118.0" y="139.0" type="curve"/>
+      <point x="74.0" y="122.0" type="line"/>
+      <point x="91.0" y="55.0"/>
+      <point x="51.0" y="15.0"/>
+      <point x="-21.0" y="23.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>horn</string>
+    </dict>
+  </lib>
+</glyph>

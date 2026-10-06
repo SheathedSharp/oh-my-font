@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.slash" format="2">
+  <advance width="641"/>
+  <note>
+Slashed zero using the new oval and diagonal stroke.
+</note>
+  <anchor x="320" y="790" name="top"/>
+  <anchor x="320" y="-60" name="bottom"/>
+  <anchor x="574" y="692" name="horn"/>
+  <anchor x="320" y="200" name="overlay"/>
+  <outline>
+    <contour>
+      <point x="325.0" y="738.0" type="curve" smooth="yes"/>
+      <point x="160.0" y="738.0"/>
+      <point x="66.0" y="605.0"/>
+      <point x="63.0" y="361.0" type="curve" smooth="yes"/>
+      <point x="60.0" y="118.0"/>
+      <point x="151.0" y="-20.0"/>
+      <point x="316.0" y="-20.0" type="curve" smooth="yes"/>
+      <point x="480.0" y="-20.0"/>
+      <point x="576.0" y="113.0"/>
+      <point x="579.0" y="360.0" type="curve" smooth="yes"/>
+      <point x="582.0" y="603.0"/>
+      <point x="488.0" y="738.0"/>
+    </contour>
+    <contour>
+      <point x="454.3724060058594" y="538.2972412109375" type="line"/>
+      <point x="468.7685852050781" y="492.5688781738281"/>
+      <point x="475.7498474121094" y="433.6098937988281"/>
+      <point x="475.0" y="362.0" type="curve" smooth="yes"/>
+      <point x="473.0" y="171.0"/>
+      <point x="419.0" y="65.0"/>
+      <point x="319.0" y="65.0" type="curve" smooth="yes"/>
+      <point x="270.3027648925781" y="65.0"/>
+      <point x="232.76405334472656" y="88.47942352294922"/>
+      <point x="207.16848754882812" y="134.5415802001953" type="curve"/>
+    </contour>
+    <contour>
+      <point x="322.0" y="654.0" type="curve" smooth="yes"/>
+      <point x="369.7695617675781" y="654.0"/>
+      <point x="406.7918395996094" y="631.8474731445312"/>
+      <point x="432.4505310058594" y="588.6723022460938" type="curve"/>
+      <point x="186.1016387939453" y="186.31314086914062" type="line"/>
+      <point x="172.75405883789062" y="231.779052734375"/>
+      <point x="166.27630615234375" y="289.8009948730469"/>
+      <point x="167.0" y="360.0" type="curve" smooth="yes"/>
+      <point x="169.0" y="550.0"/>
+      <point x="223.0" y="654.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

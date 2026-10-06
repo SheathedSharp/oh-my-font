@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fraction" format="2">
+  <advance width="412"/>
+  <unicode hex="2044"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+</note>
+  <anchor x="206" y="768" name="top"/>
+  <anchor x="206" y="-42" name="bottom"/>
+  <anchor x="382" y="670" name="horn"/>
+  <anchor x="206" y="195" name="overlay"/>
+  <outline>
+    <contour>
+      <point x="55.97168454537096" y="9.016584823298599" type="curve" smooth="yes"/>
+      <point x="385.0165848232986" y="688.028315454629" type="line" smooth="yes"/>
+      <point x="389.698606327479" y="697.690059252273"/>
+      <point x="385.661743797644" y="709.3179784958196"/>
+      <point x="376.0" y="714.0" type="curve" smooth="yes"/>
+      <point x="366.338256202356" y="718.6820215041804"/>
+      <point x="354.7103369588095" y="714.6451589743455"/>
+      <point x="350.0283154546291" y="704.9834151767014" type="curve" smooth="yes"/>
+      <point x="20.9834151767014" y="25.971684545370962" type="line" smooth="yes"/>
+      <point x="16.301393672520955" y="16.30994074772692"/>
+      <point x="20.338256202355957" y="4.6820215041804465"/>
+      <point x="30.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="39.66174379764404" y="-4.6820215041804465"/>
+      <point x="51.28966304119052" y="-0.6451589743454438"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>
