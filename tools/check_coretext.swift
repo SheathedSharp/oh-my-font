@@ -2,6 +2,7 @@
 // Does not install in Font Book, ~/Library/Fonts, or the system font directory.
 import Foundation
 import CoreText
+import CryptoKit
 import AppKit
 
 let root = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
@@ -39,11 +40,12 @@ for format in ["ttf", "otf"] {
             context.textPosition = CGPoint(x: 24, y: 550 - index * 73)
             CTLineDraw(line, context)
         }
-        if expected.hasSuffix("-Bold") || expected.hasSuffix("-Regular") {
+        if expected.hasSuffix("-Bold") || expected.hasSuffix("-Regular") || expected.hasSuffix("-Thin") || expected.hasSuffix("-Light") {
             guard let image = context.makeImage(), let png = NSBitmapImageRep(cgImage: image).representation(using: .png, properties: [:]) else { fail("PNG rendering failed") }
             try png.write(to: out.appendingPathComponent("coretext-" + expected + "-" + format + ".png"))
         }
-        records.append(["file": format + "/" + url.deletingLastPathComponent().lastPathComponent + "/" + url.lastPathComponent, "postscript": actual, "sample_lines": samples.count, "widths": widths, "process_registration": true, "no_fallback": true])
+        let digest = SHA256.hash(data: try Data(contentsOf: url)).map { String(format: "%02x", $0) }.joined()
+        records.append(["sha256": digest, "file": format + "/" + url.deletingLastPathComponent().lastPathComponent + "/" + url.lastPathComponent, "postscript": actual, "sample_lines": samples.count, "widths": widths, "process_registration": true, "no_fallback": true])
         guard CTFontManagerUnregisterFontsForURL(url as CFURL, .process, &error) else { fail("Unregister failed: " + expected) }
     }
 }

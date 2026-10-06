@@ -9,9 +9,33 @@ pre-quantization error setting.
 import hashlib,json,sys,time
 from pathlib import Path
 from fontTools.ttLib import TTFont
+import numpy as np
+from shapely import STRtree, get_parts, get_coordinates, linestrings, points
 ROOT=Path(__file__).resolve().parents[1]
 sys.path[:0]=[str(ROOT/'src'),str(ROOT/'tools')]
 from outline_qa import inspect
+
+def indexed_boundary_distance(a,b,spacing=2):
+    """Same dense directed point-to-boundary distances, indexed by GEOS STRtree.
+
+    Brute-force dense Hausdorff comparisons repeated for 30,240 glyph pairs
+    made the gate unnecessarily slow. Index segments, not just their endpoints,
+    so the nearest distances and the sampling contract remain unchanged.
+    """
+    def index(boundary):
+        edges=[]
+        for part in get_parts(boundary):
+            c=get_coordinates(part)
+            if len(c)>1:edges.append(np.stack((c[:-1],c[1:]),axis=1))
+        return STRtree(linestrings(np.concatenate(edges)))
+    aa=a.boundary;bb=b.boundary
+    samples_a=points(get_coordinates(aa.segmentize(spacing)))
+    samples_b=points(get_coordinates(bb.segmentize(spacing)))
+    _,da=index(bb).query_nearest(samples_a,return_distance=True,all_matches=False)
+    _,db=index(aa).query_nearest(samples_b,return_distance=True,all_matches=False)
+    if len(da)!=len(samples_a) or len(db)!=len(samples_b):
+        raise ValueError('Incomplete nearest-boundary query')
+    return max(float(da.max()),float(db.max()))
 
 def main():
     records=[];start=time.monotonic()
@@ -30,7 +54,7 @@ def main():
                 if x is None or y is None:errors.append({'glyph':name,'reason':'invalid outline'});continue
                 if x.is_empty and y.is_empty:continue
                 if x.is_empty != y.is_empty:errors.append({'glyph':name,'reason':'disappearing glyph'});continue
-                distance=x.boundary.segmentize(2).hausdorff_distance(y.boundary.segmentize(2))
+                distance=indexed_boundary_distance(x,y)
                 if distance>maximum[0]:maximum=(distance,name)
                 if distance>1.6:errors.append({'glyph':name,'sampled_boundary_distance_upm':round(distance,6)})
             record={'family':family,'style':post,'glyphs_compared':len(ga),'woff2_lossless':bool(lossless),'max_sampled_distance_upm':round(maximum[0],6),'worst_glyph':maximum[1],'findings':errors,

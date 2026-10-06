@@ -79,4 +79,55 @@ class MasterTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'Open font contour'):
             inspect(Outline('M0 0 L100 0 L100 100'))
 
+class NumericRegressionTests(unittest.TestCase):
+    def test_legacy_light_foot_and_e_defects_are_reproducible(self):
+        import importlib
+        from shapely.geometry import LineString
+        legacy_path=str(ROOT/'tools/drawing/legacy')
+        sys.path.insert(0,legacy_path)
+        try:old=importlib.import_module('outlines').Designer('LihuiT',100)
+        finally:sys.path.remove(legacy_path)
+        n,_=old.lower('n');e,_=old.lower('e')
+        cut=n.intersection(LineString([(-100,1),(2000,1)]))
+        widths=[g.length for g in cut.geoms]
+        self.assertTrue(any(width>old.t+1 for width in widths))
+        self.assertEqual(e.geom_type,'MultiPolygon')
+        self.assertEqual(len(e.geoms),2)
+
+    def test_serialized_cff_has_no_fractional_closure_drift(self):
+        import io
+        from fontTools.ttLib import TTFont
+        font,_,_=compile_font(Designer('LihuiT',100),True)
+        out=io.BytesIO();font.save(out);out.seek(0)
+        with TTFont(out) as saved:
+            gs=saved.getGlyphSet()
+            for name in ('A','n','P','e','g.double'):
+                self.assertTrue(inspect(gs[name],gs)['valid'],name)
+
+    def test_serialized_ttf_fraction_has_no_quantized_spike(self):
+        import io
+        from fontTools.ttLib import TTFont
+        font,_,_=compile_font(Designer('LihuiT',100),False)
+        out=io.BytesIO();font.save(out);out.seek(0)
+        with TTFont(out) as saved:
+            gs=saved.getGlyphSet()
+            self.assertTrue(inspect(gs['uni2153'],gs)['valid'])
+
+    def test_zero_width_backtrack_cleanup_does_not_hide_real_crossings(self):
+        from drawing.finish import finish_svg
+        fixed,count=finish_svg('M0 0 L0 10 L10 10 L10 0 L20 0 L0 0 Z')
+        self.assertEqual(count,1)
+        r=inspect(Outline(fixed));self.assertTrue(r['valid'])
+        self.assertAlmostEqual(r['geometry'].area,100)
+        with self.assertRaises(ValueError):finish_svg('M0 0 L10 10 L0 10 L10 0 Z')
+
+    def test_indexed_distance_matches_dense_reference(self):
+        from check_conversion import indexed_boundary_distance
+        from shapely.geometry import Polygon
+        from shapely.affinity import translate
+        a=Polygon([(0,0),(120,0),(120,100),(0,100)],holes=[[(20,20),(60,20),(60,60),(20,60)]])
+        b=translate(a,.37,-.63)
+        expected=a.boundary.segmentize(2).hausdorff_distance(b.boundary.segmentize(2))
+        self.assertAlmostEqual(indexed_boundary_distance(a,b),expected,places=10)
+
 if __name__=='__main__':unittest.main()
