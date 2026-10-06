@@ -78,6 +78,9 @@ def main() -> None:
     files=dict(shared)
     for name in ('index.html','style.css','app.js','fonts.css','characters.json','font-manifest.json'):
         files[name]=(ROOT/'site'/name).read_bytes()
+    files['favicon.ico']=(ROOT/'site/favicon.ico').read_bytes()
+    for path in sorted((ROOT/'site'/'assets').iterdir()):
+        files['assets/'+path.name]=path.read_bytes()
     manifest=json.loads(files['font-manifest.json'])
     assert manifest['license']=='OFL-1.1' and manifest['version']==version
     for row in manifest['fonts']:
