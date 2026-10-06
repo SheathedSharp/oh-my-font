@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0304" format="2">
+  <unicode hex="0304"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+</note>
+  <anchor x="0" y="0" name="_top"/>
+  <anchor x="0" y="120" name="top"/>
+  <outline>
+    <contour>
+      <point x="-137.0" y="26.0" type="curve" smooth="yes"/>
+      <point x="137.0" y="26.0" type="line" smooth="yes"/>
+      <point x="141.41827799864635" y="26.0"/>
+      <point x="145.0" y="29.58172200135365"/>
+      <point x="145.0" y="34.0" type="curve" smooth="yes"/>
+      <point x="145.0" y="68.0" type="line" smooth="yes"/>
+      <point x="145.0" y="72.41827799864635"/>
+      <point x="141.41827799864635" y="76.0"/>
+      <point x="137.0" y="76.0" type="curve" smooth="yes"/>
+      <point x="-137.0" y="76.0" type="line" smooth="yes"/>
+      <point x="-141.41827799864635" y="76.0"/>
+      <point x="-145.0" y="72.41827799864635"/>
+      <point x="-145.0" y="68.0" type="curve" smooth="yes"/>
+      <point x="-145.0" y="34.0" type="line" smooth="yes"/>
+      <point x="-145.0" y="29.58172200135365"/>
+      <point x="-141.41827799864635" y="26.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>top</string>
+    </dict>
+  </lib>
+</glyph>

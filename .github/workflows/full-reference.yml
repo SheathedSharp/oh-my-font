@@ -1,0 +1,67 @@
+name: Verify full reference fonts
+on:
+  pull_request:
+    paths:
+      - 'design/full-01/**'
+      - 'design/core-01/sources/**'
+      - 'design/core-01/tools/geometry.py'
+      - '.github/workflows/full-reference.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: full-reference-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  reference:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: |
+            design/full-01/requirements.txt
+            design/core-01/requirements.txt
+      - name: Install isolated reference toolchain
+        run: python -m pip install -r design/full-01/requirements.txt
+      - name: Approved-core locks and design regressions
+        run: python -m unittest discover -s design/full-01/tests -v
+      - name: Validate editable Glyphs companions without rewriting sources
+        run: python design/full-01/tools/export_glyphs.py --check-only
+      - name: Build both completed reference cuts
+        run: python design/full-01/tools/build.py
+      - name: Complete source, exported glyphs, OTS and forced feature decomposition
+        run: python design/full-01/tools/check.py
+      - name: Full FontBakery with exact pre-existing Sigma exception only
+        run: python design/full-01/tools/check_fontbakery.py
+      - name: Independent-directory reproducible build
+        run: python design/full-01/tools/check_reproducibility.py
+      - name: Render every actual glyph and update local proof metadata
+        run: python design/full-01/tools/proof.py
+      - name: Install Chromium
+        run: python -m playwright install --with-deps chromium
+      - name: Verify actual multilingual webfont usage and source review
+        run: python design/full-01/tools/check_browser.py
+      - name: Reject stale or inconsistent verification records
+        run: python design/full-01/tools/record_qa.py
+      - name: Retain verification evidence only; no font publication
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: full-reference-${{ github.sha }}
+          retention-days: 14
+          include-hidden-files: true
+          path: |
+            .release-work/full-01/build.json
+            .release-work/full-01/checks.json
+            .release-work/full-01/fontbakery-summary.json
+            .release-work/full-01/fontbakery-*.json
+            .release-work/full-01/browser.json
+            .release-work/full-01/glyphs-roundtrip.json
+            .release-work/full-01/reproducibility.json
+            .release-work/full-01/unit-tests.log

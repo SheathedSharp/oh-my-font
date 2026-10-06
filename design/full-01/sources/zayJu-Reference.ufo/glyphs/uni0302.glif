@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0302" format="2">
+  <unicode hex="0302"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+</note>
+  <anchor x="0" y="0" name="_top"/>
+  <anchor x="0" y="184" name="top"/>
+  <outline>
+    <contour>
+      <point x="-94.64695739746094" y="0.4032666087150574" type="curve" smooth="yes"/>
+      <point x="-8.43769498715119e-15" y="97.23438262939453" type="line"/>
+      <point x="94.64695739746094" y="0.4032666087150574" type="line" smooth="yes"/>
+      <point x="104.2980728149414" y="-9.470564842224121"/>
+      <point x="120.12616729736328" y="-9.651113510131836"/>
+      <point x="130.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="139.8738250732422" y="9.651113510131836"/>
+      <point x="140.05438232421875" y="25.47920799255371"/>
+      <point x="130.40325927734375" y="35.3530387878418" type="curve" smooth="yes"/>
+      <point x="35.3530387878418" y="132.59674072265625" type="line" smooth="yes"/>
+      <point x="25.70192527770996" y="142.47056579589844"/>
+      <point x="9.873830795288086" y="142.65110778808594"/>
+      <point x="0.0" y="133.0" type="curve"/>
+      <point x="-9.873830795288086" y="142.65110778808594"/>
+      <point x="-25.70192527770996" y="142.47056579589844"/>
+      <point x="-35.3530387878418" y="132.59674072265625" type="curve" smooth="yes"/>
+      <point x="-130.40325927734375" y="35.3530387878418" type="line" smooth="yes"/>
+      <point x="-140.05438232421875" y="25.47920799255371"/>
+      <point x="-139.8738250732422" y="9.651113510131836"/>
+      <point x="-130.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="-120.12616729736328" y="-9.651113510131836"/>
+      <point x="-104.2980728149414" y="-9.470564842224121"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>top</string>
+    </dict>
+  </lib>
+</glyph>

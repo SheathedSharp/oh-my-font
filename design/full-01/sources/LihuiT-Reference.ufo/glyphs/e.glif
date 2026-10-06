@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="e" format="2">
+  <advance width="587"/>
+  <unicode hex="0065"/>
+  <note>
+Generous oval counter and an open, rising lower terminal; no geometric ring splice.
+</note>
+  <anchor x="294" y="586" name="top"/>
+  <anchor x="294" y="-52" name="bottom"/>
+  <anchor x="526" y="488" name="horn"/>
+  <anchor x="294" y="195" name="overlay"/>
+  <anchor x="444" y="28" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="480.0" y="109.0" type="curve"/>
+      <point x="437.0" y="82.0"/>
+      <point x="389.0" y="65.0"/>
+      <point x="328.0" y="65.0" type="curve" smooth="yes"/>
+      <point x="217.0" y="65.0"/>
+      <point x="153.0" y="132.0"/>
+      <point x="149.0" y="251.0" type="curve"/>
+      <point x="500.0" y="251.0" type="line" smooth="yes"/>
+      <point x="518.0" y="251.0"/>
+      <point x="528.0" y="260.0"/>
+      <point x="528.0" y="279.0" type="curve" smooth="yes"/>
+      <point x="528.0" y="434.0"/>
+      <point x="449.0" y="534.0"/>
+      <point x="309.0" y="534.0" type="curve" smooth="yes"/>
+      <point x="166.0" y="534.0"/>
+      <point x="66.0" y="423.0"/>
+      <point x="66.0" y="259.0" type="curve" smooth="yes"/>
+      <point x="66.0" y="92.0"/>
+      <point x="166.0" y="-12.0"/>
+      <point x="327.0" y="-12.0" type="curve" smooth="yes"/>
+      <point x="407.0" y="-12.0"/>
+      <point x="469.0" y="9.0"/>
+      <point x="524.0" y="52.0" type="curve" smooth="yes"/>
+      <point x="532.0" y="58.0"/>
+      <point x="533.0" y="65.0"/>
+      <point x="526.0" y="73.0" type="curve"/>
+      <point x="499.0" y="108.0" type="line" smooth="yes"/>
+      <point x="493.0" y="116.0"/>
+      <point x="486.0" y="116.0"/>
+    </contour>
+    <contour>
+      <point x="151.0" y="321.0" type="line"/>
+      <point x="170.0" y="414.0"/>
+      <point x="232.0" y="464.0"/>
+      <point x="312.0" y="464.0" type="curve" smooth="yes"/>
+      <point x="388.0" y="464.0"/>
+      <point x="437.0" y="411.0"/>
+      <point x="443.0" y="321.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.reviewStatus</key>
+      <string>approved-core-93451c3</string>
+    </dict>
+  </lib>
+</glyph>

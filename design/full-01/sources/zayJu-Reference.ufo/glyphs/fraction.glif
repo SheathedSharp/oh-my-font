@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fraction" format="2">
+  <advance width="412"/>
+  <unicode hex="2044"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+</note>
+  <anchor x="206" y="768" name="top"/>
+  <anchor x="206" y="-42" name="bottom"/>
+  <anchor x="384" y="670" name="horn"/>
+  <anchor x="206" y="200" name="overlay"/>
+  <anchor x="203" y="10" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="61.743169999897844" y="11.020270339587176" type="curve" smooth="yes"/>
+      <point x="387.0202703395871" y="682.2568300001021" type="line" smooth="yes"/>
+      <point x="392.7427410669188" y="694.0656279750004"/>
+      <point x="387.80879797489825" y="708.2775292726683"/>
+      <point x="376.0" y="714.0" type="curve" smooth="yes"/>
+      <point x="364.19120202510175" y="719.7224707273317"/>
+      <point x="349.97930072743384" y="714.7885276353112"/>
+      <point x="344.2568300001021" y="702.9797296604129" type="curve" smooth="yes"/>
+      <point x="18.979729660412822" y="31.743169999897844" type="line" smooth="yes"/>
+      <point x="13.257258933081168" y="19.93437202499957"/>
+      <point x="18.191202025101724" y="5.7224707273316575"/>
+      <point x="30.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="41.808797974898276" y="-5.7224707273316575"/>
+      <point x="56.02069927256619" y="-0.7885276353110999"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

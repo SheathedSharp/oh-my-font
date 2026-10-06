@@ -1,0 +1,46 @@
+name: Verify core glyph study
+on:
+  pull_request:
+    paths:
+      - 'design/core-01/**'
+      - '.github/workflows/core-study.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: core-study-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: design/core-01/requirements.txt
+      - name: Install isolated design toolchain
+        run: python -m pip install -r design/core-01/requirements.txt
+      - name: Build only the two core studies from UFO
+        run: python design/core-01/tools/build.py
+      - name: Validate limited scope and curve exports
+        run: python design/core-01/tools/check.py
+      - name: Install Chromium
+        run: python -m playwright install --with-deps chromium
+      - name: Check real webfonts and no-fallback review UI
+        run: python design/core-01/tools/check_browser.py
+      - name: Keep reports, never publish proof fonts
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: core-study-${{ github.sha }}
+          include-hidden-files: true
+          retention-days: 14
+          path: |
+            .release-work/core-01/build.json
+            .release-work/core-01/checks.json
+            .release-work/core-01/browser.json

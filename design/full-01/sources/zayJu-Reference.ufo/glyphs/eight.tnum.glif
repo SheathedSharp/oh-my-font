@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eight.tnum" format="2">
+  <advance width="660"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="330" y="788" name="top"/>
+  <anchor x="330" y="-59" name="bottom"/>
+  <anchor x="580" y="690" name="horn"/>
+  <anchor x="330" y="200" name="overlay"/>
+  <outline>
+    <component base="eight" xOffset="13.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>eight</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

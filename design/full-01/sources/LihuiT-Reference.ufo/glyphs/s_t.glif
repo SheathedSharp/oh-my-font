@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="s_t" format="2">
+  <advance width="858"/>
+  <note>
+Purpose-spaced letter ligature with live new-letter components; no legacy glyph source.
+</note>
+  <anchor x="490" y="0" name="caret_1"/>
+  <anchor x="429" y="727" name="top"/>
+  <anchor x="429" y="-54" name="bottom"/>
+  <anchor x="833" y="629" name="horn"/>
+  <anchor x="429" y="195" name="overlay"/>
+  <outline>
+    <component base="s"/>
+    <component base="t" xOffset="480"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>s</string>
+        <string>t</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

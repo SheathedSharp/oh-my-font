@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni005E" format="2">
+  <advance width="560"/>
+  <unicode hex="005E"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+</note>
+  <anchor x="280" y="706" name="top"/>
+  <anchor x="280" y="288" name="bottom"/>
+  <anchor x="483" y="608" name="horn"/>
+  <anchor x="280" y="195" name="overlay"/>
+  <anchor x="280" y="340" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="122.13137817382812" y="340.90283203125" type="curve" smooth="yes"/>
+      <point x="280.0" y="598.35009765625" type="line"/>
+      <point x="437.8686218261719" y="340.90283203125" type="line" smooth="yes"/>
+      <point x="445.6637268066406" y="328.19085693359375"/>
+      <point x="462.2879943847656" y="324.20489501953125"/>
+      <point x="475.0" y="332.0" type="curve" smooth="yes"/>
+      <point x="487.7120056152344" y="339.79510498046875"/>
+      <point x="491.69793701171875" y="356.41937255859375"/>
+      <point x="483.90283203125" y="369.1313781738281" type="curve" smooth="yes"/>
+      <point x="317.1313781738281" y="641.09716796875" type="line" smooth="yes"/>
+      <point x="309.3362731933594" y="653.8091430664062"/>
+      <point x="292.7120056152344" y="657.7951049804688"/>
+      <point x="280.0" y="650.0" type="curve"/>
+      <point x="267.2879943847656" y="657.7951049804688"/>
+      <point x="250.66371154785156" y="653.8091430664062"/>
+      <point x="242.86862182617188" y="641.09716796875" type="curve" smooth="yes"/>
+      <point x="76.09715270996094" y="369.1313781738281" type="line" smooth="yes"/>
+      <point x="68.30206298828125" y="356.41937255859375"/>
+      <point x="72.28800201416016" y="339.79510498046875"/>
+      <point x="85.0" y="332.0" type="curve" smooth="yes"/>
+      <point x="97.71199798583984" y="324.20489501953125"/>
+      <point x="114.33628845214844" y="328.19085693359375"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

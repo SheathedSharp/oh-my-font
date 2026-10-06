@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a" format="2">
+  <advance width="615"/>
+  <unicode hex="0061"/>
+  <note>
+A buoyant single-storey a, sloped ear and an upturned exit: distinct from LihuiT double-storey a.
+</note>
+  <anchor x="308" y="603" name="top"/>
+  <anchor x="308" y="-58" name="bottom"/>
+  <anchor x="599" y="505" name="horn"/>
+  <anchor x="308" y="200" name="overlay"/>
+  <anchor x="548" y="16" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="499.0" y="533.0" type="line" smooth="yes"/>
+      <point x="481.0" y="535.0"/>
+      <point x="470.0" y="526.0"/>
+      <point x="468.0" y="508.0" type="curve" smooth="yes"/>
+      <point x="465.0" y="478.0" type="line"/>
+      <point x="421.0" y="526.0"/>
+      <point x="367.0" y="551.0"/>
+      <point x="298.0" y="551.0" type="curve" smooth="yes"/>
+      <point x="151.0" y="551.0"/>
+      <point x="60.0" y="446.0"/>
+      <point x="60.0" y="269.0" type="curve" smooth="yes"/>
+      <point x="60.0" y="95.0"/>
+      <point x="145.0" y="-18.0"/>
+      <point x="284.0" y="-18.0" type="curve" smooth="yes"/>
+      <point x="359.0" y="-18.0"/>
+      <point x="421.0" y="13.0"/>
+      <point x="462.0" y="69.0" type="curve"/>
+      <point x="472.0" y="19.0"/>
+      <point x="504.0" y="-8.0"/>
+      <point x="548.0" y="-8.0" type="curve" smooth="yes"/>
+      <point x="568.0" y="-8.0"/>
+      <point x="584.0" y="-3.0"/>
+      <point x="596.0" y="7.0" type="curve" smooth="yes"/>
+      <point x="605.0" y="14.0"/>
+      <point x="606.0" y="23.0"/>
+      <point x="600.0" y="32.0" type="curve"/>
+      <point x="583.0" y="61.0" type="line" smooth="yes"/>
+      <point x="578.0" y="70.0"/>
+      <point x="570.0" y="73.0"/>
+      <point x="561.0" y="69.0" type="curve" smooth="yes"/>
+      <point x="532.0" y="55.0"/>
+      <point x="521.0" y="80.0"/>
+      <point x="523.0" y="126.0" type="curve" smooth="yes"/>
+      <point x="545.0" y="500.0" type="line"/>
+      <point x="547.0" y="518.0"/>
+      <point x="540.0" y="528.0"/>
+      <point x="522.0" y="531.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="437.0" y="279.0" type="curve" smooth="yes"/>
+      <point x="431.0" y="155.0"/>
+      <point x="374.0" y="75.0"/>
+      <point x="290.0" y="75.0" type="curve" smooth="yes"/>
+      <point x="204.0" y="75.0"/>
+      <point x="159.0" y="149.0"/>
+      <point x="161.0" y="275.0" type="curve" smooth="yes"/>
+      <point x="163.0" y="389.0"/>
+      <point x="218.0" y="465.0"/>
+      <point x="307.0" y="465.0" type="curve" smooth="yes"/>
+      <point x="395.0" y="465.0"/>
+      <point x="443.0" y="394.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.reviewStatus</key>
+      <string>approved-core-93451c3</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni00B7" format="2">
+  <advance width="250"/>
+  <unicode hex="00B7"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+</note>
+  <anchor x="125" y="386" name="top"/>
+  <anchor x="125" y="224" name="bottom"/>
+  <anchor x="154" y="288" name="horn"/>
+  <anchor x="125" y="195" name="overlay"/>
+  <anchor x="125" y="276" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="159.5" y="299.0" type="curve" smooth="yes"/>
+      <point x="159.5" y="318.0538238691624"/>
+      <point x="144.0538238691624" y="333.5"/>
+      <point x="125.0" y="333.5" type="curve" smooth="yes"/>
+      <point x="105.94617613083761" y="333.5"/>
+      <point x="90.5" y="318.0538238691624"/>
+      <point x="90.5" y="299.0" type="curve" smooth="yes"/>
+      <point x="90.5" y="279.9461761308376"/>
+      <point x="105.94617613083761" y="264.5"/>
+      <point x="125.0" y="264.5" type="curve" smooth="yes"/>
+      <point x="144.0538238691624" y="264.5"/>
+      <point x="159.5" y="279.9461761308376"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

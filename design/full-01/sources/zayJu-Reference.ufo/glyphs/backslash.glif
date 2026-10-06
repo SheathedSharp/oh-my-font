@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="backslash" format="2">
+  <advance width="480"/>
+  <unicode hex="005C"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+</note>
+  <anchor x="240" y="818" name="top"/>
+  <anchor x="240" y="-147" name="bottom"/>
+  <anchor x="425" y="720" name="horn"/>
+  <anchor x="240" y="200" name="overlay"/>
+  <anchor x="240" y="-95" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="53.16423937728965" y="721.3008885131792" type="curve" smooth="yes"/>
+      <point x="366.30088851317913" y="-86.16423937728973" type="line" smooth="yes"/>
+      <point x="372.89057089423403" y="-103.15662510173092"/>
+      <point x="392.00761427555886" y="-111.5896823810549"/>
+      <point x="409.0" y="-105.0" type="curve" smooth="yes"/>
+      <point x="425.99238572444114" y="-98.4103176189451"/>
+      <point x="434.4254430037652" y="-79.29327423762038"/>
+      <point x="427.8357606227103" y="-62.30088851317919" type="curve" smooth="yes"/>
+      <point x="114.69911148682083" y="745.1642393772896" type="line" smooth="yes"/>
+      <point x="108.10942910576597" y="762.1566251017308"/>
+      <point x="88.99238572444115" y="770.5896823810549"/>
+      <point x="72.0" y="764.0" type="curve" smooth="yes"/>
+      <point x="55.00761427555885" y="757.4103176189451"/>
+      <point x="46.5745569962348" y="738.2932742376204"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

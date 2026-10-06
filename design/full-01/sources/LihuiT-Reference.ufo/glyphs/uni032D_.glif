@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni032D" format="2">
+  <unicode hex="032D"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+</note>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0" y="-187" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="-96.59806060791016" y="-138.52865600585938" type="curve" smooth="yes"/>
+      <point x="-4.551914400963142e-15" y="-38.88813400268555" type="line"/>
+      <point x="96.59806060791016" y="-138.52865600585938" type="line" smooth="yes"/>
+      <point x="104.86316680908203" y="-147.0540771484375"/>
+      <point x="118.47457885742188" y="-147.26510620117188"/>
+      <point x="127.0" y="-139.0" type="curve" smooth="yes"/>
+      <point x="135.52542114257812" y="-130.73489379882812"/>
+      <point x="135.7364501953125" y="-117.12348175048828"/>
+      <point x="127.47135162353516" y="-108.59806060791016" type="curve" smooth="yes"/>
+      <point x="30.40193748474121" y="-8.47134780883789" type="line" smooth="yes"/>
+      <point x="22.13683319091797" y="0.054074592888355255"/>
+      <point x="8.525422096252441" y="0.2651042342185974"/>
+      <point x="0.0" y="-8.0" type="curve"/>
+      <point x="-8.525422096252441" y="0.2651042342185974"/>
+      <point x="-22.13683319091797" y="0.054074592888355255"/>
+      <point x="-30.40193748474121" y="-8.47134780883789" type="curve" smooth="yes"/>
+      <point x="-127.47135162353516" y="-108.59806060791016" type="line" smooth="yes"/>
+      <point x="-135.7364501953125" y="-117.12348175048828"/>
+      <point x="-135.52542114257812" y="-130.73489379882812"/>
+      <point x="-127.0" y="-139.0" type="curve" smooth="yes"/>
+      <point x="-118.47457885742188" y="-147.26510620117188"/>
+      <point x="-104.86316680908203" y="-147.0540771484375"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>bottom</string>
+    </dict>
+  </lib>
+</glyph>

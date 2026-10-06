@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2039" format="2">
+  <advance width="318"/>
+  <unicode hex="2039"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+</note>
+  <anchor x="159" y="512" name="top"/>
+  <anchor x="159" y="48" name="bottom"/>
+  <anchor x="232" y="414" name="horn"/>
+  <anchor x="159" y="195" name="overlay"/>
+  <anchor x="158" y="100" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="198.6609344482422" y="451.44171142578125" type="curve" smooth="yes"/>
+      <point x="82.44171142578125" y="304.33905029296875" type="line" smooth="yes"/>
+      <point x="75.0464096069336" y="294.97857666015625"/>
+      <point x="76.6395034790039" y="281.3952941894531"/>
+      <point x="86.0" y="274.0" type="curve"/>
+      <point x="76.6395034790039" y="266.6047058105469"/>
+      <point x="75.0464096069336" y="253.0214385986328"/>
+      <point x="82.44171142578125" y="243.6609344482422" type="curve" smooth="yes"/>
+      <point x="198.6609344482422" y="96.55828857421875" type="line" smooth="yes"/>
+      <point x="206.05624389648438" y="87.19779205322266"/>
+      <point x="219.63951110839844" y="85.60469055175781"/>
+      <point x="229.0" y="93.0" type="curve" smooth="yes"/>
+      <point x="238.36048889160156" y="100.39530944824219"/>
+      <point x="239.95359802246094" y="113.97856903076172"/>
+      <point x="232.55828857421875" y="123.33905792236328" type="curve" smooth="yes"/>
+      <point x="116.33905792236328" y="270.44171142578125" type="line" smooth="yes"/>
+      <point x="115.27365112304688" y="271.79022216796875"/>
+      <point x="114.0798110961914" y="272.9775390625"/>
+      <point x="112.7886734008789" y="274.0" type="curve"/>
+      <point x="114.0798110961914" y="275.0224609375"/>
+      <point x="115.27365112304688" y="276.20977783203125"/>
+      <point x="116.33905792236328" y="277.55828857421875" type="curve" smooth="yes"/>
+      <point x="232.55828857421875" y="424.66094970703125" type="line" smooth="yes"/>
+      <point x="239.95359802246094" y="434.02142333984375"/>
+      <point x="238.36048889160156" y="447.6047058105469"/>
+      <point x="229.0" y="455.0" type="curve" smooth="yes"/>
+      <point x="219.63951110839844" y="462.3952941894531"/>
+      <point x="206.05624389648438" y="460.8022155761719"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

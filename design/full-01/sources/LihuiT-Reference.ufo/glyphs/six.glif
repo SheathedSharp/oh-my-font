@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six" format="2">
+  <advance width="595"/>
+  <unicode hex="0036"/>
+  <note>
+An open calligraphic top turns into a generous lower oval; individually drawn, not a rotated 9.
+</note>
+  <anchor x="298" y="782" name="top"/>
+  <anchor x="298" y="-52" name="bottom"/>
+  <anchor x="522" y="684" name="horn"/>
+  <anchor x="298" y="195" name="overlay"/>
+  <anchor x="292" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="458.0" y="638.0" type="curve" smooth="yes"/>
+      <point x="469.0" y="633.0"/>
+      <point x="477.0" y="635.0"/>
+      <point x="482.0" y="645.0" type="curve" smooth="yes"/>
+      <point x="497.0" y="677.0" type="line"/>
+      <point x="501.0" y="687.0"/>
+      <point x="498.0" y="696.0"/>
+      <point x="487.0" y="701.0" type="curve"/>
+      <point x="450.0" y="722.0"/>
+      <point x="407.0" y="730.0"/>
+      <point x="355.0" y="730.0" type="curve" smooth="yes"/>
+      <point x="173.0" y="730.0"/>
+      <point x="58.0" y="555.0"/>
+      <point x="58.0" y="290.0" type="curve" smooth="yes"/>
+      <point x="58.0" y="101.0"/>
+      <point x="145.0" y="-12.0"/>
+      <point x="303.0" y="-12.0" type="curve" smooth="yes"/>
+      <point x="435.0" y="-12.0"/>
+      <point x="527.0" y="86.0"/>
+      <point x="527.0" y="230.0" type="curve" smooth="yes"/>
+      <point x="527.0" y="367.0"/>
+      <point x="440.0" y="459.0"/>
+      <point x="314.0" y="459.0" type="curve" smooth="yes"/>
+      <point x="249.0" y="459.0"/>
+      <point x="192.0" y="435.0"/>
+      <point x="148.0" y="389.0" type="curve"/>
+      <point x="157.0" y="559.0"/>
+      <point x="229.0" y="664.0"/>
+      <point x="355.0" y="664.0" type="curve" smooth="yes"/>
+      <point x="387.0" y="664.0"/>
+      <point x="418.0" y="658.0"/>
+    </contour>
+    <contour>
+      <point x="145.0" y="238.0" type="curve" smooth="yes"/>
+      <point x="145.0" y="268.0" type="line"/>
+      <point x="159.0" y="332.0"/>
+      <point x="224.0" y="386.0"/>
+      <point x="306.0" y="386.0" type="curve" smooth="yes"/>
+      <point x="393.0" y="386.0"/>
+      <point x="444.0" y="326.0"/>
+      <point x="444.0" y="225.0" type="curve" smooth="yes"/>
+      <point x="444.0" y="129.0"/>
+      <point x="388.0" y="64.0"/>
+      <point x="303.0" y="64.0" type="curve" smooth="yes"/>
+      <point x="207.0" y="64.0"/>
+      <point x="145.0" y="126.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.reviewStatus</key>
+      <string>approved-core-93451c3</string>
+    </dict>
+  </lib>
+</glyph>

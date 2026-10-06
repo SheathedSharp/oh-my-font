@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen" format="2">
+  <advance width="375"/>
+  <unicode hex="002D"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+</note>
+  <anchor x="188" y="363" name="top"/>
+  <anchor x="188" y="205" name="bottom"/>
+  <anchor x="309" y="265" name="horn"/>
+  <anchor x="188" y="200" name="overlay"/>
+  <anchor x="188" y="257" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="77.0" y="245.0" type="curve" smooth="yes"/>
+      <point x="298.0" y="245.0" type="line" smooth="yes"/>
+      <point x="306.8365559972927" y="245.0"/>
+      <point x="314.0" y="252.1634440027073"/>
+      <point x="314.0" y="261.0" type="curve" smooth="yes"/>
+      <point x="314.0" y="295.0" type="line" smooth="yes"/>
+      <point x="314.0" y="303.8365559972927"/>
+      <point x="306.8365559972927" y="311.0"/>
+      <point x="298.0" y="311.0" type="curve" smooth="yes"/>
+      <point x="77.0" y="311.0" type="line" smooth="yes"/>
+      <point x="68.16344400270731" y="311.0"/>
+      <point x="61.0" y="303.8365559972927"/>
+      <point x="61.0" y="295.0" type="curve" smooth="yes"/>
+      <point x="61.0" y="261.0" type="line" smooth="yes"/>
+      <point x="61.0" y="252.1634440027073"/>
+      <point x="68.16344400270731" y="245.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

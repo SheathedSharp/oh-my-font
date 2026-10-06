@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2205" format="2">
+  <advance width="760"/>
+  <unicode hex="2205"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+</note>
+  <anchor x="380" y="745" name="top"/>
+  <anchor x="380" y="-29" name="bottom"/>
+  <anchor x="660" y="647" name="horn"/>
+  <anchor x="380" y="195" name="overlay"/>
+  <anchor x="379" y="23" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="649.0" y="352.0" type="curve" smooth="yes"/>
+      <point x="649.0" y="430.3995361328125"/>
+      <point x="621.1124267578125" y="501.656005859375"/>
+      <point x="575.6224975585938" y="554.4900512695312" type="curve"/>
+      <point x="659.98046875" y="656.4479370117188" type="line" smooth="yes"/>
+      <point x="667.8703002929688" y="665.9838256835938"/>
+      <point x="666.535888671875" y="680.1101684570312"/>
+      <point x="657.0" y="688.0" type="curve" smooth="yes"/>
+      <point x="647.464111328125" y="695.8898315429688"/>
+      <point x="633.3377685546875" y="694.555419921875"/>
+      <point x="625.4479370117188" y="685.01953125" type="curve" smooth="yes"/>
+      <point x="543.6461791992188" y="586.1511840820312" type="line"/>
+      <point x="498.3091125488281" y="624.315185546875"/>
+      <point x="441.5702209472656" y="647.0"/>
+      <point x="380.0" y="647.0" type="curve" smooth="yes"/>
+      <point x="231.43540954589844" y="647.0"/>
+      <point x="111.0" y="514.9240112304688"/>
+      <point x="111.0" y="352.0" type="curve" smooth="yes"/>
+      <point x="111.0" y="274.1864929199219"/>
+      <point x="138.4722442626953" y="203.40965270996094"/>
+      <point x="183.3603515625" y="150.6978302001953" type="curve"/>
+      <point x="98.0195083618164" y="47.552066802978516" type="line" smooth="yes"/>
+      <point x="90.12968444824219" y="38.01616287231445"/>
+      <point x="91.46409606933594" y="23.88982391357422"/>
+      <point x="101.0" y="16.0" type="curve" smooth="yes"/>
+      <point x="110.53590393066406" y="8.110177040100098"/>
+      <point x="124.66224670410156" y="9.444586753845215"/>
+      <point x="132.55206298828125" y="18.980487823486328" type="curve" smooth="yes"/>
+      <point x="215.17767333984375" y="118.84454345703125" type="line"/>
+      <point x="260.7077941894531" y="80.07968139648438"/>
+      <point x="317.89617919921875" y="57.0"/>
+      <point x="380.0" y="57.0" type="curve" smooth="yes"/>
+      <point x="528.5645751953125" y="57.0"/>
+      <point x="649.0" y="189.0760040283203"/>
+    </contour>
+    <contour>
+      <point x="595.0" y="352.0" type="curve" smooth="yes"/>
+      <point x="595.0" y="218.8993682861328"/>
+      <point x="498.7412109375" y="111.0"/>
+      <point x="380.0" y="111.0" type="curve" smooth="yes"/>
+      <point x="330.951416015625" y="111.0"/>
+      <point x="285.7389831542969" y="129.41062927246094"/>
+      <point x="249.56253051757812" y="160.40321350097656" type="curve"/>
+      <point x="540.629150390625" y="512.1959838867188" type="line"/>
+      <point x="574.4507446289062" y="469.6152648925781"/>
+      <point x="595.0" y="413.4975891113281"/>
+    </contour>
+    <contour>
+      <point x="218.39466857910156" y="193.04147338867188" type="line"/>
+      <point x="185.15428161621094" y="235.46914672851562"/>
+      <point x="165.0" y="291.0963134765625"/>
+      <point x="165.0" y="352.0" type="curve" smooth="yes"/>
+      <point x="165.0" y="485.1006164550781"/>
+      <point x="261.2587890625" y="593.0"/>
+      <point x="380.0" y="593.0" type="curve" smooth="yes"/>
+      <point x="428.5195007324219" y="593.0"/>
+      <point x="473.2851867675781" y="574.9844360351562"/>
+      <point x="509.2636413574219" y="544.5953369140625" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

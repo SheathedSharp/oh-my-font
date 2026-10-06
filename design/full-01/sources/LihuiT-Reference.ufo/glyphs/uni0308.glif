@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0308" format="2">
+  <unicode hex="0308"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+</note>
+  <anchor x="0" y="0" name="_top"/>
+  <anchor x="0" y="132" name="top"/>
+  <outline>
+    <contour>
+      <point x="-52.97999954223633" y="48.0" type="curve" smooth="yes"/>
+      <point x="-52.97999954223633" y="70.10243225097656"/>
+      <point x="-70.89756774902344" y="88.0199966430664"/>
+      <point x="-93.0" y="88.0199966430664" type="curve" smooth="yes"/>
+      <point x="-115.10243225097656" y="88.0199966430664"/>
+      <point x="-133.02000427246094" y="70.10243225097656"/>
+      <point x="-133.02000427246094" y="48.0" type="curve" smooth="yes"/>
+      <point x="-133.02000427246094" y="25.897563934326172"/>
+      <point x="-115.10243225097656" y="7.980000019073486"/>
+      <point x="-93.0" y="7.980000019073486" type="curve" smooth="yes"/>
+      <point x="-70.89756774902344" y="7.980000019073486"/>
+      <point x="-52.97999954223633" y="25.897563934326172"/>
+    </contour>
+    <contour>
+      <point x="133.02000427246094" y="48.0" type="curve" smooth="yes"/>
+      <point x="133.02000427246094" y="70.10243225097656"/>
+      <point x="115.10243225097656" y="88.0199966430664"/>
+      <point x="93.0" y="88.0199966430664" type="curve" smooth="yes"/>
+      <point x="70.89756774902344" y="88.0199966430664"/>
+      <point x="52.97999954223633" y="70.10243225097656"/>
+      <point x="52.97999954223633" y="48.0" type="curve" smooth="yes"/>
+      <point x="52.97999954223633" y="25.897563934326172"/>
+      <point x="70.89756774902344" y="7.980000019073486"/>
+      <point x="93.0" y="7.980000019073486" type="curve" smooth="yes"/>
+      <point x="115.10243225097656" y="7.980000019073486"/>
+      <point x="133.02000427246094" y="25.897563934326172"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>top</string>
+    </dict>
+  </lib>
+</glyph>

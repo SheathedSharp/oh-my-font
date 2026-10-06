@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.tnum" format="2">
+  <advance width="660"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="330" y="779" name="top"/>
+  <anchor x="330" y="-40" name="bottom"/>
+  <anchor x="619" y="681" name="horn"/>
+  <anchor x="330" y="200" name="overlay"/>
+  <outline>
+    <component base="four"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>four</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.tnum" format="2">
+  <advance width="660"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="330" y="778" name="top"/>
+  <anchor x="330" y="-40" name="bottom"/>
+  <anchor x="526" y="680" name="horn"/>
+  <anchor x="330" y="200" name="overlay"/>
+  <outline>
+    <component base="one" xOffset="90.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>one</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2089" format="2">
+  <advance width="378"/>
+  <unicode hex="2089"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="189" y="305" name="top"/>
+  <anchor x="189" y="-210" name="bottom"/>
+  <anchor x="322" y="207" name="horn"/>
+  <anchor x="189" y="195" name="overlay"/>
+  <outline>
+    <component base="nine.subs"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>nine.subs</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>
