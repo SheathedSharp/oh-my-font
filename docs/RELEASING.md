@@ -36,7 +36,7 @@ After publishing, download every asset into a fresh directory, verify the extern
 
 ## Website
 
-GitHub Pages uses the `workflow` build type and serves the custom domain `https://fonts.zayju.de/` (Cloudflare DNS-only `CNAME fonts` to `sheathedsharp.github.io`; the custom domain is configured in repository settings, so no `CNAME` file is used). `Publish specimen` runs on published Releases and can be manually dispatched with a published `tag`. It downloads and verifies the **released Website ZIP**, extracts it safely and deploys that exact artifact. It does not rebuild fonts on an uncontrolled newer source revision.
+The Cloudflare Pages project `oh-my-font` (Direct Upload) serves `https://fonts.zayju.de/` through a proxied `CNAME fonts` to `oh-my-font.pages.dev`. `Publish specimen` runs on published Releases and can be manually dispatched with a published `tag`. It downloads and verifies the **released Website ZIP**, extracts it safely and deploys that exact artifact to Cloudflare Pages with Wrangler. It does not rebuild fonts on an uncontrolled newer source revision. Deployment requires the repository secrets `CLOUDFLARE_API_TOKEN` (Account · Cloudflare Pages · Edit) and `CLOUDFLARE_ACCOUNT_ID`.
 
 ```sh
 gh workflow run pages.yml --ref main -f tag=v0.301
