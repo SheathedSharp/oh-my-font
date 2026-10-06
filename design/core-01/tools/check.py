@@ -29,6 +29,10 @@ def outlines_equal(a,b):
 
 def main():
     build=json.loads((OUT/'build.json').read_text());report={'scope':'22 proposed core glyphs only; all visual decisions remain unapproved','source':[],'files':[],'roundtrip':[],'cross_format':[]}
+    proof_manifest=json.loads((STUDY/'proofs/manifest.json').read_text())
+    assert proof_manifest['sources']==build['sources'],'Visual proofs are stale; redraw/export them before review'
+    for name,value in proof_manifest['proof_files'].items():
+        assert digest(STUDY/'proofs'/name)==value,'Changed proof without a new manifest: '+name
     for name,value in build['sources'].items():
         if digest(ROOT/name)!=value:raise ValueError('Stale build inputs: '+name)
     for family in FAMILIES:

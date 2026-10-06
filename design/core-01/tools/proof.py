@@ -27,7 +27,10 @@ def main():
     p.add_argument('--build',type=Path,default=ROOT/'.release-work/core-01')
     p.add_argument('--output',type=Path,default=STUDY/'proofs')
     p.add_argument('--baseline',type=Path,help='Explicit rejected-PR build directory, only for comparison; never a drawing source')
-    a=p.parse_args();a.output.mkdir(parents=True,exist_ok=True);manifest={'renderer':'Pillow/FreeType '+features.version_module('freetype2'),'font_inputs':[],'images':[]}
+    a=p.parse_args();a.output.mkdir(parents=True,exist_ok=True)
+    if not a.baseline and (a.output/'before-after.png').exists():
+        raise SystemExit('Existing comparison proof: pass --baseline to regenerate it, or use a new --output directory. Refusing to relabel a stale comparison.')
+    manifest={'renderer':'Pillow/FreeType '+features.version_module('freetype2'),'font_inputs':[],'images':[]}
     im=Image.new('RGB',(2000,1600),PAPER);d=ImageDraw.Draw(im)
     label(d,(76,43),'CORE 01',31,ACCENT);label(d,(76,91),'A new curve language, before the rest of the alphabet.',32)
     label(d,(1448,53),'11 GLYPHS / FAMILY',22,MUTED);label(d,(1448,86),'REFERENCE CUT / NOT APPROVED',18,MUTED)
