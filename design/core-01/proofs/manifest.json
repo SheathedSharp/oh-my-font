@@ -1,0 +1,101 @@
+{
+  "renderer": "Pillow/FreeType 2.14.3",
+  "font_inputs": [
+    {
+      "file": "fonts/LihuiTCoreStudy01-Reference.otf",
+      "sha256": "cde34f3a18a0cd8b168104ba7e5a854cfa56ca10b4ec7d2d9255bb2d0b338648",
+      "family": "LihuiT"
+    },
+    {
+      "file": "fonts/zayJuCoreStudy01-Reference.otf",
+      "sha256": "b30d061edfd1ac113cdda86084317dc9f55f80e1f4916ee2354710b759c36f64",
+      "family": "zayJu"
+    },
+    {
+      "baseline_file": "otf/LihuiT/LihuiT-Regular.otf",
+      "sha256": "de3942b7e56bfff289e3667f35589dff98a9d9e6a4021fdc3c3697cb69fea152",
+      "baseline": "rejected PR #8, 3e0c54a"
+    },
+    {
+      "baseline_file": "otf/zayJu/zayJu-Regular.otf",
+      "sha256": "006cbb8358486e2babd997c46102e2e9a42f5bea9e735a6f34c5e6df12b8e2ab",
+      "baseline": "rejected PR #8, 3e0c54a"
+    }
+  ],
+  "images": [
+    "overview.png",
+    "capitals.png",
+    "before-after.png"
+  ],
+  "curve_source": "authoritative UFO3 GLIF records; HTML displays vectors, PNGs display real compiled CFF",
+  "sources": {
+    "design/core-01/sources/LihuiT-Core01.glyphs": "af5bf8c4dd7dc4d05fe9392e94f395d41afb1e50c6040b3e3ef6544040f6c79d",
+    "design/core-01/sources/LihuiT-Core01.ufo/fontinfo.plist": "318b84e2a299611a995a42216c50cab693608f7492f6a62e76da514201e96063",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/B_.glif": "d3732d264f1269c5c3e7b2c57e942060c695f59399199d4aaa9e769353f29421",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/M_.glif": "17954c075f8a4d319a4a775f7c4b0fbf6e8909eb3fb9face3c7d238d14843266",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/R_.glif": "2771ff238b9dffb1b523acc267e346f0d0775fd4f98de1293dbe1e5007aa20f0",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/_notdef.glif": "3eac1275f4d43b5a09df400f10a1174db6605504801d88b38c6a2aa038751948",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/a.glif": "164f9650f0640d1f00428b2de0b82c80e85d882004dab1cd7e09647958babf8d",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/contents.plist": "0e189845f08bb64808b5bf5a296398d6018854bd997b3ec866550e17871ac0d6",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/e.glif": "ab586a9c0b8439103bdc8105f33df43f0cdc5fe6e5d38f4b2fdddde00228f4cb",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/eight.glif": "12241cc4aac8e47d2ed3a3d2784f2ee4efab178f89cf4e623a1ca236e9da037c",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/g.glif": "08eae0e604a6cc966a47a89309b4050bc843c3d6ed8adfbce23970d873e19b17",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/nine.glif": "ef8068e401b149842d6975e80c6506ec156673cdf7d346e34d19dd2235086f59",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/six.glif": "53455b65aaf8b7a883b3c8fa1d60c4a20bbb5adfe38d5c1379951481d07fc5ab",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/space.glif": "f57b3a0747820a9ed4e7180e9d5f72ab10c54fa904e5381bd905a158a075352a",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/three.glif": "c86a0732f39bdd06672a55bbf2a0028896d12804b2bf4f22f83e91404d39d336",
+    "design/core-01/sources/LihuiT-Core01.ufo/glyphs/two.glif": "e1684bdce4c1ead8aaff625f52adec655945eb58c02b0ac825dcbe1304321a6c",
+    "design/core-01/sources/LihuiT-Core01.ufo/kerning.plist": "2602443f85afafea0962af4b529b7e2d0af22aec3c8f6ef09f7ef12169833a7f",
+    "design/core-01/sources/LihuiT-Core01.ufo/layercontents.plist": "a13ddf884de30309bc36869760d222267e2adbc05f5e04e482c013b1ff5ece86",
+    "design/core-01/sources/LihuiT-Core01.ufo/lib.plist": "10a009e6a105533cbad34c526ca12ab1223c895cf8e225994efdf4e48625e9fd",
+    "design/core-01/sources/LihuiT-Core01.ufo/metainfo.plist": "b6aa7bbbf391fb84be27fb95ce735b293b9738b0213c6bcc634edde9490b979b",
+    "design/core-01/sources/zayJu-Core01.glyphs": "a2aea41e8f3377c64daff76f97c75c3409feda6103291cda11bb6b01a6fb11a5",
+    "design/core-01/sources/zayJu-Core01.ufo/fontinfo.plist": "85f2055a3e3b414680a023c0b04833f8be0ba375db7c7357f8039fba38741c78",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/B_.glif": "ce19ad6e346e8fc85dfd569dd228e608790bb8aaefcb960f3a5e43c96a6e1998",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/M_.glif": "f88d5f309ac68648c3210de0ee7ec16a3e939794ebfe0dd30b1645ba689e5f6f",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/R_.glif": "b828fff04405362e85fd379e646c5ab104846406c2f9a46d9ada63371c886a07",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/_notdef.glif": "3eac1275f4d43b5a09df400f10a1174db6605504801d88b38c6a2aa038751948",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/a.glif": "a438decae8182260a250936cb1f69d06681d7438fb1b6b1fbad9f868b4d2afd3",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/contents.plist": "0e189845f08bb64808b5bf5a296398d6018854bd997b3ec866550e17871ac0d6",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/e.glif": "5a6ad81eef49216fcbfb0035cd006158b2941f82e9363e54cc132d39837b94ea",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/eight.glif": "48423f332e62984e4b3739c3944d6ef79142d8de6293e5826f915d24d2feccf6",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/g.glif": "04cae656c349f3c16192912d295c21c87711ec0b1139ec06875dd9dcfe8a92c8",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/nine.glif": "baecee4bc8aeabb9dde04e15cf03859d85a5209cd588eda83b3e39b60d5ff570",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/six.glif": "88fb3f51abf01df1e57aff5aa97279283c71511228a71a300883e44920da4dbd",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/space.glif": "f57b3a0747820a9ed4e7180e9d5f72ab10c54fa904e5381bd905a158a075352a",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/three.glif": "108a73746bd32766cbf532afb5f56df8132c69d28beb4c6b0163a47c640f1866",
+    "design/core-01/sources/zayJu-Core01.ufo/glyphs/two.glif": "e64afd06e7d14ec080cc5ec2249d1aeeb060a76c247c29336022951d60a5142a",
+    "design/core-01/sources/zayJu-Core01.ufo/kerning.plist": "2602443f85afafea0962af4b529b7e2d0af22aec3c8f6ef09f7ef12169833a7f",
+    "design/core-01/sources/zayJu-Core01.ufo/layercontents.plist": "a13ddf884de30309bc36869760d222267e2adbc05f5e04e482c013b1ff5ece86",
+    "design/core-01/sources/zayJu-Core01.ufo/lib.plist": "8e038f7d697aee99c8d7b163627a4910d7a5e5f9ec9a84bc67cb05c57701ba6a",
+    "design/core-01/sources/zayJu-Core01.ufo/metainfo.plist": "b6aa7bbbf391fb84be27fb95ce735b293b9738b0213c6bcc634edde9490b979b"
+  },
+  "proof_files": {
+    "before-after.png": "161ff2245e11dab453ee831ab79ee270db46da2c7697faa012531ea1210d8891",
+    "capitals.png": "b87d7e09f367e06a084c060ccf3334c404cde13b1cf1c19cee48c4104f807b09",
+    "overview.png": "5e14834cd43d32e08d7c8200f05fd5475d074caf9b4a7c561aa4e24dba089237",
+    "review.html": "2c34c09059967cde168e6d7945ca2dbd9a7403127386cf1f90919d7aa73bb81d",
+    "svg/LihuiT/B.svg": "cf84faa81c081aaa039639eb647e12e7d9367612482a2deef4f4e43f6f7d9d18",
+    "svg/LihuiT/M.svg": "d56ebd5b022e2294759f0b1d01745053773dbeb0899d37d6894527c9716a23bf",
+    "svg/LihuiT/R.svg": "7d53c0645c7118d486cd1ad902117f7153bece3e301fb90a0557797c069c3b11",
+    "svg/LihuiT/a.svg": "07bfa639bf42a4f87c2e33504b8e8110254b519f93cf7d80f30eb39ab5256ba5",
+    "svg/LihuiT/e.svg": "8c5d9ea116f4559b5dd3000ab92417a9293616a6693bd4649a642813849e6ede",
+    "svg/LihuiT/eight.svg": "db973c6e594db6f03042b1f1e43c42e4d908cb35ca55becc928fe6784db84e3c",
+    "svg/LihuiT/g.svg": "24e6c9f9aa7b04aced3139f1d371d737294ed0a200d88e1a490e3757be505d18",
+    "svg/LihuiT/nine.svg": "1ffa1270dbac00ab8d225ed0a2f9f5fbbc2f854bb8000a0b15f1dc8bb56c0858",
+    "svg/LihuiT/six.svg": "9e2e2dbe2d91d2945b6e7a63f650716581ffacbde75639c663b0fafb8086da6b",
+    "svg/LihuiT/three.svg": "96e2471ab84a5ee0e8b3cd97d03473522f2fae946f183f411abca7e42639df23",
+    "svg/LihuiT/two.svg": "37cda7e36d07aa829ae83ff8686f75e02123a7c64b72de4c6754eb8f54ac624d",
+    "svg/zayJu/B.svg": "ee75ead3b75f26bd96abd1bf92d59d262318efbf231267a3630db47cb58d79cd",
+    "svg/zayJu/M.svg": "cd69e8e0a4e9621b0f6efc6bfba2efe5672a9d214ebadad581da2b079c0bec08",
+    "svg/zayJu/R.svg": "a3e23c9fe2b4382f0ea39e388c66af8795a947ac0bf93d7f6e189d37fd9301c5",
+    "svg/zayJu/a.svg": "02a1d614c21edd6d19247b4a26a416c4c454b09341817e4cdcca8b136a7a2c19",
+    "svg/zayJu/e.svg": "27168b9e6cd0fe09a1462821186711dec6f5243268d93d6a84ce73c22f9abaa9",
+    "svg/zayJu/eight.svg": "3626233e0485333eb21a4e232f47dd74069fb90718a471096ec1a118df782ecd",
+    "svg/zayJu/g.svg": "c416b14ff25e694d86f85bcdbc0e04dbca8a6fdd3c33fe99a09ff261f0ac28ee",
+    "svg/zayJu/nine.svg": "18b17c4950f699779547ec7be5e57289954dacb69e71f0aae077964d2e3dd585",
+    "svg/zayJu/six.svg": "fd8d5f1633d4847f472cbd7f153225d3335277017391d6f3d733407f0accae9f",
+    "svg/zayJu/three.svg": "86553d1b62b7046e24dc357fb3e3b49ba41a48e8312b21263164c0320b6085fc",
+    "svg/zayJu/two.svg": "24292f346e7cf14fd536adcc3ba07758ab37889a120e747824f3141467a7a4dc"
+  }
+}

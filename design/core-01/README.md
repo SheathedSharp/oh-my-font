@@ -45,3 +45,38 @@ future multi-weight quality. The owner makes the visual acceptance decision.
 These inform curve construction, editable interchange and validation, not the
 letter designs. No third-party font outlines are imported. Existing project OFL
 and author/source attribution remain in force.
+
+## Review the delivered first draft
+
+Start with [中文视觉验收说明与对照图](REVIEW.zh-CN.md).
+
+- `proofs/overview.png`: actual CFF-rendered core and word samples.
+- `proofs/capitals.png`: B/M/R at large size.
+- `proofs/before-after.png`: explicitly labeled comparison with rejected PR #8.
+- `proofs/review.html`: self-contained UFO-vector review, with outline/handle toggles and unsupported-character blocking.
+- `sources/*.ufo`: authoritative per-glyph GLIF design files.
+- `sources/*.glyphs`: synchronized Glyphs-format editing companions, not a claim that the GUI was used.
+
+### Isolated tooling
+
+```sh
+python3 -m venv .release-work/core-env
+.release-work/core-env/bin/python -m pip install -r design/core-01/requirements.txt
+.release-work/core-env/bin/python design/core-01/tools/build.py
+.release-work/core-env/bin/python design/core-01/tools/check.py
+.release-work/core-env/bin/python -m playwright install chromium
+.release-work/core-env/bin/python design/core-01/tools/check_browser.py
+# macOS process-only native check, never installation:
+swift design/core-01/tools/check_coretext.swift
+```
+
+Edit the UFO glyphs individually in a compatible editor. When intentionally
+synchronizing the companion after edits, use `build.py --export-glyphs`; it
+replaces only the derived Glyphs companions, never the UFO drawing sources.
+`proof.py` renders those drawings without inventing missing letters. Proofs and
+`qa.json` must be refreshed after any source change. Do not run the production
+build to manufacture additional letters or weights for this design study.
+
+OFL, author zayju and the original repository attribution are carried into the
+study metadata. Binary proof fonts are local build outputs and are not committed,
+published, installed, merged or substituted for the production families.
