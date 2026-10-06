@@ -41,6 +41,7 @@ class ContractTests(unittest.TestCase):
         self.assertEqual(weight.count('<option'),1);self.assertIn('value="400"',weight)
         self.assertNotIn('16 STYLES',html);self.assertNotIn('/ Bold /',html);self.assertIn('v'+contract.version(),html)
         self.assertEqual(set(re.findall(r'data-weight="(\d+)"',html)),{'400'})
+        self.assertNotIn('双层 g',html);self.assertIn('g 替代款',html)
 
     def test_no_legacy_drawing_import(self):
         self.assertNotIn('outlines',sys.modules);self.assertNotIn('outline_engine',sys.modules)
