@@ -4,6 +4,8 @@
 
 [English](README.md) · [在线试用](https://fonts.zayju.de/) · [下载 v0.301](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.301) · [来源与署名](ATTRIBUTION.txt)
 
+**开发候选 0.302：** PR #8 正在审查独立字重母版、轻字重连接修正及真实曲线导出。上方下载链接仍指向已发布的 0.301，不将未发版候选冒充正式版。参见[母版编辑](sources/README.md)与[连接修正及验证](docs/design/weight-masters.md)。
+
 ![真实 WOFF2 字体渲染的展示网页](docs/images/specimen-preview.png)
 
 ## 免费商用，保留来源

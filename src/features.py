@@ -1,6 +1,6 @@
 """OpenType layout source generated from the actual glyph inventory."""
 from __future__ import annotations
-from outlines import Designer,gname
+from masters import Designer
 
 # Pair values are in 1000-UPM units; body spacing uses gentler corrections.
 KERN_PAIRS={

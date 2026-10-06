@@ -4,6 +4,8 @@
 
 [简体中文](README.zh-CN.md) · [Try the fonts](https://fonts.zayju.de/) · [Download v0.301](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.301) · [Source & attribution](ATTRIBUTION.txt)
 
+**Development revision 0.302:** independent weight masters, repaired light-cut junctions and real curve exports are under review in PR #8. The download link above intentionally remains the published 0.301 release. See [master editing](sources/README.md) and [junction design/verification](docs/design/weight-masters.md).
+
 ![Actual website rendered with the released WOFF2 files](docs/images/specimen-preview.png)
 
 ## Download and use
