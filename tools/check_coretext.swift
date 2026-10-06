@@ -7,7 +7,7 @@ import AppKit
 
 let root = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
 let out = root.appendingPathComponent(".release-work")
-let samples = ["Build a brighter tomorrow.", "Ideas ship farther.", "Zayju  zayju.de", "a g r y z 1 0", "Il1 O0Q 5S 8B rn m", "ÀÁÂÃÄÅ Ç ÉÈÊË Ñ ÖÜ ß", "0123456789"]
+let samples = ["Build a brighter tomorrow.", "Ideas ship farther.", "Zayju  zayju.de", "a g r y z 1 0", "Il1 O0Q 5S 8B rn m", "ÀÁÂÃÄÅ Ç ÉÈÊË Ñ ÖÜ ß", "0123456789", "Őő Űű  ˝  O\u{030B} U\u{030B}"]
 var records: [[String: Any]] = []
 func fail(_ message: String) -> Never { fputs(message + "\n", stderr); exit(1) }
 for format in ["ttf", "otf"] {

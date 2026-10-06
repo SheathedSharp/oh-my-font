@@ -26,6 +26,20 @@ class MasterTests(unittest.TestCase):
         code=f"import sys;sys.path[:0]=[{str(ROOT/'src')!r},{str(ROOT)!r}];import build;build.Designer('LihuiT',100);assert not any(n in sys.modules for n in ('outlines','outline_engine','beziers','shapely'))"
         subprocess.run([sys.executable,'-c',code],check=True)
 
+    def test_svg_roundtrip_preserves_selected_master_and_other_weight(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);(root/'LihuiT').mkdir()
+            before={}
+            for weight in (100,300):
+                payload=(MASTER_ROOT/'LihuiT'/f'{weight}.json').read_bytes()
+                (root/'LihuiT'/f'{weight}.json').write_bytes(payload);before[weight]=payload
+            svg=root/'e.svg'
+            args=['--family','LihuiT','--weight','100','--glyph','e','--svg',str(svg),'--source-root',str(root)]
+            for operation in ('export','import'):
+                subprocess.run([sys.executable,str(ROOT/'tools/master_svg.py'),operation,*args],check=True,capture_output=True,text=True)
+            self.assertEqual((root/'LihuiT/100.json').read_bytes(),before[100])
+            self.assertEqual((root/'LihuiT/300.json').read_bytes(),before[300])
+
     def test_missing_weight_fails_closed(self):
         with tempfile.TemporaryDirectory() as temp:
             with self.assertRaises(FileNotFoundError):Designer('zayJu',100,source_root=Path(temp))
@@ -120,6 +134,22 @@ class NumericRegressionTests(unittest.TestCase):
         r=inspect(Outline(fixed));self.assertTrue(r['valid'])
         self.assertAlmostEqual(r['geometry'].area,100)
         with self.assertRaises(ValueError):finish_svg('M0 0 L10 10 L0 10 L10 0 Z')
+
+    def test_black_doubleacute_stays_separate_after_integer_export(self):
+        import io
+        from fontTools.ttLib import TTFont
+        from outline_qa import component_count
+        for oblique in (False,True):
+            for cff in (False,True):
+                with self.subTest(oblique=oblique,cff=cff):
+                    font,_,_=compile_font(Designer('zayJu',900,oblique),cff)
+                    out=io.BytesIO();font.save(out);out.seek(0)
+                    with TTFont(out) as saved:
+                        gs=saved.getGlyphSet()
+                        for name,expected in [('uni030B',2),('uni02DD',2),('uni0170',3)]:
+                            r=inspect(gs[name],gs)
+                            self.assertTrue(r['valid'],name)
+                            self.assertEqual(component_count(r['geometry']),expected,name)
 
     def test_indexed_distance_matches_dense_reference(self):
         from check_conversion import indexed_boundary_distance

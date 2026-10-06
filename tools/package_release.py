@@ -44,6 +44,17 @@ def main() -> None:
         raise SystemExit('FontBakery scoped gate not complete; inspect the full raw results.')
     qa_path = ROOT/f'docs/qa/release-{version}.json'
     qa = json.loads(qa_path.read_text())
+    outlines=qa.get('outlines',{});conversion=qa.get('conversion',{})
+    if not (outlines.get('source_passed') and outlines.get('compiled_passed') and conversion.get('passed')):
+        raise SystemExit('Independent-master outline / cross-format QA is incomplete.')
+    expected={r['file']:r['sha256'] for r in checks['records']}
+    if len(outlines.get('source',[]))!=32 or len(outlines.get('compiled',[]))!=96 or len(conversion.get('records',[]))!=32:
+        raise SystemExit('Incomplete outline / conversion report inventory.')
+    if {r['file']:r['sha256'] for r in outlines['compiled']}!=expected:
+        raise SystemExit('Outline QA is not bound to these candidates.')
+    compared={f"{fmt}/{r['family']}/{r['style']}.{fmt}":digest for r in conversion['records'] for fmt,digest in r['sha256'].items()}
+    if compared!=expected or any(r['findings'] or not r['woff2_lossless'] for r in conversion['records']):
+        raise SystemExit('Cross-format QA is stale or failed.')
     for name, expected in qa['build_inputs_sha256'].items():
         if sha((ROOT/name).read_bytes()) != expected:
             raise SystemExit('Build inputs changed since QA: '+name)

@@ -30,7 +30,8 @@ def main():
     p.add_argument('--weight',required=True,type=int,choices=list(WEIGHTS))
     p.add_argument('--glyph',required=True)
     p.add_argument('--svg',required=True,type=Path)
-    a=p.parse_args();d=Designer(a.family,a.weight)
+    p.add_argument('--source-root',type=Path,default=MASTER_ROOT,help='Master directory; useful for isolated drawing drafts')
+    a=p.parse_args();d=Designer(a.family,a.weight,source_root=a.source_root)
     if a.glyph not in d.glyphs:raise SystemExit('Unknown glyph name')
     path=d.source_path;data=json.loads(path.read_text());entry=next(g for g in data['glyphs'] if g['name']==a.glyph)
     if a.operation=='export':

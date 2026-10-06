@@ -6,7 +6,10 @@ Work on a PR, keep the original input project intact, and record the version in 
 
 ```sh
 python -m pip install -r requirements.txt -r requirements-qa.txt
+python -m unittest discover -s tests -v
 python build.py
+python tools/check_outlines.py
+python tools/check_conversion.py
 python tools/check_candidates.py
 python tools/check_fontbakery.py
 python tools/prepare_site.py
@@ -16,7 +19,9 @@ python tools/check_site.py
 swift tools/check_coretext.swift
 ```
 
-`check_candidates.py` validates full copyright/source/OFL name-table metadata, OTS and 15 fixed HarfBuzz assertions for every format/face. `check_fontbakery.py` retains all raw results and nonzero profile exits and fails on unreviewed failures. The current precisely scoped exception and all warning categories are in QA-0.301.md and issue #3. A scoped gate pass is not a full-profile pass.
+`check_outlines.py` examines all source styles and serialized font glyphs; `check_conversion.py` compares all TTF/CFF glyphs and verifies lossless WOFF2 outlines. The latter includes integer-grid error and is not the same bound as the pre-quantization cu2qu setting. Run actual optical proofs with `tools/proof_junctions.py` and review the changes.
+
+`check_candidates.py` validates full copyright/source/OFL name-table metadata, OTS and 15 fixed HarfBuzz assertions for every format/face. `check_fontbakery.py` retains all raw results and nonzero profile exits and fails on unreviewed failures. The current precisely scoped exception and all warning categories are recorded in QA-0.302.md and issue #3; QA-0.301.md remains the first-release history. A scoped gate pass is not a full-profile pass.
 
 Optional macOS installed-font acceptance: install TTF only in a new release-specific user font folder without overwriting existing identities, then run `swift tools/check_installed_macos.swift`. That check resolves fonts from an independent process and round-trips RTF using AppKit. Do not describe process-only registration as installation. Inspect actual specimens; document remaining untested applications and scripts.
 
@@ -26,7 +31,7 @@ python tools/summarize_qa.py
 python tools/package_release.py
 ```
 
-Packaging refuses a dirty worktree or any changed source/font hash. It makes TTF, OTF, WOFF2 and Website ZIPs, all carrying OFL, attribution, author, FONTLOG and source-commit information. Font binaries are Release attachments, not committed source. Keep `release/` and `.release-work/` ignored.
+The QA summary binds outline, conversion, browser and available native results to the exact current source/font hashes. Packaging refuses missing/stale geometry or cross-format gates, a dirty worktree, or any changed source/font hash. It makes TTF, OTF, WOFF2 and Website ZIPs, all carrying OFL, attribution, author, FONTLOG and source-commit information. Font binaries are Release attachments, not committed source. Keep `release/` and `.release-work/` ignored.
 
 ## Publish
 
