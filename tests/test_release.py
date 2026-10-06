@@ -39,7 +39,7 @@ class ContractTests(unittest.TestCase):
         html=(ROOT/'site/index.html').read_text()
         weight=re.search(r'<select id="weight">(.*?)</select>',html).group(1)
         self.assertEqual(weight.count('<option'),1);self.assertIn('value="400"',weight)
-        self.assertNotIn('16 STYLES',html);self.assertIn('v'+contract.version(),html)
+        self.assertNotIn('16 STYLES',html);self.assertNotIn('/ Bold /',html);self.assertIn('v'+contract.version(),html)
         self.assertEqual(set(re.findall(r'data-weight="(\d+)"',html)),{'400'})
 
     def test_no_legacy_drawing_import(self):
@@ -64,6 +64,10 @@ class MetadataTests(unittest.TestCase):
             self.assertEqual(f['name'].getDebugName(6),family+'-Regular')
             self.assertEqual(f['name'].getDebugName(5),'Version '+contract.version())
             self.assertFalse(any('Full Draft' in n.toUnicode() or 'Core Study' in n.toUnicode() for n in f['name'].names))
+
+    def test_no_legacy_mac_name_records_added(self):
+        for f in self.fonts.values():
+            self.assertFalse(any(n.platformID==1 for n in f['name'].names))
 
     def test_license_and_source_not_removed(self):
         for f in self.fonts.values():

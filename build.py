@@ -30,8 +30,6 @@ def promote(font,family):
     for name_id,text in values.items():
         font['name'].removeNames(nameID=name_id)
         font['name'].setName(text,name_id,3,1,0x409)
-        try:font['name'].setName(text,name_id,1,0,0)
-        except UnicodeEncodeError:pass
     font['head'].fontRevision=float(ver);font.recalcTimestamp=False
     if 'CFF ' in font:
         cff=font['CFF '].cff;cff.fontNames=[post];top=cff.topDictIndex[0]
