@@ -23,24 +23,30 @@ jobs:
           cache: pip
       - name: Install pinned build and QA dependencies
         run: python -m pip install -r requirements.txt -r requirements-qa.txt
-      - name: Build the complete licensed families
+      - name: Release scope, metadata and safety regressions
+        run: python -m unittest discover -s tests -v
+      - name: Build only approved Regular redesigns
         run: python build.py
-      - name: Exact metadata, OTS and HarfBuzz checks
+      - name: Exact approved glyphs, metadata, OTS and all feature/mark combinations
         run: python tools/check_candidates.py
-      - name: Full FontBakery results with explicit scoped release policy
+      - name: Full FontBakery with existing Sigma exception only
         run: python tools/check_fontbakery.py
-      - name: Prepare real-font specimen
+      - name: Independent-directory reproducible official release
+        run: python tools/check_reproducibility.py
+      - name: Prepare exact two-face released specimen
         run: python tools/prepare_site.py
       - name: Install browser
         run: python -m playwright install --with-deps chromium
-      - name: Verify actual font loading and responsive interactions
+      - name: Verify actual font bytes, responsive controls and no synthetic styles
         run: |
           set -euo pipefail
           python -m http.server 8136 --bind 127.0.0.1 --directory site > .release-work/http.log 2>&1 &
           server=$!
           trap 'kill "$server"' EXIT
           python tools/check_site.py --browser chromium
-      - name: Retain truthful verification reports
+      - name: Bind all release verification to exact candidate hashes
+        run: python tools/summarize_qa.py
+      - name: Retain verification evidence only
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
@@ -50,4 +56,7 @@ jobs:
           path: |
             .release-work/candidate-checks.json
             .release-work/fontbakery-*.json
+            .release-work/reproducibility.json
             .release-work/site-checks.json
+            .release-work/unit-tests.log
+            docs/qa/release-0.400.json

@@ -5,6 +5,7 @@ let inventory = [], coverage = new Set(), serial = 0, expanded = false;
 const initialText = 'Ideas ship farther.\nBuild a brighter tomorrow.';
 const features = [...document.querySelectorAll('[data-feature]')];
 async function loadFace(family, weight, style = 'normal', text = 'Build a brighter tomorrow.') {
+  if (!['LihuiT','zayJu'].includes(family) || Number(weight) !== 400 || style !== 'normal') throw new Error('此版本仅提供 Regular 400 正体');
   const faces = await document.fonts.load(`${style} ${weight} 64px "${family}"`, text);
   if (!faces.length || faces.some(face => face.status !== 'loaded')) throw new Error('未加载到对应的字体文件');
   return faces;
@@ -58,7 +59,7 @@ for (const input of features) input.addEventListener('change', update);
 sample.addEventListener('input', checkCoverage);
 for (const button of document.querySelectorAll('[data-sample]')) button.addEventListener('click', () => {sample.value = button.dataset.sample; checkCoverage(); sample.focus();});
 for (const button of document.querySelectorAll('.choose-family')) button.addEventListener('click', () => {$('family').value = button.dataset.family; update(); $('playground').scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});});
-$('reset').addEventListener('click', () => {sample.value = initialText; $('family').value = 'zayJu'; $('weight').value = '700'; $('style').value = 'normal'; $('size').value = innerWidth < 640 ? '36' : '64'; $('tracking').value = '0'; features.forEach(input => input.checked = input.dataset.feature === 'liga'); update();});
+$('reset').addEventListener('click', () => {sample.value = initialText; $('family').value = 'zayJu'; $('weight').value = '400'; $('style').value = 'normal'; $('size').value = innerWidth < 640 ? '36' : '64'; $('tracking').value = '0'; features.forEach(input => input.checked = input.dataset.feature === 'liga'); update();});
 $('all-glyphs').addEventListener('click', () => {expanded = !expanded; renderGlyphs();});
 $('theme').addEventListener('click', () => {const dark = document.documentElement.dataset.theme !== 'dark'; document.documentElement.dataset.theme = dark ? 'dark' : 'light'; $('theme').setAttribute('aria-pressed', String(dark)); $('theme').setAttribute('aria-label', dark ? '切换浅色模式' : '切换深色模式');});
 async function init() {
@@ -70,7 +71,7 @@ async function init() {
     const response = await fetch('characters.json'); if (!response.ok) throw new Error('字符表不可用');
     inventory = await response.json(); coverage = new Set(inventory.map(row => Number.parseInt(row.unicode.slice(2), 16)));
     document.querySelectorAll('[data-codepoints]').forEach(element => element.textContent = String(inventory.length));
-    await loadFace('zayJu', 500); renderGlyphs();
+    await loadFace('zayJu', 400); renderGlyphs();
   } catch (error) {$('glyphs').textContent = `字符表未加载：${error.message}`; $('all-glyphs').disabled = true;}
   await update();
 }

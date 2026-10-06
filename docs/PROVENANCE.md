@@ -33,3 +33,22 @@ Build/QA dependencies are separately installed and not bundled; they retain thei
 - FontBakery: https://github.com/fonttools/fontbakery
 - OpenType Sanitizer: https://github.com/khaledhosny/ots
 - OFL official FAQ and text: https://openfontlicense.org/ofl-faq/ and https://openfontlicense.org/open-font-license-official-text/
+
+
+## Approved redesign and 0.400 production boundary
+
+The owner accepted Core 01 and then the completed reference cuts in PR #10,
+approved at commit `4640e2b38bc20b72e4f5584113208fa819b5adc9`. The approved design
+was merged to main, and the owner explicitly authorized publication.
+
+The current authoritative drawings are the two UFO3 sources under
+`design/full-01/sources`. New base letters use individually authored cubic
+outlines; accented and feature forms use explicit editable components and anchors.
+They are not imported outlines from installed or third-party fonts. Historical
+raster/reference geometry under `src/` remains history, not a production input.
+
+Version 0.400 publishes Regular 400 upright only for each family. Identity
+promotion leaves every accepted outline, width and layout table unchanged, and
+checks compare all serialized glyphs to fresh accepted-source compiles. No other
+weight or Oblique is synthesized or silently combined with old 0.301 artwork.
+`config/approved-reference.json` records the exact approved input hashes.
