@@ -2,7 +2,7 @@
 
 **Two voices. One bright idea.** Paired geometric sans-serif fonts by **zayju**.
 
-[简体中文](README.zh-CN.md) · [Try the fonts](https://sheathedsharp.github.io/oh-my-font/) · [Download v0.301](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.301) · [Source & attribution](ATTRIBUTION.txt)
+[简体中文](README.zh-CN.md) · [Try the fonts](https://fonts.zayju.de/) · [Download v0.301](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.301) · [Source & attribution](ATTRIBUTION.txt)
 
 ![Actual website rendered with the released WOFF2 files](docs/images/specimen-preview.png)
 

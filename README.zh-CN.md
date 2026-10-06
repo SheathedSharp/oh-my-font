@@ -2,7 +2,7 @@
 
 **一套为文字，一套为表达。** zayju 的配套几何无衬线字体。
 
-[English](README.md) · [在线试用](https://sheathedsharp.github.io/oh-my-font/) · [下载 v0.301](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.301) · [来源与署名](ATTRIBUTION.txt)
+[English](README.md) · [在线试用](https://fonts.zayju.de/) · [下载 v0.301](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.301) · [来源与署名](ATTRIBUTION.txt)
 
 ![真实 WOFF2 字体渲染的展示网页](docs/images/specimen-preview.png)
 
