@@ -4,15 +4,15 @@
   <note>
 Accent-aware clarity form: same base, advance and mark placement for precomposed and decomposed text when ss05 is enabled.
 </note>
-  <anchor x="220.94687219514765" y="1076.0485774699305" name="top"/>
-  <anchor x="186.9521008423036" y="-51.522691825820225" name="bottom"/>
-  <anchor x="331.43206065492353" y="712.0566423228398" name="horn"/>
-  <anchor x="186.9521008423036" y="195.12473777805383" name="overlay"/>
-  <anchor x="208.2688162244934" y="1.9175845883524865" name="ogonek"/>
-  <anchor x="358.67008586549946" y="603.1206942477954" name="caron"/>
+  <anchor x="221" y="1076" name="top"/>
+  <anchor x="187" y="-52" name="bottom"/>
+  <anchor x="331" y="712" name="horn"/>
+  <anchor x="187" y="195" name="overlay"/>
+  <anchor x="208" y="2" name="ogonek"/>
+  <anchor x="359" y="603" name="caron"/>
   <outline>
     <component base="l.clarity"/>
-    <component base="uni0301" xOffset="186.9521008423036" yOffset="812.7710094110884"/>
+    <component base="uni0301" xOffset="187.0" yOffset="813.0"/>
   </outline>
   <lib>
     <dict>

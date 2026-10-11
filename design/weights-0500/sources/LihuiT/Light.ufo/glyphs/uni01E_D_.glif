@@ -5,14 +5,14 @@
   <note>
 Canonical new-base + diacritic composition, with explicit top/bottom/horn/side anchors. Ogonek is attached through its dedicated optical join, not floated under the center.
 </note>
-  <anchor x="277.3464754420193" y="664.7818275131993" name="top"/>
-  <anchor x="292.2607617224379" y="-221.50144044492785" name="bottom"/>
-  <anchor x="511.0591245430026" y="480.8936809934253" name="horn"/>
-  <anchor x="292.2607617224379" y="190.75018087036506" name="overlay"/>
+  <anchor x="277" y="665" name="top"/>
+  <anchor x="292" y="-53" name="bottom"/>
+  <anchor x="511" y="481" name="horn"/>
+  <anchor x="292" y="191" name="overlay"/>
   <outline>
     <component base="o"/>
-    <component base="uni0328" xOffset="252.79996078118637" yOffset="-3.6557333535035728"/>
-    <component base="uni0304" xOffset="292.2607617224379" yOffset="576.631266892617"/>
+    <component base="uni0328" xOffset="253.0" yOffset="-4.0"/>
+    <component base="uni0304" xOffset="292.0" yOffset="577.0"/>
   </outline>
   <lib>
     <dict>

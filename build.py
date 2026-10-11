@@ -82,9 +82,10 @@ def promote(font,family,weight=400,oblique=False):
     font['head'].fontRevision=float(ver);font.recalcTimestamp=False
     font['OS/2'].usWeightClass=weight
     font['OS/2'].usWidthClass=5
-    # Shared clip box. Measured across every master, including Oblique.
-    # Typo/hhea line spacing stays the approved Regular values.
-    font['OS/2'].usWinAscent=1388
+    # Shared clip box. Measured head.yMax is 1606 on zayJu Black uni1E50
+    # (O plus stacked macron and grave) after mark restack. usWinDescent 626
+    # covers yMin -626. Typo/hhea line spacing stays the approved Regular values.
+    font['OS/2'].usWinAscent=1606
     font['OS/2'].usWinDescent=626
     font['OS/2'].panose.bWeight=PANOSE_WEIGHT[weight]
     selection=font['OS/2'].fsSelection & ~0b1001100001

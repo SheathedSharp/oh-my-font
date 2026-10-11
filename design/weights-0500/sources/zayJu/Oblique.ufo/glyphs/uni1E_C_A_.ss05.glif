@@ -5,14 +5,14 @@
 Accent-aware clarity form: same base, advance and mark placement for precomposed and decomposed text when ss05 is enabled.
 Weight master: Approved Regular drawing, slanted as Oblique.
 </note>
-  <anchor x="320.355968751036" y="766" name="top"/>
-  <anchor x="178.2364223000132" y="-178" name="bottom"/>
-  <anchor x="431.07592464160643" y="668" name="horn"/>
-  <anchor x="220.5548976700448" y="200" name="overlay"/>
-  <anchor x="186.4054252968534" y="12" name="ogonek"/>
+  <anchor x="320" y="766" name="top"/>
+  <anchor x="154" y="-178" name="bottom"/>
+  <anchor x="431" y="668" name="horn"/>
+  <anchor x="221" y="200" name="overlay"/>
+  <anchor x="186" y="12" name="ogonek"/>
   <outline>
     <component base="I.clarity"/>
-    <component base="uni0323" xOffset="178.2364223000132" yOffset="-40"/>
+    <component base="uni0323" xOffset="178.0" yOffset="-40.0"/>
   </outline>
   <lib>
     <dict>

@@ -6,13 +6,13 @@
 Canonical new-base + diacritic composition, with explicit top/bottom/horn/side anchors.
 Weight master: Approved Regular drawing, slanted as Oblique.
 </note>
-  <anchor x="444.4917310360885" y="781" name="top"/>
-  <anchor x="297.2587021445202" y="-257" name="bottom"/>
-  <anchor x="675.2116869266589" y="683" name="horn"/>
-  <anchor x="341.164120340928" y="195" name="overlay"/>
+  <anchor x="444" y="781" name="top"/>
+  <anchor x="261" y="-257" name="bottom"/>
+  <anchor x="675" y="683" name="horn"/>
+  <anchor x="341" y="195" name="overlay"/>
   <outline>
     <component base="S"/>
-    <component base="uni0326" xOffset="297.2587021445202" yOffset="-54"/>
+    <component base="uni0326" xOffset="297.0" yOffset="-54.0"/>
   </outline>
   <lib>
     <dict>

@@ -117,7 +117,7 @@ class MetadataTests(unittest.TestCase):
             self.assertEqual(font['name'].getDebugName(17),typo)
             self.assertEqual(font['OS/2'].usWeightClass,weight)
             self.assertEqual(bool(font['OS/2'].fsSelection & 64), weight!=700 and not oblique)
-            self.assertEqual(font['OS/2'].usWinAscent,1388);self.assertEqual(font['OS/2'].usWinDescent,626)
+            self.assertEqual(font['OS/2'].usWinAscent,1606);self.assertEqual(font['OS/2'].usWinDescent,626)
             self.assertEqual(font['post'].italicAngle,-10 if oblique else 0)
             self.assertNotIn('fvar',font)
             self.assertIn('STAT',font)

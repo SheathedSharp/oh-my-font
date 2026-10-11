@@ -20,7 +20,7 @@ def main() -> None:
     out = ROOT / '.release-work'
     out.mkdir(exist_ok=True)
     build=read_build();expected={Path(r['file']).name:r['sha256'] for r in build['records'] if r['format']=='woff2'}
-    errors, responses, failed, hashes = [], {}, [], {}
+    errors, responses, failed, hashes, captured = [], {}, [], {}, []
     report = {'url_scope': ('local HTTP' if args.url.startswith('http://127.0.0.1:') else 'published HTTP(S)') + ', fresh profile', 'viewports': [], 'checks': []}
     with sync_playwright() as p:
         browser = p.chromium.launch(channel='chrome' if args.browser=='chrome' else None, headless=True)
@@ -30,7 +30,8 @@ def main() -> None:
         def record_response(response):
             if '.woff2' in response.url:
                 name=response.url.split('/')[-1].split('?')[0];responses[name]=response.status
-                if response.ok:hashes[name]=hashlib.sha256(response.body()).hexdigest()
+                # Read the body after load. body() inside this handler can miss the last file.
+                if response.ok:captured.append((name,response))
         page.on('response',record_response)
         page.on('requestfailed', lambda request: failed.append(request.url.split('/')[-1]))
         page.goto(args.url, wait_until='networkidle')
@@ -46,6 +47,7 @@ def main() -> None:
           return rows;
         }''')
         assert len(loaded) == 32 and all(row['loaded'] for row in loaded)
+        for name,response in captured:hashes[name]=hashlib.sha256(response.body()).hexdigest()
         assert hashes==expected,(set(hashes),set(expected))
         assert page.evaluate("async()=> (await (await fetch('font-manifest.json')).json()).version")==version()
         assert {(r['weight'], r['style']) for r in loaded}=={(weight, style) for weight in (100,300,400,500,600,700,800,900) for style in ('normal','oblique')}

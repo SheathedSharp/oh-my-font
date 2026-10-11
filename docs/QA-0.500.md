@@ -10,9 +10,27 @@ The gate is the existing release pipeline, extended to 32 styles (96 files). It 
 - FontBakery universal runs on 64 desktop files (not WOFF2). The only accepted FAIL is the existing Sigma case-mapping finding: U+03A3 without U+03C3. Any other FAIL fails the gate. Warnings are retained. A scoped pass is not a green universal profile.
 - Builds must repeat byte-for-byte in a second directory. The specimen loads all 32 WOFF2 files.
 
-Win clip metrics are a shared box, usWinAscent 1388 and usWinDescent 626, large enough for every master including Oblique. Typographic line spacing stays the approved Regular values, so heavier styles can warn that sTypoAscender does not clear Agrave. That warning is kept. FontBakery runs once per family and desktop format so the italic-axis check can see the upright sibling. The only accepted FAIL is still one Sigma finding per file.
+Win clip metrics are a shared box, usWinAscent 1606 and usWinDescent 626, written on every style including Regular. 1606 is the measured `head.yMax` of zayJu Black `uni1E50` (O plus a stacked macron and grave) after mark restack; 626 covers yMin −626. Typographic line spacing stays the approved Regular values, so heavier styles can warn that sTypoAscender does not clear Agrave. That warning is kept. FontBakery runs once per family and desktop format so the italic-axis check can see the upright sibling. The only accepted FAIL is still one Sigma finding per file.
 
-`docs/qa/release-0.500.json` is written by `tools/summarize_qa.py` after those commands. Do not paste a count into this file until that JSON exists. Do not add an unreviewed sigma to clear the FAIL. Issue #3 stays the coverage follow-up.
+`docs/qa/release-0.500.json` is written by `tools/summarize_qa.py` after those commands. The counts below are the scoped run that JSON binds. Do not add an unreviewed sigma to clear the FAIL. Issue #3 stays the coverage follow-up.
+
+## FontBakery is not an all-green universal profile
+
+64 desktop files (TTF and OTF). The scoped gate passed: no unexpected FAIL, ERROR or FATAL. Each file keeps **one** accepted FAIL, `case_mapping` / `missing-case-counterparts`, because U+03A3 is encoded and U+03C3 is not. That is 64 Sigma findings, the same exception as 0.400, not a new Greek glyph.
+
+Warning rows in that run, counted once per file:
+
+| Check | TTF | OTF |
+| --- | ---: | ---: |
+| soft_hyphen | 32 | 32 |
+| math_signs_width | 30 | 30 |
+| opentype.gdef_spacing_marks | 28 | 28 |
+| contour_count | 32 | 0 |
+| unreachable_glyphs | 0 | 32 |
+| typoascender_exceeds_Agrave | 6 | 6 |
+| overlapping_path_segments | 11 | 0 |
+
+`typoascender_exceeds_Agrave` stays because typographic line spacing is still the approved Regular value while heavier ink is taller. It is on LihuiT Black and Black Oblique, and on zayJu Extrabold, Extrabold Oblique, Black and Black Oblique. `overlapping_path_segments` is a TTF warning, not a pass, on LihuiT Thin, Thin Oblique, Light, Light Oblique and Medium Oblique, and on zayJu Light, Light Oblique, Semibold Oblique, Bold, Bold Oblique and Extrabold Oblique. Full messages stay in the QA JSON.
 
 ## Known drawing exceptions
 

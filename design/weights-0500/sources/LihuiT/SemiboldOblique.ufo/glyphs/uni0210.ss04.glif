@@ -4,13 +4,13 @@
   <note>
 Canonical new-base + diacritic composition, with explicit top/bottom/horn/side anchors.
 </note>
-  <anchor x="585.4269335521972" y="1063.0637466855878" name="top"/>
-  <anchor x="370.0255012149074" y="-92.15591076432867" name="bottom"/>
-  <anchor x="807.9094821109724" y="696.8182171728007" name="horn"/>
-  <anchor x="416.59364094630973" y="171.9451334677906" name="overlay"/>
+  <anchor x="585" y="1063" name="top"/>
+  <anchor x="370" y="-92" name="bottom"/>
+  <anchor x="808" y="697" name="horn"/>
+  <anchor x="417" y="172" name="overlay"/>
   <outline>
     <component base="R.curved"/>
-    <component base="uni030F" xOffset="488.3422367482116" yOffset="805.5657059742615"/>
+    <component base="uni030F" xOffset="488.0" yOffset="806.0"/>
   </outline>
   <lib>
     <dict>
