@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period" format="2">
+  <advance width="309"/>
+  <unicode hex="002E"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 正文粗体：竖茎 150、接合只到 132，锐角内收形成轻微墨阱，而不是把 Regular 撑圆。字距比半粗回松，避免字字粘连。R 的腿缩短、裆部打开。与 zayJu 粗体相比仍更克制、更宽。
+</note>
+  <anchor x="153.11099921425358" y="205.35154888104998" name="top"/>
+  <anchor x="153.11099921425358" y="-93.8391143241867" name="bottom"/>
+  <anchor x="221.84036807913176" y="46.0" name="horn"/>
+  <anchor x="153.11099921425358" y="288.2793957477188" name="overlay"/>
+  <anchor x="153.11099921425358" y="-9.285231244445903" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="230.0" y="46.0" type="curve" smooth="yes"/>
+      <point x="230.0" y="66.0"/>
+      <point x="222.0" y="86.0"/>
+      <point x="208.0" y="100.0" type="curve" smooth="yes"/>
+      <point x="197.0" y="107.0"/>
+      <point x="185.0" y="114.0"/>
+      <point x="174.0" y="121.0" type="curve" smooth="yes"/>
+      <point x="160.0" y="121.0"/>
+      <point x="147.0" y="121.0"/>
+      <point x="133.0" y="121.0" type="curve" smooth="yes"/>
+      <point x="100.0" y="112.0"/>
+      <point x="76.0" y="80.0"/>
+      <point x="77.0" y="46.0" type="curve" smooth="yes"/>
+      <point x="76.0" y="12.0"/>
+      <point x="100.0" y="-20.0"/>
+      <point x="133.0" y="-29.0" type="curve" smooth="yes"/>
+      <point x="147.0" y="-29.0"/>
+      <point x="160.0" y="-29.0"/>
+      <point x="174.0" y="-29.0" type="curve" smooth="yes"/>
+      <point x="185.0" y="-22.0"/>
+      <point x="197.0" y="-15.0"/>
+      <point x="208.0" y="-8.0" type="curve" smooth="yes"/>
+      <point x="222.0" y="6.0"/>
+      <point x="230.0" y="26.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

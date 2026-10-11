@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash" format="2">
+  <advance width="884"/>
+  <unicode hex="002F"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示黑体：246/228，调制只留 0.20。B 上碗缩到 0.76、腰收 32，是整套里最强的收腰，同时开口和 8 的下眼被强制留白。字距 +30。它和 LihuiT 黑体不是同一个黑度。
+</note>
+  <anchor x="544.3973712640441" y="901.3361660899596" name="top"/>
+  <anchor x="345.21397399768244" y="-228.28901359644922" name="bottom"/>
+  <anchor x="778.310882423805" y="786.6177540596301" name="horn"/>
+  <anchor x="416.83743394734825" y="177.90781267420763" name="overlay"/>
+  <anchor x="355.9471726068543" y="-167.41801945790698" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="193.0" y="-156.0" type="line" smooth="yes"/>
+      <point x="205.0" y="-187.0"/>
+      <point x="245.0" y="-175.0"/>
+      <point x="270.0" y="-160.0" type="curve" smooth="yes"/>
+      <point x="284.0" y="-145.0"/>
+      <point x="298.0" y="-130.0"/>
+      <point x="313.0" y="-115.0" type="curve"/>
+      <point x="769.0" y="693.0" type="line" smooth="yes"/>
+      <point x="774.0" y="713.0"/>
+      <point x="780.0" y="732.0"/>
+      <point x="785.0" y="751.0" type="curve" smooth="yes"/>
+      <point x="783.0" y="776.0"/>
+      <point x="770.0" y="812.0"/>
+      <point x="734.0" y="801.0" type="curve"/>
+      <point x="727.0" y="830.0" type="line"/>
+      <point x="695.0" y="815.0" type="line" smooth="yes"/>
+      <point x="683.0" y="846.0"/>
+      <point x="643.0" y="834.0"/>
+      <point x="619.0" y="819.0" type="curve" smooth="yes"/>
+      <point x="605.0" y="804.0"/>
+      <point x="590.0" y="789.0"/>
+      <point x="576.0" y="774.0" type="curve"/>
+      <point x="119.0" y="-34.0" type="line" smooth="yes"/>
+      <point x="114.0" y="-54.0"/>
+      <point x="109.0" y="-73.0"/>
+      <point x="104.0" y="-92.0" type="curve" smooth="yes"/>
+      <point x="105.0" y="-117.0"/>
+      <point x="118.0" y="-153.0"/>
+      <point x="154.0" y="-142.0" type="curve"/>
+      <point x="162.0" y="-171.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>900</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.dnom" format="2">
+  <advance width="423"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+</note>
+  <anchor x="318.57642136760944" y="456.534759563266" name="top"/>
+  <anchor x="170.3957084660384" y="-49.83982353340505" name="bottom"/>
+  <anchor x="465.748046472871" y="355.97711714144214" name="horn"/>
+  <anchor x="213.81862799763434" y="196.4237905608575" name="overlay"/>
+  <outline>
+    <component base="four" xScale="0.54" yScale="0.54" xOffset="15"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>four</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

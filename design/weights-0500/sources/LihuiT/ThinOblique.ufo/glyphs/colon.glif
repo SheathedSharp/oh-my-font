@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon" format="2">
+  <advance width="331"/>
+  <unicode hex="003A"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 正文细体：竖茎压到约 34，横画仍留 26，接合故意重于茎（48）以免尖脚断开。B 的上碗仍小于下碗，腰部反而松开；M 的谷抬高，避免细线收成针尖。e 的横画上移、开口加大。字距明显放松。
+</note>
+  <anchor x="214.2001441384666" y="464.86803451283004" name="top"/>
+  <anchor x="131.45075907854024" y="-4.427048562075626" name="bottom"/>
+  <anchor x="221.61121903924993" y="377.7640228815029" name="horn"/>
+  <anchor x="168.28050432301504" y="204.44481606406612" name="overlay"/>
+  <anchor x="139.60031972838146" y="41.79140658924085" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="160.0" y="38.0" type="line" smooth="yes"/>
+      <point x="163.0" y="41.0"/>
+      <point x="166.0" y="46.0"/>
+      <point x="164.0" y="51.0" type="curve" smooth="yes"/>
+      <point x="161.0" y="75.0"/>
+      <point x="116.0" y="53.0"/>
+      <point x="134.0" y="35.0" type="curve"/>
+      <point x="140.0" y="31.0" type="line"/>
+      <point x="149.0" y="31.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="221.0" y="382.0" type="line" smooth="yes"/>
+      <point x="224.0" y="385.0"/>
+      <point x="227.0" y="390.0"/>
+      <point x="225.0" y="395.0" type="curve" smooth="yes"/>
+      <point x="221.0" y="419.0"/>
+      <point x="177.0" y="397.0"/>
+      <point x="194.0" y="379.0" type="curve"/>
+      <point x="201.0" y="375.0" type="line"/>
+      <point x="209.0" y="375.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

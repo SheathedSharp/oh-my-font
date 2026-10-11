@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25CF" format="2">
+  <advance width="863"/>
+  <unicode hex="25CF"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: 展示中粗：茎跳到 126，比 LihuiT 的 108 暗一截，横画仍明显更细（100）。B 的腰开始液体式内收，M 的谷挖深。这是两款在中段分叉最大的地方之一。
+</note>
+  <anchor x="494.737246921425" y="712.6822363921832" name="top"/>
+  <anchor x="371.3697012221308" y="13.030117336919027" name="bottom"/>
+  <anchor x="776.6865553676366" y="610.9524030577384" name="horn"/>
+  <anchor x="402.8522203026629" y="191.57635543410814" name="overlay"/>
+  <anchor x="380.88767210694283" y="67.00921257560411" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="735.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="749.0" y="438.0"/>
+      <point x="729.0" y="516.0"/>
+      <point x="682.0" y="571.0" type="curve" smooth="yes"/>
+      <point x="636.0" y="627.0"/>
+      <point x="564.0" y="659.0"/>
+      <point x="485.0" y="657.0" type="curve" smooth="yes"/>
+      <point x="432.0" y="644.0"/>
+      <point x="379.0" y="631.0"/>
+      <point x="327.0" y="618.0" type="curve" smooth="yes"/>
+      <point x="284.0" y="582.0"/>
+      <point x="242.0" y="547.0"/>
+      <point x="199.0" y="511.0" type="curve" smooth="yes"/>
+      <point x="176.0" y="460.0"/>
+      <point x="153.0" y="410.0"/>
+      <point x="129.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="99.0" y="199.0"/>
+      <point x="218.0" y="55.0"/>
+      <point x="380.0" y="61.0" type="curve" smooth="yes"/>
+      <point x="540.0" y="55.0"/>
+      <point x="709.0" y="199.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>500</integer>
+    </dict>
+  </lib>
+</glyph>

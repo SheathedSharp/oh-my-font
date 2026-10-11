@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscore" format="2">
+  <advance width="539"/>
+  <unicode hex="005F"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示轻体：66/46，对比仍是展示体而不是 LihuiT 轻体的 58/48。R 的腿继续外甩。流动的腰刚刚开始出现。
+</note>
+  <anchor x="271.74786729896005" y="-34.81621023112727" name="top"/>
+  <anchor x="271.74786729896005" y="-154.12254886032616" name="bottom"/>
+  <anchor x="519.7269069130341" y="-108.81634431759241" name="horn"/>
+  <anchor x="271.74786729896005" y="126.77591930462312" name="overlay"/>
+  <anchor x="271.74786729896005" y="-114.8571715899569" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="19.0" y="-118.0" type="line"/>
+      <point x="25.0" y="-118.0" type="line"/>
+      <point x="25.0" y="-124.0" type="line" smooth="yes"/>
+      <point x="105.0" y="-108.0"/>
+      <point x="190.0" y="-124.0"/>
+      <point x="272.0" y="-118.0" type="curve" smooth="yes"/>
+      <point x="353.0" y="-124.0"/>
+      <point x="439.0" y="-108.0"/>
+      <point x="519.0" y="-124.0" type="curve"/>
+      <point x="519.0" y="-118.0" type="line"/>
+      <point x="524.0" y="-118.0" type="line"/>
+      <point x="519.0" y="-116.0" type="line"/>
+      <point x="519.0" y="-82.0" type="line"/>
+      <point x="524.0" y="-80.0" type="line"/>
+      <point x="519.0" y="-80.0" type="line"/>
+      <point x="519.0" y="-74.0" type="line" smooth="yes"/>
+      <point x="439.0" y="-90.0"/>
+      <point x="353.0" y="-74.0"/>
+      <point x="272.0" y="-80.0" type="curve" smooth="yes"/>
+      <point x="190.0" y="-74.0"/>
+      <point x="105.0" y="-90.0"/>
+      <point x="25.0" y="-74.0" type="curve"/>
+      <point x="25.0" y="-80.0" type="line"/>
+      <point x="19.0" y="-80.0" type="line"/>
+      <point x="25.0" y="-82.0" type="line"/>
+      <point x="25.0" y="-116.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>300</integer>
+    </dict>
+  </lib>
+</glyph>

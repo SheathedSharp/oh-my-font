@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron.right" format="2">
+  <advance width="52"/>
+  <note>
+Narrow side caron for d/t/l/L; contextual substitution and matching component placement.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="14.413057173623816" y="0" name="_caron"/>
+  <anchor x="49.678453315316816" y="200" name="top"/>
+  <outline>
+    <contour>
+      <point x="42.0" y="158.0" type="line"/>
+      <point x="40.0" y="91.0"/>
+      <point x="25.0" y="48.0"/>
+      <point x="-11.0" y="9.0" type="curve"/>
+      <point x="19.0" y="-10.0" type="line"/>
+      <point x="66.0" y="35.0"/>
+      <point x="98.0" y="94.0"/>
+      <point x="100.0" y="158.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="c_t" format="2">
+  <advance width="1018"/>
+  <note>
+Purpose-spaced letter ligature with live new-letter components; no legacy glyph source.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="620" y="0" name="caret_1"/>
+  <anchor x="570.189714975054" y="727" name="top"/>
+  <anchor x="432.4783430417429" y="-54" name="bottom"/>
+  <anchor x="968.9096708656244" y="629" name="horn"/>
+  <anchor x="476.38376123815067" y="195" name="overlay"/>
+  <outline>
+    <component base="c"/>
+    <component base="t" xOffset="610"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>c</string>
+        <string>t</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

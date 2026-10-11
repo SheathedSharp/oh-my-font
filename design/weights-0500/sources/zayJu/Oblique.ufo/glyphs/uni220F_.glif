@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni220F" format="2">
+  <advance width="872"/>
+  <unicode hex="220F"/>
+  <note>
+Explicit meaningful glyph variant from the new source; geometry stays editable through its component.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="502.4349129929661" y="810" name="top"/>
+  <anchor x="360.3153665419433" y="-82" name="bottom"/>
+  <anchor x="753.1548688835364" y="712" name="horn"/>
+  <anchor x="402.6338419119749" y="200" name="overlay"/>
+  <outline>
+    <component base="uni03A0" yScale="1.12" yOffset="-42"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

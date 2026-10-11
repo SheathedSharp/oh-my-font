@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0332" format="2">
+  <unicode hex="0332"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: 展示粗体：184/160，接合只到 156。B 上眼缩到 0.74、下眼留 0.94，腰收 20。比 LihuiT 粗体更重、更收腰，也更需要斜体时的内白回正。
+</note>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="81.6621512873719" y="-184.54202287745142" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="-163.0" y="-33.0" type="line" smooth="yes"/>
+      <point x="-157.0" y="-39.0"/>
+      <point x="-151.0" y="-45.0"/>
+      <point x="-145.0" y="-50.0" type="curve" smooth="yes"/>
+      <point x="-103.0" y="-64.0"/>
+      <point x="-56.0" y="-49.0"/>
+      <point x="-13.0" y="-55.0" type="curve"/>
+      <point x="215.0" y="-54.0" type="line" smooth="yes"/>
+      <point x="227.0" y="-52.0"/>
+      <point x="239.0" y="-45.0"/>
+      <point x="244.0" y="-33.0" type="curve"/>
+      <point x="240.0" y="-19.0" type="line"/>
+      <point x="252.0" y="-11.0" type="line"/>
+      <point x="252.0" y="26.0" type="line"/>
+      <point x="240.0" y="35.0" type="line"/>
+      <point x="244.0" y="49.0" type="line" smooth="yes"/>
+      <point x="238.0" y="54.0"/>
+      <point x="232.0" y="60.0"/>
+      <point x="227.0" y="66.0" type="curve" smooth="yes"/>
+      <point x="185.0" y="80.0"/>
+      <point x="138.0" y="64.0"/>
+      <point x="95.0" y="70.0" type="curve"/>
+      <point x="-133.0" y="69.0" type="line" smooth="yes"/>
+      <point x="-145.0" y="67.0"/>
+      <point x="-157.0" y="60.0"/>
+      <point x="-163.0" y="49.0" type="curve"/>
+      <point x="-158.0" y="35.0" type="line"/>
+      <point x="-170.0" y="26.0" type="line"/>
+      <point x="-170.0" y="-11.0" type="line"/>
+      <point x="-158.0" y="-19.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>bottom</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

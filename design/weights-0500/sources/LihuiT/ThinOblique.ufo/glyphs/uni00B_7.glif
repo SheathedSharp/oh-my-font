@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni00B7" format="2">
+  <advance width="282"/>
+  <unicode hex="00B7"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 正文细体：竖茎压到约 34，横画仍留 26，接合故意重于茎（48）以免尖脚断开。B 的上碗仍小于下碗，腰部反而松开；M 的谷抬高，避免细线收成针尖。e 的横画上移、开口加大。字距明显放松。
+</note>
+  <anchor x="153.29840461759343" y="346.62005548128394" name="top"/>
+  <anchor x="139.17620204835106" y="266.5290647973811" name="bottom"/>
+  <anchor x="161.17091178608837" y="298.16995000583654" name="horn"/>
+  <anchor x="136.64815344027681" y="252.19178868729978" name="overlay"/>
+  <anchor x="143.709254724898" y="292.23728402925116" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="164.0" y="299.0" type="line" smooth="yes"/>
+      <point x="167.0" y="321.0"/>
+      <point x="128.0" y="311.0"/>
+      <point x="137.0" y="292.0" type="curve"/>
+      <point x="141.0" y="288.0" type="line"/>
+      <point x="148.0" y="287.0" type="line"/>
+      <point x="158.0" y="289.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

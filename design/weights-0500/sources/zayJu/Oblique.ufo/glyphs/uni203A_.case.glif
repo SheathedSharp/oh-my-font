@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni203A.case" format="2">
+  <advance width="385"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="243.51643488492945" y="591" name="top"/>
+  <anchor x="161.34806187478478" y="125" name="bottom"/>
+  <anchor x="304.2363907754999" y="493" name="horn"/>
+  <anchor x="188.32608992317992" y="200" name="overlay"/>
+  <outline>
+    <component base="uni203A" yOffset="78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>uni203A</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

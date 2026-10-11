@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2013" format="2">
+  <advance width="683"/>
+  <unicode hex="2013"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 正文中粗：竖茎 108、横画 94，比 Regular 暗一档，但横画追得更快，对比下降。B 上碗开始收、下碗保持，腰轻收。M 谷加深而不是简单加粗。字距略紧。
+</note>
+  <anchor x="364.32490716862134" y="431.58829877578034" name="top"/>
+  <anchor x="312.89694989288085" y="139.92585965779716" name="bottom"/>
+  <anchor x="609.9055042850293" y="235.81488073768205" name="horn"/>
+  <anchor x="309.3744870657754" y="119.94898026615449" name="overlay"/>
+  <anchor x="331.21375659382954" y="243.8056324943391" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="68.0" y="236.0" type="curve"/>
+      <point x="330.0" y="236.0" type="line"/>
+      <point x="504.0" y="236.0" type="line" smooth="yes"/>
+      <point x="527.0" y="276.0"/>
+      <point x="575.0" y="220.0"/>
+      <point x="606.0" y="241.0" type="curve" smooth="yes"/>
+      <point x="617.0" y="247.0"/>
+      <point x="614.0" y="258.0"/>
+      <point x="617.0" y="266.0" type="curve"/>
+      <point x="619.0" y="278.0" type="line" smooth="yes"/>
+      <point x="618.0" y="285.0"/>
+      <point x="625.0" y="293.0"/>
+      <point x="620.0" y="299.0" type="curve" smooth="yes"/>
+      <point x="601.0" y="328.0"/>
+      <point x="524.0" y="274.0"/>
+      <point x="517.0" y="308.0" type="curve"/>
+      <point x="255.0" y="308.0" type="line"/>
+      <point x="80.0" y="308.0" type="line" smooth="yes"/>
+      <point x="64.0" y="308.0"/>
+      <point x="54.0" y="292.0"/>
+      <point x="56.0" y="278.0" type="curve"/>
+      <point x="50.0" y="250.0" type="line" smooth="yes"/>
+      <point x="52.0" y="241.0"/>
+      <point x="60.0" y="237.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>500</integer>
+    </dict>
+  </lib>
+</glyph>

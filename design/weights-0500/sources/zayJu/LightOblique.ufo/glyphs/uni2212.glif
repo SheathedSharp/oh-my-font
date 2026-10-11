@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2212" format="2">
+  <advance width="637"/>
+  <unicode hex="2212"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示轻体：66/46，对比仍是展示体而不是 LihuiT 轻体的 58/48。R 的腿继续外甩。流动的腰刚刚开始出现。
+</note>
+  <anchor x="326.68767655101635" y="389.3257424063137" name="top"/>
+  <anchor x="310.52063468873416" y="297.63789181575424" name="bottom"/>
+  <anchor x="531.8252737471939" y="332.4560629260933" name="horn"/>
+  <anchor x="303.6649903547284" y="258.7576007425423" name="overlay"/>
+  <anchor x="315.8414332763207" y="327.8136401113814" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="96.0" y="327.0" type="line" smooth="yes"/>
+      <point x="98.0" y="325.0"/>
+      <point x="100.0" y="323.0"/>
+      <point x="102.0" y="321.0" type="curve"/>
+      <point x="527.0" y="321.0" type="line" smooth="yes"/>
+      <point x="530.0" y="323.0"/>
+      <point x="533.0" y="325.0"/>
+      <point x="535.0" y="327.0" type="curve"/>
+      <point x="535.0" y="333.0" type="line"/>
+      <point x="522.0" y="339.0" type="line"/>
+      <point x="523.0" y="340.0" type="line"/>
+      <point x="522.0" y="341.0" type="line"/>
+      <point x="538.0" y="347.0" type="line"/>
+      <point x="540.0" y="353.0" type="line" smooth="yes"/>
+      <point x="538.0" y="355.0"/>
+      <point x="536.0" y="357.0"/>
+      <point x="534.0" y="359.0" type="curve"/>
+      <point x="109.0" y="359.0" type="line" smooth="yes"/>
+      <point x="106.0" y="357.0"/>
+      <point x="103.0" y="355.0"/>
+      <point x="100.0" y="353.0" type="curve"/>
+      <point x="101.0" y="347.0" type="line"/>
+      <point x="114.0" y="341.0" type="line"/>
+      <point x="113.0" y="340.0" type="line"/>
+      <point x="114.0" y="339.0" type="line"/>
+      <point x="98.0" y="333.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>300</integer>
+    </dict>
+  </lib>
+</glyph>

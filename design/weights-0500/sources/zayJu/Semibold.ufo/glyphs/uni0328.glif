@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0328" format="2">
+  <unicode hex="0328"/>
+  <note>
+Joining ogonek tail. Uses a dedicated _ogonek anchor; selected base join positions are optically placed, never the detached bottom-dot anchor.
+Weight master: 展示半粗：腰收 14、M 谷再深，调制降到 0.66。字距是全家族最紧的一档（-18），因为这个重量的白还撑得住，再往上就要回松。
+</note>
+  <anchor x="40.77876196701557" y="-228.25456327523221" name="bottom"/>
+  <anchor x="45" y="0" name="_ogonek"/>
+  <outline>
+    <contour>
+      <point x="31.0" y="54.0" type="line" smooth="yes"/>
+      <point x="8.0" y="11.0"/>
+      <point x="-40.0" y="-5.0"/>
+      <point x="-67.0" y="-44.0" type="curve" smooth="yes"/>
+      <point x="-88.0" y="-69.0"/>
+      <point x="-100.0" y="-108.0"/>
+      <point x="-81.0" y="-138.0" type="curve" smooth="yes"/>
+      <point x="-65.0" y="-168.0"/>
+      <point x="-31.0" y="-183.0"/>
+      <point x="2.0" y="-184.0" type="curve" smooth="yes"/>
+      <point x="43.0" y="-190.0"/>
+      <point x="80.0" y="-160.0"/>
+      <point x="121.0" y="-175.0" type="curve" smooth="yes"/>
+      <point x="121.0" y="-131.0"/>
+      <point x="99.0" y="-92.0"/>
+      <point x="70.0" y="-62.0" type="curve" smooth="yes"/>
+      <point x="68.0" y="-86.0"/>
+      <point x="34.0" y="-109.0"/>
+      <point x="12.0" y="-96.0" type="curve"/>
+      <point x="12.0" y="-86.0" type="line" smooth="yes"/>
+      <point x="27.0" y="-52.0"/>
+      <point x="64.0" y="-34.0"/>
+      <point x="94.0" y="-16.0" type="curve"/>
+      <point x="90.0" y="25.0" type="line"/>
+      <point x="80.0" y="23.0" type="line"/>
+      <point x="70.0" y="32.0" type="line"/>
+      <point x="60.0" y="30.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>ogonek</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>600</integer>
+    </dict>
+  </lib>
+</glyph>

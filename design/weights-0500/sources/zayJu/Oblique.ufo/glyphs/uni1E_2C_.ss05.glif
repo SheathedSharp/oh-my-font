@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1E2C.ss05" format="2">
+  <advance width="507"/>
+  <note>
+Accent-aware clarity form: same base, advance and mark placement for precomposed and decomposed text when ss05 is enabled.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="320" y="766" name="top"/>
+  <anchor x="137" y="-275" name="bottom"/>
+  <anchor x="431" y="668" name="horn"/>
+  <anchor x="221" y="200" name="overlay"/>
+  <anchor x="186" y="12" name="ogonek"/>
+  <outline>
+    <component base="I.clarity"/>
+    <component base="uni0330" xOffset="178.0" yOffset="-40.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.baseCharacter</key>
+      <string>I</string>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

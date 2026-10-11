@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a.text" format="2">
+  <advance width="650"/>
+  <note>
+Separately drawn alternative a; default approved a stays unchanged.
+Weight master: 特粗仍要能读：调制降到 0.40，内白下限是 Regular 的 0.42。M 的谷重新抬起，免得黑三角封死。字距转为正值。B 上眼明显小于下眼，这是比例决定，不是均匀内缩。
+</note>
+  <anchor x="325.6553891941402" y="641.0273330217749" name="top"/>
+  <anchor x="325.6553891941402" y="-103.0306358956817" name="bottom"/>
+  <anchor x="593.9361946786111" y="527.8011203604228" name="horn"/>
+  <anchor x="325.6553891941402" y="184.65637382550887" name="overlay"/>
+  <anchor x="330.4892775812478" y="-42.95142101414793" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="552.0" y="565.0" type="line" smooth="yes"/>
+      <point x="539.0" y="572.0"/>
+      <point x="523.0" y="573.0"/>
+      <point x="508.0" y="573.0" type="curve" smooth="yes"/>
+      <point x="494.0" y="572.0"/>
+      <point x="476.0" y="578.0"/>
+      <point x="467.0" y="561.0" type="curve"/>
+      <point x="447.0" y="551.0" type="line" smooth="yes"/>
+      <point x="422.0" y="567.0"/>
+      <point x="394.0" y="576.0"/>
+      <point x="365.0" y="581.0" type="curve" smooth="yes"/>
+      <point x="328.0" y="578.0"/>
+      <point x="290.0" y="575.0"/>
+      <point x="253.0" y="572.0" type="curve" smooth="yes"/>
+      <point x="121.0" y="532.0"/>
+      <point x="61.0" y="385.0"/>
+      <point x="65.0" y="257.0" type="curve" smooth="yes"/>
+      <point x="61.0" y="135.0"/>
+      <point x="115.0" y="-10.0"/>
+      <point x="243.0" y="-49.0" type="curve" smooth="yes"/>
+      <point x="280.0" y="-51.0"/>
+      <point x="316.0" y="-54.0"/>
+      <point x="353.0" y="-57.0" type="curve" smooth="yes"/>
+      <point x="392.0" y="-50.0"/>
+      <point x="430.0" y="-35.0"/>
+      <point x="460.0" y="-9.0" type="curve"/>
+      <point x="484.0" y="-11.0" type="line"/>
+      <point x="510.0" y="-42.0" type="line"/>
+      <point x="558.0" y="-32.0" type="line" smooth="yes"/>
+      <point x="572.0" y="-8.0"/>
+      <point x="586.0" y="16.0"/>
+      <point x="600.0" y="40.0" type="curve" smooth="yes"/>
+      <point x="593.0" y="58.0"/>
+      <point x="600.0" y="82.0"/>
+      <point x="581.0" y="96.0" type="curve" smooth="yes"/>
+      <point x="594.0" y="144.0"/>
+      <point x="588.0" y="195.0"/>
+      <point x="590.0" y="244.0" type="curve" smooth="yes"/>
+      <point x="600.0" y="331.0"/>
+      <point x="565.0" y="418.0"/>
+      <point x="588.0" y="504.0" type="curve" smooth="yes"/>
+      <point x="585.0" y="515.0"/>
+      <point x="583.0" y="526.0"/>
+      <point x="580.0" y="537.0" type="curve"/>
+      <point x="559.0" y="544.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="414.0" y="348.0" type="curve" smooth="yes"/>
+      <point x="428.0" y="306.0"/>
+      <point x="431.0" y="262.0"/>
+      <point x="425.0" y="219.0" type="curve" smooth="yes"/>
+      <point x="417.0" y="194.0"/>
+      <point x="410.0" y="170.0"/>
+      <point x="403.0" y="145.0" type="curve" smooth="yes"/>
+      <point x="387.0" y="135.0"/>
+      <point x="371.0" y="124.0"/>
+      <point x="355.0" y="113.0" type="curve" smooth="yes"/>
+      <point x="330.0" y="104.0"/>
+      <point x="300.0" y="107.0"/>
+      <point x="280.0" y="124.0" type="curve" smooth="yes"/>
+      <point x="242.0" y="157.0"/>
+      <point x="236.0" y="211.0"/>
+      <point x="235.0" y="258.0" type="curve" smooth="yes"/>
+      <point x="236.0" y="306.0"/>
+      <point x="241.0" y="362.0"/>
+      <point x="280.0" y="397.0" type="curve" smooth="yes"/>
+      <point x="307.0" y="419.0"/>
+      <point x="351.0" y="419.0"/>
+      <point x="379.0" y="397.0" type="curve" smooth="yes"/>
+      <point x="391.0" y="381.0"/>
+      <point x="403.0" y="364.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>800</integer>
+    </dict>
+  </lib>
+</glyph>

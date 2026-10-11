@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="comma" format="2">
+  <advance width="388"/>
+  <unicode hex="002C"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 正文粗体：竖茎 150、接合只到 132，锐角内收形成轻微墨阱，而不是把 Regular 撑圆。字距比半粗回松，避免字字粘连。R 的腿缩短、裆部打开。与 zayJu 粗体相比仍更克制、更宽。
+</note>
+  <anchor x="229.9217237931873" y="194.45966563392818" name="top"/>
+  <anchor x="160.4091730311304" y="-199.76559973817828" name="bottom"/>
+  <anchor x="277.41033072674486" y="71.02811289761368" name="horn"/>
+  <anchor x="237.02843824809406" y="234.76384611925533" name="overlay"/>
+  <anchor x="163.30096902639025" y="-134.27130644952163" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="136.0" y="-149.0" type="curve" smooth="yes"/>
+      <point x="169.0" y="-104.0"/>
+      <point x="225.0" y="-68.0"/>
+      <point x="233.0" y="-11.0" type="curve" smooth="yes"/>
+      <point x="255.0" y="0.0"/>
+      <point x="274.0" y="20.0"/>
+      <point x="282.0" y="43.0" type="curve" smooth="yes"/>
+      <point x="297.0" y="86.0"/>
+      <point x="276.0" y="131.0"/>
+      <point x="235.0" y="142.0" type="curve" smooth="yes"/>
+      <point x="199.0" y="141.0"/>
+      <point x="158.0" y="134.0"/>
+      <point x="135.0" y="98.0" type="curve" smooth="yes"/>
+      <point x="128.0" y="81.0"/>
+      <point x="122.0" y="65.0"/>
+      <point x="116.0" y="48.0" type="curve" smooth="yes"/>
+      <point x="106.0" y="16.0"/>
+      <point x="146.0" y="-6.0"/>
+      <point x="123.0" y="-38.0" type="curve" smooth="yes"/>
+      <point x="110.0" y="-55.0"/>
+      <point x="84.0" y="-66.0"/>
+      <point x="83.0" y="-90.0" type="curve" smooth="yes"/>
+      <point x="77.0" y="-123.0"/>
+      <point x="109.0" y="-144.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

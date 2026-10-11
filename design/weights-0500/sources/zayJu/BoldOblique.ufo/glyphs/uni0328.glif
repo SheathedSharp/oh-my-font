@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0328" format="2">
+  <unicode hex="0328"/>
+  <note>
+Joining ogonek tail. Uses a dedicated _ogonek anchor; selected base join positions are optically placed, never the detached bottom-dot anchor.
+Weight master: 展示粗体：184/160，接合只到 156。B 上眼缩到 0.74、下眼留 0.94，腰收 20。比 LihuiT 粗体更重、更收腰，也更需要斜体时的内白回正。
+</note>
+  <anchor x="48.28981267076858" y="-233.1545831170692" name="bottom"/>
+  <anchor x="45" y="0" name="_ogonek"/>
+  <outline>
+    <contour>
+      <point x="85.0" y="-33.0" type="curve"/>
+      <point x="122.0" y="-9.0" type="line"/>
+      <point x="130.0" y="58.0" type="line"/>
+      <point x="120.0" y="56.0" type="line"/>
+      <point x="111.0" y="65.0" type="line"/>
+      <point x="94.0" y="55.0" type="line"/>
+      <point x="59.0" y="86.0" type="line" smooth="yes"/>
+      <point x="23.0" y="45.0"/>
+      <point x="-29.0" y="26.0"/>
+      <point x="-65.0" y="-16.0" type="curve" smooth="yes"/>
+      <point x="-95.0" y="-46.0"/>
+      <point x="-116.0" y="-93.0"/>
+      <point x="-100.0" y="-129.0" type="curve" smooth="yes"/>
+      <point x="-88.0" y="-165.0"/>
+      <point x="-51.0" y="-184.0"/>
+      <point x="-12.0" y="-184.0" type="curve" smooth="yes"/>
+      <point x="31.0" y="-190.0"/>
+      <point x="76.0" y="-164.0"/>
+      <point x="120.0" y="-167.0" type="curve" smooth="yes"/>
+      <point x="154.0" y="-110.0"/>
+      <point x="119.0" y="-64.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>ogonek</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

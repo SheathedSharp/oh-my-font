@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash" format="2">
+  <advance width="663"/>
+  <unicode hex="002F"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="412.21701385633224" y="818" name="top"/>
+  <anchor x="242.06147747266354" y="-147" name="bottom"/>
+  <anchor x="579.9369697469026" y="720" name="horn"/>
+  <anchor x="303.2469397785009" y="200" name="overlay"/>
+  <anchor x="251.23048046950373" y="-95" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="127.0" y="-86.0" type="curve" smooth="yes"/>
+      <point x="583.0" y="721.0" type="line" smooth="yes"/>
+      <point x="593.0" y="738.0"/>
+      <point x="588.0" y="757.0"/>
+      <point x="572.0" y="764.0" type="curve" smooth="yes"/>
+      <point x="556.0" y="771.0"/>
+      <point x="535.0" y="762.0"/>
+      <point x="526.0" y="745.0" type="curve" smooth="yes"/>
+      <point x="70.0" y="-62.0" type="line" smooth="yes"/>
+      <point x="61.0" y="-79.0"/>
+      <point x="66.0" y="-98.0"/>
+      <point x="81.0" y="-105.0" type="curve" smooth="yes"/>
+      <point x="97.0" y="-112.0"/>
+      <point x="118.0" y="-103.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="D" format="2">
+  <advance width="851"/>
+  <unicode hex="0044"/>
+  <note>
+Individually drawn for the approved warm humanist reference cut; no legacy outline input.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="503.65585137701646" y="766" name="top"/>
+  <anchor x="360.12568908032597" y="-48" name="bottom"/>
+  <anchor x="768.3758072675869" y="668" name="horn"/>
+  <anchor x="402.97314539248293" y="195" name="overlay"/>
+  <anchor x="371.29469207716613" y="4" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="111.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="175.0" y="0.0"/>
+      <point x="236.0" y="-8.0"/>
+      <point x="307.0" y="-8.0" type="curve" smooth="yes"/>
+      <point x="523.0" y="-8.0"/>
+      <point x="679.0" y="133.0"/>
+      <point x="719.0" y="358.0" type="curve" smooth="yes"/>
+      <point x="758.0" y="578.0"/>
+      <point x="651.0" y="714.0"/>
+      <point x="429.0" y="714.0" type="curve" smooth="yes"/>
+      <point x="239.0" y="714.0" type="line" smooth="yes"/>
+      <point x="222.0" y="714.0"/>
+      <point x="211.0" y="705.0"/>
+      <point x="208.0" y="688.0" type="curve" smooth="yes"/>
+      <point x="91.0" y="25.0" type="line" smooth="yes"/>
+      <point x="88.0" y="8.0"/>
+      <point x="95.0" y="0.0"/>
+    </contour>
+    <contour>
+      <point x="280.0" y="635.0" type="line"/>
+      <point x="412.0" y="639.0" type="line" smooth="yes"/>
+      <point x="580.0" y="639.0"/>
+      <point x="656.0" y="546.0"/>
+      <point x="625.0" y="358.0" type="curve" smooth="yes"/>
+      <point x="593.0" y="165.0"/>
+      <point x="482.0" y="63.0"/>
+      <point x="316.0" y="71.0" type="curve" smooth="yes"/>
+      <point x="188.0" y="80.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

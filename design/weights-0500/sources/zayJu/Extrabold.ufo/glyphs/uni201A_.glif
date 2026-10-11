@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni201A" format="2">
+  <advance width="401"/>
+  <unicode hex="201A"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示特粗：茎 214，但内白下限降到 0.34，上眼继续让位给下眼。M 的谷从最深点往回抬，避免封口。字距重新打开。
+</note>
+  <anchor x="207.09772120668427" y="313.54957120087414" name="top"/>
+  <anchor x="207.09772120668427" y="-127.45060704593718" name="bottom"/>
+  <anchor x="313.2749894642411" y="172.31421999764697" name="horn"/>
+  <anchor x="207.09772120668427" y="229.96130212141315" name="overlay"/>
+  <anchor x="193.8255626744897" y="-52.50940028504114" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="175.0" y="-70.0" type="line" smooth="yes"/>
+      <point x="215.0" y="-26.0"/>
+      <point x="264.0" y="14.0"/>
+      <point x="275.0" y="75.0" type="curve"/>
+      <point x="273.0" y="79.0" type="line" smooth="yes"/>
+      <point x="329.0" y="112.0"/>
+      <point x="332.0" y="205.0"/>
+      <point x="274.0" y="236.0" type="curve" smooth="yes"/>
+      <point x="255.0" y="242.0"/>
+      <point x="236.0" y="247.0"/>
+      <point x="217.0" y="253.0" type="curve" smooth="yes"/>
+      <point x="197.0" y="249.0"/>
+      <point x="176.0" y="246.0"/>
+      <point x="156.0" y="242.0" type="curve" smooth="yes"/>
+      <point x="125.0" y="220.0"/>
+      <point x="108.0" y="182.0"/>
+      <point x="107.0" y="145.0" type="curve" smooth="yes"/>
+      <point x="117.0" y="110.0"/>
+      <point x="106.0" y="61.0"/>
+      <point x="63.0" y="53.0" type="curve" smooth="yes"/>
+      <point x="67.0" y="17.0"/>
+      <point x="88.0" y="-11.0"/>
+      <point x="101.0" y="-42.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>800</integer>
+    </dict>
+  </lib>
+</glyph>

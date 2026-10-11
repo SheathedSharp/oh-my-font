@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five.dnom" format="2">
+  <advance width="391"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+</note>
+  <anchor x="210.07378350912836" y="504.12655733382496" name="top"/>
+  <anchor x="210.07378350912836" y="-92.74493120727769" name="bottom"/>
+  <anchor x="372.1210772436067" y="392.87606236183956" name="horn"/>
+  <anchor x="210.07378350912836" y="183.9221427521547" name="overlay"/>
+  <outline>
+    <component base="five" xScale="0.54" yScale="0.54" xOffset="15"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>five</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

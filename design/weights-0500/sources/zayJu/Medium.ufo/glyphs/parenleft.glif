@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenleft" format="2">
+  <advance width="395"/>
+  <unicode hex="0028"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示中粗：茎跳到 126，比 LihuiT 的 108 暗一截，横画仍明显更细（100）。B 的腰开始液体式内收，M 的谷挖深。这是两款在中段分叉最大的地方之一。
+</note>
+  <anchor x="194.43557752434262" y="925.2994119377439" name="top"/>
+  <anchor x="194.43557752434262" y="-210.59693178588975" name="bottom"/>
+  <anchor x="330.87115504868524" y="823.5463573811479" name="horn"/>
+  <anchor x="194.43557752434262" y="194.33869349035996" name="overlay"/>
+  <anchor x="196.709503816415" y="-156.6055150823898" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="336.0" y="802.0" type="curve" smooth="yes"/>
+      <point x="314.0" y="832.0"/>
+      <point x="282.0" y="852.0"/>
+      <point x="252.0" y="871.0" type="curve" smooth="yes"/>
+      <point x="208.0" y="790.0"/>
+      <point x="140.0" y="724.0"/>
+      <point x="110.0" y="635.0" type="curve" smooth="yes"/>
+      <point x="74.0" y="548.0"/>
+      <point x="58.0" y="453.0"/>
+      <point x="58.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="58.0" y="264.0"/>
+      <point x="76.0" y="169.0"/>
+      <point x="111.0" y="81.0" type="curve" smooth="yes"/>
+      <point x="142.0" y="-12.0"/>
+      <point x="212.0" y="-82.0"/>
+      <point x="252.0" y="-169.0" type="curve" smooth="yes"/>
+      <point x="285.0" y="-152.0"/>
+      <point x="313.0" y="-128.0"/>
+      <point x="337.0" y="-100.0" type="curve" smooth="yes"/>
+      <point x="263.0" y="-54.0"/>
+      <point x="237.0" y="32.0"/>
+      <point x="208.0" y="107.0" type="curve" smooth="yes"/>
+      <point x="181.0" y="188.0"/>
+      <point x="170.0" y="274.0"/>
+      <point x="170.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="170.0" y="443.0"/>
+      <point x="181.0" y="527.0"/>
+      <point x="208.0" y="607.0" type="curve" smooth="yes"/>
+      <point x="237.0" y="679.0"/>
+      <point x="262.0" y="762.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>500</integer>
+    </dict>
+  </lib>
+</glyph>

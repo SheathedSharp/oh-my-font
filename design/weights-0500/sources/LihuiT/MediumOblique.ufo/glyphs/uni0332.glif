@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0332" format="2">
+  <unicode hex="0332"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: 正文中粗：竖茎 108、横画 94，比 Regular 暗一档，但横画追得更快，对比下降。B 上碗开始收、下碗保持，腰轻收。M 谷加深而不是简单加粗。字距略紧。
+</note>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="0.4004678769409722" y="-112.75572930147368" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="-178.0" y="-47.0" type="line" smooth="yes"/>
+      <point x="-176.0" y="-52.0"/>
+      <point x="-171.0" y="-56.0"/>
+      <point x="-166.0" y="-57.0" type="curve"/>
+      <point x="166.0" y="-57.0" type="line" smooth="yes"/>
+      <point x="172.0" y="-56.0"/>
+      <point x="178.0" y="-52.0"/>
+      <point x="182.0" y="-47.0" type="curve"/>
+      <point x="189.0" y="-10.0" type="line" smooth="yes"/>
+      <point x="186.0" y="-5.0"/>
+      <point x="182.0" y="-1.0"/>
+      <point x="176.0" y="0.0" type="curve"/>
+      <point x="-156.0" y="0.0" type="line" smooth="yes"/>
+      <point x="-162.0" y="-1.0"/>
+      <point x="-168.0" y="-5.0"/>
+      <point x="-172.0" y="-10.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>bottom</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>500</integer>
+    </dict>
+  </lib>
+</glyph>

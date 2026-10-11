@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni031B" format="2">
+  <unicode hex="031B"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="0" y="0" name="_horn"/>
+  <outline>
+    <contour>
+      <point x="-28.0" y="-18.0" type="line"/>
+      <point x="87.0" y="-26.0"/>
+      <point x="158.0" y="40.0"/>
+      <point x="143.0" y="139.0" type="curve"/>
+      <point x="96.0" y="122.0" type="line"/>
+      <point x="101.0" y="55.0"/>
+      <point x="54.0" y="15.0"/>
+      <point x="-17.0" y="23.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>horn</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

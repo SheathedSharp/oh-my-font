@@ -20,7 +20,7 @@ def main() -> None:
     out = ROOT / '.release-work'
     out.mkdir(exist_ok=True)
     build=read_build();expected={Path(r['file']).name:r['sha256'] for r in build['records'] if r['format']=='woff2'}
-    errors, responses, failed, hashes = [], {}, [], {}
+    errors, responses, failed, hashes, captured = [], {}, [], {}, []
     report = {'url_scope': ('local HTTP' if args.url.startswith('http://127.0.0.1:') else 'published HTTP(S)') + ', fresh profile', 'viewports': [], 'checks': []}
     with sync_playwright() as p:
         browser = p.chromium.launch(channel='chrome' if args.browser=='chrome' else None, headless=True)
@@ -30,7 +30,8 @@ def main() -> None:
         def record_response(response):
             if '.woff2' in response.url:
                 name=response.url.split('/')[-1].split('?')[0];responses[name]=response.status
-                if response.ok:hashes[name]=hashlib.sha256(response.body()).hexdigest()
+                # Read the body after load. body() inside this handler can miss the last file.
+                if response.ok:captured.append((name,response))
         page.on('response',record_response)
         page.on('requestfailed', lambda request: failed.append(request.url.split('/')[-1]))
         page.goto(args.url, wait_until='networkidle')
@@ -45,15 +46,16 @@ def main() -> None:
           }
           return rows;
         }''')
-        assert len(loaded) == 2 and all(row['loaded'] for row in loaded)
-        assert hashes==expected,(hashes,expected)
+        assert len(loaded) == 32 and all(row['loaded'] for row in loaded)
+        for name,response in captured:hashes[name]=hashlib.sha256(response.body()).hexdigest()
+        assert hashes==expected,(set(hashes),set(expected))
         assert page.evaluate("async()=> (await (await fetch('font-manifest.json')).json()).version")==version()
-        assert all(r['weight']==400 and r['style']=='normal' for r in loaded)
-        assert page.locator('#weight option').count()==1 and page.locator('#style option').count()==1
+        assert {(r['weight'], r['style']) for r in loaded}=={(weight, style) for weight in (100,300,400,500,600,700,800,900) for style in ('normal','oblique')}
+        assert page.locator('#weight option').count()==8 and page.locator('#style option').count()==2
         report['faces'] = loaded
         report['font_sha256']=hashes
-        assert len(responses) == 2 and set(responses.values()) == {200}, responses
-        report['checks'].append('2 exact approved Regular webfonts loaded; response bytes match release hashes')
+        assert len(responses) == 32 and set(responses.values()) == {200}, responses
+        report['checks'].append('32 exact WOFF2s loaded; response bytes match release hashes')
         for width, height in [(1440, 1000), (900, 1000), (390, 844)]:
             page.set_viewport_size({'width': width, 'height': height})
             page.reload(wait_until='networkidle')
@@ -65,6 +67,9 @@ def main() -> None:
             page.screenshot(path=str(out / f'site-{width}.png'), full_page=True)
         page.set_viewport_size({'width': 1440, 'height': 1000})
         page.select_option('#family', 'LihuiT')
+        page.select_option('#weight', '900')
+        page.select_option('#style', 'oblique')
+        page.wait_for_function("document.getElementById('font-status').textContent.includes('LihuiT / 900 / Oblique 10°')")
         page.select_option('#weight', '400')
         page.select_option('#style', 'normal')
         page.wait_for_function("document.getElementById('font-status').textContent.includes('LihuiT / 400 / Upright')")
@@ -73,7 +78,7 @@ def main() -> None:
         assert '"ss05"' in setting and '"ss05" 0' not in setting, setting
         page.locator('#sample').fill('字体测试 a g 0')
         assert page.locator('#coverage-warning').is_visible()
-        report['checks'].append('Family/Regular-only inventory/ss05 controls and missing-character warning')
+        report['checks'].append('Family/weight/Oblique inventory, ss05 controls and missing-character warning')
         page.locator('#reset').click()
         page.wait_for_function("document.getElementById('font-status').textContent.includes('zayJu / 400 / Upright')")
         assert page.locator('#coverage-warning').is_hidden()

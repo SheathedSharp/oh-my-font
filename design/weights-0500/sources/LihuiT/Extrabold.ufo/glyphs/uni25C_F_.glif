@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25CF" format="2">
+  <advance width="858"/>
+  <unicode hex="25CF"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: 特粗仍要能读：调制降到 0.40，内白下限是 Regular 的 0.42。M 的谷重新抬起，免得黑三角封死。字距转为正值。B 上眼明显小于下眼，这是比例决定，不是均匀内缩。
+</note>
+  <anchor x="430.98935850718186" y="760.5592587865315" name="top"/>
+  <anchor x="430.98935850718186" y="-28.51053836251275" name="bottom"/>
+  <anchor x="763.1713397204259" y="645.8280419903797" name="horn"/>
+  <anchor x="430.98935850718186" y="167.000820871746" name="overlay"/>
+  <anchor x="430.98935850718186" y="32.367250141567816" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="768.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="769.0" y="447.0"/>
+      <point x="733.0" y="534.0"/>
+      <point x="671.0" y="596.0" type="curve" smooth="yes"/>
+      <point x="609.0" y="659.0"/>
+      <point x="522.0" y="696.0"/>
+      <point x="433.0" y="696.0" type="curve" smooth="yes"/>
+      <point x="254.0" y="700.0"/>
+      <point x="93.0" y="539.0"/>
+      <point x="99.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="93.0" y="179.0"/>
+      <point x="254.0" y="18.0"/>
+      <point x="433.0" y="22.0" type="curve" smooth="yes"/>
+      <point x="490.0" y="38.0"/>
+      <point x="546.0" y="53.0"/>
+      <point x="603.0" y="69.0" type="curve" smooth="yes"/>
+      <point x="643.0" y="109.0"/>
+      <point x="683.0" y="149.0"/>
+      <point x="723.0" y="190.0" type="curve" smooth="yes"/>
+      <point x="738.0" y="246.0"/>
+      <point x="753.0" y="303.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>800</integer>
+    </dict>
+  </lib>
+</glyph>

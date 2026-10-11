@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenleft.case" format="2">
+  <advance width="493"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="308.205676842553" y="885.5896578595514" name="top"/>
+  <anchor x="113.28880322194115" y="-99.83886384174716" name="bottom"/>
+  <anchor x="406.23907694904335" y="786.5658963177532" name="horn"/>
+  <anchor x="182.77470880881373" y="198.23528923275597" name="overlay"/>
+  <outline>
+    <component base="parenleft" yScale="0.88" yOffset="78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>parenleft</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period" format="2">
+  <advance width="223"/>
+  <unicode hex="002E"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示轻体：66/46，对比仍是展示体而不是 LihuiT 轻体的 58/48。R 的腿继续外甩。流动的腰刚刚开始出现。
+</note>
+  <anchor x="113.26455461232365" y="123.07804123633977" name="top"/>
+  <anchor x="113.26455461232365" y="-17.87100843151964" name="bottom"/>
+  <anchor x="147.0135852046168" y="53.31538028962147" name="horn"/>
+  <anchor x="113.26455461232365" y="152.97632449921906" name="overlay"/>
+  <anchor x="113.26455461232365" y="19.145913703473745" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="151.0" y="53.0" type="curve" smooth="yes"/>
+      <point x="149.0" y="62.0"/>
+      <point x="145.0" y="71.0"/>
+      <point x="138.0" y="77.0" type="curve" smooth="yes"/>
+      <point x="131.0" y="83.0"/>
+      <point x="122.0" y="86.0"/>
+      <point x="113.0" y="84.0" type="curve" smooth="yes"/>
+      <point x="108.0" y="84.0"/>
+      <point x="102.0" y="83.0"/>
+      <point x="96.0" y="82.0" type="curve"/>
+      <point x="83.0" y="71.0" type="line" smooth="yes"/>
+      <point x="81.0" y="65.0"/>
+      <point x="78.0" y="59.0"/>
+      <point x="76.0" y="53.0" type="curve" smooth="yes"/>
+      <point x="78.0" y="11.0"/>
+      <point x="148.0" y="11.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>300</integer>
+    </dict>
+  </lib>
+</glyph>

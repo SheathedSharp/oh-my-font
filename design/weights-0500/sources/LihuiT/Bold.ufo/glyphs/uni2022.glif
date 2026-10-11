@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2022" format="2">
+  <advance width="509"/>
+  <unicode hex="2022"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 正文粗体：竖茎 150、接合只到 132，锐角内收形成轻微墨阱，而不是把 Regular 撑圆。字距比半粗回松，避免字字粘连。R 的腿缩短、裆部打开。与 zayJu 粗体相比仍更克制、更宽。
+</note>
+  <anchor x="253.2454735507794" y="533.6350261619023" name="top"/>
+  <anchor x="253.2454735507794" y="119.36692378668002" name="bottom"/>
+  <anchor x="395.24602120103555" y="397.39920725998354" name="horn"/>
+  <anchor x="253.2454735507794" y="158.2914434729425" name="overlay"/>
+  <anchor x="253.2454735507794" y="191.65531748973893" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="378.0" y="310.0" type="curve" smooth="yes"/>
+      <point x="402.0" y="344.0"/>
+      <point x="373.0" y="380.0"/>
+      <point x="352.0" y="405.0" type="curve" smooth="yes"/>
+      <point x="333.0" y="417.0"/>
+      <point x="313.0" y="428.0"/>
+      <point x="293.0" y="440.0" type="curve" smooth="yes"/>
+      <point x="224.0" y="461.0"/>
+      <point x="145.0" y="415.0"/>
+      <point x="128.0" y="345.0" type="curve" smooth="yes"/>
+      <point x="160.0" y="311.0"/>
+      <point x="104.0" y="274.0"/>
+      <point x="142.0" y="242.0" type="curve" smooth="yes"/>
+      <point x="165.0" y="202.0"/>
+      <point x="211.0" y="175.0"/>
+      <point x="258.0" y="175.0" type="curve" smooth="yes"/>
+      <point x="280.0" y="181.0"/>
+      <point x="303.0" y="188.0"/>
+      <point x="325.0" y="194.0" type="curve" smooth="yes"/>
+      <point x="341.0" y="210.0"/>
+      <point x="357.0" y="226.0"/>
+      <point x="373.0" y="242.0" type="curve" smooth="yes"/>
+      <point x="375.0" y="265.0"/>
+      <point x="376.0" y="287.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name=".notdef" format="2">
+  <advance width="771"/>
+  <note>
+正文半粗：调制指数降到 0.74，不再跟着 Regular 的粗细差走。接合与竖茎持平，开始给内白让路。B 腰明确内收，e 的开口被额外撑开，8 的下眼大于上眼。
+Weight master: 正文半粗：调制指数降到 0.74，不再跟着 Regular 的粗细差走。接合与竖茎持平，开始给内白让路。B 腰明确内收，e 的开口被额外撑开，8 的下眼大于上眼。
+</note>
+  <anchor x="452.3611592998503" y="762" name="top"/>
+  <anchor x="310.9469207716614" y="-40" name="bottom"/>
+  <anchor x="630.0811151904207" y="664" name="horn"/>
+  <anchor x="352.38376123815067" y="195" name="overlay"/>
+  <anchor x="320.1159237685016" y="12" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="118.0" y="0.0" type="line"/>
+      <point x="518.0" y="0.0" type="line"/>
+      <point x="643.0" y="710.0" type="line"/>
+      <point x="243.0" y="710.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="201.0" y="77.0" type="line"/>
+      <point x="288.0" y="633.0" type="line"/>
+      <point x="547.0" y="633.0" type="line"/>
+      <point x="459.0" y="77.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>600</integer>
+    </dict>
+  </lib>
+</glyph>

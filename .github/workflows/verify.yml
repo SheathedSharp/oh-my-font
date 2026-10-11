@@ -12,7 +12,7 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
         with:
@@ -25,15 +25,15 @@ jobs:
         run: python -m pip install -r requirements.txt -r requirements-qa.txt
       - name: Release scope, metadata and safety regressions
         run: python -m unittest discover -s tests -v
-      - name: Build only approved Regular redesigns
+      - name: Build 32 stored styles from approved Regular and weight masters
         run: python build.py
-      - name: Exact approved glyphs, metadata, OTS and all feature/mark combinations
+      - name: Approved Regular lock, stored-master metadata, OTS and feature checks
         run: python tools/check_candidates.py
       - name: Full FontBakery with existing Sigma exception only
         run: python tools/check_fontbakery.py
       - name: Independent-directory reproducible official release
         run: python tools/check_reproducibility.py
-      - name: Prepare exact two-face released specimen
+      - name: Prepare the 32-style specimen
         run: python tools/prepare_site.py
       - name: Install browser
         run: python -m playwright install --with-deps chromium
@@ -59,4 +59,4 @@ jobs:
             .release-work/reproducibility.json
             .release-work/site-checks.json
             .release-work/unit-tests.log
-            docs/qa/release-0.400.json
+            docs/qa/release-0.500.json

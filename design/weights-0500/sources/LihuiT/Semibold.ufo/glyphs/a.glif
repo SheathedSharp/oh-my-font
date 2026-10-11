@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a" format="2">
+  <advance width="614"/>
+  <unicode hex="0061"/>
+  <note>
+A double-storey humanist a: lifted entrance, round lower bowl, quiet tapered exit.
+Weight master: 正文半粗：调制指数降到 0.74，不再跟着 Regular 的粗细差走。接合与竖茎持平，开始给内白让路。B 腰明确内收，e 的开口被额外撑开，8 的下眼大于上眼。
+</note>
+  <anchor x="302.514524235282" y="613.7398604439081" name="top"/>
+  <anchor x="302.514524235282" y="-89.69071084699081" name="bottom"/>
+  <anchor x="556.029048470564" y="505.68939651521197" name="horn"/>
+  <anchor x="302.514524235282" y="182.64056048349823" name="overlay"/>
+  <anchor x="514.5448535956996" y="-19.12714256702604" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="444.0" y="28.0" type="curve" smooth="yes"/>
+      <point x="448.0" y="10.0"/>
+      <point x="458.0" y="-9.0"/>
+      <point x="477.0" y="-15.0" type="curve" smooth="yes"/>
+      <point x="504.0" y="-21.0"/>
+      <point x="555.0" y="-31.0"/>
+      <point x="564.0" y="8.0" type="curve" smooth="yes"/>
+      <point x="551.0" y="69.0"/>
+      <point x="553.0" y="133.0"/>
+      <point x="552.0" y="196.0" type="curve"/>
+      <point x="552.0" y="273.0" type="line"/>
+      <point x="551.0" y="354.0" type="line" smooth="yes"/>
+      <point x="542.0" y="390.0"/>
+      <point x="533.0" y="427.0"/>
+      <point x="524.0" y="463.0" type="curve" smooth="yes"/>
+      <point x="499.0" y="486.0"/>
+      <point x="474.0" y="508.0"/>
+      <point x="450.0" y="531.0" type="curve" smooth="yes"/>
+      <point x="404.0" y="555.0"/>
+      <point x="351.0" y="556.0"/>
+      <point x="301.0" y="552.0" type="curve" smooth="yes"/>
+      <point x="261.0" y="546.0"/>
+      <point x="222.0" y="536.0"/>
+      <point x="187.0" y="516.0" type="curve" smooth="yes"/>
+      <point x="166.0" y="501.0"/>
+      <point x="146.0" y="486.0"/>
+      <point x="125.0" y="470.0" type="curve" smooth="yes"/>
+      <point x="108.0" y="454.0"/>
+      <point x="117.0" y="427.0"/>
+      <point x="134.0" y="416.0" type="curve" smooth="yes"/>
+      <point x="145.0" y="400.0"/>
+      <point x="156.0" y="382.0"/>
+      <point x="175.0" y="375.0" type="curve"/>
+      <point x="194.0" y="380.0" type="line" smooth="yes"/>
+      <point x="252.0" y="439.0"/>
+      <point x="401.0" y="479.0"/>
+      <point x="429.0" y="372.0" type="curve"/>
+      <point x="432.0" y="328.0" type="line"/>
+      <point x="338.0" y="328.0" type="line" smooth="yes"/>
+      <point x="293.0" y="320.0"/>
+      <point x="247.0" y="313.0"/>
+      <point x="201.0" y="305.0" type="curve" smooth="yes"/>
+      <point x="171.0" y="283.0"/>
+      <point x="141.0" y="261.0"/>
+      <point x="111.0" y="239.0" type="curve" smooth="yes"/>
+      <point x="49.0" y="157.0"/>
+      <point x="86.0" y="20.0"/>
+      <point x="185.0" y="-13.0" type="curve" smooth="yes"/>
+      <point x="269.0" y="-46.0"/>
+      <point x="377.0" y="-39.0"/>
+    </contour>
+    <contour>
+      <point x="410.0" y="224.0" type="curve"/>
+      <point x="431.0" y="224.0" type="line" smooth="yes"/>
+      <point x="433.0" y="184.0"/>
+      <point x="420.0" y="143.0"/>
+      <point x="391.0" y="116.0" type="curve" smooth="yes"/>
+      <point x="347.0" y="77.0"/>
+      <point x="274.0" y="65.0"/>
+      <point x="223.0" y="98.0" type="curve" smooth="yes"/>
+      <point x="217.0" y="108.0"/>
+      <point x="210.0" y="119.0"/>
+      <point x="203.0" y="129.0" type="curve" smooth="yes"/>
+      <point x="203.0" y="144.0"/>
+      <point x="204.0" y="159.0"/>
+      <point x="204.0" y="173.0" type="curve" smooth="yes"/>
+      <point x="213.0" y="184.0"/>
+      <point x="223.0" y="194.0"/>
+      <point x="232.0" y="204.0" type="curve" smooth="yes"/>
+      <point x="254.0" y="210.0"/>
+      <point x="276.0" y="216.0"/>
+      <point x="298.0" y="221.0" type="curve" smooth="yes"/>
+      <point x="335.0" y="225.0"/>
+      <point x="373.0" y="223.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.reviewStatus</key>
+      <string>approved-core-93451c3</string>
+      <key>de.zayju.weight</key>
+      <integer>600</integer>
+    </dict>
+  </lib>
+</glyph>

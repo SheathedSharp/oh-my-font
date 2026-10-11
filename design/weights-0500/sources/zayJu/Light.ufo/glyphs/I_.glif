@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I" format="2">
+  <advance width="233"/>
+  <unicode hex="0049"/>
+  <note>
+Individually drawn for the approved fluid display reference cut; no legacy outline input.
+Weight master: 展示轻体：66/46，对比仍是展示体而不是 LihuiT 轻体的 58/48。R 的腿继续外甩。流动的腰刚刚开始出现。
+</note>
+  <anchor x="118.27461745343408" y="672.7771911296595" name="top"/>
+  <anchor x="118.27461745343408" y="70.61636260331487" name="bottom"/>
+  <anchor x="181.6207900920691" y="600.1919990071727" name="horn"/>
+  <anchor x="118.27461745343408" y="249.8573472323129" name="overlay"/>
+  <anchor x="158.05012120327467" y="109.13095434177725" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="128.0" y="100.0" type="curve" smooth="yes"/>
+      <point x="185.0" y="208.0"/>
+      <point x="142.0" y="335.0"/>
+      <point x="157.0" y="452.0" type="curve" smooth="yes"/>
+      <point x="147.0" y="512.0"/>
+      <point x="136.0" y="573.0"/>
+      <point x="125.0" y="634.0" type="curve" smooth="yes"/>
+      <point x="71.0" y="549.0"/>
+      <point x="103.0" y="450.0"/>
+      <point x="92.0" y="357.0" type="curve" smooth="yes"/>
+      <point x="51.0" y="262.0"/>
+      <point x="156.0" y="192.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>300</integer>
+    </dict>
+  </lib>
+</glyph>

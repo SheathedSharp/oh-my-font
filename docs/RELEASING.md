@@ -1,15 +1,14 @@
-# Release procedure — approved Regular redesign
+# Release procedure — 0.500 multi-weight family
 
-Version 0.400 publishes LihuiT Regular and zayJu Regular, 400 upright, in six
-TTF/OTF/WOFF2 files. The owner-approved drawing inputs are locked by
-`config/approved-reference.json`. Current `build.py` does not use historical
-`src/` drawing recipes or synthesize missing weights. Old tags and Releases must
-not be overwritten.
+Version 0.500 publishes 32 styles: LihuiT and zayJu, weights 100, 300, 400, 500, 600, 700, 800, 900, each upright and as a 10° Oblique. Regular 400 upright is compiled from the hash-locked 0.400 UFO (`config/approved-reference.json`). Every other style is compiled from a stored master under `design/weights-0500/sources`. `build.py` does not import `src/outlines.py` and does not synthesize a missing weight.
 
-## Build and verify exact official files
+Do not move or overwrite tags **v0.301** or **v0.400**, and do not replace their Release assets. Do not merge the rejected draft PR #8.
 
-Use a clean worktree and a dedicated Python environment. A pre-existing output
-with unknown/older weights is rejected rather than silently mixed or deleted.
+Technical CI is not visual approval. Tag v0.500 only after a human has reviewed the weight ladder, especially B, M, R, a, g, e and digits 2/3/6/8/9, upright and Oblique, for both families.
+
+## Build and verify
+
+Use a clean worktree. An output directory that already contains an unknown filename (anything outside the 96 expected files) is rejected rather than deleted.
 
 ```sh
 python -m pip install -r requirements.txt -r requirements-qa.txt
@@ -19,70 +18,40 @@ python tools/check_candidates.py
 python tools/check_fontbakery.py
 python tools/check_reproducibility.py
 python tools/prepare_site.py
-# Serve site/ using a local HTTP server, then:
+# Serve site/ over local HTTP, then:
 python tools/check_site.py --browser chromium
-# On macOS, optional exact-file native check (no persistent installation):
+# On macOS, optional exact-file native check:
 swift tools/check_coretext.swift
 python tools/summarize_qa.py
 ```
 
-The candidate check compares every official serialized outline and layout table
-to a fresh compile of the accepted source, then runs full geometry, OTS, encoding,
-feature, forced-decomposition and cross-format checks. FontBakery runs each
-family/desktop format separately and retains the precise pre-existing Sigma
-case-mapping FAIL and all warnings. A scoped pass is not a green universal profile.
+`docs/qa/release-0.500.json` binds those results to the current source and output hashes. Re-run it after any hashed input changes. The scoped FontBakery gate accepts only the existing Sigma case-mapping FAIL (U+03A3 without U+03C3), once per desktop file. Warnings remain in the report.
 
-`docs/qa/release-<VERSION>.json` binds checks, browser responses and optional native
-results to current source and output hashes. Do not reuse a prior report after
-editing source, tools, website assets or version. Preserve OFL, author and source
-notices in the repository, font metadata and every archive.
-
-## Integrate and package
-
-Merge approved design and release-integration PRs only after exact-head checks
-succeed. Rebuild and verify from the final main commit or prove all input hashes
-and outputs remain identical; commit source/docs/QA before packaging.
+## Package, after the commit is the one you will tag
 
 ```sh
 python tools/package_release.py
-python tools/verify_release.py --directory release --version 0.400 --commit "$(git rev-parse HEAD)"
+python tools/verify_release.py --directory release --version 0.500 --commit "$(git rev-parse HEAD)"
 ```
 
-Packaging requires a clean worktree and exact QA hashes. It creates four ZIPs
-(TTF, OTF, WOFF2, Website), BUILD-MANIFEST.json, QA.json and SHA256SUMS.txt. Every
-archive contains OFL, attribution, authors, FONTLOG, source commit and internal
-checksums. Only two Regular font files occur in each archive; no legacy font is
-bundled. GitHub's automatic source archive is not an installable font package.
+Packaging needs a clean worktree and a QA report whose input hashes match that build. It writes four ZIPs (TTF, OTF, WOFF2, Website), `BUILD-MANIFEST.json`, `QA.json` and `SHA256SUMS.txt`. Each archive contains 32 font files of one format (the Website archive contains the 32 WOFF2s), plus OFL and attribution.
 
-## Publish
+## Publish — only after merge to main and visual approval
 
-Create an annotated version tag at the verified final main commit and push it
-without force. Create a draft release with `gh release create --verify-tag --draft`,
-upload exactly the seven named assets, verify their names/counts/hashes, then
-publish. Never use `--clobber` on public font assets or move a public tag.
+From the verified main commit, not from an unreviewed side branch:
 
-Download all seven published assets into a fresh empty directory and run
-`tools/verify_release.py` against that directory with the exact tag commit. It
-checks external/internal checksums, safe archive paths, exact font identities,
-coverage, license metadata and website inventory. Only then report the release
-as verified. There is no automatic font installation.
+```sh
+git checkout main
+git pull origin main
+# Confirm this commit is the one whose hashes verify_release.py accepted.
+git tag -a v0.500 -m "LihuiT and zayJu 0.500 — first multi-weight redesign"
+git push origin v0.500
+gh release create v0.500 --verify-tag --draft --title "v0.500 — first multi-weight redesign" --notes-file docs/releases/0.500-notes.md
+gh release upload v0.500 release/LihuiT-zayJu-v0.500-TTF.zip release/LihuiT-zayJu-v0.500-OTF.zip release/LihuiT-zayJu-v0.500-WOFF2.zip release/LihuiT-zayJu-v0.500-Website.zip release/BUILD-MANIFEST.json release/QA.json release/SHA256SUMS.txt
+# Confirm seven assets, names and hashes, then:
+gh release edit v0.500 --draft=false --prerelease=false
+```
 
-## Deploy the same website artifact
+Never use `--clobber` against v0.301 or v0.400 assets. Never force-move those tags.
 
-`Publish specimen` deploys the **published Website ZIP**, not a new font build,
-to the Cloudflare Pages project `oh-my-font`, serving `https://fonts.zayju.de/`.
-The repository's existing `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` secrets
-stay in GitHub; never print or embed them. Publication triggers deployment;
-manual recovery uses `gh workflow run pages.yml --ref main -f tag=v0.400`.
-
-Verify the workflow succeeded, the public SOURCE.json matches the tag's commit,
-font-manifest.json says the current version with two Regular faces, and every
-public WOFF2 matches the release hash. Run `tools/check_site.py --url
-https://fonts.zayju.de/ --browser chromium` against the live site as well.
-
-## Migration notice
-
-Users should deactivate older LihuiT/zayJu installs before installing 0.400 and
-choose TTF OR OTF, not both. New Regular drawings should not be mixed with old
-0.301 weights as if they were a consistent family. Further independently designed
-weights/italics require separate approval and are not part of this release.
+Download the seven published assets into an empty directory and run `tools/verify_release.py` against that directory with the tag commit. The site at fonts.zayju.de updates only when the published Website ZIP is deployed (`gh workflow run pages.yml --ref main -f tag=v0.500`). Until that release exists, v0.400 remains the public download.

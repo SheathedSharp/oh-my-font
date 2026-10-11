@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fraction" format="2">
+  <advance width="490"/>
+  <unicode hex="2044"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: 展示粗体：184/160，接合只到 156。B 上眼缩到 0.74、下眼留 0.94，腰收 20。比 LihuiT 粗体更重、更收腰，也更需要斜体时的内白回正。
+</note>
+  <anchor x="243.53570503310428" y="833.1796673228209" name="top"/>
+  <anchor x="243.53570503310428" y="-89.89348845252212" name="bottom"/>
+  <anchor x="459.89437657096335" y="721.4992114388906" name="horn"/>
+  <anchor x="243.53570503310428" y="185.88886179146925" name="overlay"/>
+  <anchor x="239.88921056898306" y="-30.634471044722325" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="134.0" y="-7.0" type="curve"/>
+      <point x="297.0" y="329.0" type="line"/>
+      <point x="406.0" y="553.0" type="line" smooth="yes"/>
+      <point x="426.0" y="596.0"/>
+      <point x="446.0" y="638.0"/>
+      <point x="466.0" y="681.0" type="curve" smooth="yes"/>
+      <point x="471.0" y="702.0"/>
+      <point x="464.0" y="729.0"/>
+      <point x="442.0" y="738.0" type="curve" smooth="yes"/>
+      <point x="433.0" y="742.0"/>
+      <point x="423.0" y="746.0"/>
+      <point x="413.0" y="750.0" type="curve" smooth="yes"/>
+      <point x="339.0" y="778.0"/>
+      <point x="312.0" y="632.0"/>
+      <point x="291.0" y="608.0" type="curve"/>
+      <point x="74.0" y="161.0" type="line" smooth="yes"/>
+      <point x="89.0" y="106.0"/>
+      <point x="9.0" y="71.0"/>
+      <point x="13.0" y="16.0" type="curve" smooth="yes"/>
+      <point x="15.0" y="1.0"/>
+      <point x="20.0" y="-18.0"/>
+      <point x="38.0" y="-24.0" type="curve" smooth="yes"/>
+      <point x="47.0" y="-28.0"/>
+      <point x="57.0" y="-32.0"/>
+      <point x="67.0" y="-36.0" type="curve" smooth="yes"/>
+      <point x="92.0" y="-49.0"/>
+      <point x="122.0" y="-30.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

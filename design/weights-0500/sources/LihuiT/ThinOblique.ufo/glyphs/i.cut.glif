@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i.cut" format="2">
+  <advance width="383"/>
+  <note>
+Alternate sloped tittle paired with the unchanged dotless stem.
+Weight master: 正文细体：竖茎压到约 34，横画仍留 26，接合故意重于茎（48）以免尖脚断开。B 的上碗仍小于下碗，腰部反而松开；M 的谷抬高，避免细线收成针尖。e 的横画上移、开口加大。字距明显放松。
+</note>
+  <anchor x="267.1512167561285" y="765.9756875573214" name="top"/>
+  <anchor x="129.48539645400788" y="-14.765976304854007" name="bottom"/>
+  <anchor x="270.8204334548258" y="675.7484669694757" name="horn"/>
+  <anchor x="167.63571222169463" y="201.59521592110264" name="overlay"/>
+  <anchor x="137.48219776996922" y="33.10969176216618" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="198.0" y="502.0" type="line" smooth="yes"/>
+      <point x="199.0" y="426.0"/>
+      <point x="170.0" y="342.0"/>
+      <point x="161.0" y="264.0" type="curve" smooth="yes"/>
+      <point x="142.0" y="185.0"/>
+      <point x="142.0" y="101.0"/>
+      <point x="114.0" y="25.0" type="curve"/>
+      <point x="119.0" y="24.0" type="line"/>
+      <point x="120.0" y="22.0" type="line"/>
+      <point x="122.0" y="24.0" type="line"/>
+      <point x="150.0" y="24.0" type="line"/>
+      <point x="151.0" y="22.0" type="line"/>
+      <point x="153.0" y="24.0" type="line"/>
+      <point x="158.0" y="25.0" type="line" smooth="yes"/>
+      <point x="157.0" y="101.0"/>
+      <point x="186.0" y="185.0"/>
+      <point x="195.0" y="264.0" type="curve" smooth="yes"/>
+      <point x="214.0" y="342.0"/>
+      <point x="214.0" y="426.0"/>
+      <point x="242.0" y="502.0" type="curve"/>
+      <point x="237.0" y="503.0" type="line"/>
+      <point x="237.0" y="505.0" type="line"/>
+      <point x="234.0" y="503.0" type="line"/>
+      <point x="206.0" y="503.0" type="line"/>
+      <point x="205.0" y="505.0" type="line"/>
+      <point x="204.0" y="503.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="718.0" type="line"/>
+      <point x="233.0" y="687.0" type="line"/>
+      <point x="259.0" y="680.0" type="line"/>
+      <point x="276.0" y="712.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

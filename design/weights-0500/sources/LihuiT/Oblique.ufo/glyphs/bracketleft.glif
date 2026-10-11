@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketleft" format="2">
+  <advance width="569"/>
+  <unicode hex="005B"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="372.2665774962581" y="867" name="top"/>
+  <anchor x="186.9469207716614" y="-184" name="bottom"/>
+  <anchor x="471.9865333868285" y="769" name="horn"/>
+  <anchor x="253.7748464601696" y="195" name="overlay"/>
+  <anchor x="214.11592376850157" y="-132" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="107.0" y="-144.0" type="line"/>
+      <point x="316.0" y="-144.0" type="line"/>
+      <point x="328.0" y="-74.0" type="line"/>
+      <point x="201.0" y="-74.0" type="line"/>
+      <point x="346.0" y="745.0" type="line"/>
+      <point x="473.0" y="745.0" type="line"/>
+      <point x="485.0" y="815.0" type="line"/>
+      <point x="276.0" y="815.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

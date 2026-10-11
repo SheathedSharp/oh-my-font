@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0301" format="2">
+  <unicode hex="0301"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: 正文细体：竖茎压到约 34，横画仍留 26，接合故意重于茎（48）以免尖脚断开。B 的上碗仍小于下碗，腰部反而松开；M 的谷抬高，避免细线收成针尖。e 的横画上移、开口加大。字距明显放松。
+</note>
+  <anchor x="0" y="0" name="_top"/>
+  <anchor x="-45.56840817463505" y="174.77295379489166" name="top"/>
+  <outline>
+    <contour>
+      <point x="-49.0" y="44.0" type="curve"/>
+      <point x="-43.0" y="47.0" type="line"/>
+      <point x="-63.0" y="5.0" type="line"/>
+      <point x="-56.0" y="0.0" type="line" smooth="yes"/>
+      <point x="-43.0" y="26.0"/>
+      <point x="-14.0" y="41.0"/>
+      <point x="3.0" y="64.0" type="curve"/>
+      <point x="56.0" y="119.0" type="line"/>
+      <point x="19.0" y="102.0" type="line"/>
+      <point x="35.0" y="140.0" type="line" smooth="yes"/>
+      <point x="16.0" y="102.0"/>
+      <point x="-21.0" y="77.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>top</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

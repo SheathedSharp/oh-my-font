@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine.sups" format="2">
+  <advance width="371"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+</note>
+  <anchor x="186.5697557702058" y="875.64444799243" name="top"/>
+  <anchor x="186.5697557702058" y="363.2362243184226" name="bottom"/>
+  <anchor x="309.6387906078561" y="777.9489972489615" name="horn"/>
+  <anchor x="186.5697557702058" y="175.46242059519466" name="overlay"/>
+  <outline>
+    <component base="nine" xScale="0.57" yScale="0.57" xOffset="15" yOffset="430"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>nine</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscore" format="2">
+  <advance width="638"/>
+  <unicode hex="005F"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示粗体：184/160，接合只到 156。B 上眼缩到 0.74、下眼留 0.94，腰收 20。比 LihuiT 粗体更重、更收腰，也更需要斜体时的内白回正。
+</note>
+  <anchor x="316.87837392449865" y="81.70782867335112" name="top"/>
+  <anchor x="316.87837392449865" y="-254.19613521358394" name="bottom"/>
+  <anchor x="616.9854577749502" y="-126.63766791474785" name="horn"/>
+  <anchor x="316.87837392449865" y="536.6663620391998" name="overlay"/>
+  <anchor x="316.87837392449865" y="-143.64546355459265" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="21.0" y="-146.0" type="line" smooth="yes"/>
+      <point x="23.0" y="-159.0"/>
+      <point x="36.0" y="-167.0"/>
+      <point x="48.0" y="-169.0" type="curve"/>
+      <point x="586.0" y="-169.0" type="line" smooth="yes"/>
+      <point x="598.0" y="-167.0"/>
+      <point x="610.0" y="-159.0"/>
+      <point x="612.0" y="-146.0" type="curve"/>
+      <point x="598.0" y="-131.0" type="line"/>
+      <point x="623.0" y="-125.0" type="line"/>
+      <point x="623.0" y="-73.0" type="line"/>
+      <point x="598.0" y="-67.0" type="line"/>
+      <point x="612.0" y="-52.0" type="line" smooth="yes"/>
+      <point x="610.0" y="-39.0"/>
+      <point x="598.0" y="-31.0"/>
+      <point x="586.0" y="-29.0" type="curve"/>
+      <point x="48.0" y="-29.0" type="line" smooth="yes"/>
+      <point x="36.0" y="-31.0"/>
+      <point x="23.0" y="-39.0"/>
+      <point x="21.0" y="-52.0" type="curve"/>
+      <point x="36.0" y="-67.0" type="line"/>
+      <point x="11.0" y="-73.0" type="line"/>
+      <point x="11.0" y="-125.0" type="line"/>
+      <point x="36.0" y="-131.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

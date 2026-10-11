@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I.clarity" format="2">
+  <advance width="176"/>
+  <note>
+Broad bars for explicit I/l/1 disambiguation.
+Weight master: 正文细体：竖茎压到约 34，横画仍留 26，接合故意重于茎（48）以免尖脚断开。B 的上碗仍小于下碗，腰部反而松开；M 的谷抬高，避免细线收成针尖。e 的横画上移、开口加大。字距明显放松。
+</note>
+  <anchor x="130.04217333007327" y="575.7356251718113" name="top"/>
+  <anchor x="54.14669969607887" y="145.3110053600637" name="bottom"/>
+  <anchor x="137.3813518812231" y="523.4011180482986" name="horn"/>
+  <anchor x="76.27503257943951" y="270.80701733991566" name="overlay"/>
+  <anchor x="58.91375089586474" y="173.080335670499" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="75.0" y="167.0" type="curve"/>
+      <point x="109.0" y="357.0" type="line" smooth="yes"/>
+      <point x="108.0" y="421.0"/>
+      <point x="108.0" y="484.0"/>
+      <point x="108.0" y="548.0" type="curve"/>
+      <point x="74.0" y="357.0" type="line" smooth="yes"/>
+      <point x="74.0" y="294.0"/>
+      <point x="75.0" y="230.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

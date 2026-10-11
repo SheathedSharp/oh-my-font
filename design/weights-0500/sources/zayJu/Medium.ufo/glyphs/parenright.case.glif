@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenright.case" format="2">
+  <advance width="395"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="195.2573564005598" y="901.2994119377439" name="top"/>
+  <anchor x="195.2573564005598" y="-114.59693178588975" name="bottom"/>
+  <anchor x="324.8711550486853" y="799.5463573811479" name="horn"/>
+  <anchor x="195.2573564005598" y="194.33869349035996" name="overlay"/>
+  <outline>
+    <component base="parenright" yScale="0.88" yOffset="78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>parenright</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

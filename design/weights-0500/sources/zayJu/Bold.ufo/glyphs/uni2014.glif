@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2014" format="2">
+  <advance width="1078"/>
+  <unicode hex="2014"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示粗体：184/160，接合只到 156。B 上眼缩到 0.74、下眼留 0.94，腰收 20。比 LihuiT 粗体更重、更收腰，也更需要斜体时的内白回正。
+</note>
+  <anchor x="536.8418074228142" y="458.52523858651074" name="top"/>
+  <anchor x="536.8418074228142" y="122.96067744923215" name="bottom"/>
+  <anchor x="1032.23968215625" y="250.39025762794552" name="horn"/>
+  <anchor x="536.8418074228142" y="112.3415457676727" name="overlay"/>
+  <anchor x="536.8418074228142" y="233.39964693745043" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="46.0" y="231.0" type="line" smooth="yes"/>
+      <point x="49.0" y="218.0"/>
+      <point x="62.0" y="211.0"/>
+      <point x="74.0" y="208.0" type="curve"/>
+      <point x="1000.0" y="208.0" type="line" smooth="yes"/>
+      <point x="1012.0" y="211.0"/>
+      <point x="1025.0" y="218.0"/>
+      <point x="1027.0" y="231.0" type="curve"/>
+      <point x="1014.0" y="248.0" type="line"/>
+      <point x="1038.0" y="254.0" type="line"/>
+      <point x="1038.0" y="302.0" type="line"/>
+      <point x="1014.0" y="308.0" type="line"/>
+      <point x="1027.0" y="325.0" type="line" smooth="yes"/>
+      <point x="1025.0" y="338.0"/>
+      <point x="1012.0" y="345.0"/>
+      <point x="1000.0" y="348.0" type="curve"/>
+      <point x="74.0" y="348.0" type="line" smooth="yes"/>
+      <point x="62.0" y="345.0"/>
+      <point x="49.0" y="338.0"/>
+      <point x="46.0" y="325.0" type="curve"/>
+      <point x="60.0" y="308.0" type="line"/>
+      <point x="36.0" y="302.0" type="line"/>
+      <point x="36.0" y="254.0" type="line"/>
+      <point x="60.0" y="248.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

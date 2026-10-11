@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni00A8" format="2">
+  <advance width="380"/>
+  <unicode hex="00A8"/>
+  <note>
+Explicit same-family symbol/spacing variant; editable component, not a substituted missing outline.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="214.33312333776817" y="756" name="top"/>
+  <anchor x="290.85903296524197" y="572" name="bottom"/>
+  <anchor x="440.02315330616995" y="658" name="horn"/>
+  <anchor x="225.265396141693" y="200" name="overlay"/>
+  <outline>
+    <component base="uni0308" xOffset="190" yOffset="610"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

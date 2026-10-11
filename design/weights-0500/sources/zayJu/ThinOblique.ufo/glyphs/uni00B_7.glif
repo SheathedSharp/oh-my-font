@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni00B7" format="2">
+  <advance width="277"/>
+  <unicode hex="00B7"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示细体：对比明显高于 LihuiT（竖 28、横 16）。接合 42 托住发丝横画。B 的下眼比上眼更开，腰不收死。e 的横画抬得更高。M 仍是软谷，不是直线骨架。字距比 LihuiT 细体更紧。
+</note>
+  <anchor x="151.46905638372087" y="350.2326299620181" name="top"/>
+  <anchor x="132.54778527722223" y="242.9247691316746" name="bottom"/>
+  <anchor x="165.47187880168462" y="289.0921046051945" name="horn"/>
+  <anchor x="130.45764486429508" y="231.07099380739248" name="overlay"/>
+  <anchor x="138.26816956523345" y="275.3666805454994" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="171.0" y="299.0" type="curve" smooth="yes"/>
+      <point x="171.0" y="304.0"/>
+      <point x="169.0" y="309.0"/>
+      <point x="166.0" y="313.0" type="curve" smooth="yes"/>
+      <point x="163.0" y="316.0"/>
+      <point x="158.0" y="318.0"/>
+      <point x="153.0" y="317.0" type="curve"/>
+      <point x="143.0" y="315.0" type="line"/>
+      <point x="134.0" y="309.0" type="line" smooth="yes"/>
+      <point x="111.0" y="282.0"/>
+      <point x="164.0" y="268.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

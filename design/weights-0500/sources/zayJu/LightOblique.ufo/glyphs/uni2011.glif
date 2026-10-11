@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2011" format="2">
+  <advance width="389"/>
+  <unicode hex="2011"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示轻体：66/46，对比仍是展示体而不是 LihuiT 轻体的 58/48。R 的腿继续外甩。流动的腰刚刚开始出现。
+</note>
+  <anchor x="204.98553909958903" y="335.6334137728011" name="top"/>
+  <anchor x="186.09556871747387" y="228.50306817159435" name="bottom"/>
+  <anchor x="302.3246214612768" y="269.1854778935716" name="horn"/>
+  <anchor x="185.49778484462212" y="225.11286736142958" name="overlay"/>
+  <anchor x="192.31252099513202" y="263.76115659730795" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="77.0" y="259.0" type="line"/>
+      <point x="83.0" y="259.0" type="line"/>
+      <point x="82.0" y="256.0" type="line" smooth="yes"/>
+      <point x="119.0" y="265.0"/>
+      <point x="155.0" y="256.0"/>
+      <point x="191.0" y="259.0" type="curve" smooth="yes"/>
+      <point x="226.0" y="256.0"/>
+      <point x="266.0" y="265.0"/>
+      <point x="299.0" y="256.0" type="curve"/>
+      <point x="299.0" y="259.0" type="line"/>
+      <point x="305.0" y="259.0" type="line"/>
+      <point x="300.0" y="261.0" type="line"/>
+      <point x="306.0" y="295.0" type="line"/>
+      <point x="312.0" y="297.0" type="line"/>
+      <point x="306.0" y="297.0" type="line"/>
+      <point x="307.0" y="300.0" type="line" smooth="yes"/>
+      <point x="270.0" y="291.0"/>
+      <point x="234.0" y="300.0"/>
+      <point x="198.0" y="297.0" type="curve" smooth="yes"/>
+      <point x="163.0" y="300.0"/>
+      <point x="123.0" y="291.0"/>
+      <point x="90.0" y="300.0" type="curve"/>
+      <point x="89.0" y="297.0" type="line"/>
+      <point x="84.0" y="297.0" type="line"/>
+      <point x="89.0" y="295.0" type="line"/>
+      <point x="83.0" y="261.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>300</integer>
+    </dict>
+  </lib>
+</glyph>

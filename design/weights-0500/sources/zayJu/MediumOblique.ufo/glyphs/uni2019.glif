@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2019" format="2">
+  <advance width="370"/>
+  <unicode hex="2019"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示中粗：茎跳到 126，比 LihuiT 的 108 暗一截，横画仍明显更细（100）。B 的腰开始液体式内收，M 的谷挖深。这是两款在中段分叉最大的地方之一。
+</note>
+  <anchor x="205.6104647560368" y="798.8832090568786" name="top"/>
+  <anchor x="145.12678722720864" y="455.86322830401525" name="bottom"/>
+  <anchor x="258.7854031367381" y="689.0271367896217" name="horn"/>
+  <anchor x="87.4103367748628" y="128.53697216076" name="overlay"/>
+  <anchor x="146.3368682360619" y="514.1542054254169" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="125.0" y="501.0" type="curve" smooth="yes"/>
+      <point x="124.0" y="542.0"/>
+      <point x="166.0" y="552.0"/>
+      <point x="185.0" y="581.0" type="curve" smooth="yes"/>
+      <point x="203.0" y="600.0"/>
+      <point x="206.0" y="626.0"/>
+      <point x="224.0" y="645.0" type="curve" smooth="yes"/>
+      <point x="231.0" y="658.0"/>
+      <point x="248.0" y="658.0"/>
+      <point x="255.0" y="671.0" type="curve" smooth="yes"/>
+      <point x="272.0" y="689.0"/>
+      <point x="275.0" y="714.0"/>
+      <point x="265.0" y="732.0" type="curve" smooth="yes"/>
+      <point x="257.0" y="738.0"/>
+      <point x="249.0" y="745.0"/>
+      <point x="241.0" y="751.0" type="curve"/>
+      <point x="207.0" y="752.0" type="line" smooth="yes"/>
+      <point x="177.0" y="744.0"/>
+      <point x="155.0" y="714.0"/>
+      <point x="150.0" y="685.0" type="curve" smooth="yes"/>
+      <point x="144.0" y="668.0"/>
+      <point x="158.0" y="655.0"/>
+      <point x="148.0" y="638.0" type="curve" smooth="yes"/>
+      <point x="141.0" y="615.0"/>
+      <point x="127.0" y="593.0"/>
+      <point x="108.0" y="576.0" type="curve"/>
+      <point x="68.0" y="577.0" type="line" smooth="yes"/>
+      <point x="87.0" y="552.0"/>
+      <point x="109.0" y="528.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>500</integer>
+    </dict>
+  </lib>
+</glyph>

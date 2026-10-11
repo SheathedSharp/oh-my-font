@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni030B" format="2">
+  <unicode hex="030B"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: 展示轻体：66/46，对比仍是展示体而不是 LihuiT 轻体的 58/48。R 的腿继续外甩。流动的腰刚刚开始出现。
+</note>
+  <anchor x="0" y="0" name="_top"/>
+  <anchor x="-31.22905562848422" y="168.73443016053696" name="top"/>
+  <outline>
+    <contour>
+      <point x="49.0" y="132.0" type="line" smooth="yes"/>
+      <point x="50.0" y="87.0"/>
+      <point x="12.0" y="54.0"/>
+      <point x="-5.0" y="15.0" type="curve"/>
+      <point x="6.0" y="20.0" type="line"/>
+      <point x="32.0" y="10.0" type="line"/>
+      <point x="30.0" y="-3.0" type="line"/>
+      <point x="59.0" y="45.0" type="line" smooth="yes"/>
+      <point x="77.0" y="68.0"/>
+      <point x="82.0" y="104.0"/>
+      <point x="116.0" y="112.0" type="curve" smooth="yes"/>
+      <point x="89.0" y="117.0"/>
+      <point x="74.0" y="87.0"/>
+      <point x="49.0" y="86.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-89.0" y="132.0" type="line" smooth="yes"/>
+      <point x="-88.0" y="87.0"/>
+      <point x="-126.0" y="54.0"/>
+      <point x="-143.0" y="15.0" type="curve"/>
+      <point x="-132.0" y="20.0" type="line"/>
+      <point x="-106.0" y="10.0" type="line"/>
+      <point x="-108.0" y="-3.0" type="line"/>
+      <point x="-79.0" y="45.0" type="line" smooth="yes"/>
+      <point x="-61.0" y="68.0"/>
+      <point x="-56.0" y="104.0"/>
+      <point x="-22.0" y="112.0" type="curve" smooth="yes"/>
+      <point x="-49.0" y="117.0"/>
+      <point x="-64.0" y="87.0"/>
+      <point x="-89.0" y="86.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>top</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>300</integer>
+    </dict>
+  </lib>
+</glyph>

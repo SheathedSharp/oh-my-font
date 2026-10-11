@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.sups" format="2">
+  <advance width="528"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+</note>
+  <anchor x="398.35799233328987" y="969.9741704545968" name="top"/>
+  <anchor x="221.83415283106274" y="294.85772875650156" name="bottom"/>
+  <anchor x="567.7264117930729" y="854.5513336470517" name="horn"/>
+  <anchor x="275.8296802082146" y="162.08158151121305" name="overlay"/>
+  <outline>
+    <component base="zero" xScale="0.57" yScale="0.57" xOffset="15" yOffset="430"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>zero</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

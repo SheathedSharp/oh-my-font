@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equal" format="2">
+  <advance width="757"/>
+  <unicode hex="003D"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示特粗：茎 214，但内白下限降到 0.34，上眼继续让位给下眼。M 的谷从最深点往回抬，避免封口。字距重新打开。
+</note>
+  <anchor x="381.0" y="624.4990273104441" name="top"/>
+  <anchor x="381.0" y="78.09252336823229" name="bottom"/>
+  <anchor x="670.8333333333334" y="476.16706779150576" name="horn"/>
+  <anchor x="381.0" y="131.06822319642458" name="overlay"/>
+  <anchor x="381.0" y="156.7992773986894" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="101.0" y="421.0" type="line" smooth="yes"/>
+      <point x="104.0" y="407.0"/>
+      <point x="107.0" y="392.0"/>
+      <point x="110.0" y="377.0" type="curve" smooth="yes"/>
+      <point x="124.0" y="370.0"/>
+      <point x="137.0" y="362.0"/>
+      <point x="150.0" y="354.0" type="curve" smooth="yes"/>
+      <point x="227.0" y="348.0"/>
+      <point x="304.0" y="354.0"/>
+      <point x="381.0" y="352.0" type="curve"/>
+      <point x="519.0" y="352.0" type="line" smooth="yes"/>
+      <point x="555.0" y="359.0"/>
+      <point x="599.0" y="342.0"/>
+      <point x="633.0" y="363.0" type="curve" smooth="yes"/>
+      <point x="652.0" y="374.0"/>
+      <point x="675.0" y="397.0"/>
+      <point x="661.0" y="421.0" type="curve"/>
+      <point x="677.0" y="441.0" type="line"/>
+      <point x="661.0" y="461.0" type="line" smooth="yes"/>
+      <point x="675.0" y="485.0"/>
+      <point x="652.0" y="508.0"/>
+      <point x="633.0" y="519.0" type="curve" smooth="yes"/>
+      <point x="576.0" y="546.0"/>
+      <point x="510.0" y="522.0"/>
+      <point x="450.0" y="530.0" type="curve" smooth="yes"/>
+      <point x="350.0" y="528.0"/>
+      <point x="250.0" y="534.0"/>
+      <point x="150.0" y="528.0" type="curve" smooth="yes"/>
+      <point x="137.0" y="520.0"/>
+      <point x="124.0" y="512.0"/>
+      <point x="110.0" y="505.0" type="curve" smooth="yes"/>
+      <point x="107.0" y="490.0"/>
+      <point x="104.0" y="475.0"/>
+      <point x="101.0" y="461.0" type="curve"/>
+      <point x="85.0" y="441.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="101.0" y="218.0" type="line" smooth="yes"/>
+      <point x="104.0" y="204.0"/>
+      <point x="107.0" y="189.0"/>
+      <point x="110.0" y="174.0" type="curve" smooth="yes"/>
+      <point x="124.0" y="167.0"/>
+      <point x="137.0" y="159.0"/>
+      <point x="150.0" y="151.0" type="curve" smooth="yes"/>
+      <point x="227.0" y="145.0"/>
+      <point x="304.0" y="151.0"/>
+      <point x="381.0" y="149.0" type="curve"/>
+      <point x="519.0" y="149.0" type="line" smooth="yes"/>
+      <point x="555.0" y="156.0"/>
+      <point x="599.0" y="139.0"/>
+      <point x="633.0" y="160.0" type="curve" smooth="yes"/>
+      <point x="652.0" y="171.0"/>
+      <point x="675.0" y="194.0"/>
+      <point x="661.0" y="218.0" type="curve"/>
+      <point x="677.0" y="238.0" type="line"/>
+      <point x="661.0" y="258.0" type="line" smooth="yes"/>
+      <point x="675.0" y="282.0"/>
+      <point x="652.0" y="305.0"/>
+      <point x="633.0" y="316.0" type="curve" smooth="yes"/>
+      <point x="576.0" y="343.0"/>
+      <point x="510.0" y="319.0"/>
+      <point x="450.0" y="327.0" type="curve" smooth="yes"/>
+      <point x="350.0" y="325.0"/>
+      <point x="250.0" y="331.0"/>
+      <point x="150.0" y="325.0" type="curve" smooth="yes"/>
+      <point x="137.0" y="317.0"/>
+      <point x="124.0" y="309.0"/>
+      <point x="110.0" y="302.0" type="curve" smooth="yes"/>
+      <point x="107.0" y="287.0"/>
+      <point x="104.0" y="272.0"/>
+      <point x="101.0" y="258.0" type="curve"/>
+      <point x="85.0" y="238.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>800</integer>
+    </dict>
+  </lib>
+</glyph>

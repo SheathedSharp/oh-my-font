@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0104" format="2">
+  <advance width="993"/>
+  <unicode hex="0104"/>
+  <note>
+Canonical new-base + diacritic composition, with explicit top/bottom/horn/side anchors. Ogonek is attached through its dedicated optical join, not floated under the center.
+</note>
+  <anchor x="652" y="868" name="top"/>
+  <anchor x="478" y="-119" name="bottom"/>
+  <anchor x="1024" y="750" name="horn"/>
+  <anchor x="529" y="170" name="overlay"/>
+  <outline>
+    <component base="A"/>
+    <component base="uni0328" xOffset="777.0" yOffset="-57.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.baseCharacter</key>
+      <string>A</string>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>A</string>
+        <string>uni0328</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

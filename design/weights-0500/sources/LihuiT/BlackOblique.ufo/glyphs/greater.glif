@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater" format="2">
+  <advance width="902"/>
+  <unicode hex="003E"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 黑体几乎单线（204/196），但 B 的上下碗、e 的开口、8 的上下眼仍保持不等。接合 174 轻于茎，内白下限 0.34。字距大幅放开。它不是特粗再加一圈。
+</note>
+  <anchor x="536.2217361249096" y="729.396276946954" name="top"/>
+  <anchor x="400.8763610423378" y="-38.18548812817532" name="bottom"/>
+  <anchor x="782.6261921289198" y="605.2658924958605" name="horn"/>
+  <anchor x="434.824375914534" y="154.34327142862276" name="overlay"/>
+  <anchor x="415.09493222434907" y="27.679613825466127" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="737.0" y="414.0" type="line" smooth="yes"/>
+      <point x="675.0" y="411.0"/>
+      <point x="677.0" y="500.0"/>
+      <point x="614.0" y="503.0" type="curve"/>
+      <point x="451.0" y="611.0" type="line" smooth="yes"/>
+      <point x="420.0" y="625.0"/>
+      <point x="395.0" y="661.0"/>
+      <point x="354.0" y="660.0" type="curve" smooth="yes"/>
+      <point x="315.0" y="669.0"/>
+      <point x="305.0" y="622.0"/>
+      <point x="272.0" y="614.0" type="curve" smooth="yes"/>
+      <point x="285.0" y="586.0"/>
+      <point x="237.0" y="576.0"/>
+      <point x="249.0" y="548.0" type="curve" smooth="yes"/>
+      <point x="249.0" y="501.0"/>
+      <point x="299.0" y="481.0"/>
+      <point x="331.0" y="459.0" type="curve"/>
+      <point x="510.0" y="340.0" type="line"/>
+      <point x="289.0" y="221.0" type="line" smooth="yes"/>
+      <point x="257.0" y="199.0"/>
+      <point x="210.0" y="188.0"/>
+      <point x="187.0" y="153.0" type="curve" smooth="yes"/>
+      <point x="153.0" y="121.0"/>
+      <point x="190.0" y="97.0"/>
+      <point x="175.0" y="66.0" type="curve" smooth="yes"/>
+      <point x="208.0" y="68.0"/>
+      <point x="187.0" y="23.0"/>
+      <point x="220.0" y="24.0" type="curve" smooth="yes"/>
+      <point x="264.0" y="7.0"/>
+      <point x="315.0" y="50.0"/>
+      <point x="356.0" y="69.0" type="curve"/>
+      <point x="557.0" y="177.0" type="line" smooth="yes"/>
+      <point x="620.0" y="180.0"/>
+      <point x="650.0" y="269.0"/>
+      <point x="711.0" y="266.0" type="curve"/>
+      <point x="716.0" y="291.0" type="line"/>
+      <point x="741.0" y="304.0" type="line" smooth="yes"/>
+      <point x="741.0" y="315.0"/>
+      <point x="740.0" y="326.0"/>
+      <point x="740.0" y="337.0" type="curve"/>
+      <point x="733.0" y="334.0" type="line"/>
+      <point x="739.0" y="340.0" type="line"/>
+      <point x="736.0" y="346.0" type="line"/>
+      <point x="741.0" y="343.0" type="line" smooth="yes"/>
+      <point x="745.0" y="354.0"/>
+      <point x="749.0" y="365.0"/>
+      <point x="753.0" y="376.0" type="curve"/>
+      <point x="733.0" y="389.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>900</integer>
+    </dict>
+  </lib>
+</glyph>

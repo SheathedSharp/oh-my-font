@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash" format="2">
+  <advance width="855"/>
+  <unicode hex="002F"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 黑体几乎单线（204/196），但 B 的上下碗、e 的开口、8 的上下眼仍保持不等。接合 174 轻于茎，内白下限 0.34。字距大幅放开。它不是特粗再加一圈。
+</note>
+  <anchor x="527.015328332601" y="898.1654364157945" name="top"/>
+  <anchor x="328.9363675215829" y="-225.19617288050182" name="bottom"/>
+  <anchor x="745.8007394530302" y="784.0831175442536" name="horn"/>
+  <anchor x="399.136372285695" y="172.927837875284" name="overlay"/>
+  <anchor x="339.6100524564771" y="-164.66269756090867" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="151.0" y="-161.0" type="curve" smooth="yes"/>
+      <point x="183.0" y="-146.0"/>
+      <point x="207.0" y="-183.0"/>
+      <point x="240.0" y="-149.0" type="curve" smooth="yes"/>
+      <point x="300.0" y="-109.0"/>
+      <point x="295.0" y="-13.0"/>
+      <point x="351.0" y="24.0" type="curve"/>
+      <point x="582.0" y="434.0" type="line" smooth="yes"/>
+      <point x="620.0" y="543.0"/>
+      <point x="732.0" y="639.0"/>
+      <point x="748.0" y="753.0" type="curve" smooth="yes"/>
+      <point x="759.0" y="795.0"/>
+      <point x="710.0" y="789.0"/>
+      <point x="704.0" y="820.0" type="curve" smooth="yes"/>
+      <point x="672.0" y="805.0"/>
+      <point x="648.0" y="842.0"/>
+      <point x="615.0" y="808.0" type="curve" smooth="yes"/>
+      <point x="555.0" y="768.0"/>
+      <point x="560.0" y="672.0"/>
+      <point x="504.0" y="635.0" type="curve"/>
+      <point x="273.0" y="225.0" type="line" smooth="yes"/>
+      <point x="235.0" y="116.0"/>
+      <point x="123.0" y="20.0"/>
+      <point x="107.0" y="-94.0" type="curve" smooth="yes"/>
+      <point x="96.0" y="-136.0"/>
+      <point x="145.0" y="-130.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>900</integer>
+    </dict>
+  </lib>
+</glyph>

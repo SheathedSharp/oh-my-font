@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni03A3" format="2">
+  <advance width="527"/>
+  <unicode hex="03A3"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: 展示细体：对比明显高于 LihuiT（竖 28、横 16）。接合 42 托住发丝横画。B 的下眼比上眼更开，腰不收死。e 的横画抬得更高。M 仍是软谷，不是直线骨架。字距比 LihuiT 细体更紧。
+</note>
+  <anchor x="270.8934645857224" y="54.49532612117294" name="top"/>
+  <anchor x="265.06637080300544" y="21.44823509004289" name="bottom"/>
+  <anchor x="444.74711232275547" y="50.477193464782445" name="horn"/>
+  <anchor x="266.80148557701546" y="31.288559962835958" name="overlay"/>
+  <anchor x="270.73207454756886" y="23.580305479148056" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="102.0" y="49.0" type="curve" smooth="yes"/>
+      <point x="141.0" y="43.0"/>
+      <point x="181.0" y="37.0"/>
+      <point x="220.0" y="31.0" type="curve" smooth="yes"/>
+      <point x="294.0" y="25.0"/>
+      <point x="373.0" y="42.0"/>
+      <point x="443.0" y="23.0" type="curve"/>
+      <point x="448.0" y="52.0" type="line" smooth="yes"/>
+      <point x="391.0" y="36.0"/>
+      <point x="336.0" y="52.0"/>
+      <point x="280.0" y="46.0" type="curve" smooth="yes"/>
+      <point x="221.0" y="48.0"/>
+      <point x="160.0" y="42.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

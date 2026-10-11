@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="B" format="2">
+  <advance width="821"/>
+  <unicode hex="0042"/>
+  <note>
+A sculpted double-bowl silhouette with a liquid waist and sloping asymmetric inner eyes.
+Weight master: 展示特粗：茎 214，但内白下限降到 0.34，上眼继续让位给下眼。M 的谷从最深点往回抬，避免封口。字距重新打开。
+</note>
+  <anchor x="414.1649109454481" y="848.2659142259764" name="top"/>
+  <anchor x="414.1649109454481" y="-123.83639415436897" name="bottom"/>
+  <anchor x="744.8591811982931" y="734.0380650397968" name="horn"/>
+  <anchor x="414.1649109454481" y="176.8859026827163" name="overlay"/>
+  <anchor x="409.1732993189901" y="-63.22569866782465" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="131.0" y="-23.0" type="curve" smooth="yes"/>
+      <point x="146.0" y="-33.0"/>
+      <point x="162.0" y="-43.0"/>
+      <point x="177.0" y="-53.0" type="curve"/>
+      <point x="334.0" y="-67.0" type="line" smooth="yes"/>
+      <point x="443.0" y="-77.0"/>
+      <point x="562.0" y="-74.0"/>
+      <point x="655.0" y="-7.0" type="curve" smooth="yes"/>
+      <point x="716.0" y="37.0"/>
+      <point x="751.0" y="116.0"/>
+      <point x="738.0" y="191.0" type="curve" smooth="yes"/>
+      <point x="738.0" y="281.0"/>
+      <point x="683.0" y="368.0"/>
+      <point x="602.0" y="408.0" type="curve" smooth="yes"/>
+      <point x="648.0" y="463.0"/>
+      <point x="659.0" y="543.0"/>
+      <point x="638.0" y="612.0" type="curve" smooth="yes"/>
+      <point x="606.0" y="726.0"/>
+      <point x="481.0" y="783.0"/>
+      <point x="370.0" y="779.0" type="curve"/>
+      <point x="321.0" y="778.0" type="line"/>
+      <point x="252.0" y="778.0" type="line" smooth="yes"/>
+      <point x="211.0" y="788.0"/>
+      <point x="181.0" y="762.0"/>
+      <point x="146.0" y="745.0" type="curve" smooth="yes"/>
+      <point x="141.0" y="726.0"/>
+      <point x="136.0" y="706.0"/>
+      <point x="131.0" y="687.0" type="curve" smooth="yes"/>
+      <point x="66.0" y="630.0"/>
+      <point x="135.0" y="525.0"/>
+      <point x="106.0" y="456.0" type="curve" smooth="yes"/>
+      <point x="105.0" y="388.0"/>
+      <point x="104.0" y="320.0"/>
+      <point x="103.0" y="253.0" type="curve"/>
+      <point x="102.0" y="48.0" type="line" smooth="yes"/>
+      <point x="91.0" y="17.0"/>
+      <point x="130.0" y="6.0"/>
+    </contour>
+    <contour>
+      <point x="285.0" y="113.0" type="line"/>
+      <point x="286.0" y="186.0" type="line" smooth="yes"/>
+      <point x="281.0" y="232.0"/>
+      <point x="299.0" y="281.0"/>
+      <point x="277.0" y="323.0" type="curve"/>
+      <point x="288.0" y="308.0" type="line"/>
+      <point x="402.0" y="295.0" type="line" smooth="yes"/>
+      <point x="451.0" y="278.0"/>
+      <point x="515.0" y="269.0"/>
+      <point x="537.0" y="215.0" type="curve" smooth="yes"/>
+      <point x="539.0" y="196.0"/>
+      <point x="541.0" y="178.0"/>
+      <point x="542.0" y="159.0" type="curve" smooth="yes"/>
+      <point x="538.0" y="133.0"/>
+      <point x="512.0" y="117.0"/>
+      <point x="489.0" y="111.0" type="curve" smooth="yes"/>
+      <point x="457.0" y="101.0"/>
+      <point x="423.0" y="102.0"/>
+      <point x="390.0" y="105.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="302.0" y="585.0" type="line" smooth="yes"/>
+      <point x="338.0" y="585.0"/>
+      <point x="374.0" y="595.0"/>
+      <point x="408.0" y="581.0" type="curve" smooth="yes"/>
+      <point x="442.0" y="570.0"/>
+      <point x="452.0" y="517.0"/>
+      <point x="420.0" y="498.0" type="curve" smooth="yes"/>
+      <point x="407.0" y="493.0"/>
+      <point x="395.0" y="487.0"/>
+      <point x="382.0" y="481.0" type="curve"/>
+      <point x="344.0" y="477.0" type="line"/>
+      <point x="298.0" y="473.0" type="line" smooth="yes"/>
+      <point x="308.0" y="488.0"/>
+      <point x="297.0" y="507.0"/>
+      <point x="302.0" y="523.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.reviewStatus</key>
+      <string>approved-core-93451c3</string>
+      <key>de.zayju.weight</key>
+      <integer>800</integer>
+    </dict>
+  </lib>
+</glyph>

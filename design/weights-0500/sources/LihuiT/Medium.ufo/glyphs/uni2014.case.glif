@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2014.case" format="2">
+  <advance width="1000"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="500" y="429" name="top"/>
+  <anchor x="500" y="283" name="bottom"/>
+  <anchor x="955" y="331" name="horn"/>
+  <anchor x="500" y="195" name="overlay"/>
+  <outline>
+    <component base="uni2014" yOffset="78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>uni2014</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

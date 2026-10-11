@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron.right" format="2">
+  <advance width="53"/>
+  <note>
+Narrow side caron for d/t/l/L; contextual substitution and matching component placement.
+Weight master: 正文细体：竖茎压到约 34，横画仍留 26，接合故意重于茎（48）以免尖脚断开。B 的上碗仍小于下碗，腰部反而松开；M 的谷抬高，避免细线收成针尖。e 的横画上移、开口加大。字距明显放松。
+</note>
+  <anchor x="16.926352277708432" y="0" name="_caron"/>
+  <anchor x="2.252446605608661" y="108.18618954432472" name="top"/>
+  <outline>
+    <contour>
+      <point x="11" y="66" type="line"/>
+      <point x="10" y="60" type="line"/>
+      <point x="8" y="53" type="line"/>
+      <point x="6" y="47" type="line"/>
+      <point x="4" y="41" type="line"/>
+      <point x="-1" y="29" type="line"/>
+      <point x="-7" y="17" type="line"/>
+      <point x="-5" y="11" type="line"/>
+      <point x="-4" y="4" type="line"/>
+      <point x="-3" y="1" type="line"/>
+      <point x="-2" y="-2" type="line"/>
+      <point x="-2" y="-6" type="line"/>
+      <point x="-2" y="-10" type="line"/>
+      <point x="2" y="-5" type="line"/>
+      <point x="6" y="1" type="line"/>
+      <point x="10" y="6" type="line"/>
+      <point x="13" y="12" type="line"/>
+      <point x="17" y="18" type="line"/>
+      <point x="20" y="23" type="line"/>
+      <point x="23" y="29" type="line"/>
+      <point x="26" y="36" type="line"/>
+      <point x="28" y="42" type="line"/>
+      <point x="30" y="48" type="line"/>
+      <point x="33" y="54" type="line"/>
+      <point x="35" y="60" type="line"/>
+      <point x="36" y="66" type="line"/>
+      <point x="38" y="73" type="line"/>
+      <point x="40" y="79" type="line"/>
+      <point x="41" y="85" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

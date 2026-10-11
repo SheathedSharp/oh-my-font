@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25A0" format="2">
+  <advance width="696"/>
+  <unicode hex="25A0"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: 展示细体：对比明显高于 LihuiT（竖 28、横 16）。接合 42 托住发丝横画。B 的下眼比上眼更开，腰不收死。e 的横画抬得更高。M 仍是软谷，不是直线骨架。字距比 LihuiT 细体更紧。
+</note>
+  <anchor x="353.0043559022504" y="658.6976976414823" name="top"/>
+  <anchor x="353.0043559022504" y="69.84884890308606" name="bottom"/>
+  <anchor x="600.6487748511746" y="572.5675675275079" name="horn"/>
+  <anchor x="353.0043559022504" y="219.25825828447017" name="overlay"/>
+  <anchor x="353.0043559022504" y="115.55055059621532" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="101.0" y="105.0" type="line"/>
+      <point x="605.0" y="105.0" type="line"/>
+      <point x="605.0" y="613.0" type="line"/>
+      <point x="101.0" y="613.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

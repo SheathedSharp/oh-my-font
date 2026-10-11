@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron.right" format="2">
+  <advance width="177"/>
+  <note>
+Narrow side caron for d/t/l/L; contextual substitution and matching component placement.
+Weight master: 展示黑体：246/228，调制只留 0.20。B 上碗缩到 0.76、腰收 32，是整套里最强的收腰，同时开口和 8 的下眼被强制留白。字距 +30。它和 LihuiT 黑体不是同一个黑度。
+</note>
+  <anchor x="0" y="0" name="_caron"/>
+  <anchor x="31.544090681252754" y="360.64569116374923" name="top"/>
+  <outline>
+    <contour>
+      <point x="7.0" y="231.0" type="curve" smooth="yes"/>
+      <point x="-8.0" y="185.0"/>
+      <point x="7.0" y="132.0"/>
+      <point x="-27.0" y="92.0" type="curve" smooth="yes"/>
+      <point x="-8.0" y="59.0"/>
+      <point x="29.0" y="33.0"/>
+      <point x="43.0" y="-5.0" type="curve"/>
+      <point x="133.0" y="-10.0" type="line" smooth="yes"/>
+      <point x="165.0" y="21.0"/>
+      <point x="188.0" y="60.0"/>
+      <point x="202.0" y="102.0" type="curve" smooth="yes"/>
+      <point x="229.0" y="170.0"/>
+      <point x="222.0" y="277.0"/>
+      <point x="124.0" y="287.0" type="curve" smooth="yes"/>
+      <point x="89.0" y="261.0"/>
+      <point x="43.0" y="255.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>900</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen" format="2">
+  <advance width="384"/>
+  <unicode hex="002D"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示轻体：66/46，对比仍是展示体而不是 LihuiT 轻体的 58/48。R 的腿继续外甩。流动的腰刚刚开始出现。
+</note>
+  <anchor x="201.0768785436091" y="328.45031345102626" name="top"/>
+  <anchor x="184.54124644284218" y="234.67208374205987" name="bottom"/>
+  <anchor x="297.4343350313151" y="270.2840697074901" name="horn"/>
+  <anchor x="184.0179669459825" y="231.70441824494068" name="overlay"/>
+  <anchor x="189.9833532101832" y="265.5358049120994" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="77.0" y="258.0" type="line"/>
+      <point x="300.0" y="258.0" type="line"/>
+      <point x="300.0" y="259.0" type="line"/>
+      <point x="297.0" y="262.0" type="line"/>
+      <point x="303.0" y="294.0" type="line"/>
+      <point x="306.0" y="297.0" type="line"/>
+      <point x="306.0" y="298.0" type="line"/>
+      <point x="84.0" y="298.0" type="line"/>
+      <point x="84.0" y="297.0" type="line"/>
+      <point x="86.0" y="294.0" type="line"/>
+      <point x="81.0" y="262.0" type="line"/>
+      <point x="77.0" y="259.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>300</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six.tnum" format="2">
+  <advance width="748"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="450.07867386246465" y="782" name="top"/>
+  <anchor x="303.0219719516049" y="-52" name="bottom"/>
+  <anchor x="656.7986297530351" y="684" name="horn"/>
+  <anchor x="346.5747361865957" y="195" name="overlay"/>
+  <outline>
+    <component base="six" xOffset="16.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>six</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

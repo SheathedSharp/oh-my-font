@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni030A" format="2">
+  <unicode hex="030A"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: 展示特粗：茎 214，但内白下限降到 0.34，上眼继续让位给下眼。M 的谷从最深点往回抬，避免封口。字距重新打开。
+</note>
+  <anchor x="0" y="0" name="_top"/>
+  <anchor x="91.7860095871101" y="323.7482352012293" name="top"/>
+  <outline>
+    <contour>
+      <point x="158.0" y="55.0" type="curve" smooth="yes"/>
+      <point x="176.0" y="86.0"/>
+      <point x="183.0" y="124.0"/>
+      <point x="172.0" y="158.0" type="curve" smooth="yes"/>
+      <point x="157.0" y="214.0"/>
+      <point x="102.0" y="257.0"/>
+      <point x="43.0" y="255.0" type="curve" smooth="yes"/>
+      <point x="-16.0" y="257.0"/>
+      <point x="-71.0" y="214.0"/>
+      <point x="-86.0" y="158.0" type="curve" smooth="yes"/>
+      <point x="-86.0" y="134.0"/>
+      <point x="-86.0" y="111.0"/>
+      <point x="-86.0" y="87.0" type="curve" smooth="yes"/>
+      <point x="-74.0" y="67.0"/>
+      <point x="-63.0" y="48.0"/>
+      <point x="-51.0" y="28.0" type="curve" smooth="yes"/>
+      <point x="-31.0" y="17.0"/>
+      <point x="-12.0" y="5.0"/>
+      <point x="8.0" y="-6.0" type="curve" smooth="yes"/>
+      <point x="31.0" y="-6.0"/>
+      <point x="55.0" y="-6.0"/>
+      <point x="78.0" y="-6.0" type="curve" smooth="yes"/>
+      <point x="112.0" y="3.0"/>
+      <point x="141.0" y="25.0"/>
+    </contour>
+    <contour>
+      <point x="65.0" y="136.0" type="line" smooth="yes"/>
+      <point x="69.0" y="130.0"/>
+      <point x="69.0" y="122.0"/>
+      <point x="68.0" y="115.0" type="curve" smooth="yes"/>
+      <point x="66.0" y="109.0"/>
+      <point x="62.0" y="103.0"/>
+      <point x="56.0" y="99.0" type="curve"/>
+      <point x="43.0" y="95.0" type="line" smooth="yes"/>
+      <point x="10.0" y="95.0"/>
+      <point x="10.0" y="150.0"/>
+      <point x="43.0" y="150.0" type="curve"/>
+      <point x="56.0" y="146.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>top</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>800</integer>
+    </dict>
+  </lib>
+</glyph>

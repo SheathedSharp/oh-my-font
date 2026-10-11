@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="comma" format="2">
+  <advance width="284"/>
+  <unicode hex="002C"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示半粗：腰收 14、M 谷再深，调制降到 0.66。字距是全家族最紧的一档（-18），因为这个重量的白还撑得住，再往上就要回松。
+</note>
+  <anchor x="138.7551078505274" y="181.21923883180528" name="top"/>
+  <anchor x="138.7551078505274" y="-194.47189132793062" name="bottom"/>
+  <anchor x="202.58474809437257" y="63.59070606613716" name="horn"/>
+  <anchor x="138.7551078505274" y="225.63001140659833" name="overlay"/>
+  <anchor x="130.77640282004677" y="-132.05675149308632" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="103.0" y="-146.0" type="curve" smooth="yes"/>
+      <point x="116.0" y="-126.0"/>
+      <point x="129.0" y="-106.0"/>
+      <point x="141.0" y="-85.0" type="curve" smooth="yes"/>
+      <point x="159.0" y="-62.0"/>
+      <point x="171.0" y="-32.0"/>
+      <point x="170.0" y="-3.0" type="curve" smooth="yes"/>
+      <point x="190.0" y="3.0"/>
+      <point x="206.0" y="23.0"/>
+      <point x="211.0" y="44.0" type="curve" smooth="yes"/>
+      <point x="219.0" y="83.0"/>
+      <point x="189.0" y="124.0"/>
+      <point x="150.0" y="131.0" type="curve" smooth="yes"/>
+      <point x="118.0" y="129.0"/>
+      <point x="82.0" y="126.0"/>
+      <point x="66.0" y="94.0" type="curve" smooth="yes"/>
+      <point x="62.0" y="79.0"/>
+      <point x="58.0" y="64.0"/>
+      <point x="55.0" y="48.0" type="curve" smooth="yes"/>
+      <point x="55.0" y="16.0"/>
+      <point x="97.0" y="-8.0"/>
+      <point x="79.0" y="-42.0" type="curve" smooth="yes"/>
+      <point x="71.0" y="-59.0"/>
+      <point x="47.0" y="-67.0"/>
+      <point x="48.0" y="-89.0" type="curve" smooth="yes"/>
+      <point x="49.0" y="-119.0"/>
+      <point x="83.0" y="-133.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>600</integer>
+    </dict>
+  </lib>
+</glyph>

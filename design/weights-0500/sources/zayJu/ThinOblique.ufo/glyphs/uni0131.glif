@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0131" format="2">
+  <advance width="599"/>
+  <unicode hex="0131"/>
+  <note>
+Remove only the dot contour from the new i/j; preserve exact stem curves and width.
+Weight master: 展示细体：对比明显高于 LihuiT（竖 28、横 16）。接合 42 托住发丝横画。B 的下眼比上眼更开，腰不收死。e 的横画抬得更高。M 仍是软谷，不是直线骨架。字距比 LihuiT 细体更紧。
+</note>
+  <anchor x="363.35083051157415" y="550.181759345806" name="top"/>
+  <anchor x="266.5240161308279" y="1.049607296780799" name="bottom"/>
+  <anchor x="478.4038940879901" y="465.03152057871023" name="horn"/>
+  <anchor x="303.2936924779467" y="209.58080427742323" name="overlay"/>
+  <anchor x="256.754322782349" y="46.23136664258666" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="324.0" y="498.0" type="line" smooth="yes"/>
+      <point x="305.0" y="422.0"/>
+      <point x="295.0" y="345.0"/>
+      <point x="278.0" y="268.0" type="curve"/>
+      <point x="250.0" y="119.0" type="line" smooth="yes"/>
+      <point x="99.0" y="107.0"/>
+      <point x="262.0" y="59.0"/>
+      <point x="232.0" y="36.0" type="curve"/>
+      <point x="264.0" y="36.0" type="line" smooth="yes"/>
+      <point x="264.0" y="39.0"/>
+      <point x="264.0" y="43.0"/>
+      <point x="264.0" y="46.0" type="curve"/>
+      <point x="307.0" y="270.0" type="line"/>
+      <point x="336.0" y="420.0" type="line" smooth="yes"/>
+      <point x="490.0" y="432.0"/>
+      <point x="327.0" y="480.0"/>
+      <point x="352.0" y="504.0" type="curve"/>
+      <point x="344.0" y="505.0" type="line"/>
+      <point x="332.0" y="505.0" type="line"/>
+      <point x="325.0" y="504.0" type="line"/>
+      <point x="327.0" y="499.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

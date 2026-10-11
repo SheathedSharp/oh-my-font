@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l" format="2">
+  <advance width="350"/>
+  <unicode hex="006C"/>
+  <note>
+Individually drawn for the approved warm humanist reference cut; no legacy outline input.
+Weight master: 正文中粗：竖茎 108、横画 94，比 Regular 暗一档，但横画追得更快，对比下降。B 上碗开始收、下碗保持，腰轻收。M 谷加深而不是简单加粗。字距略紧。
+</note>
+  <anchor x="165.38911802317173" y="815.7756940249261" name="top"/>
+  <anchor x="165.38911802317173" y="-85.24619410574238" name="bottom"/>
+  <anchor x="311.4727950579293" y="712.2585251658342" name="horn"/>
+  <anchor x="165.38911802317173" y="175.65932332482635" name="overlay"/>
+  <anchor x="242.48883645818267" y="593.9531893268718" name="caron"/>
+  <anchor x="193.79427744659682" y="-30.318716751938425" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="119.0" y="759.0" type="line" smooth="yes"/>
+      <point x="110.0" y="757.0"/>
+      <point x="99.0" y="761.0"/>
+      <point x="94.0" y="750.0" type="curve" smooth="yes"/>
+      <point x="68.0" y="714.0"/>
+      <point x="124.0" y="654.0"/>
+      <point x="87.0" y="624.0" type="curve"/>
+      <point x="87.0" y="423.0" type="line"/>
+      <point x="87.0" y="121.0" type="line" smooth="yes"/>
+      <point x="91.0" y="95.0"/>
+      <point x="95.0" y="69.0"/>
+      <point x="100.0" y="44.0" type="curve" smooth="yes"/>
+      <point x="113.0" y="27.0"/>
+      <point x="127.0" y="11.0"/>
+      <point x="141.0" y="-6.0" type="curve" smooth="yes"/>
+      <point x="163.0" y="-11.0"/>
+      <point x="185.0" y="-17.0"/>
+      <point x="207.0" y="-22.0" type="curve" smooth="yes"/>
+      <point x="321.0" y="-43.0"/>
+      <point x="310.0" y="108.0"/>
+      <point x="208.0" y="75.0" type="curve" smooth="yes"/>
+      <point x="193.0" y="87.0"/>
+      <point x="193.0" y="109.0"/>
+      <point x="193.0" y="126.0" type="curve"/>
+      <point x="193.0" y="625.0" type="line" smooth="yes"/>
+      <point x="160.0" y="624.0"/>
+      <point x="226.0" y="754.0"/>
+      <point x="169.0" y="758.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>500</integer>
+    </dict>
+  </lib>
+</glyph>

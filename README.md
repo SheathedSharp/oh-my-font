@@ -2,7 +2,7 @@
 
 **Two voices. One bright idea.** Paired humanist and expressive sans-serif fonts by **zayju**.
 
-[简体中文](README.zh-CN.md) · [Try the fonts](https://fonts.zayju.de/) · [Download v0.400](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.400) · [Source & attribution](ATTRIBUTION.txt)
+[简体中文](README.zh-CN.md) · [Try the fonts](https://fonts.zayju.de/) · [v0.500 candidate](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.500) · [Published v0.400](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.400) · [Source & attribution](ATTRIBUTION.txt)
 
 ![Actual website rendered with the released WOFF2 files](docs/images/specimen-preview.png)
 
@@ -19,11 +19,11 @@ Choose **TTF or OTF**, not both: they have the same desktop font identities. Cho
 | **LihuiT** | Text/interface; more generous spacing and distinguishable default I/l | Lihui |
 | **zayJu** | Display; fluid curves, expressive B/M/R and a two-storey g | Zixian |
 
-**Version 0.400 publishes two Regular 400 upright faces**, one per family, each in TTF, CFF OTF and WOFF2. Each contains **986 glyphs / 810 Unicode code points** and the 21 OpenType features. The complete redesign was approved by the owner in PR #10. The accepted curves, widths, anchors and features are preserved; release promotion changes official identity/version metadata only.
+**Version 0.500 is the first multi-weight family on that redesign.** Each family has upright weights 100, 300, 400, 500, 600, 700, 800 and 900, plus a 10° Oblique of each weight: 32 styles, each in TTF, CFF OTF and WOFF2. Each style still contains **986 glyphs / 810 Unicode code points** and the same 21 OpenType features. Regular 400 upright is the owner-approved 0.400 drawing. The other uprights are stored masters; see [the weight notes](docs/design/0.500-weights.md). Oblique is labeled Oblique. It is not a separately drawn Italic.
 
-Other weights and Obliques are **not** included or synthetically generated. The old [0.301 release](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.301) remains available as history; do not mix its different designs into the new families. Deactivate older LihuiT/zayJu versions before installing, and choose **TTF or OTF**, not both.
+The old [0.301 release](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.301) remains history. Do not mix it with 0.500. Deactivate older installs and choose **TTF or OTF**, not both. v0.400 stays the last published Release until v0.500 is tagged after visual review.
 
-No Han, full Greek/Cyrillic, variable axis or monospaced coding family is included. [Verification and known limitations](docs/QA-0.400.md) preserve the exact remaining FontBakery findings; [issue #3](https://github.com/SheathedSharp/oh-my-font/issues/3) tracks broader coverage and polish.
+No Han, full Greek/Cyrillic, variable axis or monospaced coding family is included. [0.500 verification](docs/QA-0.500.md) keeps the existing Sigma case-mapping FAIL and records every warning. [Issue #3](https://github.com/SheathedSharp/oh-my-font/issues/3) still tracks broader coverage. New masters still need a human visual review before the Release is published.
 
 ## Build from source
 
@@ -42,7 +42,7 @@ python tools/prepare_site.py
 python -m http.server 8136 --bind 127.0.0.1 --directory site
 ```
 
-Open `http://127.0.0.1:8136/`. The specimen uses actual WOFF2 files with explicit loading failures, missing-character warnings, only the released Regular 400 styles, OpenType features, editable text, dark mode and responsive layouts. Outputs are under `dist/{ttf,otf,woff2}/{LihuiT,zayJu}/`.
+Open `http://127.0.0.1:8136/`. The specimen uses the built WOFF2 files: eight weights, Oblique, explicit loading failures, missing-character warnings, OpenType features, editable text, dark mode and responsive layouts. Outputs are under `dist/{ttf,otf,woff2}/{LihuiT,zayJu}/`.
 
 ## Verify and release
 

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l" format="2">
+  <advance width="466"/>
+  <unicode hex="006C"/>
+  <note>
+Individually drawn for the approved warm humanist reference cut; no legacy outline input.
+Weight master: 正文粗体：竖茎 150、接合只到 132，锐角内收形成轻微墨阱，而不是把 Regular 撑圆。字距比半粗回松，避免字字粘连。R 的腿缩短、裆部打开。与 zayJu 粗体相比仍更克制、更宽。
+</note>
+  <anchor x="319.6971859382319" y="845.4134050564629" name="top"/>
+  <anchor x="151.89859367762904" y="-106.21970058853896" name="bottom"/>
+  <anchor x="450.5850707734745" y="736.0815828369904" name="horn"/>
+  <anchor x="200.48740058075788" y="169.34111663809114" name="overlay"/>
+  <anchor x="357.6411604993841" y="611.1309288718787" name="caron"/>
+  <anchor x="191.3267674223814" y="-48.20689696187999" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="258.0" y="92.0" type="curve" smooth="yes"/>
+      <point x="253.0" y="95.0"/>
+      <point x="257.0" y="105.0"/>
+      <point x="255.0" y="109.0" type="curve"/>
+      <point x="310.0" y="426.0" type="line"/>
+      <point x="345.0" y="625.0" type="line" smooth="yes"/>
+      <point x="321.0" y="638.0"/>
+      <point x="402.0" y="762.0"/>
+      <point x="339.0" y="768.0" type="curve" smooth="yes"/>
+      <point x="336.0" y="787.0"/>
+      <point x="313.0" y="779.0"/>
+      <point x="298.0" y="781.0" type="curve"/>
+      <point x="264.0" y="779.0" type="line" smooth="yes"/>
+      <point x="255.0" y="760.0"/>
+      <point x="231.0" y="773.0"/>
+      <point x="224.0" y="751.0" type="curve" smooth="yes"/>
+      <point x="190.0" y="678.0"/>
+      <point x="204.0" y="598.0"/>
+      <point x="179.0" y="524.0" type="curve"/>
+      <point x="126.0" y="222.0" type="line" smooth="yes"/>
+      <point x="120.0" y="161.0"/>
+      <point x="93.0" y="94.0"/>
+      <point x="107.0" y="35.0" type="curve" smooth="yes"/>
+      <point x="124.0" y="-47.0"/>
+      <point x="229.0" y="-62.0"/>
+      <point x="306.0" y="-24.0" type="curve" smooth="yes"/>
+      <point x="312.0" y="-19.0"/>
+      <point x="319.0" y="-13.0"/>
+      <point x="325.0" y="-8.0" type="curve"/>
+      <point x="323.0" y="6.0" type="line" smooth="yes"/>
+      <point x="333.0" y="16.0"/>
+      <point x="334.0" y="29.0"/>
+      <point x="332.0" y="40.0" type="curve" smooth="yes"/>
+      <point x="330.0" y="57.0"/>
+      <point x="339.0" y="77.0"/>
+      <point x="325.0" y="89.0" type="curve" smooth="yes"/>
+      <point x="308.0" y="107.0"/>
+      <point x="280.0" y="89.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

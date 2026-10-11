@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Package only the exact six approved Regular outputs. Never publishes or installs."""
+"""Package the 96-file 0.500 family. Never publishes or installs."""
 from __future__ import annotations
 import hashlib,json,re,subprocess,zipfile
 from pathlib import Path
@@ -27,9 +27,11 @@ def main():
     if {r['file']:r['sha256'] for r in qa['candidates']['records']}!=expected or not qa['candidates']['passed']:raise ValueError('Missing exact candidate checks')
     if not qa['fontbakery']['passed'] or not qa['reproducibility']['passed'] or not qa['unit_tests']['passed']:raise ValueError('Incomplete release gates')
     source={'repository':'https://github.com/SheathedSharp/oh-my-font','version':ver,'tag':'v'+ver,'commit':commit,'author':'zayju','license':'OFL-1.1','reserved_font_names':[],
-            'faces':2,'styles':['Regular'],'weight':400,'codepoints_per_face':810,'glyphs_per_face':986,'approved_design_commit':build['approved_commit']}
+            'families':2,'faces':32,'styles':['Thin','Light','Regular','Medium','Semibold','Bold','Extrabold','Black','and a 10° Oblique of each'],
+            'weights':[100,300,400,500,600,700,800,900],'codepoints_per_face':810,'glyphs_per_face':986,'approved_regular_commit':build['approved_commit'],
+            'oblique':'10 degree Oblique, not a separately drawn Italic'}
     common={name:(ROOT/name).read_bytes() for name in NOTICES};common['SOURCE.json']=(json.dumps(source,indent=2)+'\n').encode()
-    readme=f'''LihuiT / zayJu {ver} — approved complete redesign\nBy zayju · https://github.com/SheathedSharp/oh-my-font\n\nTwo Regular 400 upright faces. Each: 810 codepoints / 986 glyphs.\nTTF and OTF have the same font identities: install ONE format, not both.\nDeactivate older LihuiT/zayJu versions before installing, to avoid font-cache\nconflicts or accidentally mixing the old 0.301 designs with this redesign.\nOther weights and Obliques are NOT included or synthesized.\n\n本次发布已验收的两款 Regular 400 正体。各 810 编码 / 986 字形。\n安装前请停用旧版本；TTF 与 OTF 只选一种。其他字重和斜体未包含。\n\nSIL OFL 1.1. Retain copyright, original-source notice and OFL when redistributing\nthe Font Software; ordinary artwork does not require compulsory visible credit.\nThe existing Sigma case-coverage finding and FontBakery warnings remain in QA.\nThis is not full Greek/Cyrillic/Han, a variable font or a monospaced coding family.\n\n'''
+    readme=f'''LihuiT / zayJu {ver} — first multi-weight redesign\nBy zayju · https://github.com/SheathedSharp/oh-my-font\n\nTwo families, eight upright weights (100 300 400 500 600 700 800 900) and a\n10° Oblique of each weight. 32 styles. Each: 810 codepoints / 986 glyphs.\nRegular 400 upright is the approved 0.400 drawing. Other weights are their own\nmasters. Oblique is not a separately drawn Italic.\nTTF and OTF have the same font identities: install ONE format, not both.\nDeactivate older LihuiT/zayJu versions before installing. Do not mix this\nfamily with the 0.301 designs.\n\n这是第一套基于 0.400 重绘的完整多字重家族。两款字体各 8 个正体字重，\n以及每个字重的 10° Oblique（不是单独绘制的 Italic）。各 810 编码 / 986 字形。\n安装前请停用旧版本；TTF 与 OTF 只选一种。不要与 0.301 混用。\n\nSIL OFL 1.1. Retain copyright, original-source notice and OFL when redistributing\nthe Font Software; ordinary artwork does not require compulsory visible credit.\nThe existing Sigma case-coverage finding and FontBakery warnings remain in QA.\nThis is not full Greek/Cyrillic/Han, a variable font or a monospaced coding family.\n\n'''
     out=ROOT/'release';out.mkdir(exist_ok=True);assets=[]
     for fmt in ('ttf','otf','woff2'):
         files=dict(common)
@@ -40,13 +42,13 @@ def main():
             files['fonts.css']=(ROOT/'site/fonts.css').read_bytes()
             files['example.html']=b'<!doctype html><meta charset="utf-8"><title>LihuiT / zayJu</title><link rel="stylesheet" href="fonts.css"><style>body{padding:5vw;font-family:system-ui}h1{font-family:zayJu;font-weight:400;font-size:clamp(28px,6vw,72px)}p{font-family:LihuiT;font-weight:400;font-size:24px}*{font-synthesis:none}</style><h1>Build a brighter tomorrow.</h1><p>Ideas ship farther.</p><a href="ATTRIBUTION.txt">Source and attribution</a>'
             assert all(url in files for url in re.findall(r'url\("([^"]+)"\)',files['fonts.css'].decode()))
-            usage='Web only. Link fonts.css; use font-family LihuiT or zayJu, font-weight:400, font-style:normal, font-synthesis:none. Serve over HTTP.\n'
+            usage='Web only. Link fonts.css; use font-family LihuiT or zayJu, font-weight 100–900, font-style normal or oblique, font-synthesis:none. Serve over HTTP.\n'
         files['README.txt']=(readme+usage).encode();prefix=f'LihuiT-zayJu-v{ver}-{fmt.upper()}';archive(out/(prefix+'.zip'),prefix,files);assets.append(prefix+'.zip')
     site=ROOT/'site';files=dict(common)
     for name in ('index.html','app.js','style.css','fonts.css','characters.json','font-manifest.json','favicon.ico'):files[name]=(site/name).read_bytes()
     for path in (site/'assets').rglob('*'):
         if path.is_file():files[path.relative_to(site).as_posix()]=path.read_bytes()
-    manifest=json.loads(files['font-manifest.json']);assert manifest['version']==ver and len(manifest['fonts'])==2
+    manifest=json.loads(files['font-manifest.json']);assert manifest['version']==ver and len(manifest['fonts'])==32
     for face in manifest['fonts']:
         path=site/face['file'];assert sha(path)==face['sha256']==expected['woff2/'+face['file'].removeprefix('fonts/')];files[face['file']]=path.read_bytes()
     files['README.txt']=(readme+'Complete static website. Serve over HTTP or deploy unchanged.\n').encode()
@@ -56,5 +58,5 @@ def main():
     (out/'SHA256SUMS.txt').write_text(''.join(f'{sha(out/name)}  {name}\n' for name in sorted(assets)));assets+=['SHA256SUMS.txt']
     actual={p.name for p in out.iterdir() if p.is_file()}
     if actual!=set(assets):raise ValueError('Unexpected stale assets in release directory')
-    print(json.dumps({'version':ver,'commit':commit,'branch':branch,'assets':assets,'fonts':6,'faces':2},indent=2))
+    print(json.dumps({'version':ver,'commit':commit,'branch':branch,'assets':assets,'fonts':96,'faces':32},indent=2))
 if __name__=='__main__':main()

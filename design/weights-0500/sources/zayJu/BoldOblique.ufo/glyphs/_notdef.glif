@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name=".notdef" format="2">
+  <advance width="791"/>
+  <note>
+展示粗体：184/160，接合只到 156。B 上眼缩到 0.74、下眼留 0.94，腰收 20。比 LihuiT 粗体更重、更收腰，也更需要斜体时的内白回正。
+Weight master: 展示粗体：184/160，接合只到 156。B 上眼缩到 0.74、下眼留 0.94，腰收 20。比 LihuiT 粗体更重、更收腰，也更需要斜体时的内白回正。
+</note>
+  <anchor x="462.3611592998503" y="762" name="top"/>
+  <anchor x="320.9469207716614" y="-40" name="bottom"/>
+  <anchor x="640.0811151904207" y="664" name="horn"/>
+  <anchor x="363.265396141693" y="200" name="overlay"/>
+  <anchor x="330.1159237685016" y="12" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="128.0" y="0.0" type="line"/>
+      <point x="528.0" y="0.0" type="line"/>
+      <point x="653.0" y="710.0" type="line"/>
+      <point x="253.0" y="710.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="232.0" y="93.0" type="line"/>
+      <point x="307.0" y="617.0" type="line"/>
+      <point x="527.0" y="617.0" type="line"/>
+      <point x="451.0" y="93.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

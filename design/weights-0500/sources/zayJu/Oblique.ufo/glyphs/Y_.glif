@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Y" format="2">
+  <advance width="715"/>
+  <unicode hex="0059"/>
+  <note>
+Individually drawn for the approved fluid display reference cut; no legacy outline input.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="364.16656166888407" y="776" name="top"/>
+  <anchor x="220.28374541077665" y="-40" name="bottom"/>
+  <anchor x="647.8865175594545" y="678" name="horn"/>
+  <anchor x="262.60222078080824" y="200" name="overlay"/>
+  <anchor x="228.45274840761684" y="12" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="74.0" y="724.0" type="line" smooth="yes"/>
+      <point x="47.0" y="724.0"/>
+      <point x="36.0" y="707.0"/>
+      <point x="47.0" y="683.0" type="curve" smooth="yes"/>
+      <point x="225.0" y="292.0" type="line"/>
+      <point x="180.0" y="45.0" type="line" smooth="yes"/>
+      <point x="175.0" y="16.0"/>
+      <point x="188.0" y="0.0"/>
+      <point x="216.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="236.0" y="0.0" type="line" smooth="yes"/>
+      <point x="264.0" y="0.0"/>
+      <point x="282.0" y="16.0"/>
+      <point x="287.0" y="45.0" type="curve" smooth="yes"/>
+      <point x="332.0" y="292.0" type="line"/>
+      <point x="647.0" y="683.0" type="line" smooth="yes"/>
+      <point x="666.0" y="707.0"/>
+      <point x="661.0" y="724.0"/>
+      <point x="634.0" y="724.0" type="curve" smooth="yes"/>
+      <point x="591.0" y="724.0" type="line" smooth="yes"/>
+      <point x="569.0" y="724.0"/>
+      <point x="552.0" y="713.0"/>
+      <point x="538.0" y="694.0" type="curve" smooth="yes"/>
+      <point x="294.0" y="379.0" type="line"/>
+      <point x="161.0" y="694.0" type="line" smooth="yes"/>
+      <point x="153.0" y="713.0"/>
+      <point x="140.0" y="724.0"/>
+      <point x="118.0" y="724.0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

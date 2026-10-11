@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0338" format="2">
+  <unicode hex="0338"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: 展示黑体：246/228，调制只留 0.20。B 上碗缩到 0.76、腰收 32，是整套里最强的收腰，同时开口和 8 的下眼被强制留白。字距 +30。它和 LihuiT 黑体不是同一个黑度。
+</note>
+  <anchor x="0" y="0" name="_overlay"/>
+  <outline>
+    <contour>
+      <point x="-136.0" y="-231.0" type="curve" smooth="yes"/>
+      <point x="-105.0" y="-216.0"/>
+      <point x="-91.0" y="-260.0"/>
+      <point x="-61.0" y="-244.0" type="curve" smooth="yes"/>
+      <point x="11.0" y="-229.0"/>
+      <point x="26.0" y="-131.0"/>
+      <point x="60.0" y="-86.0" type="curve"/>
+      <point x="176.0" y="132.0" type="line"/>
+      <point x="291.0" y="350.0" type="line" smooth="yes"/>
+      <point x="299.0" y="405.0"/>
+      <point x="366.0" y="450.0"/>
+      <point x="362.0" y="512.0" type="curve" smooth="yes"/>
+      <point x="367.0" y="559.0"/>
+      <point x="319.0" y="562.0"/>
+      <point x="301.0" y="593.0" type="curve" smooth="yes"/>
+      <point x="271.0" y="578.0"/>
+      <point x="256.0" y="622.0"/>
+      <point x="226.0" y="605.0" type="curve" smooth="yes"/>
+      <point x="155.0" y="591.0"/>
+      <point x="140.0" y="493.0"/>
+      <point x="105.0" y="448.0" type="curve"/>
+      <point x="-10.0" y="230.0" type="line"/>
+      <point x="-126.0" y="12.0" type="line" smooth="yes"/>
+      <point x="-133.0" y="-44.0"/>
+      <point x="-200.0" y="-89.0"/>
+      <point x="-197.0" y="-150.0" type="curve" smooth="yes"/>
+      <point x="-202.0" y="-197.0"/>
+      <point x="-154.0" y="-200.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>overlay</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>900</integer>
+    </dict>
+  </lib>
+</glyph>

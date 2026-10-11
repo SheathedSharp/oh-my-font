@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I" format="2">
+  <advance width="164"/>
+  <unicode hex="0049"/>
+  <note>
+Individually drawn for the approved fluid display reference cut; no legacy outline input.
+Weight master: 展示细体：对比明显高于 LihuiT（竖 28、横 16）。接合 42 托住发丝横画。B 的下眼比上眼更开，腰不收死。e 的横画抬得更高。M 仍是软谷，不是直线骨架。字距比 LihuiT 细体更紧。
+</note>
+  <anchor x="86.73771573407771" y="572.31233008854" name="top"/>
+  <anchor x="86.73771573407771" y="156.25623296344293" name="bottom"/>
+  <anchor x="114.73892252018007" y="522.1604266220462" name="horn"/>
+  <anchor x="86.73771573407771" y="280.10072927866247" name="overlay"/>
+  <anchor x="104.31986883232803" y="182.86744704770499" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="85.0" y="176.0" type="curve" smooth="yes"/>
+      <point x="74.0" y="299.0"/>
+      <point x="116.0" y="429.0"/>
+      <point x="60.0" y="546.0" type="curve"/>
+      <point x="57.0" y="357.0" type="line" smooth="yes"/>
+      <point x="66.0" y="297.0"/>
+      <point x="76.0" y="236.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

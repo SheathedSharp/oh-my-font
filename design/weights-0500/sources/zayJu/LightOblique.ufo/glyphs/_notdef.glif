@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name=".notdef" format="2">
+  <advance width="759"/>
+  <note>
+展示轻体：66/46，对比仍是展示体而不是 LihuiT 轻体的 58/48。R 的腿继续外甩。流动的腰刚刚开始出现。
+Weight master: 展示轻体：66/46，对比仍是展示体而不是 LihuiT 轻体的 58/48。R 的腿继续外甩。流动的腰刚刚开始出现。
+</note>
+  <anchor x="446.3611592998503" y="762" name="top"/>
+  <anchor x="304.9469207716614" y="-40" name="bottom"/>
+  <anchor x="624.0811151904207" y="664" name="horn"/>
+  <anchor x="347.265396141693" y="200" name="overlay"/>
+  <anchor x="314.1159237685016" y="12" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="112.0" y="0.0" type="line"/>
+      <point x="512.0" y="0.0" type="line"/>
+      <point x="637.0" y="710.0" type="line"/>
+      <point x="237.0" y="710.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="149.0" y="27.0" type="line"/>
+      <point x="256.0" y="683.0" type="line"/>
+      <point x="592.0" y="683.0" type="line"/>
+      <point x="484.0" y="27.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>300</integer>
+    </dict>
+  </lib>
+</glyph>

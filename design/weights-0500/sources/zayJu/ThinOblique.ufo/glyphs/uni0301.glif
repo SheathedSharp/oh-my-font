@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0301" format="2">
+  <unicode hex="0301"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: 展示细体：对比明显高于 LihuiT（竖 28、横 16）。接合 42 托住发丝横画。B 的下眼比上眼更开，腰不收死。e 的横画抬得更高。M 仍是软谷，不是直线骨架。字距比 LihuiT 细体更紧。
+</note>
+  <anchor x="0" y="0" name="_top"/>
+  <anchor x="-87.54515136459288" y="121.01107003025805" name="top"/>
+  <outline>
+    <contour>
+      <point x="-61" y="15" type="line"/>
+      <point x="-46" y="8" type="line"/>
+      <point x="-52" y="0" type="line"/>
+      <point x="12" y="67" type="line"/>
+      <point x="-12" y="54" type="line"/>
+      <point x="9" y="97" type="line"/>
+      <point x="6" y="91" type="line"/>
+      <point x="2" y="85" type="line"/>
+      <point x="-1" y="80" type="line"/>
+      <point x="-5" y="74" type="line"/>
+      <point x="-9" y="69" type="line"/>
+      <point x="-14" y="63" type="line"/>
+      <point x="-18" y="58" type="line"/>
+      <point x="-23" y="54" type="line"/>
+      <point x="-33" y="44" type="line"/>
+      <point x="-42" y="34" type="line"/>
+      <point x="-52" y="25" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>top</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

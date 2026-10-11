@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.slash.tnum" format="2">
+  <advance width="767"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="453.9917310360885" y="790" name="top"/>
+  <anchor x="304.11379743389324" y="-60" name="bottom"/>
+  <anchor x="690.7116869266589" y="692" name="horn"/>
+  <anchor x="349.9588124180941" y="200" name="overlay"/>
+  <outline>
+    <component base="zero.slash" xOffset="1.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>zero.slash</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

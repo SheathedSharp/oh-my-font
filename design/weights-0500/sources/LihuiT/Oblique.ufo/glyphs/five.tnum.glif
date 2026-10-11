@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five.tnum" format="2">
+  <advance width="748"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="449.9337691518377" y="766" name="top"/>
+  <anchor x="305.3456449708964" y="-54" name="bottom"/>
+  <anchor x="670.653725042408" y="668" name="horn"/>
+  <anchor x="349.25106316730415" y="195" name="overlay"/>
+  <outline>
+    <component base="five" xOffset="16.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>five</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotesingle" format="2">
+  <advance width="386"/>
+  <unicode hex="0027"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 正文粗体：竖茎 150、接合只到 132，锐角内收形成轻微墨阱，而不是把 Regular 撑圆。字距比半粗回松，避免字字粘连。R 的腿缩短、裆部打开。与 zayJu 粗体相比仍更克制、更宽。
+</note>
+  <anchor x="230.14689073993813" y="860.7406016628386" name="top"/>
+  <anchor x="156.61529282938835" y="443.7221872652981" name="bottom"/>
+  <anchor x="266.1093092934259" y="727.1856846335609" name="horn"/>
+  <anchor x="85.72698765418514" y="41.69463090165607" name="overlay"/>
+  <anchor x="169.11085848739026" y="514.5880616073638" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="154.0" y="498.0" type="curve"/>
+      <point x="179.0" y="498.0" type="line" smooth="yes"/>
+      <point x="220.0" y="500.0"/>
+      <point x="245.0" y="545.0"/>
+      <point x="243.0" y="580.0" type="curve"/>
+      <point x="268.0" y="723.0" type="line" smooth="yes"/>
+      <point x="267.0" y="731.0"/>
+      <point x="267.0" y="740.0"/>
+      <point x="266.0" y="749.0" type="curve" smooth="yes"/>
+      <point x="249.0" y="790.0"/>
+      <point x="169.0" y="786.0"/>
+      <point x="147.0" y="736.0" type="curve" smooth="yes"/>
+      <point x="139.0" y="713.0"/>
+      <point x="139.0" y="689.0"/>
+      <point x="133.0" y="665.0" type="curve"/>
+      <point x="118.0" y="580.0" type="line" smooth="yes"/>
+      <point x="104.0" y="545.0"/>
+      <point x="114.0" y="500.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25CB" format="2">
+  <advance width="854"/>
+  <unicode hex="25CB"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="482.8185202270099" y="702" name="top"/>
+  <anchor x="363.9741352295045" y="28" name="bottom"/>
+  <anchor x="751.5384761175803" y="604" name="horn"/>
+  <anchor x="394.30237591136046" y="200" name="overlay"/>
+  <anchor x="373.14313822634466" y="80" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="713.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="742.0" y="520.0"/>
+      <point x="634.0" y="650.0"/>
+      <point x="474.0" y="650.0" type="curve" smooth="yes"/>
+      <point x="313.0" y="650.0"/>
+      <point x="160.0" y="520.0"/>
+      <point x="131.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="103.0" y="198.0"/>
+      <point x="210.0" y="68.0"/>
+      <point x="371.0" y="68.0" type="curve" smooth="yes"/>
+      <point x="532.0" y="68.0"/>
+      <point x="685.0" y="198.0"/>
+    </contour>
+    <contour>
+      <point x="642.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="622.0" y="235.0"/>
+      <point x="505.0" y="134.0"/>
+      <point x="381.0" y="134.0" type="curve" smooth="yes"/>
+      <point x="257.0" y="134.0"/>
+      <point x="172.0" y="235.0"/>
+      <point x="192.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="212.0" y="483.0"/>
+      <point x="330.0" y="584.0"/>
+      <point x="454.0" y="584.0" type="curve" smooth="yes"/>
+      <point x="578.0" y="584.0"/>
+      <point x="662.0" y="483.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

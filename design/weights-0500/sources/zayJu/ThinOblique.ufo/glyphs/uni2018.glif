@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2018" format="2">
+  <advance width="264"/>
+  <unicode hex="2018"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示细体：对比明显高于 LihuiT（竖 28、横 16）。接合 42 托住发丝横画。B 的下眼比上眼更开，腰不收死。e 的横画抬得更高。M 仍是软谷，不是直线骨架。字距比 LihuiT 细体更紧。
+</note>
+  <anchor x="153.31418153421038" y="753.9870179099414" name="top"/>
+  <anchor x="118.41728312281519" y="556.0768723883497" name="bottom"/>
+  <anchor x="173.85143292514726" y="690.6040301285166" name="horn"/>
+  <anchor x="84.31867977311856" y="362.6940831368596" name="overlay"/>
+  <anchor x="127.87118414913196" y="589.7086618233914" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="101.0" y="579.0" type="line" smooth="yes"/>
+      <point x="103.0" y="583.0"/>
+      <point x="105.0" y="587.0"/>
+      <point x="107.0" y="592.0" type="curve"/>
+      <point x="107.0" y="584.0" type="line"/>
+      <point x="108.0" y="586.0" type="line" smooth="yes"/>
+      <point x="108.0" y="582.0"/>
+      <point x="107.0" y="579.0"/>
+      <point x="107.0" y="575.0" type="curve" smooth="yes"/>
+      <point x="121.0" y="577.0"/>
+      <point x="128.0" y="597.0"/>
+      <point x="126.0" y="608.0" type="curve" smooth="yes"/>
+      <point x="146.0" y="637.0"/>
+      <point x="154.0" y="672.0"/>
+      <point x="178.0" y="699.0" type="curve"/>
+      <point x="179.0" y="720.0" type="line" smooth="yes"/>
+      <point x="136.0" y="688.0"/>
+      <point x="132.0" y="636.0"/>
+      <point x="106.0" y="595.0" type="curve" smooth="yes"/>
+      <point x="101.0" y="594.0"/>
+      <point x="96.0" y="591.0"/>
+      <point x="95.0" y="585.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

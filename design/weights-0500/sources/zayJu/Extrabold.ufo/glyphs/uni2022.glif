@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2022" format="2">
+  <advance width="487"/>
+  <unicode hex="2022"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示特粗：茎 214，但内白下限降到 0.34，上眼继续让位给下眼。M 的谷从最深点往回抬，避免封口。字距重新打开。
+</note>
+  <anchor x="245.98902695784784" y="546.2621359223301" name="top"/>
+  <anchor x="245.98902695784784" y="92.02912621359224" name="bottom"/>
+  <anchor x="373.47373221871277" y="396.88349514563106" name="horn"/>
+  <anchor x="245.98902695784784" y="142.33009708737865" name="overlay"/>
+  <anchor x="245.98902695784784" y="171.29126213592232" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="246.0" y="153.0" type="curve" smooth="yes"/>
+      <point x="264.0" y="195.0"/>
+      <point x="314.0" y="185.0"/>
+      <point x="339.0" y="217.0" type="curve" smooth="yes"/>
+      <point x="364.0" y="241.0"/>
+      <point x="379.0" y="275.0"/>
+      <point x="380.0" y="310.0" type="curve" smooth="yes"/>
+      <point x="379.0" y="345.0"/>
+      <point x="364.0" y="379.0"/>
+      <point x="339.0" y="403.0" type="curve" smooth="yes"/>
+      <point x="314.0" y="435.0"/>
+      <point x="264.0" y="425.0"/>
+      <point x="246.0" y="467.0" type="curve" smooth="yes"/>
+      <point x="228.0" y="425.0"/>
+      <point x="178.0" y="435.0"/>
+      <point x="153.0" y="403.0" type="curve" smooth="yes"/>
+      <point x="128.0" y="379.0"/>
+      <point x="113.0" y="345.0"/>
+      <point x="112.0" y="310.0" type="curve" smooth="yes"/>
+      <point x="113.0" y="275.0"/>
+      <point x="128.0" y="241.0"/>
+      <point x="153.0" y="217.0" type="curve" smooth="yes"/>
+      <point x="178.0" y="185.0"/>
+      <point x="228.0" y="195.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>800</integer>
+    </dict>
+  </lib>
+</glyph>
