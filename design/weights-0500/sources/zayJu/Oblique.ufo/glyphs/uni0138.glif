@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0138" format="2">
+  <advance width="645"/>
+  <unicode hex="0138"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="389.0933218302012" y="579" name="top"/>
+  <anchor x="279.9469207716614" y="-40" name="bottom"/>
+  <anchor x="584.8132777207717" y="481" name="horn"/>
+  <anchor x="322.265396141693" y="200" name="overlay"/>
+  <anchor x="296.1159237685016" y="12" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="108.0" y="0.0" type="line"/>
+      <point x="171.0" y="0.0" type="line"/>
+      <point x="202.0" y="176.0" type="line"/>
+      <point x="266.0" y="232.0" type="line"/>
+      <point x="411.0" y="0.0" type="line"/>
+      <point x="505.0" y="0.0" type="line"/>
+      <point x="338.0" y="297.0" type="line"/>
+      <point x="569.0" y="527.0" type="line"/>
+      <point x="500.0" y="527.0" type="line" smooth="yes"/>
+      <point x="481.0" y="527.0"/>
+      <point x="469.0" y="521.0"/>
+      <point x="455.0" y="509.0" type="curve"/>
+      <point x="220.0" y="279.0" type="line"/>
+      <point x="264.0" y="526.0" type="line"/>
+      <point x="177.0" y="526.0" type="line"/>
+      <point x="84.0" y="0.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

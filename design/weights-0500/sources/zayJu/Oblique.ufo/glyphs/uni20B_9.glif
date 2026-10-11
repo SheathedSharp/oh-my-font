@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni20B9" format="2">
+  <advance width="709"/>
+  <unicode hex="20B9"/>
+  <note>
+New rupee with distinct upper bars, returning bowl and diagonal leg.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="384.76019849243306" y="768" name="top"/>
+  <anchor x="242.28799807999337" y="-40" name="bottom"/>
+  <anchor x="606.4801543830035" y="670" name="horn"/>
+  <anchor x="284.60647345002496" y="200" name="overlay"/>
+  <anchor x="254.45700107683354" y="12" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="127.0" y="644.0" type="line"/>
+      <point x="253.0" y="644.0" type="line" smooth="yes"/>
+      <point x="357.0" y="644.0"/>
+      <point x="410.0" y="613.0"/>
+      <point x="412.0" y="548.0" type="curve"/>
+      <point x="108.0" y="548.0" type="line"/>
+      <point x="96.0" y="478.0" type="line"/>
+      <point x="399.0" y="478.0" type="line"/>
+      <point x="370.0" y="400.0"/>
+      <point x="292.0" y="363.0"/>
+      <point x="174.0" y="363.0" type="curve" smooth="yes"/>
+      <point x="90.0" y="363.0" type="line"/>
+      <point x="87.0" y="345.0" type="line" smooth="yes"/>
+      <point x="84.0" y="327.0"/>
+      <point x="88.0" y="315.0"/>
+      <point x="98.0" y="303.0" type="curve"/>
+      <point x="371.0" y="18.0" type="line"/>
+      <point x="380.0" y="6.0"/>
+      <point x="391.0" y="0.0"/>
+      <point x="407.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="467.0" y="0.0" type="line" smooth="yes"/>
+      <point x="485.0" y="0.0"/>
+      <point x="492.0" y="12.0"/>
+      <point x="481.0" y="25.0" type="curve" smooth="yes"/>
+      <point x="211.0" y="303.0" type="line"/>
+      <point x="352.0" y="311.0"/>
+      <point x="453.0" y="373.0"/>
+      <point x="489.0" y="478.0" type="curve"/>
+      <point x="578.0" y="478.0" type="line"/>
+      <point x="590.0" y="548.0" type="line"/>
+      <point x="504.0" y="548.0" type="line"/>
+      <point x="505.0" y="584.0"/>
+      <point x="499.0" y="615.0"/>
+      <point x="481.0" y="644.0" type="curve"/>
+      <point x="607.0" y="644.0" type="line"/>
+      <point x="620.0" y="716.0" type="line"/>
+      <point x="140.0" y="716.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

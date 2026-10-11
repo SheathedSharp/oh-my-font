@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eight.numr" format="2">
+  <advance width="426"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="321.54481026442704" y="799" name="top"/>
+  <anchor x="174.8407623149842" y="308" name="bottom"/>
+  <anchor x="428.26476615499746" y="701" name="horn"/>
+  <anchor x="218.39352654997504" y="195" name="overlay"/>
+  <outline>
+    <component base="eight" xScale="0.54" yScale="0.54" xOffset="15" yOffset="354"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>eight</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

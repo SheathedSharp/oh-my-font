@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2018" format="2">
+  <advance width="452"/>
+  <unicode hex="2018"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 特粗仍要能读：调制降到 0.40，内白下限是 Regular 的 0.42。M 的谷重新抬起，免得黑三角封死。字距转为正值。B 上眼明显小于下眼，这是比例决定，不是均匀内缩。
+</note>
+  <anchor x="262.60173321381853" y="883.5509772238552" name="top"/>
+  <anchor x="187.43280045213754" y="457.24677545246794" name="bottom"/>
+  <anchor x="355.0534899872881" y="747.0221805781167" name="horn"/>
+  <anchor x="112.7551679045852" y="33.728875653442685" name="overlay"/>
+  <anchor x="213.15388016012344" y="529.6906267338801" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="161.0" y="661.0" type="curve" smooth="yes"/>
+      <point x="132.0" y="646.0"/>
+      <point x="110.0" y="616.0"/>
+      <point x="106.0" y="586.0" type="curve" smooth="yes"/>
+      <point x="101.0" y="559.0"/>
+      <point x="107.0" y="531.0"/>
+      <point x="129.0" y="517.0" type="curve" smooth="yes"/>
+      <point x="144.0" y="511.0"/>
+      <point x="160.0" y="505.0"/>
+      <point x="176.0" y="499.0" type="curve" smooth="yes"/>
+      <point x="195.0" y="503.0"/>
+      <point x="214.0" y="508.0"/>
+      <point x="233.0" y="512.0" type="curve" smooth="yes"/>
+      <point x="264.0" y="532.0"/>
+      <point x="284.0" y="566.0"/>
+      <point x="289.0" y="600.0" type="curve" smooth="yes"/>
+      <point x="286.0" y="638.0"/>
+      <point x="307.0" y="690.0"/>
+      <point x="355.0" y="698.0" type="curve" smooth="yes"/>
+      <point x="338.0" y="738.0"/>
+      <point x="348.0" y="811.0"/>
+      <point x="277.0" y="804.0" type="curve" smooth="yes"/>
+      <point x="235.0" y="760.0"/>
+      <point x="176.0" y="722.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>800</integer>
+    </dict>
+  </lib>
+</glyph>

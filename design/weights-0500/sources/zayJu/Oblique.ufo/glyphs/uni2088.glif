@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2088" format="2">
+  <advance width="461"/>
+  <unicode hex="2088"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="336.9554261100948" y="310" name="top"/>
+  <anchor x="187.60647345002496" y="-213" name="bottom"/>
+  <anchor x="459.6753820006652" y="212" name="horn"/>
+  <anchor x="233.2751614535174" y="200" name="overlay"/>
+  <outline>
+    <component base="eight.subs"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>eight.subs</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

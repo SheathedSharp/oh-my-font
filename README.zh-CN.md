@@ -2,7 +2,7 @@
 
 **一套为文字，一套为表达。** zayju 的配套人文与展示无衬线字体。
 
-[English](README.md) · [在线试用](https://fonts.zayju.de/) · [下载 v0.400](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.400) · [来源与署名](ATTRIBUTION.txt)
+[English](README.md) · [在线试用](https://fonts.zayju.de/) · [v0.500 候选](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.500) · [已发布的 v0.400](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.400) · [来源与署名](ATTRIBUTION.txt)
 
 ![真实 WOFF2 字体渲染的展示网页](docs/images/specimen-preview.png)
 
@@ -21,11 +21,11 @@
 | **LihuiT** | 正文／界面，较宽松字距，默认 I / l 更易辨认 | Lihui |
 | **zayJu** | 展示／品牌表达，流动曲线、鲜明 B / M / R 与双层 g | Zixian |
 
-**0.400 发布本次已验收的两款 Regular 400 正体**，各提供 TTF、CFF OTF、WOFF2，合计 **2 款样式、6 个格式文件**。每款包含 **986 个字形、810 个 Unicode 编码字符**，保留 21 个 OpenType 功能。作者已通过 PR #10 的完整重绘稿；正式化只修改名称与版本元数据，不改变已验收曲线、字宽、锚点或排版。
+**0.500 是基于该重绘的第一套多字重家族。** 每个字族包含正体 100、300、400、500、600、700、800、900，以及每个字重的 10° Oblique，共 32 款样式，各有 TTF、CFF OTF、WOFF2。每款仍是 **986 个字形、810 个编码字符** 和同一组 21 个 OpenType 功能。Regular 400 正体就是已验收的 0.400 稿。其余正体是单独存放的 master，理由见 [字重说明](docs/design/0.500-weights.md)。Oblique 标注为 Oblique，不是单独绘制的 Italic。
 
-**其他字重和斜体没有包含，也没有通过膨胀轮廓自动生成。** [旧 0.301](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.301) 保留为历史版本。安装前请停用旧 LihuiT / zayJu，避免系统缓存冲突，以及新旧字形被误用成同一字族；TTF 与 OTF 只选一种。
+[旧 0.301](https://github.com/SheathedSharp/oh-my-font/releases/tag/v0.301) 只作为历史版本保留。不要把它和 0.500 混成一套。安装前请停用旧字体；TTF 与 OTF 只选一种。在人工目检完成并打上 v0.500 标签之前，已发布的最新版本仍是 v0.400。
 
-不含汉字、完整希腊文／西里尔文、可变轴或等宽编程字族。剩余 FontBakery 问题和验证范围在 [0.400 QA 报告](docs/QA-0.400.md) 中公开，后续更广覆盖由 [Issue #3](https://github.com/SheathedSharp/oh-my-font/issues/3) 跟踪。
+不含汉字、完整希腊文／西里尔文、可变轴或等宽编程字族。[0.500 验证](docs/QA-0.500.md) 保留既有的 Sigma 覆盖 FAIL，并记录全部警告。更广覆盖仍由 [Issue #3](https://github.com/SheathedSharp/oh-my-font/issues/3) 跟踪。
 
 ## 本地构建与网页
 

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2151" format="2">
+  <advance width="1170"/>
+  <unicode hex="2151"/>
+  <note>
+Real numerator/slash/denominator construction from new digits; includes 1/10 without substitution.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="611.8272957018128" y="793" name="top"/>
+  <anchor x="463.5363049259937" y="-48" name="bottom"/>
+  <anchor x="1013.5472515923832" y="695" name="horn"/>
+  <anchor x="506.38376123815067" y="195" name="overlay"/>
+  <outline>
+    <component base="one.numr"/>
+    <component base="fraction" xOffset="244"/>
+    <component base="nine.dnom" xOffset="736"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>one.numr</string>
+        <string>fraction</string>
+        <string>nine.dnom</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

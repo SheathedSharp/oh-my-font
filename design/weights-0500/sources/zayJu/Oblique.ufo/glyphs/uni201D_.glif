@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni201D" format="2">
+  <advance width="486"/>
+  <unicode hex="201D"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="268.1421483893231" y="798" name="top"/>
+  <anchor x="214.18609229253286" y="492" name="bottom"/>
+  <anchor x="387.8621042798936" y="700" name="horn"/>
+  <anchor x="162.69861392566108" y="200" name="overlay"/>
+  <anchor x="217.35509528937303" y="544" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="92.0" y="532.0" type="line"/>
+      <point x="145.0" y="562.0"/>
+      <point x="174.0" y="604.0"/>
+      <point x="188.0" y="653.0" type="curve"/>
+      <point x="219.0" y="663.0"/>
+      <point x="236.0" y="686.0"/>
+      <point x="235.0" y="712.0" type="curve" smooth="yes"/>
+      <point x="234.0" y="744.0"/>
+      <point x="199.0" y="756.0"/>
+      <point x="169.0" y="737.0" type="curve" smooth="yes"/>
+      <point x="142.0" y="719.0"/>
+      <point x="132.0" y="683.0"/>
+      <point x="137.0" y="657.0" type="curve"/>
+      <point x="129.0" y="614.0"/>
+      <point x="106.0" y="583.0"/>
+      <point x="72.0" y="559.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="251.0" y="532.0" type="line"/>
+      <point x="304.0" y="562.0"/>
+      <point x="333.0" y="604.0"/>
+      <point x="347.0" y="653.0" type="curve"/>
+      <point x="378.0" y="663.0"/>
+      <point x="395.0" y="686.0"/>
+      <point x="394.0" y="712.0" type="curve" smooth="yes"/>
+      <point x="393.0" y="744.0"/>
+      <point x="358.0" y="756.0"/>
+      <point x="328.0" y="737.0" type="curve" smooth="yes"/>
+      <point x="301.0" y="719.0"/>
+      <point x="291.0" y="683.0"/>
+      <point x="296.0" y="657.0" type="curve"/>
+      <point x="288.0" y="614.0"/>
+      <point x="265.0" y="583.0"/>
+      <point x="231.0" y="559.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

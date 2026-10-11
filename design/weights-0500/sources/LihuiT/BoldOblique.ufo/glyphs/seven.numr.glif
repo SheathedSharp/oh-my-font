@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.numr" format="2">
+  <advance width="560"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+</note>
+  <anchor x="417.5330312096372" y="833.3965212385293" name="top"/>
+  <anchor x="257.55386561998597" y="254.10958791232926" name="bottom"/>
+  <anchor x="658.6475257132007" y="723.0812365412991" name="horn"/>
+  <anchor x="304.19791514054185" y="164.6411379516059" name="overlay"/>
+  <outline>
+    <component base="seven" xScale="0.54" yScale="0.54" xOffset="15" yOffset="354"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>seven</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

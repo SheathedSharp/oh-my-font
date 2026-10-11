@@ -4,6 +4,16 @@ Original source: https://github.com/SheathedSharp/oh-my-font
 Copyright (c) 2026 zayju (https://github.com/SheathedSharp/oh-my-font).
 Licensed under SIL OFL 1.1; no Reserved Font Names.
 
+0.500 — first multi-weight family on the approved redesign
+Eight upright weights (100, 300, 400, 500, 600, 700, 800, 900) and a 10°
+Oblique of each, for both LihuiT and zayJu. Regular 400 upright is the
+owner-approved 0.400 drawing and is not retargeted. Every other upright is a
+stored master with its own stem, join, counter and review-glyph proportions.
+Oblique is a slant of that weight’s master, not a separately drawn Italic.
+Coverage stays 810 codepoints / 986 glyphs. Do not mix these fonts with 0.301.
+The GitHub Release is published only after the verification in docs/RELEASING.md
+and a human visual review of the new masters.
+
 0.400 — approved complete redesign
 The owner approved the two completed reference cuts in PR #10 and authorized
 publication. Official release: LihuiT Regular and zayJu Regular, weight 400,

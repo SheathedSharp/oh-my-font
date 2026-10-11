@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenright.case" format="2">
+  <advance width="524"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="377.1482123998004" y="880" name="top"/>
+  <anchor x="184.24649550473973" y="-94" name="bottom"/>
+  <anchor x="473.8681682903708" y="782" name="horn"/>
+  <anchor x="253.01401798104106" y="200" name="overlay"/>
+  <outline>
+    <component base="parenright" yScale="0.88" yOffset="78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>parenright</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

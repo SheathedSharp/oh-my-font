@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen.case" format="2">
+  <advance width="364"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="190.74633047197588" y="383.0882531851801" name="top"/>
+  <anchor x="190.74633047197588" y="321.937810589784" name="bottom"/>
+  <anchor x="298.16606265393716" y="342.0420656896403" name="horn"/>
+  <anchor x="190.74633047197588" y="239.74942411064734" name="overlay"/>
+  <outline>
+    <component base="hyphen" yOffset="78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>hyphen</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

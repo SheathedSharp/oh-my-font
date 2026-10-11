@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name=".notdef" format="2">
+  <advance width="803"/>
+  <note>
+黑体几乎单线（204/196），但 B 的上下碗、e 的开口、8 的上下眼仍保持不等。接合 174 轻于茎，内白下限 0.34。字距大幅放开。它不是特粗再加一圈。
+Weight master: 黑体几乎单线（204/196），但 B 的上下碗、e 的开口、8 的上下眼仍保持不等。接合 174 轻于茎，内白下限 0.34。字距大幅放开。它不是特粗再加一圈。
+</note>
+  <anchor x="468.3611592998503" y="762" name="top"/>
+  <anchor x="326.9469207716614" y="-40" name="bottom"/>
+  <anchor x="646.0811151904207" y="664" name="horn"/>
+  <anchor x="368.38376123815067" y="195" name="overlay"/>
+  <anchor x="336.1159237685016" y="12" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="134.0" y="0.0" type="line"/>
+      <point x="534.0" y="0.0" type="line"/>
+      <point x="659.0" y="710.0" type="line"/>
+      <point x="259.0" y="710.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="266.0" y="132.0" type="line"/>
+      <point x="326.0" y="578.0" type="line"/>
+      <point x="497.0" y="578.0" type="line"/>
+      <point x="437.0" y="132.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>900</integer>
+    </dict>
+  </lib>
+</glyph>

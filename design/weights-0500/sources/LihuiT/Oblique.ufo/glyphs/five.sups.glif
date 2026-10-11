@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five.sups" format="2">
+  <advance width="438"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="319.4337691518377" y="889" name="top"/>
+  <anchor x="174.8456449708964" y="382" name="bottom"/>
+  <anchor x="436.15372504240804" y="791" name="horn"/>
+  <anchor x="218.75106316730415" y="195" name="overlay"/>
+  <outline>
+    <component base="five" xScale="0.57" yScale="0.57" xOffset="15" yOffset="430"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>five</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25A0" format="2">
+  <advance width="728"/>
+  <unicode hex="25A0"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: 展示轻体：66/46，对比仍是展示体而不是 LihuiT 轻体的 58/48。R 的腿继续外甩。流动的腰刚刚开始出现。
+</note>
+  <anchor x="365.99488008802876" y="676.4077510874257" name="top"/>
+  <anchor x="365.99488008802876" y="52.76202314438983" name="bottom"/>
+  <anchor x="632.3012674409705" y="585.1879281942652" name="horn"/>
+  <anchor x="365.99488008802876" y="211.0004914284437" name="overlay"/>
+  <anchor x="365.99488008802876" y="101.16437814892396" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="95.0" y="90.0" type="line"/>
+      <point x="637.0" y="90.0" type="line"/>
+      <point x="637.0" y="628.0" type="line"/>
+      <point x="95.0" y="628.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>300</integer>
+    </dict>
+  </lib>
+</glyph>

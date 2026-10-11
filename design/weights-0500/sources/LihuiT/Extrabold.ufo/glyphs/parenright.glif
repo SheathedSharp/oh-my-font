@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenright" format="2">
+  <advance width="548"/>
+  <unicode hex="0029"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 特粗仍要能读：调制降到 0.40，内白下限是 Regular 的 0.42。M 的谷重新抬起，免得黑三角封死。字距转为正值。B 上眼明显小于下眼，这是比例决定，不是均匀内缩。
+</note>
+  <anchor x="278.82836831264643" y="961.1686852697947" name="top"/>
+  <anchor x="278.82836831264643" y="-226.86542857667828" name="bottom"/>
+  <anchor x="475.00641583361227" y="854.7451540477157" name="horn"/>
+  <anchor x="278.82836831264643" y="191.22701551006037" name="overlay"/>
+  <anchor x="271.9449280487529" y="-170.39579976496293" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="77.0" y="792.0" type="curve" smooth="yes"/>
+      <point x="286.0" y="548.0"/>
+      <point x="274.0" y="156.0"/>
+      <point x="75.0" y="-90.0" type="curve" smooth="yes"/>
+      <point x="62.0" y="-134.0"/>
+      <point x="93.0" y="-150.0"/>
+      <point x="116.0" y="-171.0" type="curve" smooth="yes"/>
+      <point x="141.0" y="-175.0"/>
+      <point x="167.0" y="-179.0"/>
+      <point x="192.0" y="-183.0" type="curve" smooth="yes"/>
+      <point x="467.0" y="99.0"/>
+      <point x="484.0" y="610.0"/>
+      <point x="192.0" y="887.0" type="curve" smooth="yes"/>
+      <point x="134.0" y="905.0"/>
+      <point x="71.0" y="853.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>800</integer>
+    </dict>
+  </lib>
+</glyph>

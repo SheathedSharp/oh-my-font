@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0135.ss03" format="2">
+  <advance width="450"/>
+  <note>
+When an above-mark replaces the tittle, ss03 intentionally uses the same dotless stem as the default accented form; it must not introduce an extra dot.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="328.2714601521702" y="762" name="top"/>
+  <anchor x="147.18365096457674" y="-265" name="bottom"/>
+  <anchor x="331.72357857309163" y="481" name="horn"/>
+  <anchor x="228.29406209047065" y="195" name="overlay"/>
+  <outline>
+    <component base="uni0237"/>
+    <component base="uni0302" xOffset="296.00362268252115" yOffset="579"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.baseCharacter</key>
+      <string>j</string>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>j.cut</string>
+        <string>uni0302</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

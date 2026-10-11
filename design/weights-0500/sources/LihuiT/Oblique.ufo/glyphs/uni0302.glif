@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0302" format="2">
+  <unicode hex="0302"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="0" y="0" name="_top"/>
+  <anchor x="32.26783746964909" y="183" name="top"/>
+  <outline>
+    <contour>
+      <point x="-100.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="18.0" y="102.0" type="line"/>
+      <point x="100.0" y="0.0" type="line" smooth="yes"/>
+      <point x="106.0" y="-8.0"/>
+      <point x="120.0" y="-8.0"/>
+      <point x="130.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="140.0" y="8.0"/>
+      <point x="143.0" y="22.0"/>
+      <point x="136.0" y="30.0" type="curve" smooth="yes"/>
+      <point x="54.0" y="133.0" type="line" smooth="yes"/>
+      <point x="47.0" y="141.0"/>
+      <point x="33.0" y="141.0"/>
+      <point x="23.0" y="133.0" type="curve"/>
+      <point x="16.0" y="141.0"/>
+      <point x="3.0" y="141.0"/>
+      <point x="-7.0" y="133.0" type="curve" smooth="yes"/>
+      <point x="-125.0" y="30.0" type="line" smooth="yes"/>
+      <point x="-135.0" y="22.0"/>
+      <point x="-137.0" y="8.0"/>
+      <point x="-130.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="-123.0" y="-8.0"/>
+      <point x="-109.0" y="-8.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>top</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0148" format="2">
+  <advance width="584"/>
+  <unicode hex="0148"/>
+  <note>
+Canonical new-base + diacritic composition, with explicit top/bottom/horn/side anchors.
+</note>
+  <anchor x="278.93887610946024" y="759.4785084588534" name="top"/>
+  <anchor x="295.0411602783835" y="-25.328787496426028" name="bottom"/>
+  <anchor x="492.2262095736172" y="485.77061486037337" name="horn"/>
+  <anchor x="295.0411602783835" y="200.4388056499045" name="overlay"/>
+  <outline>
+    <component base="n"/>
+    <component base="uni030C" xOffset="295.0411602783835" yOffset="579.9205047682049"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.baseCharacter</key>
+      <string>n</string>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>n</string>
+        <string>uni030C</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

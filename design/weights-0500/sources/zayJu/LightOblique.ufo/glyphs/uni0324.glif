@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0324" format="2">
+  <unicode hex="0324"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: 展示轻体：66/46，对比仍是展示体而不是 LihuiT 轻体的 58/48。R 的腿继续外甩。流动的腰刚刚开始出现。
+</note>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="-51.33711748491575" y="-125.04264253351252" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="89.0" y="-75.0" type="curve" smooth="yes"/>
+      <point x="94.0" y="-69.0"/>
+      <point x="101.0" y="-60.0"/>
+      <point x="97.0" y="-53.0" type="curve" smooth="yes"/>
+      <point x="91.0" y="-26.0"/>
+      <point x="44.0" y="-31.0"/>
+      <point x="36.0" y="-60.0" type="curve" smooth="yes"/>
+      <point x="34.0" y="-87.0"/>
+      <point x="71.0" y="-94.0"/>
+    </contour>
+    <contour>
+      <point x="-97.0" y="-75.0" type="curve" smooth="yes"/>
+      <point x="-92.0" y="-69.0"/>
+      <point x="-85.0" y="-60.0"/>
+      <point x="-89.0" y="-53.0" type="curve" smooth="yes"/>
+      <point x="-95.0" y="-26.0"/>
+      <point x="-142.0" y="-31.0"/>
+      <point x="-150.0" y="-60.0" type="curve" smooth="yes"/>
+      <point x="-152.0" y="-87.0"/>
+      <point x="-115.0" y="-94.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>bottom</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>300</integer>
+    </dict>
+  </lib>
+</glyph>

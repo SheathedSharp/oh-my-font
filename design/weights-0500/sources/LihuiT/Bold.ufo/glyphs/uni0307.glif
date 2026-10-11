@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0307" format="2">
+  <unicode hex="0307"/>
+  <note>
+Exact i/j tittle shape used as combining dot; not an inconsistent third dot design.
+Weight master: 正文粗体：竖茎 150、接合只到 132，锐角内收形成轻微墨阱，而不是把 Regular 撑圆。字距比半粗回松，避免字字粘连。R 的腿缩短、裆部打开。与 zayJu 粗体相比仍更克制、更宽。
+</note>
+  <anchor x="0" y="0" name="_top"/>
+  <anchor x="63.824908628148435" y="246.07997727845554" name="top"/>
+  <outline>
+    <contour>
+      <point x="32.0" y="2.0" type="curve" smooth="yes"/>
+      <point x="55.0" y="2.0"/>
+      <point x="78.0" y="10.0"/>
+      <point x="94.0" y="27.0" type="curve" smooth="yes"/>
+      <point x="110.0" y="42.0"/>
+      <point x="118.0" y="65.0"/>
+      <point x="117.0" y="87.0" type="curve" smooth="yes"/>
+      <point x="114.0" y="102.0"/>
+      <point x="111.0" y="116.0"/>
+      <point x="107.0" y="130.0" type="curve" smooth="yes"/>
+      <point x="97.0" y="141.0"/>
+      <point x="86.0" y="151.0"/>
+      <point x="76.0" y="162.0" type="curve" smooth="yes"/>
+      <point x="61.0" y="166.0"/>
+      <point x="47.0" y="170.0"/>
+      <point x="32.0" y="173.0" type="curve" smooth="yes"/>
+      <point x="-14.0" y="175.0"/>
+      <point x="-56.0" y="133.0"/>
+      <point x="-52.0" y="87.0" type="curve" smooth="yes"/>
+      <point x="-55.0" y="41.0"/>
+      <point x="-14.0" y="0.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>top</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

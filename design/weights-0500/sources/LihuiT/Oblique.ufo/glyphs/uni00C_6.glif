@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni00C6" format="2">
+  <advance width="1116"/>
+  <unicode hex="00C6"/>
+  <note>
+AE ligature with a shared joining zone and open A counter; new family components.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="608.1244291069349" y="772" name="top"/>
+  <anchor x="464.9469207716614" y="-40" name="bottom"/>
+  <anchor x="1015.8443849975054" y="674" name="horn"/>
+  <anchor x="506.38376123815067" y="195" name="overlay"/>
+  <outline>
+    <component base="A" xScale="0.78"/>
+    <component base="E" xScale="0.84" xOffset="485.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

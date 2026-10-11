@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni00B3" format="2">
+  <advance width="493"/>
+  <unicode hex="00B3"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="297.3677556500276" y="984.6452362405465" name="top"/>
+  <anchor x="297.3677556500276" y="300.7660729667556" name="bottom"/>
+  <anchor x="513.810147440813" y="867.9154156964715" name="horn"/>
+  <anchor x="297.3677556500276" y="171.45743359389326" name="overlay"/>
+  <outline>
+    <component base="three.sups"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>three.sups</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

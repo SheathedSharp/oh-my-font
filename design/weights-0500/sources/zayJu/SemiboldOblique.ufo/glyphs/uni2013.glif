@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2013" format="2">
+  <advance width="718"/>
+  <unicode hex="2013"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示半粗：腰收 14、M 谷再深，调制降到 0.66。字距是全家族最紧的一档（-18），因为这个重量的白还撑得住，再往上就要回松。
+</note>
+  <anchor x="376.0130338647173" y="414.0436292712765" name="top"/>
+  <anchor x="331.42327317935144" y="161.16253015525677" name="bottom"/>
+  <anchor x="639.7178359080143" y="257.1933272879225" name="horn"/>
+  <anchor x="330.01220480323224" y="153.15996372753466" name="overlay"/>
+  <anchor x="346.0983842909908" y="244.38922100356706" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="55.0" y="239.0" type="line" smooth="yes"/>
+      <point x="57.0" y="231.0"/>
+      <point x="65.0" y="227.0"/>
+      <point x="73.0" y="225.0" type="curve"/>
+      <point x="613.0" y="225.0" type="line" smooth="yes"/>
+      <point x="621.0" y="227.0"/>
+      <point x="630.0" y="231.0"/>
+      <point x="635.0" y="239.0" type="curve"/>
+      <point x="632.0" y="249.0" type="line"/>
+      <point x="645.0" y="254.0" type="line"/>
+      <point x="653.0" y="302.0" type="line"/>
+      <point x="642.0" y="307.0" type="line"/>
+      <point x="649.0" y="317.0" type="line" smooth="yes"/>
+      <point x="647.0" y="325.0"/>
+      <point x="639.0" y="329.0"/>
+      <point x="631.0" y="331.0" type="curve"/>
+      <point x="91.0" y="331.0" type="line" smooth="yes"/>
+      <point x="83.0" y="329.0"/>
+      <point x="74.0" y="325.0"/>
+      <point x="69.0" y="317.0" type="curve"/>
+      <point x="72.0" y="307.0" type="line"/>
+      <point x="59.0" y="302.0" type="line"/>
+      <point x="51.0" y="254.0" type="line"/>
+      <point x="62.0" y="249.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>600</integer>
+    </dict>
+  </lib>
+</glyph>

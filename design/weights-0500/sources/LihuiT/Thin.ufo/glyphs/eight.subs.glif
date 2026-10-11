@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eight.subs" format="2">
+  <advance width="358"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+</note>
+  <anchor x="180.19394581375366" y="293.4039528826771" name="top"/>
+  <anchor x="180.19394581375366" y="-200.69220816755956" name="bottom"/>
+  <anchor x="287.03036600558823" y="197.74839545127907" name="horn"/>
+  <anchor x="180.19394581375366" y="197.39883964422944" name="overlay"/>
+  <outline>
+    <component base="eight" xScale="0.57" yScale="0.57" xOffset="15" yOffset="-162"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>eight</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

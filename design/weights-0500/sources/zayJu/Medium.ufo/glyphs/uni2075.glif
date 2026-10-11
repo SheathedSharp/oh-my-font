@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2075" format="2">
+  <advance width="415"/>
+  <unicode hex="2075"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="215.01764000777285" y="954.0741857634388" name="top"/>
+  <anchor x="215.01764000777285" y="332.0699726788017" name="bottom"/>
+  <anchor x="378.6614077520628" y="843.647854564522" name="horn"/>
+  <anchor x="215.01764000777285" y="186.03779014531563" name="overlay"/>
+  <outline>
+    <component base="five.sups"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>five.sups</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

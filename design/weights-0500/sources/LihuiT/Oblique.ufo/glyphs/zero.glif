@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero" format="2">
+  <advance width="741"/>
+  <unicode hex="0030"/>
+  <note>
+Individually drawn for the approved warm humanist reference cut; no legacy outline input.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="440.7284612290038" y="781" name="top"/>
+  <anchor x="293.49543233743555" y="-54" name="bottom"/>
+  <anchor x="661.4484171195743" y="683" name="horn"/>
+  <anchor x="337.40085053384337" y="195" name="overlay"/>
+  <anchor x="302.66443533427577" y="-2" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="432.0" y="729.0" type="curve" smooth="yes"/>
+      <point x="276.0" y="729.0"/>
+      <point x="164.0" y="596.0"/>
+      <point x="122.0" y="357.0" type="curve" smooth="yes"/>
+      <point x="80.0" y="119.0"/>
+      <point x="144.0" y="-14.0"/>
+      <point x="300.0" y="-14.0" type="curve" smooth="yes"/>
+      <point x="456.0" y="-14.0"/>
+      <point x="567.0" y="119.0"/>
+      <point x="609.0" y="358.0" type="curve" smooth="yes"/>
+      <point x="651.0" y="596.0"/>
+      <point x="588.0" y="729.0"/>
+    </contour>
+    <contour>
+      <point x="410.0" y="653.0" type="curve" smooth="yes"/>
+      <point x="511.0" y="653.0"/>
+      <point x="549.0" y="549.0"/>
+      <point x="517.0" y="358.0" type="curve" smooth="yes"/>
+      <point x="486.0" y="167.0"/>
+      <point x="413.0" y="62.0"/>
+      <point x="313.0" y="62.0" type="curve" smooth="yes"/>
+      <point x="212.0" y="62.0"/>
+      <point x="175.0" y="166.0"/>
+      <point x="206.0" y="357.0" type="curve" smooth="yes"/>
+      <point x="238.0" y="548.0"/>
+      <point x="310.0" y="653.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

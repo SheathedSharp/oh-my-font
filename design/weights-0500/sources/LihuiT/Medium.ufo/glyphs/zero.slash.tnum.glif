@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.slash.tnum" format="2">
+  <advance width="650"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="323.4854983102048" y="805.0149025583395" name="top"/>
+  <anchor x="323.4854983102048" y="-82.42981693817512" name="bottom"/>
+  <anchor x="570.7377466619619" y="700.8597139228203" name="horn"/>
+  <anchor x="323.4854983102048" y="182.20938683982743" name="overlay"/>
+  <outline>
+    <component base="zero.slash" xOffset="10.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>zero.slash</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

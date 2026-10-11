@@ -45,15 +45,15 @@ def main() -> None:
           }
           return rows;
         }''')
-        assert len(loaded) == 2 and all(row['loaded'] for row in loaded)
-        assert hashes==expected,(hashes,expected)
+        assert len(loaded) == 32 and all(row['loaded'] for row in loaded)
+        assert hashes==expected,(set(hashes),set(expected))
         assert page.evaluate("async()=> (await (await fetch('font-manifest.json')).json()).version")==version()
-        assert all(r['weight']==400 and r['style']=='normal' for r in loaded)
-        assert page.locator('#weight option').count()==1 and page.locator('#style option').count()==1
+        assert {(r['weight'], r['style']) for r in loaded}=={(weight, style) for weight in (100,300,400,500,600,700,800,900) for style in ('normal','oblique')}
+        assert page.locator('#weight option').count()==8 and page.locator('#style option').count()==2
         report['faces'] = loaded
         report['font_sha256']=hashes
-        assert len(responses) == 2 and set(responses.values()) == {200}, responses
-        report['checks'].append('2 exact approved Regular webfonts loaded; response bytes match release hashes')
+        assert len(responses) == 32 and set(responses.values()) == {200}, responses
+        report['checks'].append('32 exact WOFF2s loaded; response bytes match release hashes')
         for width, height in [(1440, 1000), (900, 1000), (390, 844)]:
             page.set_viewport_size({'width': width, 'height': height})
             page.reload(wait_until='networkidle')
@@ -65,6 +65,9 @@ def main() -> None:
             page.screenshot(path=str(out / f'site-{width}.png'), full_page=True)
         page.set_viewport_size({'width': 1440, 'height': 1000})
         page.select_option('#family', 'LihuiT')
+        page.select_option('#weight', '900')
+        page.select_option('#style', 'oblique')
+        page.wait_for_function("document.getElementById('font-status').textContent.includes('LihuiT / 900 / Oblique 10°')")
         page.select_option('#weight', '400')
         page.select_option('#style', 'normal')
         page.wait_for_function("document.getElementById('font-status').textContent.includes('LihuiT / 400 / Upright')")
@@ -73,7 +76,7 @@ def main() -> None:
         assert '"ss05"' in setting and '"ss05" 0' not in setting, setting
         page.locator('#sample').fill('字体测试 a g 0')
         assert page.locator('#coverage-warning').is_visible()
-        report['checks'].append('Family/Regular-only inventory/ss05 controls and missing-character warning')
+        report['checks'].append('Family/weight/Oblique inventory, ss05 controls and missing-character warning')
         page.locator('#reset').click()
         page.wait_for_function("document.getElementById('font-status').textContent.includes('zayJu / 400 / Upright')")
         assert page.locator('#coverage-warning').is_hidden()

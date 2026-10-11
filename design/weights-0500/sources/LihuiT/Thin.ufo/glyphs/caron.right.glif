@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron.right" format="2">
+  <note>
+Narrow side caron for d/t/l/L; contextual substitution and matching component placement.
+Weight master: 正文细体：竖茎压到约 34，横画仍留 26，接合故意重于茎（48）以免尖脚断开。B 的上碗仍小于下碗，腰部反而松开；M 的谷抬高，避免细线收成针尖。e 的横画上移、开口加大。字距明显放松。
+</note>
+  <anchor x="0" y="0" name="_caron"/>
+  <anchor x="-33.75004982880425" y="108.18618954432472" name="top"/>
+  <outline>
+    <contour>
+      <point x="-17.0" y="66.0" type="line" smooth="yes"/>
+      <point x="-17.0" y="49.0"/>
+      <point x="-21.0" y="33.0"/>
+      <point x="-27.0" y="17.0" type="curve" smooth="yes"/>
+      <point x="-22.0" y="9.0"/>
+      <point x="-19.0" y="0.0"/>
+      <point x="-17.0" y="-10.0" type="curve" smooth="yes"/>
+      <point x="0.0" y="18.0"/>
+      <point x="8.0" y="52.0"/>
+      <point x="9.0" y="85.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

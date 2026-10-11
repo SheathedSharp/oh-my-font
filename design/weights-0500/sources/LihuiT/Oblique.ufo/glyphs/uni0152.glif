@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0152" format="2">
+  <advance width="1260"/>
+  <unicode hex="0152"/>
+  <note>
+OE ligature, linking the new oval to the new E stem.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="642.7113719333112" y="781" name="top"/>
+  <anchor x="495.4783430417429" y="-54" name="bottom"/>
+  <anchor x="1081.4313278238815" y="683" name="horn"/>
+  <anchor x="539.3837612381507" y="195" name="overlay"/>
+  <outline>
+    <component base="O" xScale="0.81"/>
+    <component base="E" xScale="0.84" xOffset="628.7"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

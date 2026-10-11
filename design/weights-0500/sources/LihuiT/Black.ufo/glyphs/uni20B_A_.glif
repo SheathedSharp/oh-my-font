@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni20BA" format="2">
+  <advance width="768"/>
+  <unicode hex="20BA"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 黑体几乎单线（204/196），但 B 的上下碗、e 的开口、8 的上下眼仍保持不等。接合 174 轻于茎，内白下限 0.34。字距大幅放开。它不是特粗再加一圈。
+</note>
+  <anchor x="400.3548440822008" y="846.4503329957518" name="top"/>
+  <anchor x="400.3548440822008" y="-107.94257655619646" name="bottom"/>
+  <anchor x="643.8522155549473" y="730.4075226532073" name="horn"/>
+  <anchor x="400.3548440822008" y="170.32334620398692" name="overlay"/>
+  <anchor x="350.89444050179924" y="-46.36884045607077" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="86.0" y="414.0" type="curve"/>
+      <point x="69.0" y="396.0" type="line" smooth="yes"/>
+      <point x="88.0" y="359.0"/>
+      <point x="49.0" y="309.0"/>
+      <point x="99.0" y="286.0" type="curve" smooth="yes"/>
+      <point x="105.0" y="284.0"/>
+      <point x="110.0" y="282.0"/>
+      <point x="116.0" y="279.0" type="curve"/>
+      <point x="116.0" y="187.0" type="line"/>
+      <point x="117.0" y="78.0" type="line" smooth="yes"/>
+      <point x="124.0" y="52.0"/>
+      <point x="131.0" y="26.0"/>
+      <point x="138.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="144.0" y="-27.0"/>
+      <point x="174.0" y="-41.0"/>
+      <point x="190.0" y="-60.0" type="curve"/>
+      <point x="571.0" y="-61.0" type="line"/>
+      <point x="611.0" y="-49.0" type="line" smooth="yes"/>
+      <point x="615.0" y="-24.0"/>
+      <point x="626.0" y="1.0"/>
+      <point x="649.0" y="14.0" type="curve"/>
+      <point x="650.0" y="56.0" type="line" smooth="yes"/>
+      <point x="619.0" y="67.0"/>
+      <point x="630.0" y="102.0"/>
+      <point x="615.0" y="123.0" type="curve" smooth="yes"/>
+      <point x="603.0" y="133.0"/>
+      <point x="587.0" y="136.0"/>
+      <point x="571.0" y="138.0" type="curve"/>
+      <point x="315.0" y="138.0" type="line"/>
+      <point x="315.0" y="245.0" type="line" smooth="yes"/>
+      <point x="332.0" y="295.0"/>
+      <point x="286.0" y="334.0"/>
+      <point x="304.0" y="384.0" type="curve"/>
+      <point x="310.0" y="360.0" type="line"/>
+      <point x="421.0" y="428.0" type="line" smooth="yes"/>
+      <point x="456.0" y="450.0"/>
+      <point x="470.0" y="500.0"/>
+      <point x="447.0" y="535.0" type="curve" smooth="yes"/>
+      <point x="443.0" y="541.0"/>
+      <point x="438.0" y="548.0"/>
+      <point x="433.0" y="554.0" type="curve" smooth="yes"/>
+      <point x="487.0" y="596.0"/>
+      <point x="446.0" y="695.0"/>
+      <point x="380.0" y="695.0" type="curve" smooth="yes"/>
+      <point x="366.0" y="693.0"/>
+      <point x="353.0" y="690.0"/>
+      <point x="339.0" y="687.0" type="curve"/>
+      <point x="315.0" y="672.0" type="line" smooth="yes"/>
+      <point x="317.0" y="691.0"/>
+      <point x="312.0" y="710.0"/>
+      <point x="306.0" y="728.0" type="curve" smooth="yes"/>
+      <point x="267.0" y="727.0"/>
+      <point x="260.0" y="785.0"/>
+      <point x="221.0" y="775.0" type="curve"/>
+      <point x="194.0" y="775.0" type="line" smooth="yes"/>
+      <point x="181.0" y="745.0"/>
+      <point x="146.0" y="753.0"/>
+      <point x="127.0" y="732.0" type="curve" smooth="yes"/>
+      <point x="104.0" y="683.0"/>
+      <point x="121.0" y="626.0"/>
+      <point x="116.0" y="573.0" type="curve"/>
+      <point x="124.0" y="551.0" type="line"/>
+      <point x="121.0" y="554.0" type="line" smooth="yes"/>
+      <point x="101.0" y="543.0"/>
+      <point x="81.0" y="529.0"/>
+      <point x="69.0" y="509.0" type="curve" smooth="yes"/>
+      <point x="90.0" y="480.0"/>
+      <point x="52.0" y="436.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>900</integer>
+    </dict>
+  </lib>
+</glyph>

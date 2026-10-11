@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2039.case" format="2">
+  <advance width="385"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="219.66325547368908" y="591" name="top"/>
+  <anchor x="137.4948824635444" y="125" name="bottom"/>
+  <anchor x="277.3832113642595" y="493" name="horn"/>
+  <anchor x="164.47291051193955" y="200" name="overlay"/>
+  <outline>
+    <component base="uni2039" yOffset="78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>uni2039</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

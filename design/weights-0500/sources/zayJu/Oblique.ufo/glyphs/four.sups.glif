@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.sups" format="2">
+  <advance width="435"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="321.0329186179943" y="896" name="top"/>
+  <anchor x="176.62112141776151" y="390" name="bottom"/>
+  <anchor x="466.7528745085648" y="798" name="horn"/>
+  <anchor x="218.9395967877931" y="200" name="overlay"/>
+  <outline>
+    <component base="four" xScale="0.57" yScale="0.57" xOffset="15" yOffset="430"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>four</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

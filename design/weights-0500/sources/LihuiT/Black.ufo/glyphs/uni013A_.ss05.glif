@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni013A.ss05" format="2">
+  <advance width="472"/>
+  <note>
+Accent-aware clarity form: same base, advance and mark placement for precomposed and decomposed text when ss05 is enabled.
+</note>
+  <anchor x="319.8273817356921" y="1265.4156624749326" name="top"/>
+  <anchor x="232.65298271147142" y="-111.24985988077799" name="bottom"/>
+  <anchor x="415.19280761146615" y="759.1155933999612" name="horn"/>
+  <anchor x="232.65298271147142" y="164.0339645081503" name="overlay"/>
+  <anchor x="259.5850880245854" y="-50.335992356419396" name="ogonek"/>
+  <anchor x="449.60605328933406" y="634.9450172926148" name="caron"/>
+  <outline>
+    <component base="l.clarity"/>
+    <component base="uni0301" xOffset="232.65298271147142" yOffset="873.9148052727908"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.baseCharacter</key>
+      <string>l</string>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+    </dict>
+  </lib>
+</glyph>

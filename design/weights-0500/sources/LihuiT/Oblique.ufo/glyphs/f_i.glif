@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_i" format="2">
+  <advance width="866"/>
+  <note>
+Purpose-spaced letter ligature with live new-letter components; no legacy glyph source.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="466" y="0" name="caret_1"/>
+  <anchor x="448.706489277399" y="815" name="top"/>
+  <anchor x="297.9469207716614" y="-40" name="bottom"/>
+  <anchor x="659.4264451679694" y="717" name="horn"/>
+  <anchor x="339.38376123815067" y="195" name="overlay"/>
+  <outline>
+    <component base="f"/>
+    <component base="i" xOffset="456"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>f</string>
+        <string>i</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

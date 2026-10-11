@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period" format="2">
+  <advance width="222"/>
+  <unicode hex="002E"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 正文细体：竖茎压到约 34，横画仍留 26，接合故意重于茎（48）以免尖脚断开。B 的上碗仍小于下碗，腰部反而松开；M 的谷抬高，避免细线收成针尖。e 的横画上移、开口加大。字距明显放松。
+</note>
+  <anchor x="119.35013204421705" y="85.05094341808565" name="top"/>
+  <anchor x="119.35013204421705" y="2.0646587097007014" name="bottom"/>
+  <anchor x="140.16220625754093" y="40.85172656253279" name="horn"/>
+  <anchor x="119.35013204421705" y="108.05257667964887" name="overlay"/>
+  <anchor x="119.35013204421705" y="25.517304388157314" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="143.0" y="46.0" type="curve"/>
+      <point x="137.0" y="57.0" type="line" smooth="yes"/>
+      <point x="134.0" y="60.0"/>
+      <point x="129.0" y="62.0"/>
+      <point x="125.0" y="61.0" type="curve"/>
+      <point x="117.0" y="60.0" type="line"/>
+      <point x="111.0" y="54.0" type="line" smooth="yes"/>
+      <point x="96.0" y="32.0"/>
+      <point x="142.0" y="20.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="two.numr" format="2">
+  <advance width="521"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+</note>
+  <anchor x="430.7506445471673" y="878.8062185510903" name="top"/>
+  <anchor x="258.9955003627699" y="239.73439191229903" name="bottom"/>
+  <anchor x="594.8835936494515" y="762.3927563430397" name="horn"/>
+  <anchor x="308.21801119610336" y="164.8891227173185" name="overlay"/>
+  <outline>
+    <component base="two" xScale="0.54" yScale="0.54" xOffset="15" yOffset="354"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>two</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni013C" format="2">
+  <advance width="355"/>
+  <unicode hex="013C"/>
+  <note>
+Canonical new-base + diacritic composition, with explicit top/bottom/horn/side anchors.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="295.4191211841011" y="801" name="top"/>
+  <anchor x="145.01220663978046" y="-264" name="bottom"/>
+  <anchor x="386.13907707467155" y="703" name="horn"/>
+  <anchor x="188.56497087477132" y="195" name="overlay"/>
+  <anchor x="289.39045523532343" y="591" name="caron"/>
+  <outline>
+    <component base="l"/>
+    <component base="uni0327" xOffset="145.01220663978046" yOffset="-52"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.baseCharacter</key>
+      <string>l</string>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>l</string>
+        <string>uni0327</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

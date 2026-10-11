@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25A0" format="2">
+  <advance width="930"/>
+  <unicode hex="25A0"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: 展示中粗：茎跳到 126，比 LihuiT 的 108 暗一截，横画仍明显更细（100）。B 的腰开始液体式内收，M 的谷挖深。这是两款在中段分叉最大的地方之一。
+</note>
+  <anchor x="517.93413645209" y="734.6694131915964" name="top"/>
+  <anchor x="385.72592758248874" y="-15.120598174794026" name="bottom"/>
+  <anchor x="805.2521248147602" y="624.9986354096467" name="horn"/>
+  <anchor x="419.271294012089" y="175.12462858981246" name="overlay"/>
+  <anchor x="395.9868631962488" y="43.07205942379149" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="130.0" y="63.0" type="curve"/>
+      <point x="411.0" y="63.0" type="line"/>
+      <point x="598.0" y="63.0" type="line" smooth="yes"/>
+      <point x="598.0" y="114.0"/>
+      <point x="696.0" y="30.0"/>
+      <point x="714.0" y="78.0" type="curve"/>
+      <point x="813.0" y="640.0" type="line"/>
+      <point x="808.0" y="652.0" type="line"/>
+      <point x="800.0" y="655.0" type="line"/>
+      <point x="515.0" y="655.0" type="line"/>
+      <point x="328.0" y="655.0" type="line" smooth="yes"/>
+      <point x="295.0" y="547.0"/>
+      <point x="256.0" y="676.0"/>
+      <point x="221.0" y="652.0" type="curve" smooth="yes"/>
+      <point x="187.0" y="629.0"/>
+      <point x="233.0" y="547.0"/>
+      <point x="195.0" y="546.0" type="curve"/>
+      <point x="145.0" y="265.0" type="line" smooth="yes"/>
+      <point x="154.0" y="204.0"/>
+      <point x="101.0" y="133.0"/>
+      <point x="113.0" y="73.0" type="curve" smooth="yes"/>
+      <point x="115.0" y="66.0"/>
+      <point x="122.0" y="61.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>500</integer>
+    </dict>
+  </lib>
+</glyph>

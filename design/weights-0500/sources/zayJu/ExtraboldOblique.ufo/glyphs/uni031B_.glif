@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni031B" format="2">
+  <unicode hex="031B"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: 展示特粗：茎 214，但内白下限降到 0.34，上眼继续让位给下眼。M 的谷从最深点往回抬，避免封口。字距重新打开。
+</note>
+  <anchor x="0" y="0" name="_horn"/>
+  <outline>
+    <contour>
+      <point x="-11.0" y="77.0" type="curve" smooth="yes"/>
+      <point x="8.0" y="-26.0"/>
+      <point x="148.0" y="2.0"/>
+      <point x="216.0" y="63.0" type="curve" smooth="yes"/>
+      <point x="294.0" y="125.0"/>
+      <point x="303.0" y="264.0"/>
+      <point x="197.0" y="272.0" type="curve" smooth="yes"/>
+      <point x="163.0" y="260.0"/>
+      <point x="132.0" y="237.0"/>
+      <point x="107.0" y="211.0" type="curve"/>
+      <point x="107.0" y="167.0" type="line" smooth="yes"/>
+      <point x="93.0" y="151.0"/>
+      <point x="59.0" y="172.0"/>
+      <point x="55.0" y="171.0" type="curve" smooth="yes"/>
+      <point x="28.0" y="144.0"/>
+      <point x="1.0" y="112.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>horn</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>800</integer>
+    </dict>
+  </lib>
+</glyph>

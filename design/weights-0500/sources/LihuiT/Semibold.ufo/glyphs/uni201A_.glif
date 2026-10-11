@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni201A" format="2">
+  <advance width="310"/>
+  <unicode hex="201A"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 正文半粗：调制指数降到 0.74，不再跟着 Regular 的粗细差走。接合与竖茎持平，开始给内白让路。B 腰明确内收，e 的开口被额外撑开，8 的下眼大于上眼。
+</note>
+  <anchor x="152.7438887515758" y="272.7520744504594" name="top"/>
+  <anchor x="152.7438887515758" y="-87.92260591888558" name="bottom"/>
+  <anchor x="227.71306993694748" y="157.24188269818555" name="horn"/>
+  <anchor x="152.7438887515758" y="198.49552260971194" name="overlay"/>
+  <anchor x="143.37274110340437" y="-26.631483764617805" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="123.0" y="-41.0" type="curve" smooth="yes"/>
+      <point x="124.0" y="-4.0"/>
+      <point x="161.0" y="7.0"/>
+      <point x="175.0" y="37.0" type="curve" smooth="yes"/>
+      <point x="189.0" y="57.0"/>
+      <point x="191.0" y="81.0"/>
+      <point x="200.0" y="102.0" type="curve" smooth="yes"/>
+      <point x="219.0" y="102.0"/>
+      <point x="232.0" y="127.0"/>
+      <point x="237.0" y="142.0" type="curve" smooth="yes"/>
+      <point x="241.0" y="160.0"/>
+      <point x="240.0" y="180.0"/>
+      <point x="230.0" y="197.0" type="curve" smooth="yes"/>
+      <point x="219.0" y="205.0"/>
+      <point x="208.0" y="214.0"/>
+      <point x="198.0" y="222.0" type="curve" smooth="yes"/>
+      <point x="184.0" y="223.0"/>
+      <point x="170.0" y="223.0"/>
+      <point x="157.0" y="223.0" type="curve" smooth="yes"/>
+      <point x="118.0" y="210.0"/>
+      <point x="102.0" y="165.0"/>
+      <point x="109.0" y="127.0" type="curve" smooth="yes"/>
+      <point x="118.0" y="114.0"/>
+      <point x="113.0" y="97.0"/>
+      <point x="110.0" y="83.0" type="curve" smooth="yes"/>
+      <point x="101.0" y="59.0"/>
+      <point x="86.0" y="25.0"/>
+      <point x="51.0" y="37.0" type="curve" smooth="yes"/>
+      <point x="65.0" y="3.0"/>
+      <point x="92.0" y="-22.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>600</integer>
+    </dict>
+  </lib>
+</glyph>

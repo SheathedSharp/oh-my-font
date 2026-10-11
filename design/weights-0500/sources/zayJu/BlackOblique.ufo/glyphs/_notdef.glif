@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name=".notdef" format="2">
+  <advance width="819"/>
+  <note>
+展示黑体：246/228，调制只留 0.20。B 上碗缩到 0.76、腰收 32，是整套里最强的收腰，同时开口和 8 的下眼被强制留白。字距 +30。它和 LihuiT 黑体不是同一个黑度。
+Weight master: 展示黑体：246/228，调制只留 0.20。B 上碗缩到 0.76、腰收 32，是整套里最强的收腰，同时开口和 8 的下眼被强制留白。字距 +30。它和 LihuiT 黑体不是同一个黑度。
+</note>
+  <anchor x="476.3611592998503" y="762" name="top"/>
+  <anchor x="334.9469207716614" y="-40" name="bottom"/>
+  <anchor x="654.0811151904207" y="664" name="horn"/>
+  <anchor x="377.26539614169303" y="200" name="overlay"/>
+  <anchor x="344.1159237685016" y="12" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="142.0" y="0.0" type="line"/>
+      <point x="542.0" y="0.0" type="line"/>
+      <point x="667.0" y="710.0" type="line"/>
+      <point x="267.0" y="710.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="279.0" y="133.0" type="line"/>
+      <point x="334.0" y="577.0" type="line"/>
+      <point x="493.0" y="577.0" type="line"/>
+      <point x="438.0" y="133.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>900</integer>
+    </dict>
+  </lib>
+</glyph>

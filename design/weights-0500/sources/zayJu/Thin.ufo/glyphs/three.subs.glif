@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.subs" format="2">
+  <advance width="334"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+</note>
+  <anchor x="148.45132970192276" y="-80.47111468647671" name="top"/>
+  <anchor x="148.45132970192276" y="-168.23654974669037" name="bottom"/>
+  <anchor x="237.14182164747012" y="-128.22909890831966" name="horn"/>
+  <anchor x="148.45132970192276" y="111.46830635207652" name="overlay"/>
+  <outline>
+    <component base="three" xScale="0.57" yScale="0.57" xOffset="15.0" yOffset="-162.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>three</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine.dnom" format="2">
+  <advance width="362"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+</note>
+  <anchor x="191.91500789031875" y="431.06084712598295" name="top"/>
+  <anchor x="191.91500789031875" y="-37.79933013094735" name="bottom"/>
+  <anchor x="312.5600161995924" y="335.8974210214517" name="horn"/>
+  <anchor x="191.91500789031875" y="197.99345660403546" name="overlay"/>
+  <outline>
+    <component base="nine" xScale="0.54" yScale="0.54" xOffset="15"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>nine</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

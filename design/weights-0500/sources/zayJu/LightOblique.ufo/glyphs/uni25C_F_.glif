@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25CF" format="2">
+  <advance width="790"/>
+  <unicode hex="25CF"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: 展示轻体：66/46，对比仍是展示体而不是 LihuiT 轻体的 58/48。R 的腿继续外甩。流动的腰刚刚开始出现。
+</note>
+  <anchor x="435.2491537501862" y="683.6760848519287" name="top"/>
+  <anchor x="323.4125224169416" y="49.419030804410326" name="bottom"/>
+  <anchor x="690.2632346856967" y="591.4547327797376" name="horn"/>
+  <anchor x="351.95243427052924" y="211.2769140331539" name="overlay"/>
+  <anchor x="332.0408678610495" y="98.3528094549607" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="651.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="680.0" y="504.0"/>
+      <point x="572.0" y="635.0"/>
+      <point x="426.0" y="630.0" type="curve" smooth="yes"/>
+      <point x="281.0" y="635.0"/>
+      <point x="128.0" y="504.0"/>
+      <point x="105.0" y="359.0" type="curve" smooth="yes"/>
+      <point x="110.0" y="313.0"/>
+      <point x="114.0" y="267.0"/>
+      <point x="119.0" y="222.0" type="curve" smooth="yes"/>
+      <point x="146.0" y="189.0"/>
+      <point x="173.0" y="157.0"/>
+      <point x="199.0" y="124.0" type="curve" smooth="yes"/>
+      <point x="243.0" y="112.0"/>
+      <point x="287.0" y="100.0"/>
+      <point x="330.0" y="88.0" type="curve" smooth="yes"/>
+      <point x="401.0" y="87.0"/>
+      <point x="477.0" y="116.0"/>
+      <point x="536.0" y="167.0" type="curve" smooth="yes"/>
+      <point x="596.0" y="217.0"/>
+      <point x="638.0" y="288.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>300</integer>
+    </dict>
+  </lib>
+</glyph>

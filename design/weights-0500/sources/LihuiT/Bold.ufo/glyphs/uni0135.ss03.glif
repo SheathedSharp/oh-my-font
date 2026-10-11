@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0135.ss03" format="2">
+  <advance width="367"/>
+  <note>
+When an above-mark replaces the tittle, ss03 intentionally uses the same dotless stem as the default accented form; it must not introduce an extra dot.
+</note>
+  <anchor x="276.7596929488845" y="898.3548995442216" name="top"/>
+  <anchor x="199.96463853854746" y="-306.6549547819693" name="bottom"/>
+  <anchor x="276.801251699569" y="516.9528931465533" name="horn"/>
+  <anchor x="199.96463853854746" y="201.1997503750285" name="overlay"/>
+  <outline>
+    <component base="uni0237"/>
+    <component base="uni0302" xOffset="199.96463853854746" yOffset="625.1480259843484"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.baseCharacter</key>
+      <string>j</string>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>j.cut</string>
+        <string>uni0302</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

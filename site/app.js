@@ -4,8 +4,9 @@ const sample = $('sample');
 let inventory = [], coverage = new Set(), serial = 0, expanded = false;
 const initialText = 'Ideas ship farther.\nBuild a brighter tomorrow.';
 const features = [...document.querySelectorAll('[data-feature]')];
+const RELEASED_WEIGHTS = [100, 300, 400, 500, 600, 700, 800, 900];
 async function loadFace(family, weight, style = 'normal', text = 'Build a brighter tomorrow.') {
-  if (!['LihuiT','zayJu'].includes(family) || Number(weight) !== 400 || style !== 'normal') throw new Error('此版本仅提供 Regular 400 正体');
+  if (!['LihuiT','zayJu'].includes(family) || !RELEASED_WEIGHTS.includes(Number(weight)) || !['normal','oblique'].includes(style)) throw new Error('没有对应的已构建样式');
   const faces = await document.fonts.load(`${style} ${weight} 64px "${family}"`, text);
   if (!faces.length || faces.some(face => face.status !== 'loaded')) throw new Error('未加载到对应的字体文件');
   return faces;
@@ -65,7 +66,7 @@ $('theme').addEventListener('click', () => {const dark = document.documentElemen
 async function init() {
   if (innerWidth < 640) $('size').value = '36';
   sample.dataset.loading = 'true';
-  const results = await Promise.allSettled([...document.querySelectorAll('.specimen')].map(async element => {await loadFace(element.dataset.font, element.dataset.weight, 'normal', element.textContent); element.classList.add('font-loaded');}));
+  const results = await Promise.allSettled([...document.querySelectorAll('.specimen')].map(async element => {const style = element.dataset.style || 'normal'; await loadFace(element.dataset.font, element.dataset.weight, style, element.textContent); element.style.fontWeight = element.dataset.weight; element.style.fontStyle = style; element.classList.add('font-loaded');}));
   if (results.some(result => result.status === 'rejected')) document.querySelector('.release-notice').textContent = '部分真实字体加载失败。请先构建并准备站点；没有使用系统字体冒充缺失样张。';
   try {
     const response = await fetch('characters.json'); if (!response.ok) throw new Error('字符表不可用');

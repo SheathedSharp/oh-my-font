@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.dnom" format="2">
+  <advance width="431"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="318.02071197821385" y="449" name="top"/>
+  <anchor x="168.67175931814404" y="-51" name="bottom"/>
+  <anchor x="430.74066786878427" y="351" name="horn"/>
+  <anchor x="214.5167743023449" y="200" name="overlay"/>
+  <outline>
+    <component base="three" xScale="0.54" yScale="0.54" xOffset="15"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>three</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

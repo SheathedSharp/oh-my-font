@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine.tnum" format="2">
+  <advance width="802"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="476.59544816480957" y="790" name="top"/>
+  <anchor x="326.3648606011974" y="-62" name="bottom"/>
+  <anchor x="707.31540405538" y="692" name="horn"/>
+  <anchor x="372.56252954681526" y="200" name="overlay"/>
+  <outline>
+    <component base="nine" xOffset="17.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>nine</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

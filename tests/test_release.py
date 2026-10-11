@@ -15,10 +15,13 @@ class ContractTests(unittest.TestCase):
         self.assertEqual(spec['approved_commit'],'4640e2b38bc20b72e4f5584113208fa819b5adc9')
         self.assertEqual((spec['glyphs'],spec['codepoints']),(986,810))
 
-    def test_only_two_regular_faces_six_files(self):
-        expected=contract.expected_files();self.assertEqual(len(expected),6)
-        self.assertTrue(all('-Regular.' in n for n in expected))
+    def test_thirty_two_styles_ninety_six_files(self):
+        expected=contract.expected_files();self.assertEqual(len(expected),96)
         self.assertEqual({n.split('/')[1] for n in expected},{'LihuiT','zayJu'})
+        self.assertIn('ttf/LihuiT/LihuiT-Regular.ttf',expected)
+        self.assertIn('otf/zayJu/zayJu-BlackOblique.otf',expected)
+        self.assertNotIn('ttf/LihuiT/LihuiT-Italic.ttf',expected)
+        self.assertEqual(len(contract.full_decomposition_targets()),20)
 
     def test_modified_approval_input_is_blocking(self):
         with patch.object(contract,'sha',return_value='0'*64):
@@ -30,21 +33,42 @@ class ContractTests(unittest.TestCase):
 
     def test_stale_output_is_not_silently_mixed_or_deleted(self):
         with tempfile.TemporaryDirectory() as temp:
-            old=Path(temp)/'ttf/zayJu/zayJu-Bold.ttf';old.parent.mkdir(parents=True);old.write_bytes(b'preserve old candidate')
+            old=Path(temp)/'ttf/zayJu/zayJu-Hairline.ttf';old.parent.mkdir(parents=True);old.write_bytes(b'preserve old candidate')
             r=subprocess.run([sys.executable,str(ROOT/'build.py'),'--output',temp],cwd=ROOT,capture_output=True,text=True)
             self.assertNotEqual(r.returncode,0);self.assertEqual(old.read_bytes(),b'preserve old candidate')
 
-    def test_site_advertises_only_approved_regular_styles(self):
+    def test_site_offers_the_stored_weight_matrix(self):
         import re
         html=(ROOT/'site/index.html').read_text()
         weight=re.search(r'<select id="weight">(.*?)</select>',html).group(1)
-        self.assertEqual(weight.count('<option'),1);self.assertIn('value="400"',weight)
-        self.assertNotIn('16 STYLES',html);self.assertNotIn('/ Bold /',html);self.assertIn('v'+contract.version(),html)
-        self.assertEqual(set(re.findall(r'data-weight="(\d+)"',html)),{'400'})
+        style=re.search(r'<select id="style">(.*?)</select>',html).group(1)
+        self.assertEqual(weight.count('<option'),8);self.assertIn('value="400"',weight);self.assertIn('value="900"',weight)
+        self.assertEqual(style.count('<option'),2);self.assertIn('value="oblique"',style);self.assertNotIn('Italic',style)
+        self.assertIn('v'+contract.version(),html)
+        self.assertEqual(set(re.findall(r'data-weight="(\d+)"',html)),{'100','300','400','500','600','700','800','900'})
         self.assertNotIn('双层 g',html);self.assertIn('g 替代款',html)
 
     def test_no_legacy_drawing_import(self):
         self.assertNotIn('outlines',sys.modules);self.assertNotIn('outline_engine',sys.modules)
+        text=(ROOT/'build.py').read_text()
+        self.assertNotIn('outline_engine',text);self.assertNotIn('src.outlines',text);self.assertNotIn('reference_masters',text)
+
+    def test_stem_targets_are_not_one_delta(self):
+        spec=importlib.util.spec_from_file_location('weight_spec',ROOT/'design/weights-0500/spec.py')
+        weights=importlib.util.module_from_spec(spec);spec.loader.exec_module(weights)
+        for family in ('LihuiT','zayJu'):
+            stems=[weights.FAMILIES[family][w]['v_stem'] for w in (100,300,500,600,700,800,900)]
+            deltas=[b-a for a,b in zip(stems,stems[1:])]
+            self.assertGreater(len(set(deltas)),1)
+            self.assertLess(stems[0],weights.REFERENCE_STEMS[family]['vertical'])
+            self.assertGreater(stems[-1],weights.REFERENCE_STEMS[family]['vertical'])
+        self.assertNotEqual([weights.FAMILIES['LihuiT'][w]['v_stem'] for w in weights.FAMILIES['LihuiT']],
+                            [weights.FAMILIES['zayJu'][w]['v_stem'] for w in weights.FAMILIES['zayJu']])
+        for family in contract.FAMILIES:
+            for row in contract.styles():
+                path=contract.master_path(family,row['weight'],row['oblique'])
+                if path is None:continue
+                self.assertTrue(path.is_dir(),path)
 
 class MetadataTests(unittest.TestCase):
     @classmethod
@@ -76,10 +100,27 @@ class MetadataTests(unittest.TestCase):
             self.assertEqual(f['name'].getDebugName(11),'https://github.com/SheathedSharp/oh-my-font')
             self.assertEqual(f['name'].getDebugName(9),'zayju');self.assertEqual(f['OS/2'].fsType,0)
 
-    def test_complete_scope_and_no_variable_or_italic(self):
+    def test_regular_scope_weight_and_no_variable_axis(self):
         for f in self.fonts.values():
             self.assertEqual(len(f.getBestCmap()),810);self.assertEqual(len(f.getGlyphOrder()),986)
             self.assertEqual(f['OS/2'].usWeightClass,400);self.assertEqual(f['post'].italicAngle,0);self.assertNotIn('fvar',f)
+            self.assertEqual(f['name'].getDebugName(17),'Regular')
+
+    def test_stored_master_promotion_keeps_oblique_label(self):
+        from ufoLib2 import Font
+        cases=(('LihuiT',100,False,'LihuiT Thin','Regular','Thin'),('zayJu',700,True,'zayJu','Bold Italic','Bold Oblique'))
+        for family,weight,oblique,family_name,legacy,typo in cases:
+            ufo=Font.open(contract.master_path(family,weight,oblique))
+            font=production.promote(production.compile_style(ufo,False,False),family,weight,oblique)
+            self.assertEqual(font['name'].getDebugName(1),family_name)
+            self.assertEqual(font['name'].getDebugName(2),legacy)
+            self.assertEqual(font['name'].getDebugName(17),typo)
+            self.assertEqual(font['OS/2'].usWeightClass,weight)
+            self.assertEqual(bool(font['OS/2'].fsSelection & 64), weight!=700 and not oblique)
+            self.assertEqual(font['OS/2'].usWinAscent,1388);self.assertEqual(font['OS/2'].usWinDescent,626)
+            self.assertEqual(font['post'].italicAngle,-10 if oblique else 0)
+            self.assertNotIn('fvar',font)
+            self.assertIn('STAT',font)
 
     def test_cff_internal_identity(self):
         for family in contract.FAMILIES:

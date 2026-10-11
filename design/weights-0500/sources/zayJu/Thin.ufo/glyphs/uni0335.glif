@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0335" format="2">
+  <unicode hex="0335"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: 展示细体：对比明显高于 LihuiT（竖 28、横 16）。接合 42 托住发丝横画。B 的下眼比上眼更开，腰不收死。e 的横画抬得更高。M 仍是软谷，不是直线骨架。字距比 LihuiT 细体更紧。
+</note>
+  <anchor x="0" y="0" name="_overlay"/>
+  <outline>
+    <contour>
+      <point x="-162.0" y="-25.0" type="line"/>
+      <point x="118.0" y="-25.0" type="line"/>
+      <point x="119.0" y="-24.0" type="line"/>
+      <point x="115.0" y="-19.0" type="line"/>
+      <point x="119.0" y="-13.0" type="line"/>
+      <point x="118.0" y="-12.0" type="line"/>
+      <point x="-162.0" y="-12.0" type="line"/>
+      <point x="-163.0" y="-13.0" type="line"/>
+      <point x="-159.0" y="-19.0" type="line"/>
+      <point x="-163.0" y="-24.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>overlay</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

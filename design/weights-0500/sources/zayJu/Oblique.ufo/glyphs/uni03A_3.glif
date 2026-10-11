@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni03A3" format="2">
+  <advance width="816"/>
+  <unicode hex="03A3"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="479.0664672226842" y="766" name="top"/>
+  <anchor x="336.9469207716614" y="-40" name="bottom"/>
+  <anchor x="725.7864231132546" y="668" name="horn"/>
+  <anchor x="379.265396141693" y="200" name="overlay"/>
+  <anchor x="354.1159237685016" y="12" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="90.0" y="0.0" type="line"/>
+      <point x="613.0" y="0.0" type="line"/>
+      <point x="627.0" y="77.0" type="line"/>
+      <point x="218.0" y="77.0" type="line"/>
+      <point x="511.0" y="355.0" type="line"/>
+      <point x="314.0" y="638.0" type="line"/>
+      <point x="716.0" y="638.0" type="line"/>
+      <point x="730.0" y="714.0" type="line"/>
+      <point x="223.0" y="714.0" type="line"/>
+      <point x="209.0" y="633.0" type="line"/>
+      <point x="394.0" y="355.0" type="line"/>
+      <point x="104.0" y="77.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

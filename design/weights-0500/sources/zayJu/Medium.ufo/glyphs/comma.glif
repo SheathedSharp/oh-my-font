@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="comma" format="2">
+  <advance width="263"/>
+  <unicode hex="002C"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示中粗：茎跳到 126，比 LihuiT 的 108 暗一截，横画仍明显更细（100）。B 的腰开始液体式内收，M 的谷挖深。这是两款在中段分叉最大的地方之一。
+</note>
+  <anchor x="129.3990980458966" y="168.50397429028376" name="top"/>
+  <anchor x="129.3990980458966" y="-182.3035333248993" name="bottom"/>
+  <anchor x="184.6332532082595" y="58.666479893197675" name="horn"/>
+  <anchor x="129.3990980458966" y="209.97323237897953" name="overlay"/>
+  <anchor x="122.49482865060126" y="-124.02241384889443" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="96.0" y="-137.0" type="curve" smooth="yes"/>
+      <point x="106.0" y="-118.0"/>
+      <point x="117.0" y="-98.0"/>
+      <point x="128.0" y="-78.0" type="curve" smooth="yes"/>
+      <point x="142.0" y="-58.0"/>
+      <point x="152.0" y="-35.0"/>
+      <point x="153.0" y="-10.0" type="curve" smooth="yes"/>
+      <point x="156.0" y="17.0"/>
+      <point x="193.0" y="17.0"/>
+      <point x="195.0" y="46.0" type="curve" smooth="yes"/>
+      <point x="198.0" y="65.0"/>
+      <point x="191.0" y="85.0"/>
+      <point x="179.0" y="100.0" type="curve" smooth="yes"/>
+      <point x="160.0" y="121.0"/>
+      <point x="130.0" y="121.0"/>
+      <point x="105.0" y="114.0" type="curve" smooth="yes"/>
+      <point x="80.0" y="104.0"/>
+      <point x="60.0" y="78.0"/>
+      <point x="64.0" y="50.0" type="curve" smooth="yes"/>
+      <point x="64.0" y="22.0"/>
+      <point x="93.0" y="6.0"/>
+      <point x="92.0" y="-21.0" type="curve" smooth="yes"/>
+      <point x="94.0" y="-46.0"/>
+      <point x="74.0" y="-63.0"/>
+      <point x="60.0" y="-79.0" type="curve" smooth="yes"/>
+      <point x="50.0" y="-105.0"/>
+      <point x="86.0" y="-121.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>500</integer>
+    </dict>
+  </lib>
+</glyph>

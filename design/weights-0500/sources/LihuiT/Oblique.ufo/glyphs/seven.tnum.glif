@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.tnum" format="2">
+  <advance width="722"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="390.12687043489103" y="766" name="top"/>
+  <anchor x="248.00732398386828" y="-40" name="bottom"/>
+  <anchor x="620.8468263254615" y="668" name="horn"/>
+  <anchor x="289.44416445035756" y="195" name="overlay"/>
+  <outline>
+    <component base="seven" xOffset="27.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>seven</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

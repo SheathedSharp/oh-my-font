@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="two.sups" format="2">
+  <advance width="465"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+Weight master: Approved Regular drawing, slanted as Oblique.
+</note>
+  <anchor x="338.47708306835193" y="901" name="top"/>
+  <anchor x="192.65467002245134" y="390" name="bottom"/>
+  <anchor x="457.19703895892235" y="803" name="horn"/>
+  <anchor x="234.97314539248293" y="200" name="overlay"/>
+  <outline>
+    <component base="two" xScale="0.57" yScale="0.57" xOffset="15" yOffset="430"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>two</string>
+      </array>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>400</integer>
+    </dict>
+  </lib>
+</glyph>

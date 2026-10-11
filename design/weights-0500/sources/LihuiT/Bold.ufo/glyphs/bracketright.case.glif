@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketright.case" format="2">
+  <advance width="408"/>
+  <note>
+Explicit typographic composition from this family’s new glyphs.
+</note>
+  <anchor x="207.2746431147152" y="896.1963477602487" name="top"/>
+  <anchor x="207.2746431147152" y="-137.085611780715" name="bottom"/>
+  <anchor x="310.9674360278844" y="789.1253372607108" name="horn"/>
+  <anchor x="207.2746431147152" y="181.99513290627388" name="overlay"/>
+  <outline>
+    <component base="bracketright" yScale="0.88" yOffset="78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>bracketright</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

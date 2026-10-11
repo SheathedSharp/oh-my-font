@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron.right" format="2">
+  <advance width="41"/>
+  <note>
+Narrow side caron for d/t/l/L; contextual substitution and matching component placement.
+Weight master: 展示细体：对比明显高于 LihuiT（竖 28、横 16）。接合 42 托住发丝横画。B 的下眼比上眼更开，腰不收死。e 的横画抬得更高。M 仍是软谷，不是直线骨架。字距比 LihuiT 细体更紧。
+</note>
+  <anchor x="16.848124363128917" y="0" name="_caron"/>
+  <anchor x="-2.2356328930350706" y="76.2552371985002" name="top"/>
+  <outline>
+    <contour>
+      <point x="0.0" y="59.0" type="curve"/>
+      <point x="-11.0" y="-10.0" type="line"/>
+      <point x="0.0" y="-4.0" type="line" smooth="yes"/>
+      <point x="8.0" y="18.0"/>
+      <point x="13.0" y="41.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

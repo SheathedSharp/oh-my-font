@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0131" format="2">
+  <advance width="301"/>
+  <unicode hex="0131"/>
+  <note>
+Remove only the dot contour from the new i/j; preserve exact stem curves and width.
+Weight master: 展示中粗：茎跳到 126，比 LihuiT 的 108 暗一截，横画仍明显更细（100）。B 的腰开始液体式内收，M 的谷挖深。这是两款在中段分叉最大的地方之一。
+</note>
+  <anchor x="149.33621512168298" y="607.080404372281" name="top"/>
+  <anchor x="149.33621512168298" y="-51.197796171706955" name="bottom"/>
+  <anchor x="206.84087330190607" y="505.00562011071327" name="horn"/>
+  <anchor x="149.33621512168298" y="198.78126732600998" name="overlay"/>
+  <anchor x="141.49467082437985" y="2.964334252798384" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="124.0" y="-7.0" type="curve"/>
+      <point x="147.0" y="-7.0" type="line" smooth="yes"/>
+      <point x="161.0" y="-9.0"/>
+      <point x="173.0" y="-2.0"/>
+      <point x="184.0" y="5.0" type="curve" smooth="yes"/>
+      <point x="215.0" y="34.0"/>
+      <point x="191.0" y="88.0"/>
+      <point x="201.0" y="120.0" type="curve"/>
+      <point x="203.0" y="345.0" type="line" smooth="yes"/>
+      <point x="199.0" y="400.0"/>
+      <point x="211.0" y="455.0"/>
+      <point x="204.0" y="510.0" type="curve" smooth="yes"/>
+      <point x="199.0" y="540.0"/>
+      <point x="166.0" y="550.0"/>
+      <point x="139.0" y="547.0" type="curve" smooth="yes"/>
+      <point x="107.0" y="553.0"/>
+      <point x="77.0" y="526.0"/>
+      <point x="78.0" y="493.0" type="curve"/>
+      <point x="75.0" y="344.0" type="line"/>
+      <point x="73.0" y="195.0" type="line"/>
+      <point x="70.0" y="45.0" type="line" smooth="yes"/>
+      <point x="67.0" y="15.0"/>
+      <point x="95.0" y="-10.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>500</integer>
+    </dict>
+  </lib>
+</glyph>

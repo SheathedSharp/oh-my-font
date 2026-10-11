@@ -1,4 +1,9 @@
-"""Single release contract for approved source, exact filenames and candidate hashes."""
+"""Single release contract for the 0.500 multi-weight family.
+
+Regular 400 upright still compiles from the hash-locked 0.400 drawings.
+Every other style is a stored UFO master under design/weights-0500.
+Nothing in this module synthesizes a weight at build time.
+"""
 from __future__ import annotations
 import hashlib,importlib.util,json,re,sys
 from pathlib import Path
@@ -8,15 +13,65 @@ DIST=ROOT/'dist'
 WORK=ROOT/'.release-work'
 FAMILIES=('LihuiT','zayJu')
 FORMATS=('ttf','otf','woff2')
+WEIGHTS=(100,300,400,500,600,700,800,900)
+WEIGHT_NAMES={100:'Thin',300:'Light',400:'Regular',500:'Medium',600:'Semibold',700:'Bold',800:'Extrabold',900:'Black'}
+PANOSE_WEIGHT={100:2,300:3,400:5,500:6,600:7,700:8,800:9,900:10}
+FILE_COUNT=len(FAMILIES)*len(WEIGHTS)*2*len(FORMATS)
 
 def sha(path:Path)->str:return hashlib.sha256(path.read_bytes()).hexdigest()
 def version()->str:
     value=(ROOT/'VERSION').read_text().strip()
-    if not re.fullmatch(r'\d+\.\d{3}',value):raise ValueError('Expected OpenType version such as 0.400')
+    if not re.fullmatch(r'\d+\.\d{3}',value):raise ValueError('Expected OpenType version such as 0.500')
     return value
 
+def style_name(weight,oblique):
+    name=WEIGHT_NAMES[weight]
+    if not oblique:return name
+    return 'Oblique' if weight==400 else f'{name} Oblique'
+
+def ps_name(family,weight,oblique):
+    return family+'-'+style_name(weight,oblique).replace(' ','')
+
+def styles():
+    """Upright then Oblique within each weight, lightest first."""
+    return [{'weight':weight,'oblique':oblique,'style':style_name(weight,oblique)} for weight in WEIGHTS for oblique in (False,True)]
+
+def legacy_names(family,weight,oblique):
+    """Windows name IDs 1 and 2, then typographic IDs 16 and 17.
+
+    Name ID 2 stays inside the Regular/Bold/Italic/Bold Italic set so style
+    linking works. Oblique is the typographic subfamily and the file name.
+    That Italic token is not a claim of a separately drawn italic.
+    """
+    typographic=style_name(weight,oblique)
+    if weight==400 and not oblique:return family,'Regular',family,'Regular'
+    if weight==700 and not oblique:return family,'Bold',family,'Bold'
+    if weight==400 and oblique:return family,'Italic',family,'Oblique'
+    if weight==700 and oblique:return family,'Bold Italic',family,'Bold Oblique'
+    return f'{family} {WEIGHT_NAMES[weight]}',('Italic' if oblique else 'Regular'),family,typographic
+
+def font_path(fmt,family,weight,oblique):
+    return f'{fmt}/{family}/{ps_name(family,weight,oblique)}.{fmt}'
+
 def expected_files()->set[str]:
-    return {f'{fmt}/{family}/{family}-Regular.{fmt}' for family in FAMILIES for fmt in FORMATS}
+    return {font_path(fmt,family,row['weight'],row['oblique']) for family in FAMILIES for row in styles() for fmt in FORMATS}
+
+def master_path(family,weight,oblique):
+    if weight==400 and not oblique:return None
+    return ROOT/'design/weights-0500/sources'/family/(ps_name(family,weight,oblique).split('-',1)[1]+'.ufo')
+
+def full_decomposition_targets():
+    """Upright masters plus the lightest and heaviest Oblique, desktop TTF.
+
+    The other Obliques are 10° derivatives of masters that take this gate.
+    They still get shaping checks and a fixed review-glyph sample.
+    """
+    rows=[]
+    for family in FAMILIES:
+        for row in styles():
+            if row['oblique'] and row['weight'] not in (400,900):continue
+            rows.append((family,row['weight'],row['oblique'],font_path('ttf',family,row['weight'],row['oblique'])))
+    return rows
 
 def validate_approval()->dict:
     spec=json.loads((ROOT/'config/approved-reference.json').read_text())
@@ -49,12 +104,15 @@ def source_hashes()->dict:
     for name in ('index.html','app.js','style.css','favicon.ico'):files.add(ROOT/'site'/name)
     files.update(p for p in (ROOT/'site/assets').rglob('*') if p.is_file())
     files.update((ROOT/'.github/workflows').glob('*.yml'))
+    weight=ROOT/'design/weights-0500'
+    files.add(weight/'spec.py');files.update((weight/'tools').glob('*.py'))
+    files.update(p for p in (weight/'sources').rglob('*') if p.is_file() and '_work.ufo' not in p.parts and '__pycache__' not in p.parts)
     return {p.relative_to(ROOT).as_posix():sha(p) for p in sorted(files) if p.is_file()}
 
 def read_build(dist=DIST)->dict:
     report=json.loads((dist/'build-report.json').read_text())
-    if report['version']!=version() or report['scope']!='approved-regular-only' or report['files']!=6:
-        raise ValueError('Missing current six-file approved release build')
+    if report['version']!=version() or report['scope']!='multiweight-0500' or report['files']!=FILE_COUNT:
+        raise ValueError('Missing current 96-file multi-weight release build')
     if {r['file'] for r in report['records']}!=expected_files():raise ValueError('Unexpected candidate inventory')
     actual={p.relative_to(dist).as_posix() for fmt in FORMATS for p in (dist/fmt).glob('*/*') if p.is_file()}
     if actual!=expected_files():raise ValueError('Stale or unexpected fonts in dist')

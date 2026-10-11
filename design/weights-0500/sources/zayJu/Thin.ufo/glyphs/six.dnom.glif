@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six.dnom" format="2">
+  <advance width="406"/>
+  <note>
+Explicit numeric variant component with independent advance; not synthetic font weight.
+</note>
+  <anchor x="227.40097490542536" y="434.66043282952637" name="top"/>
+  <anchor x="227.40097490542536" y="-29.239122437689183" name="bottom"/>
+  <anchor x="387.10270301539026" y="340.7312536387725" name="horn"/>
+  <anchor x="227.40097490542536" y="210.043818697153" name="overlay"/>
+  <outline>
+    <component base="six" xScale="0.54" yScale="0.54" xOffset="15.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>six</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

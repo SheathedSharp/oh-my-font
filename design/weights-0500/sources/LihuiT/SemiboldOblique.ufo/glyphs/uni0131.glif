@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0131" format="2">
+  <advance width="424"/>
+  <unicode hex="0131"/>
+  <note>
+Remove only the dot contour from the new i/j; preserve exact stem curves and width.
+Weight master: 正文半粗：调制指数降到 0.74，不再跟着 Regular 的粗细差走。接合与竖茎持平，开始给内白让路。B 腰明确内收，e 的开口被额外撑开，8 的下眼大于上眼。
+</note>
+  <anchor x="274.42116114415734" y="607.8781089561103" name="top"/>
+  <anchor x="155.96142264754374" y="-63.94045233640236" name="bottom"/>
+  <anchor x="318.9080747161114" y="501.51588115858823" name="horn"/>
+  <anchor x="200.9340212690368" y="191.11182860663558" name="overlay"/>
+  <anchor x="165.91280617229967" y="-7.503351872410981" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="136.0" y="-20.0" type="curve"/>
+      <point x="177.0" y="-20.0" type="line" smooth="yes"/>
+      <point x="189.0" y="-20.0"/>
+      <point x="200.0" y="-14.0"/>
+      <point x="210.0" y="-8.0" type="curve" smooth="yes"/>
+      <point x="243.0" y="22.0"/>
+      <point x="216.0" y="75.0"/>
+      <point x="240.0" y="104.0" type="curve"/>
+      <point x="312.0" y="514.0" type="line" smooth="yes"/>
+      <point x="314.0" y="547.0"/>
+      <point x="276.0" y="549.0"/>
+      <point x="250.0" y="547.0" type="curve" smooth="yes"/>
+      <point x="224.0" y="551.0"/>
+      <point x="188.0" y="534.0"/>
+      <point x="187.0" y="503.0" type="curve"/>
+      <point x="159.0" y="343.0" type="line"/>
+      <point x="131.0" y="184.0" type="line"/>
+      <point x="102.0" y="24.0" type="line" smooth="yes"/>
+      <point x="95.0" y="0.0"/>
+      <point x="113.0" y="-21.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>600</integer>
+    </dict>
+  </lib>
+</glyph>

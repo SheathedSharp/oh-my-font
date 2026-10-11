@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name=".notdef" format="2">
+  <advance width="791"/>
+  <note>
+特粗仍要能读：调制降到 0.40，内白下限是 Regular 的 0.42。M 的谷重新抬起，免得黑三角封死。字距转为正值。B 上眼明显小于下眼，这是比例决定，不是均匀内缩。
+Weight master: 特粗仍要能读：调制降到 0.40，内白下限是 Regular 的 0.42。M 的谷重新抬起，免得黑三角封死。字距转为正值。B 上眼明显小于下眼，这是比例决定，不是均匀内缩。
+</note>
+  <anchor x="462.3611592998503" y="762" name="top"/>
+  <anchor x="320.9469207716614" y="-40" name="bottom"/>
+  <anchor x="640.0811151904207" y="664" name="horn"/>
+  <anchor x="362.38376123815067" y="195" name="overlay"/>
+  <anchor x="330.1159237685016" y="12" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="128.0" y="0.0" type="line"/>
+      <point x="528.0" y="0.0" type="line"/>
+      <point x="653.0" y="710.0" type="line"/>
+      <point x="253.0" y="710.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="243.0" y="112.0" type="line"/>
+      <point x="312.0" y="598.0" type="line"/>
+      <point x="515.0" y="598.0" type="line"/>
+      <point x="445.0" y="112.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>800</integer>
+    </dict>
+  </lib>
+</glyph>

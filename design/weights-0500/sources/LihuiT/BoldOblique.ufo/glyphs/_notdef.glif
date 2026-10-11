@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name=".notdef" format="2">
+  <advance width="783"/>
+  <note>
+正文粗体：竖茎 150、接合只到 132，锐角内收形成轻微墨阱，而不是把 Regular 撑圆。字距比半粗回松，避免字字粘连。R 的腿缩短、裆部打开。与 zayJu 粗体相比仍更克制、更宽。
+Weight master: 正文粗体：竖茎 150、接合只到 132，锐角内收形成轻微墨阱，而不是把 Regular 撑圆。字距比半粗回松，避免字字粘连。R 的腿缩短、裆部打开。与 zayJu 粗体相比仍更克制、更宽。
+</note>
+  <anchor x="458.3611592998503" y="762" name="top"/>
+  <anchor x="316.9469207716614" y="-40" name="bottom"/>
+  <anchor x="636.0811151904207" y="664" name="horn"/>
+  <anchor x="358.38376123815067" y="195" name="overlay"/>
+  <anchor x="326.1159237685016" y="12" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="124.0" y="0.0" type="line"/>
+      <point x="524.0" y="0.0" type="line"/>
+      <point x="649.0" y="710.0" type="line"/>
+      <point x="249.0" y="710.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="222.0" y="93.0" type="line"/>
+      <point x="301.0" y="617.0" type="line"/>
+      <point x="532.0" y="617.0" type="line"/>
+      <point x="454.0" y="93.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fraction" format="2">
+  <advance width="624"/>
+  <unicode hex="2044"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: 正文中粗：竖茎 108、横画 94，比 Regular 暗一档，但横画追得更快，对比下降。B 上碗开始收、下碗保持，腰轻收。M 谷加深而不是简单加粗。字距略紧。
+</note>
+  <anchor x="386.11380128694884" y="816.1507606226064" name="top"/>
+  <anchor x="231.84312456672322" y="-58.76172356093031" name="bottom"/>
+  <anchor x="572.9533928206731" y="710.2971514250921" name="horn"/>
+  <anchor x="276.98158182930774" y="197.23118847795638" name="overlay"/>
+  <anchor x="238.2440045257637" y="-2.5945023540859715" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="99.0" y="6.0" type="curve"/>
+      <point x="323.0" y="346.0" type="line"/>
+      <point x="473.0" y="572.0" type="line" smooth="yes"/>
+      <point x="451.0" y="603.0"/>
+      <point x="575.0" y="671.0"/>
+      <point x="550.0" y="719.0" type="curve" smooth="yes"/>
+      <point x="499.0" y="763.0"/>
+      <point x="433.0" y="567.0"/>
+      <point x="430.0" y="595.0" type="curve"/>
+      <point x="130.0" y="142.0" type="line" smooth="yes"/>
+      <point x="152.0" y="111.0"/>
+      <point x="28.0" y="43.0"/>
+      <point x="54.0" y="-5.0" type="curve" smooth="yes"/>
+      <point x="65.0" y="-18.0"/>
+      <point x="89.0" y="-9.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>500</integer>
+    </dict>
+  </lib>
+</glyph>

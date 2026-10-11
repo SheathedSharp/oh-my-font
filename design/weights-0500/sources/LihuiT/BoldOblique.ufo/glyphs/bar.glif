@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar" format="2">
+  <advance width="544"/>
+  <unicode hex="007C"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 正文粗体：竖茎 150、接合只到 132，锐角内收形成轻微墨阱，而不是把 Regular 撑圆。字距比半粗回松，避免字字粘连。R 的腿缩短、裆部打开。与 zayJu 粗体相比仍更克制、更宽。
+</note>
+  <anchor x="370.13347497959546" y="871.3035396008672" name="top"/>
+  <anchor x="170.73985039487155" y="-259.51389845415605" name="bottom"/>
+  <anchor x="390.00948770833065" y="766.8548035693946" name="horn"/>
+  <anchor x="249.6704086659215" y="188.12354168072585" name="overlay"/>
+  <anchor x="172.00261789687892" y="-204.09212015174208" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="153.0" y="-217.0" type="line"/>
+      <point x="186.0" y="-217.0" type="line"/>
+      <point x="196.0" y="-208.0" type="line"/>
+      <point x="208.0" y="-210.0" type="line" smooth="yes"/>
+      <point x="219.0" y="-205.0"/>
+      <point x="227.0" y="-195.0"/>
+      <point x="231.0" y="-184.0" type="curve" smooth="yes"/>
+      <point x="290.0" y="138.0"/>
+      <point x="347.0" y="461.0"/>
+      <point x="402.0" y="783.0" type="curve" smooth="yes"/>
+      <point x="401.0" y="794.0"/>
+      <point x="397.0" y="804.0"/>
+      <point x="387.0" y="809.0" type="curve"/>
+      <point x="375.0" y="807.0" type="line"/>
+      <point x="369.0" y="816.0" type="line"/>
+      <point x="335.0" y="816.0" type="line"/>
+      <point x="326.0" y="807.0" type="line"/>
+      <point x="314.0" y="809.0" type="line" smooth="yes"/>
+      <point x="303.0" y="804.0"/>
+      <point x="295.0" y="794.0"/>
+      <point x="291.0" y="783.0" type="curve" smooth="yes"/>
+      <point x="232.0" y="461.0"/>
+      <point x="175.0" y="138.0"/>
+      <point x="120.0" y="-184.0" type="curve" smooth="yes"/>
+      <point x="121.0" y="-195.0"/>
+      <point x="125.0" y="-205.0"/>
+      <point x="134.0" y="-210.0" type="curve"/>
+      <point x="147.0" y="-208.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

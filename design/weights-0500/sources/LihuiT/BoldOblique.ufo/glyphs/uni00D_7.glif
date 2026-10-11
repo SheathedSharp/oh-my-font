@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni00D7" format="2">
+  <advance width="819"/>
+  <unicode hex="00D7"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 正文粗体：竖茎 150、接合只到 132，锐角内收形成轻微墨阱，而不是把 Regular 撑圆。字距比半粗回松，避免字字粘连。R 的腿缩短、裆部打开。与 zayJu 粗体相比仍更克制、更宽。
+</note>
+  <anchor x="460.5738193202121" y="662.916880046741" name="top"/>
+  <anchor x="349.20791705806676" y="31.329463222113112" name="bottom"/>
+  <anchor x="666.9114142441388" y="546.5718295790464" name="horn"/>
+  <anchor x="373.28137337413204" y="167.85681836277513" name="overlay"/>
+  <anchor x="360.0933060009832" y="93.0635716335429" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="338.0" y="340.0" type="curve" smooth="yes"/>
+      <point x="302.0" y="331.0"/>
+      <point x="285.0" y="292.0"/>
+      <point x="256.0" y="273.0" type="curve"/>
+      <point x="193.0" y="214.0" type="line" smooth="yes"/>
+      <point x="178.0" y="198.0"/>
+      <point x="163.0" y="181.0"/>
+      <point x="148.0" y="165.0" type="curve" smooth="yes"/>
+      <point x="141.0" y="154.0"/>
+      <point x="140.0" y="141.0"/>
+      <point x="140.0" y="129.0" type="curve" smooth="yes"/>
+      <point x="144.0" y="91.0"/>
+      <point x="194.0" y="75.0"/>
+      <point x="228.0" y="104.0" type="curve"/>
+      <point x="295.0" y="166.0" type="line" smooth="yes"/>
+      <point x="341.0" y="195.0"/>
+      <point x="354.0" y="241.0"/>
+      <point x="392.0" y="274.0" type="curve" smooth="yes"/>
+      <point x="378.0" y="236.0"/>
+      <point x="423.0" y="223.0"/>
+      <point x="431.0" y="194.0" type="curve"/>
+      <point x="471.0" y="137.0" type="line" smooth="yes"/>
+      <point x="483.0" y="123.0"/>
+      <point x="495.0" y="109.0"/>
+      <point x="507.0" y="95.0" type="curve" smooth="yes"/>
+      <point x="517.0" y="89.0"/>
+      <point x="530.0" y="88.0"/>
+      <point x="542.0" y="90.0" type="curve" smooth="yes"/>
+      <point x="564.0" y="94.0"/>
+      <point x="582.0" y="110.0"/>
+      <point x="593.0" y="129.0" type="curve" smooth="yes"/>
+      <point x="609.0" y="163.0"/>
+      <point x="588.0" y="193.0"/>
+      <point x="569.0" y="214.0" type="curve"/>
+      <point x="528.0" y="273.0" type="line" smooth="yes"/>
+      <point x="524.0" y="312.0"/>
+      <point x="474.0" y="301.0"/>
+      <point x="470.0" y="340.0" type="curve" smooth="yes"/>
+      <point x="505.0" y="349.0"/>
+      <point x="523.0" y="388.0"/>
+      <point x="552.0" y="407.0" type="curve"/>
+      <point x="614.0" y="466.0" type="line" smooth="yes"/>
+      <point x="629.0" y="482.0"/>
+      <point x="644.0" y="499.0"/>
+      <point x="659.0" y="515.0" type="curve" smooth="yes"/>
+      <point x="666.0" y="526.0"/>
+      <point x="667.0" y="539.0"/>
+      <point x="667.0" y="551.0" type="curve" smooth="yes"/>
+      <point x="663.0" y="589.0"/>
+      <point x="613.0" y="605.0"/>
+      <point x="579.0" y="576.0" type="curve"/>
+      <point x="512.0" y="514.0" type="line" smooth="yes"/>
+      <point x="466.0" y="485.0"/>
+      <point x="453.0" y="439.0"/>
+      <point x="415.0" y="406.0" type="curve" smooth="yes"/>
+      <point x="429.0" y="444.0"/>
+      <point x="385.0" y="457.0"/>
+      <point x="376.0" y="486.0" type="curve"/>
+      <point x="336.0" y="543.0" type="line" smooth="yes"/>
+      <point x="324.0" y="557.0"/>
+      <point x="312.0" y="571.0"/>
+      <point x="300.0" y="585.0" type="curve" smooth="yes"/>
+      <point x="291.0" y="591.0"/>
+      <point x="277.0" y="592.0"/>
+      <point x="265.0" y="590.0" type="curve" smooth="yes"/>
+      <point x="244.0" y="586.0"/>
+      <point x="226.0" y="570.0"/>
+      <point x="215.0" y="551.0" type="curve" smooth="yes"/>
+      <point x="198.0" y="517.0"/>
+      <point x="219.0" y="487.0"/>
+      <point x="238.0" y="466.0" type="curve"/>
+      <point x="279.0" y="407.0" type="line" smooth="yes"/>
+      <point x="283.0" y="368.0"/>
+      <point x="334.0" y="379.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

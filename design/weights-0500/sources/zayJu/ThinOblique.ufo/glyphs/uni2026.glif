@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2026" format="2">
+  <advance width="717"/>
+  <unicode hex="2026"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示细体：对比明显高于 LihuiT（竖 28、横 16）。接合 42 托住发丝横画。B 的下眼比上眼更开，腰不收死。e 的横画抬得更高。M 仍是软谷，不是直线骨架。字距比 LihuiT 细体更紧。
+</note>
+  <anchor x="369.3254770224473" y="87.57272852978895" name="top"/>
+  <anchor x="358.8953815571509" y="28.420717740576514" name="bottom"/>
+  <anchor x="625.0157564122608" y="58.295470664421174" name="horn"/>
+  <anchor x="371.53792151508594" y="100.12012475780371" name="overlay"/>
+  <anchor x="361.6345985480368" y="43.95558926097574" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="621.0" y="44.0" type="curve"/>
+      <point x="628.0" y="53.0" type="line" smooth="yes"/>
+      <point x="628.0" y="68.0"/>
+      <point x="604.0" y="68.0"/>
+      <point x="598.0" y="53.0" type="curve" smooth="yes"/>
+      <point x="598.0" y="42.0"/>
+      <point x="611.0" y="40.0"/>
+    </contour>
+    <contour>
+      <point x="121.0" y="44.0" type="curve"/>
+      <point x="128.0" y="53.0" type="line" smooth="yes"/>
+      <point x="128.0" y="68.0"/>
+      <point x="104.0" y="68.0"/>
+      <point x="98.0" y="53.0" type="curve" smooth="yes"/>
+      <point x="98.0" y="42.0"/>
+      <point x="111.0" y="40.0"/>
+    </contour>
+    <contour>
+      <point x="368.0" y="43.0" type="line"/>
+      <point x="374.0" y="46.0" type="line"/>
+      <point x="378.0" y="53.0" type="line" smooth="yes"/>
+      <point x="380.0" y="72.0"/>
+      <point x="340.0" y="64.0"/>
+      <point x="351.0" y="46.0" type="curve"/>
+      <point x="355.0" y="43.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

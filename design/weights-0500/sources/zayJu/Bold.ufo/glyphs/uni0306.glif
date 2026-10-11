@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0306" format="2">
+  <unicode hex="0306"/>
+  <note>
+New family-specific combining mark; zero advance; explicit anchor placement, including stacking.
+Weight master: 展示粗体：184/160，接合只到 156。B 上眼缩到 0.74、下眼留 0.94，腰收 20。比 LihuiT 粗体更重、更收腰，也更需要斜体时的内白回正。
+</note>
+  <anchor x="0" y="0" name="_top"/>
+  <anchor x="100.248650680613" y="301.42996976824105" name="top"/>
+  <outline>
+    <contour>
+      <point x="-141.0" y="168.0" type="curve" smooth="yes"/>
+      <point x="-120.0" y="119.0"/>
+      <point x="-111.0" y="61.0"/>
+      <point x="-69.0" y="23.0" type="curve" smooth="yes"/>
+      <point x="-38.0" y="-8.0"/>
+      <point x="7.0" y="-22.0"/>
+      <point x="50.0" y="-21.0" type="curve" smooth="yes"/>
+      <point x="93.0" y="-22.0"/>
+      <point x="138.0" y="-8.0"/>
+      <point x="169.0" y="23.0" type="curve" smooth="yes"/>
+      <point x="211.0" y="61.0"/>
+      <point x="221.0" y="119.0"/>
+      <point x="241.0" y="168.0" type="curve" smooth="yes"/>
+      <point x="210.0" y="233.0"/>
+      <point x="142.0" y="200.0"/>
+      <point x="92.0" y="202.0" type="curve" smooth="yes"/>
+      <point x="96.0" y="170.0"/>
+      <point x="91.0" y="111.0"/>
+      <point x="50.0" y="103.0" type="curve" smooth="yes"/>
+      <point x="9.0" y="111.0"/>
+      <point x="4.0" y="170.0"/>
+      <point x="8.0" y="202.0" type="curve" smooth="yes"/>
+      <point x="-41.0" y="200.0"/>
+      <point x="-110.0" y="233.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.markClass</key>
+      <string>top</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

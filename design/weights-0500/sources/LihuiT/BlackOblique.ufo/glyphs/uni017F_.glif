@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni017F" format="2">
+  <advance width="717"/>
+  <unicode hex="017F"/>
+  <note>
+Purpose-drawn special form or explicit derivation from the new reference alphabet; no old shape imported.
+Weight master: 黑体几乎单线（204/196），但 B 的上下碗、e 的开口、8 的上下眼仍保持不等。接合 174 轻于茎，内白下限 0.34。字距大幅放开。它不是特粗再加一圈。
+</note>
+  <anchor x="444.839972692438" y="916.2222293903458" name="top"/>
+  <anchor x="264.02015983915965" y="-109.25788787112819" name="bottom"/>
+  <anchor x="692.5755402001757" y="797.9904041060818" name="horn"/>
+  <anchor x="314.0115198633013" y="174.2572033717499" name="overlay"/>
+  <anchor x="329.89494071700204" y="-46.522633638661546" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="185.0" y="-61.0" type="curve"/>
+      <point x="258.0" y="-61.0" type="line" smooth="yes"/>
+      <point x="356.0" y="-16.0"/>
+      <point x="349.0" y="96.0"/>
+      <point x="368.0" y="174.0" type="curve"/>
+      <point x="414.0" y="436.0" type="line" smooth="yes"/>
+      <point x="427.0" y="486.0"/>
+      <point x="424.0" y="540.0"/>
+      <point x="451.0" y="589.0" type="curve" smooth="yes"/>
+      <point x="458.0" y="604.0"/>
+      <point x="473.0" y="618.0"/>
+      <point x="489.0" y="620.0" type="curve" smooth="yes"/>
+      <point x="531.0" y="635.0"/>
+      <point x="556.0" y="594.0"/>
+      <point x="600.0" y="617.0" type="curve" smooth="yes"/>
+      <point x="621.0" y="647.0"/>
+      <point x="650.0" y="669.0"/>
+      <point x="680.0" y="688.0" type="curve" smooth="yes"/>
+      <point x="674.0" y="721.0"/>
+      <point x="669.0" y="754.0"/>
+      <point x="663.0" y="788.0" type="curve" smooth="yes"/>
+      <point x="551.0" y="853.0"/>
+      <point x="360.0" y="815.0"/>
+      <point x="281.0" y="675.0" type="curve" smooth="yes"/>
+      <point x="219.0" y="571.0"/>
+      <point x="220.0" y="456.0"/>
+      <point x="195.0" y="347.0" type="curve"/>
+      <point x="165.0" y="173.0" type="line" smooth="yes"/>
+      <point x="154.0" y="95.0"/>
+      <point x="116.0" y="-8.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>900</integer>
+    </dict>
+  </lib>
+</glyph>

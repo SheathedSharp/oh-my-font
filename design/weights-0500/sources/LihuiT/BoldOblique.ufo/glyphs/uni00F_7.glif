@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni00F7" format="2">
+  <advance width="758"/>
+  <unicode hex="00F7"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 正文粗体：竖茎 150、接合只到 132，锐角内收形成轻微墨阱，而不是把 Regular 撑圆。字距比半粗回松，避免字字粘连。R 的腿缩短、裆部打开。与 zayJu 粗体相比仍更克制、更宽。
+</note>
+  <anchor x="428.5128659855111" y="673.2576292591515" name="top"/>
+  <anchor x="313.5312600115383" y="21.16453770851237" name="bottom"/>
+  <anchor x="677.3487200481501" y="563.6433531494386" name="horn"/>
+  <anchor x="341.14262336720924" y="177.75636072238797" name="overlay"/>
+  <anchor x="323.78690925793035" y="79.32721482795188" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="98.0" y="311.0" type="line" smooth="yes"/>
+      <point x="105.0" y="293.0"/>
+      <point x="123.0" y="283.0"/>
+      <point x="143.0" y="282.0" type="curve"/>
+      <point x="289.0" y="282.0" type="line"/>
+      <point x="434.0" y="282.0" type="line" smooth="yes"/>
+      <point x="488.0" y="288.0"/>
+      <point x="540.0" y="274.0"/>
+      <point x="595.0" y="284.0" type="curve" smooth="yes"/>
+      <point x="614.0" y="290.0"/>
+      <point x="637.0" y="304.0"/>
+      <point x="640.0" y="326.0" type="curve" smooth="yes"/>
+      <point x="642.0" y="335.0"/>
+      <point x="643.0" y="345.0"/>
+      <point x="645.0" y="354.0" type="curve" smooth="yes"/>
+      <point x="650.0" y="381.0"/>
+      <point x="623.0" y="397.0"/>
+      <point x="600.0" y="398.0" type="curve"/>
+      <point x="236.0" y="398.0" type="line" smooth="yes"/>
+      <point x="202.0" y="392.0"/>
+      <point x="154.0" y="411.0"/>
+      <point x="120.0" y="381.0" type="curve" smooth="yes"/>
+      <point x="103.0" y="372.0"/>
+      <point x="106.0" y="353.0"/>
+      <point x="96.0" y="340.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="433.0" y="484.0" type="curve" smooth="yes"/>
+      <point x="451.0" y="493.0"/>
+      <point x="466.0" y="509.0"/>
+      <point x="473.0" y="527.0" type="curve" smooth="yes"/>
+      <point x="476.0" y="540.0"/>
+      <point x="478.0" y="552.0"/>
+      <point x="480.0" y="565.0" type="curve" smooth="yes"/>
+      <point x="476.0" y="575.0"/>
+      <point x="472.0" y="586.0"/>
+      <point x="467.0" y="597.0" type="curve" smooth="yes"/>
+      <point x="458.0" y="603.0"/>
+      <point x="449.0" y="609.0"/>
+      <point x="439.0" y="616.0" type="curve" smooth="yes"/>
+      <point x="426.0" y="616.0"/>
+      <point x="414.0" y="616.0"/>
+      <point x="401.0" y="616.0" type="curve" smooth="yes"/>
+      <point x="330.0" y="600.0"/>
+      <point x="311.0" y="492.0"/>
+      <point x="377.0" y="476.0" type="curve" smooth="yes"/>
+      <point x="394.0" y="470.0"/>
+      <point x="415.0" y="474.0"/>
+    </contour>
+    <contour>
+      <point x="391.0" y="99.0" type="curve" smooth="yes"/>
+      <point x="403.0" y="115.0"/>
+      <point x="409.0" y="136.0"/>
+      <point x="408.0" y="154.0" type="curve" smooth="yes"/>
+      <point x="403.0" y="164.0"/>
+      <point x="399.0" y="175.0"/>
+      <point x="395.0" y="186.0" type="curve" smooth="yes"/>
+      <point x="386.0" y="192.0"/>
+      <point x="376.0" y="198.0"/>
+      <point x="367.0" y="205.0" type="curve" smooth="yes"/>
+      <point x="354.0" y="205.0"/>
+      <point x="341.0" y="205.0"/>
+      <point x="329.0" y="205.0" type="curve" smooth="yes"/>
+      <point x="258.0" y="189.0"/>
+      <point x="239.0" y="81.0"/>
+      <point x="304.0" y="65.0" type="curve" smooth="yes"/>
+      <point x="317.0" y="65.0"/>
+      <point x="329.0" y="65.0"/>
+      <point x="342.0" y="65.0" type="curve" smooth="yes"/>
+      <point x="361.0" y="70.0"/>
+      <point x="379.0" y="83.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>

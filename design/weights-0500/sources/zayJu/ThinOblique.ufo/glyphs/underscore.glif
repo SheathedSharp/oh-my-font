@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscore" format="2">
+  <advance width="561"/>
+  <unicode hex="005F"/>
+  <note>
+New punctuation/symbol drawing; family-specific mark proportions and rounded terminals.
+Weight master: 展示细体：对比明显高于 LihuiT（竖 28、横 16）。接合 42 托住发丝横画。B 的下眼比上眼更开，腰不收死。e 的横画抬得更高。M 仍是软谷，不是直线骨架。字距比 LihuiT 细体更紧。
+</note>
+  <anchor x="296.61433052414463" y="-37.20501928535607" name="top"/>
+  <anchor x="276.36036187906865" y="-152.07098343728245" name="bottom"/>
+  <anchor x="522.9315549795732" y="-108.45099705047495" name="horn"/>
+  <anchor x="324.04692096747533" y="118.37293216092395" name="overlay"/>
+  <anchor x="283.0262249774481" y="-114.26699523538262" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="41.0" y="-106.0" type="line"/>
+      <point x="56.0" y="-106.0" type="line"/>
+      <point x="53.0" y="-123.0" type="line" smooth="yes"/>
+      <point x="130.0" y="-83.0"/>
+      <point x="208.0" y="-118.0"/>
+      <point x="284.0" y="-106.0" type="curve" smooth="yes"/>
+      <point x="357.0" y="-118.0"/>
+      <point x="447.0" y="-83.0"/>
+      <point x="510.0" y="-123.0" type="curve"/>
+      <point x="512.0" y="-106.0" type="line"/>
+      <point x="528.0" y="-106.0" type="line"/>
+      <point x="513.0" y="-104.0" type="line"/>
+      <point x="515.0" y="-94.0" type="line"/>
+      <point x="530.0" y="-92.0" type="line"/>
+      <point x="515.0" y="-92.0" type="line"/>
+      <point x="518.0" y="-75.0" type="line" smooth="yes"/>
+      <point x="442.0" y="-115.0"/>
+      <point x="364.0" y="-80.0"/>
+      <point x="287.0" y="-92.0" type="curve" smooth="yes"/>
+      <point x="214.0" y="-80.0"/>
+      <point x="124.0" y="-115.0"/>
+      <point x="62.0" y="-75.0" type="curve"/>
+      <point x="59.0" y="-92.0" type="line"/>
+      <point x="43.0" y="-92.0" type="line"/>
+      <point x="59.0" y="-94.0" type="line"/>
+      <point x="57.0" y="-104.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <true/>
+      <key>de.zayju.weight</key>
+      <integer>100</integer>
+    </dict>
+  </lib>
+</glyph>

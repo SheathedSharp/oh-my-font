@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f_l" format="2">
+  <advance width="1118"/>
+  <note>
+Purpose-spaced letter ligature with live new-letter components; no legacy glyph source.
+</note>
+  <anchor x="422" y="0" name="caret_1"/>
+  <anchor x="834" y="0" name="caret_2"/>
+  <anchor x="672.998740026609" y="828" name="top"/>
+  <anchor x="516.4203811574921" y="-60" name="bottom"/>
+  <anchor x="1164.7186959171795" y="730" name="horn"/>
+  <anchor x="562.265396141693" y="200" name="overlay"/>
+  <outline>
+    <component base="f"/>
+    <component base="f" xOffset="412.0"/>
+    <component base="l" xOffset="824.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.construction</key>
+      <array>
+        <string>f</string>
+        <string>f</string>
+        <string>l</string>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five" format="2">
+  <advance width="785"/>
+  <unicode hex="0035"/>
+  <note>
+Individually drawn for the approved fluid display reference cut; no legacy outline input.
+Weight master: 展示粗体：184/160，接合只到 156。B 上眼缩到 0.74、下眼留 0.94，腰收 20。比 LihuiT 粗体更重、更收腰，也更需要斜体时的内白回正。
+</note>
+  <anchor x="393.50761947354704" y="835.6630573989025" name="top"/>
+  <anchor x="393.50761947354704" y="-101.20748924674152" name="bottom"/>
+  <anchor x="716.5784123527923" y="725.8385196342219" name="horn"/>
+  <anchor x="393.50761947354704" y="190.1637333942483" name="overlay"/>
+  <anchor x="383.12783496337045" y="-42.93324471854356" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="152.0" y="344.0" type="curve" smooth="yes"/>
+      <point x="173.0" y="339.0"/>
+      <point x="173.0" y="319.0"/>
+      <point x="184.0" y="307.0" type="curve" smooth="yes"/>
+      <point x="208.0" y="289.0"/>
+      <point x="230.0" y="257.0"/>
+      <point x="265.0" y="265.0" type="curve" smooth="yes"/>
+      <point x="285.0" y="265.0"/>
+      <point x="289.0" y="301.0"/>
+      <point x="316.0" y="287.0" type="curve" smooth="yes"/>
+      <point x="384.0" y="336.0"/>
+      <point x="525.0" y="321.0"/>
+      <point x="513.0" y="212.0" type="curve" smooth="yes"/>
+      <point x="524.0" y="188.0"/>
+      <point x="504.0" y="167.0"/>
+      <point x="496.0" y="145.0" type="curve" smooth="yes"/>
+      <point x="404.0" y="62.0"/>
+      <point x="296.0" y="145.0"/>
+      <point x="220.0" y="199.0" type="curve" smooth="yes"/>
+      <point x="149.0" y="171.0"/>
+      <point x="38.0" y="94.0"/>
+      <point x="159.0" y="26.0" type="curve" smooth="yes"/>
+      <point x="188.0" y="9.0"/>
+      <point x="217.0" y="-9.0"/>
+      <point x="246.0" y="-26.0" type="curve" smooth="yes"/>
+      <point x="295.0" y="-49.0"/>
+      <point x="350.0" y="-54.0"/>
+      <point x="403.0" y="-56.0" type="curve" smooth="yes"/>
+      <point x="483.0" y="-55.0"/>
+      <point x="569.0" y="-37.0"/>
+      <point x="627.0" y="24.0" type="curve" smooth="yes"/>
+      <point x="700.0" y="92.0"/>
+      <point x="723.0" y="207.0"/>
+      <point x="689.0" y="300.0" type="curve" smooth="yes"/>
+      <point x="666.0" y="390.0"/>
+      <point x="580.0" y="455.0"/>
+      <point x="491.0" y="471.0" type="curve" smooth="yes"/>
+      <point x="442.0" y="480.0"/>
+      <point x="392.0" y="480.0"/>
+      <point x="343.0" y="472.0" type="curve"/>
+      <point x="349.0" y="562.0" type="line"/>
+      <point x="325.0" y="580.0" type="line"/>
+      <point x="328.0" y="615.0" type="line" smooth="yes"/>
+      <point x="377.0" y="577.0"/>
+      <point x="444.0" y="605.0"/>
+      <point x="501.0" y="594.0" type="curve" smooth="yes"/>
+      <point x="543.0" y="596.0"/>
+      <point x="587.0" y="586.0"/>
+      <point x="629.0" y="596.0" type="curve" smooth="yes"/>
+      <point x="642.0" y="613.0"/>
+      <point x="653.0" y="632.0"/>
+      <point x="670.0" y="645.0" type="curve"/>
+      <point x="674.0" y="685.0" type="line" smooth="yes"/>
+      <point x="669.0" y="694.0"/>
+      <point x="663.0" y="703.0"/>
+      <point x="658.0" y="711.0" type="curve"/>
+      <point x="643.0" y="748.0" type="line" smooth="yes"/>
+      <point x="577.0" y="777.0"/>
+      <point x="499.0" y="752.0"/>
+      <point x="429.0" y="761.0" type="curve"/>
+      <point x="258.0" y="761.0" type="line" smooth="yes"/>
+      <point x="242.0" y="743.0"/>
+      <point x="217.0" y="746.0"/>
+      <point x="200.0" y="732.0" type="curve" smooth="yes"/>
+      <point x="173.0" y="708.0"/>
+      <point x="169.0" y="671.0"/>
+      <point x="172.0" y="637.0" type="curve"/>
+      <point x="164.0" y="531.0" type="line" smooth="yes"/>
+      <point x="162.0" y="469.0"/>
+      <point x="148.0" y="406.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>de.zayju.designStatus</key>
+      <string>new-reference-drawing-awaiting-full-review</string>
+      <key>de.zayju.oblique</key>
+      <false/>
+      <key>de.zayju.weight</key>
+      <integer>700</integer>
+    </dict>
+  </lib>
+</glyph>
